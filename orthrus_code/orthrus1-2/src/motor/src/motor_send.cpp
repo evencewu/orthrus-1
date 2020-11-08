@@ -38,12 +38,12 @@ using namespace std::chrono_literals;
     	//接收参数
     	MOTOR_recv motor_r;
     	//文件ID
-	#if defined(__linux__)
+	    #if defined(__linux__)
     	    int fd;
-    
-	#elif defined(__WIN32__)
-    	    HANDLE fd;
-       
+
+		#elif defined(__WIN32__)
+    		HANDLE fd;
+
         #endif
 
     	fd = open_set((char*)"/dev/ttyUSB0");
