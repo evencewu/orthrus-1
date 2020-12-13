@@ -1,0 +1,16 @@
+/home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_ctrl.h
+/home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_msg.h
+/home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/LSerial.h
+/home/orthrus1-1/orthrus1-1/install/motor/lib/libUnitree_motor_SDK_ARM64.so
+/home/orthrus1-1/orthrus1-1/install/motor/lib/motor/check
+/home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+/home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/ament_prefix_path.sh
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/path.sh
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.bash
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.sh
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.zsh
+/home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/packages/motor
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig.cmake
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig-version.cmake
+/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.xml

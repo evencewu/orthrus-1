@@ -1,0 +1,42 @@
+[0.076s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/orthrus1-1/orthrus1-1/src/message -DCMAKE_INSTALL_PREFIX=/home/orthrus1-1/orthrus1-1/install/message
+[0.280s] -- The C compiler identification is GNU 7.5.0
+[0.466s] -- The CXX compiler identification is GNU 7.5.0
+[0.478s] -- Check for working C compiler: /usr/bin/cc
+[0.729s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.732s] -- Detecting C compiler ABI info
+[0.987s] -- Detecting C compiler ABI info - done
+[1.008s] -- Detecting C compile features
+[1.773s] -- Detecting C compile features - done
+[1.782s] -- Check for working CXX compiler: /usr/bin/c++
+[2.067s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.069s] -- Detecting CXX compiler ABI info
+[2.360s] -- Detecting CXX compiler ABI info - done
+[2.380s] -- Detecting CXX compile features
+[3.629s] -- Detecting CXX compile features - done
+[3.641s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[3.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.800s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[5.180s] -- Added test 'lint_cmake' to check CMake code style
+[5.183s] -- Added test 'xmllint' to check XML markup files
+[5.191s] -- Configuring done
+[5.200s] -- Generating done
+[5.203s] -- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/message
+[5.215s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/orthrus1-1/orthrus1-1/src/message -DCMAKE_INSTALL_PREFIX=/home/orthrus1-1/orthrus1-1/install/message
+[5.225s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[5.382s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[5.506s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4
+[5.695s] [36mInstall the project...[0m
+[5.730s] -- Install configuration: ""
+[5.731s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message
+[5.732s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message
+[5.733s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh
+[5.734s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh
+[5.735s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash
+[5.735s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh
+[5.736s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh
+[5.737s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message
+[5.737s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake
+[5.738s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake
+[5.739s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml
+[5.757s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4

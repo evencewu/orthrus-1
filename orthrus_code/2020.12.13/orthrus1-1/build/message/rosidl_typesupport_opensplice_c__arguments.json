@@ -1,0 +1,22 @@
+{
+  "package_name": "message",
+  "output_dir": "/home/orthrus1-1/orthrus1-1/build/message/rosidl_typesupport_opensplice_c/message",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource",
+  "idl_tuples": [
+    "/home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message:srv/Motorsend.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_opensplice_c/rosidl_typesupport_opensplice_c",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_opensplice_c/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/idl__rosidl_typesupport_opensplice_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/idl__dds_opensplice__type_support.c.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/msg__rosidl_typesupport_opensplice_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/srv__rosidl_typesupport_opensplice_c.h.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_opensplice_c/resource/srv__type_support_c.cpp.em",
+    "/home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message/srv/Motorsend.idl"
+  ],
+  "additional_files": [
+    "/home/orthrus1-1/orthrus1-1/build/message/rosidl_generator_dds_idl/message/srv/dds_opensplice/Motorsend_.idl"
+  ]
+}

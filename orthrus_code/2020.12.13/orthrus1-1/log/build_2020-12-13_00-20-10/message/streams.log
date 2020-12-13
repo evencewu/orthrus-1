@@ -1,0 +1,235 @@
+[0.079s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[0.202s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.392s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[1.827s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[1.938s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.024s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[2.405s] -- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+[2.667s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[3.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c
+[3.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp
+[3.858s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[3.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[3.978s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[4.110s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[4.111s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.112s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[4.112s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[4.210s] -- Found PythonExtra: .so  
+[4.818s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[4.906s] -- Added test 'lint_cmake' to check CMake code style
+[4.913s] -- Added test 'xmllint' to check XML markup files
+[4.934s] -- Configuring done
+[5.175s] -- Generating done
+[5.190s] -- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/message
+[5.281s] [35m[1mScanning dependencies of target message__dds_opensplice_idl[0m
+[5.282s] [35m[1mScanning dependencies of target message__cpp[0m
+[5.283s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.323s] [  6%] [34m[1mGenerating DDS interfaces[0m
+[5.324s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.264s] [  6%] Built target message__dds_opensplice_idl
+[7.573s] [  6%] Built target message__cpp
+[7.618s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.619s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.621s] [ 12%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[7.815s] [35m[1mScanning dependencies of target message__rosidl_generator_c[0m
+[7.870s] [ 14%] [32mBuilding C object CMakeFiles/message__rosidl_generator_c.dir/rosidl_generator_c/message/srv/motorsend__functions.c.o[0m
+[8.365s] [ 16%] [32m[1mLinking C shared library libmessage__rosidl_generator_c.so[0m
+[8.544s] [ 16%] Built target message__rosidl_generator_c
+[8.585s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.740s] [35m[1mScanning dependencies of target message__rosidl_typesupport_cpp[0m
+[9.821s] [ 20%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/message/srv/motorsend__type_support.cpp.o[0m
+[10.135s] [35m[1mScanning dependencies of target message__rosidl_typesupport_fastrtps_cpp[0m
+[10.293s] [ 22%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/message/srv/dds_fastrtps/motorsend__type_support.cpp.o[0m
+[10.709s] [35m[1mScanning dependencies of target message__rosidl_typesupport_opensplice_cpp[0m
+[10.860s] [35m[1mScanning dependencies of target message__rosidl_typesupport_introspection_cpp[0m
+[10.931s] [ 24%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/message/srv/motorsend__type_support.cpp.o[0m
+[11.150s] [ 26%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/motorsend__type_support.cpp.o[0m
+[11.353s] [ 28%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_cpp.so[0m
+[11.526s] [ 28%] Built target message__rosidl_typesupport_cpp
+[11.566s] [ 30%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_.cpp.o[0m
+[11.991s] [ 32%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_introspection_cpp.so[0m
+[12.009s] [ 34%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps.cpp.o[0m
+[12.054s] [ 36%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.149s] [ 36%] Built target message__rosidl_typesupport_introspection_cpp
+[12.192s] [ 38%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps_impl.cpp.o[0m
+[12.463s] [ 38%] Built target message__rosidl_typesupport_fastrtps_cpp
+[12.513s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.990s] [ 42%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_SplDcps.cpp.o[0m
+[14.006s] [ 44%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.836s] [35m[1mScanning dependencies of target message__rosidl_typesupport_c[0m
+[14.898s] [ 46%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_c.dir/rosidl_typesupport_c/message/srv/motorsend__type_support.cpp.o[0m
+[14.972s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.025s] [ 51%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_c.so[0m
+[15.176s] [ 51%] Built target message__rosidl_typesupport_c
+[15.380s] [ 53%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_opensplice_cpp.so[0m
+[15.900s] [ 55%] Built target message__rosidl_typesupport_opensplice_cpp
+[15.945s] [ 57%] [34m[1mGenerating C type support for PrismTech OpenSplice[0m
+[16.447s] [35m[1mScanning dependencies of target message__rosidl_typesupport_introspection_c[0m
+[16.499s] [ 59%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/message/srv/motorsend__type_support.c.o[0m
+[16.614s] [ 61%] [32m[1mLinking C shared library libmessage__rosidl_typesupport_introspection_c.so[0m
+[16.719s] [ 61%] Built target message__rosidl_typesupport_introspection_c
+[17.464s] [35m[1mScanning dependencies of target message__rosidl_typesupport_fastrtps_c[0m
+[17.533s] [ 63%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message/srv/motorsend__type_support_c.cpp.o[0m
+[18.369s] [35m[1mScanning dependencies of target message__rosidl_typesupport_opensplice_c[0m
+[18.593s] [ 67%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_.cpp.o[0m
+[18.594s] [ 67%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/message/srv/dds_opensplice_c/motorsend__type_support_c.cpp.o[0m
+[18.595s] [ 69%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps.cpp.o[0m
+[18.827s] [ 71%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_c.so[0m
+[19.040s] [ 73%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps_impl.cpp.o[0m
+[19.177s] [ 73%] Built target message__rosidl_typesupport_fastrtps_c
+[19.216s] [ 75%] [32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_SplDcps.cpp.o[0m
+[22.499s] [ 77%] [32m[1mLinking CXX shared library libmessage__rosidl_typesupport_opensplice_c.so[0m
+[22.945s] [ 81%] Built target message__rosidl_typesupport_opensplice_c
+[22.983s] [35m[1mScanning dependencies of target message[0m
+[23.022s] [ 81%] Built target message
+[23.060s] [35m[1mScanning dependencies of target message__py[0m
+[23.101s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.600s] [ 83%] Built target message__py
+[27.639s] [35m[1mScanning dependencies of target message__python[0m
+[27.772s] [ 85%] [32mBuilding C object CMakeFiles/message__python.dir/rosidl_generator_py/message/srv/_motorsend_s.c.o[0m
+[28.366s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/message/libmessage__python.so[0m
+[28.505s] [ 87%] Built target message__python
+[28.546s] [35m[1mScanning dependencies of target message__rosidl_typesupport_c__pyext[0m
+[28.547s] [35m[1mScanning dependencies of target message__rosidl_typesupport_fastrtps_c__pyext[0m
+[28.547s] [35m[1mScanning dependencies of target message__rosidl_typesupport_opensplice_c__pyext[0m
+[28.620s] [ 89%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_c.c.o[0m
+[28.642s] [ 91%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.649s] [ 93%] [32mBuilding C object CMakeFiles/message__rosidl_typesupport_opensplice_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_opensplice_c.c.o[0m
+[28.933s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[28.947s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[28.968s] [100%] [32m[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so[0m
+[29.066s] [100%] Built target message__rosidl_typesupport_c__pyext
+[29.140s] [100%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[29.162s] [100%] Built target message__rosidl_typesupport_opensplice_c__pyext
+[29.283s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[29.498s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4
+[29.701s] [  4%] Built target message__cpp
+[29.702s] [  4%] Built target message__dds_opensplice_idl
+[29.704s] [ 10%] Built target message__rosidl_generator_c
+[29.799s] [ 16%] Built target message__rosidl_typesupport_introspection_cpp
+[29.813s] [ 22%] Built target message__rosidl_typesupport_cpp
+[29.823s] [ 28%] Built target message__rosidl_typesupport_fastrtps_cpp
+[29.879s] [ 44%] Built target message__rosidl_typesupport_opensplice_cpp
+[29.904s] [ 51%] Built target message__rosidl_typesupport_c
+[29.933s] [ 57%] Built target message__rosidl_typesupport_introspection_c
+[29.955s] [ 63%] Built target message__rosidl_typesupport_fastrtps_c
+[30.021s] [ 81%] Built target message__rosidl_typesupport_opensplice_c
+[30.098s] [ 81%] Built target message
+[30.176s] [ 83%] Built target message__py
+[30.284s] [ 87%] Built target message__python
+[30.403s] [100%] Built target message__rosidl_typesupport_c__pyext
+[30.404s] [100%] Built target message__rosidl_typesupport_opensplice_c__pyext
+[30.405s] [100%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[30.479s] [36mInstall the project...[0m
+[30.514s] -- Install configuration: ""
+[30.514s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message
+[30.515s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so
+[30.516s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so" to ""
+[30.517s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh
+[30.518s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so
+[30.518s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so" to ""
+[30.519s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.520s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.520s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h
+[30.521s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.521s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.522s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so
+[30.523s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so" to ""
+[30.523s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.524s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.524s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c
+[30.525s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h
+[30.525s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h
+[30.526s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h
+[30.527s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h
+[30.528s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.528s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h
+[30.529s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so
+[30.529s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so" to ""
+[30.530s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.531s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.531s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp
+[30.532s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps
+[30.532s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.533s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.534s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so
+[30.534s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.535s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.535s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.536s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp
+[30.536s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp
+[30.537s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp
+[30.538s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.538s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.539s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h
+[30.539s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c
+[30.540s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.540s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.541s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so
+[30.541s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so" to ""
+[30.542s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.542s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.543s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h
+[30.543s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c
+[30.544s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.544s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h
+[30.545s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so
+[30.546s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so" to ""
+[30.546s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice
+[30.547s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl
+[30.548s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.548s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.549s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice
+[30.549s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h
+[30.550s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h
+[30.550s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h
+[30.551s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h
+[30.552s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h
+[30.552s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp
+[30.553s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[30.553s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h
+[30.554s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so
+[30.558s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so" to ""
+[30.559s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[30.560s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[30.560s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp
+[30.561s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp
+[30.561s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so
+[30.562s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so" to ""
+[30.562s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh
+[30.563s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py
+[30.709s] Compiling '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py'...
+[30.730s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv
+[30.731s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c
+[30.731s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py
+[30.732s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py
+[30.732s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[30.734s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[30.735s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[30.736s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[30.737s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so
+[30.739s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[30.739s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so
+[30.740s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so" to ""
+[30.741s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl
+[30.742s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv
+[30.742s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg
+[30.743s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg
+[30.743s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message
+[30.744s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message
+[30.745s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh
+[30.745s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh
+[30.746s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash
+[30.746s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh
+[30.747s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh
+[30.747s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message
+[30.748s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake
+[30.748s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake
+[30.749s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.750s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.750s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake
+[30.751s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake
+[30.751s] -- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml
+[30.766s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4

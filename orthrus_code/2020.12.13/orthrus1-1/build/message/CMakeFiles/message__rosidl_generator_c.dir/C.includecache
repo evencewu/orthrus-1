@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orthrus1-1/orthrus1-1/build/message/rosidl_generator_c/message/srv/motorsend__functions.c
+message/srv/motorsend__functions.h
+/home/orthrus1-1/orthrus1-1/build/message/rosidl_generator_c/message/srv/message/srv/motorsend__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/dashing/include/rosidl_generator_c/visibility_control.h
+
+rosidl_generator_c/message/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/message/srv/motorsend__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_generator_c/visibility_control.h
+rosidl_generator_c/message/srv/rosidl_generator_c/visibility_control.h
+message/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/message/srv/message/msg/rosidl_generator_c__visibility_control.h
+message/srv/motorsend__struct.h
+rosidl_generator_c/message/srv/message/srv/motorsend__struct.h
+
+rosidl_generator_c/message/srv/motorsend__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

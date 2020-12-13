@@ -1,0 +1,9 @@
+[ 50%] [32m[1mLinking CXX executable check[0m
+/usr/bin/ld: cannot find -lUnitree_motor_SDK_ARM64
+collect2: error: ld returned 1 exit status
+make[2]: *** [check] Error 1
+CMakeFiles/check.dir/build.make:134: recipe for target 'check' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+make[1]: *** [CMakeFiles/check.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

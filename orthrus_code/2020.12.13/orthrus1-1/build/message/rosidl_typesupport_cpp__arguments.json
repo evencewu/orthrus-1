@@ -1,0 +1,17 @@
+{
+  "package_name": "message",
+  "output_dir": "/home/orthrus1-1/orthrus1-1/build/message/rosidl_typesupport_cpp/message",
+  "template_dir": "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message:srv/Motorsend.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/dashing/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/dashing/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message/srv/Motorsend.idl"
+  ]
+}

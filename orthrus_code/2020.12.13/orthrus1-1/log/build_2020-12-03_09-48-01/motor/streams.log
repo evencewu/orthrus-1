@@ -1,0 +1,40 @@
+[0.073s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.160s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.280s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.256s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.347s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.520s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.528s] -- Looking for pthread.h
+[1.777s] -- Looking for pthread.h - found
+[1.779s] -- Looking for pthread_create
+[2.031s] -- Looking for pthread_create - not found
+[2.031s] -- Looking for pthread_create in pthreads
+[2.256s] -- Looking for pthread_create in pthreads - not found
+[2.256s] -- Looking for pthread_create in pthread
+[2.501s] -- Looking for pthread_create in pthread - found
+[2.504s] -- Found Threads: TRUE  
+[2.630s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.687s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.986s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[2.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.992s] -- Configured cppcheck include dirs: /home/orthrus1-1/orthrus1-1/src/motor/include/unitree_motor_ctrl
+[2.997s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.000s] -- Added test 'lint_cmake' to check CMake code style
+[3.005s] -- Added test 'uncrustify' to check C / C++ code style
+[3.007s] -- Added test 'xmllint' to check XML markup files
+[3.015s] -- Configuring done
+[3.050s] -- Generating done
+[3.055s] -- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/motor
+[3.134s] [35m[1mScanning dependencies of target check[0m
+[3.247s] [ 50%] [32mBuilding CXX object CMakeFiles/check.dir/src/check.cpp.o[0m
+[7.342s] [100%] [32m[1mLinking CXX executable check[0m
+[7.414s] /usr/bin/ld: cannot find -lUnitree_motor_SDK_ARM64
+[7.415s] collect2: error: ld returned 1 exit status
+[7.420s] CMakeFiles/check.dir/build.make:134: recipe for target 'check' failed
+[7.421s] make[2]: *** [check] Error 1
+[7.421s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+[7.422s] make[1]: *** [CMakeFiles/check.dir/all] Error 2
+[7.422s] Makefile:140: recipe for target 'all' failed
+[7.423s] make: *** [all] Error 2
+[7.427s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

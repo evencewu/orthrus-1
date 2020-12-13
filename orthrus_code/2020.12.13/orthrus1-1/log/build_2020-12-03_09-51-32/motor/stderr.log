@@ -1,0 +1,7 @@
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/check.cpp:9:10:[m[K [01;31m[Kfatal error: [m[KLSerial.h: No such file or directory
+ #include [01;31m[K"LSerial.h"[m[K    //串口通信函数
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/check.dir/src/check.cpp.o] Error 1
+make[1]: *** [CMakeFiles/check.dir/all] Error 2
+make: *** [all] Error 2
