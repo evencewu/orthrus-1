@@ -1,0 +1,47 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.9654030145386553 0.24176653567399845 0.0977034377484767 5.4320013667900735
+  position 0.0177427793390672 1.5286510043350743 1.3522356252037016
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+DEF robot Robot {
+  translation 0 0.3 0
+  children [
+    DEF servo_a_1 Servo {
+      translation 0.125 0 0.05
+      rotation 0 0 1 0
+      children [
+        DEF servo_a_2 Transform {
+        }
+        DEF servo_shape Transform {
+          rotation 0 0 1 1.5708
+          children [
+            Shape {
+              appearance BrushedSteel {
+              }
+              geometry Cylinder {
+                height 0.05
+                radius 0.05
+              }
+            }
+          ]
+        }
+      ]
+    }
+    DEF body Shape {
+      appearance RoughPolymer {
+        baseColor 0 1 1
+      }
+      geometry DEF body Box {
+        size 0.2 0.12 0.2
+      }
+    }
+  ]
+}
