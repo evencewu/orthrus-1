@@ -19,7 +19,7 @@ float temperature;
 #define SCAN_MODE_DISPLAY_DELAY 10000                      //!< 扫描模式下读数之间的延迟
 
 // 对于 DC1812AC （LTC2943-1） 将电阻值更改为 50 mOhm （0.05）
-const float resistor = .025;                               //!< 演示板上的电阻值
+const float resistor = 0.05;                               //!< 演示板上的电阻值
 
 // 错误字符串
 const char ack_error[] = "Error: No Acknowledge. Check I2C Address."; //!< 错误消息
@@ -30,16 +30,19 @@ static uint8_t alert_code = 0;
 
 void setup()
 {
+  Serial.begin(9600);
   quikeval_I2C_init();              //! 配置 100kHz 的 EEPROM I2C 端口
   quikeval_I2C_connect();           //! 连接到主 I2C 端口
-
   delay(3000);
   LTC2943_write(LTC2943_I2C_ADDRESS, LTC2943_ACCUM_CHARGE_MSB_REG, 0);
   LTC2943_write(LTC2943_I2C_ADDRESS, LTC2943_ACCUM_CHARGE_LSB_REG, 0);
+
+
 }
 
 void loop()
 {
+
   int8_t ack = 0;                               //! I2C 确认指示器
   static uint8_t user_command;                  //! 用户输入命令
   static uint8_t mAh_or_Coulombs = 0;
@@ -59,7 +62,6 @@ int8_t menu_1_automatic_mode(int8_t mAh_or_Coulombs, int8_t celcius_or_kelvin ,u
   LTC2943_mode = LTC2943_AUTOMATIC_MODE|prescalar_mode|alcc_mode ;               //! 将 LTC2943 的控制寄存器设置为自动模式，并设置prescalar和 AL/CC 引脚值
   
   ack |= LTC2943_write(LTC2943_I2C_ADDRESS, LTC2943_CONTROL_REG, LTC2943_mode);   //! 将设置模式写入 LTC2943 控制寄存器
-
   do
   {
 
@@ -103,6 +105,10 @@ int8_t menu_1_automatic_mode(int8_t mAh_or_Coulombs, int8_t celcius_or_kelvin ,u
   power = current * voltage;
   //voltage-V,current-A,charge-mAh,power-W
   // picture loop
+  Serial.println(1);
+  Serial.println(temperature);
+  Serial.println(current);
+  Serial.println(voltage);
   }
   while (Serial.available() == false && !(ack));                                 //! if Serial is not available and an NACK has not been recieved, keep polling the registers.
 

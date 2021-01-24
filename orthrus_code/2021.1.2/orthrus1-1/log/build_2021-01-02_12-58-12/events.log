@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000490] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.000676] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('message', '/home/orthrus1-1/orthrus1-1/install/message')])}
+[0.000826] (message) JobStarted: {'identifier': 'message'}
+[0.048508] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.051287] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.055822] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.097543] (-) TimerEvent: {}
+[0.160921] (message) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.197661] (-) TimerEvent: {}
+[0.267856] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.268715] (message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.297809] (-) TimerEvent: {}
+[0.398549] (-) TimerEvent: {}
+[0.499339] (-) TimerEvent: {}
+[0.600089] (-) TimerEvent: {}
+[0.700788] (-) TimerEvent: {}
+[0.801546] (-) TimerEvent: {}
+[0.902260] (-) TimerEvent: {}
+[1.003018] (-) TimerEvent: {}
+[1.103668] (-) TimerEvent: {}
+[1.188345] (message) StdoutLine: {'line': b'-- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)\n'}
+[1.203819] (-) TimerEvent: {}
+[1.223622] (message) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.304063] (-) TimerEvent: {}
+[1.333712] (message) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)\n'}
+[1.381854] (message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[1.404224] (-) TimerEvent: {}
+[1.504903] (-) TimerEvent: {}
+[1.605687] (-) TimerEvent: {}
+[1.706486] (-) TimerEvent: {}
+[1.807286] (-) TimerEvent: {}
+[1.835855] (message) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[1.907497] (-) TimerEvent: {}
+[2.008252] (-) TimerEvent: {}
+[2.028912] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.108476] (-) TimerEvent: {}
+[2.209298] (-) TimerEvent: {}
+[2.310060] (-) TimerEvent: {}
+[2.410739] (-) TimerEvent: {}
+[2.511470] (-) TimerEvent: {}
+[2.612065] (-) TimerEvent: {}
+[2.712754] (-) TimerEvent: {}
+[2.813518] (-) TimerEvent: {}
+[2.914253] (-) TimerEvent: {}
+[3.014905] (-) TimerEvent: {}
+[3.115603] (-) TimerEvent: {}
+[3.216273] (-) TimerEvent: {}
+[3.316960] (-) TimerEvent: {}
+[3.337333] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c\n'}
+[3.417065] (-) TimerEvent: {}
+[3.517822] (-) TimerEvent: {}
+[3.525781] (message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp\n'}
+[3.618074] (-) TimerEvent: {}
+[3.718793] (-) TimerEvent: {}
+[3.819541] (-) TimerEvent: {}
+[3.920363] (-) TimerEvent: {}
+[4.021093] (-) TimerEvent: {}
+[4.121857] (-) TimerEvent: {}
+[4.222681] (-) TimerEvent: {}
+[4.323502] (-) TimerEvent: {}
+[4.424336] (-) TimerEvent: {}
+[4.525116] (-) TimerEvent: {}
+[4.625891] (-) TimerEvent: {}
+[4.726652] (-) TimerEvent: {}
+[4.827454] (-) TimerEvent: {}
+[4.928254] (-) TimerEvent: {}
+[5.029060] (-) TimerEvent: {}
+[5.129779] (-) TimerEvent: {}
+[5.230550] (-) TimerEvent: {}
+[5.257629] (message) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[5.330772] (-) TimerEvent: {}
+[5.364250] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[5.367806] (message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[5.431069] (-) TimerEvent: {}
+[5.482787] (message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.483549] (message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[5.484084] (message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[5.531244] (-) TimerEvent: {}
+[5.632042] (-) TimerEvent: {}
+[5.732755] (-) TimerEvent: {}
+[5.833629] (-) TimerEvent: {}
+[5.934456] (-) TimerEvent: {}
+[6.035209] (-) TimerEvent: {}
+[6.135899] (-) TimerEvent: {}
+[6.157908] (message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[6.236085] (-) TimerEvent: {}
+[6.237824] (message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.242516] (message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.264614] (message) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.336313] (-) TimerEvent: {}
+[6.437113] (-) TimerEvent: {}
+[6.537863] (-) TimerEvent: {}
+[6.638703] (-) TimerEvent: {}
+[6.739551] (-) TimerEvent: {}
+[6.840383] (-) TimerEvent: {}
+[6.941134] (-) TimerEvent: {}
+[7.041890] (-) TimerEvent: {}
+[7.142717] (-) TimerEvent: {}
+[7.213065] (message) StdoutLine: {'line': b'-- Generating done\n'}
+[7.230246] (message) StdoutLine: {'line': b'-- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/message\n'}
+[7.242894] (-) TimerEvent: {}
+[7.343681] (-) TimerEvent: {}
+[7.365918] (message) StdoutLine: {'line': b'[  4%] Built target message__dds_opensplice_idl\n'}
+[7.366802] (message) StdoutLine: {'line': b'[  4%] Built target message__cpp\n'}
+[7.378757] (message) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking C shared library libmessage__rosidl_generator_c.so\x1b[0m\n'}
+[7.443876] (-) TimerEvent: {}
+[7.462174] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message__rosidl_typesupport_opensplice_cpp\x1b[0m\n'}
+[7.470456] (message) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.471982] (message) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.544104] (-) TimerEvent: {}
+[7.572343] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_generator_c\n'}
+[7.644287] (-) TimerEvent: {}
+[7.668036] (message) StdoutLine: {'line': b'[ 18%] Built target message__rosidl_typesupport_cpp\n'}
+[7.686594] (message) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/motorsend__type_support.cpp.o\x1b[0m\n'}
+[7.695440] (message) StdoutLine: {'line': b'[ 24%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[7.726065] (message) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.733538] (message) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_.cpp.o\x1b[0m\n'}
+[7.744461] (-) TimerEvent: {}
+[7.776701] (message) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.844721] (-) TimerEvent: {}
+[7.940058] (message) StdoutLine: {'line': b'[ 34%] Built target message__rosidl_typesupport_c\n'}
+[7.944808] (-) TimerEvent: {}
+[7.976195] (message) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps.cpp.o\x1b[0m\n'}
+[8.045079] (-) TimerEvent: {}
+[8.146006] (-) TimerEvent: {}
+[8.246763] (-) TimerEvent: {}
+[8.263008] (message) StdoutLine: {'line': b'[ 40%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[8.306125] (message) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps_impl.cpp.o\x1b[0m\n'}
+[8.347008] (-) TimerEvent: {}
+[8.448156] (-) TimerEvent: {}
+[8.549114] (-) TimerEvent: {}
+[8.649980] (-) TimerEvent: {}
+[8.750823] (-) TimerEvent: {}
+[8.847006] (message) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libmessage__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.851076] (-) TimerEvent: {}
+[8.952165] (-) TimerEvent: {}
+[9.008563] (message) StdoutLine: {'line': b'[ 48%] Built target message__rosidl_typesupport_introspection_c\n'}
+[9.052364] (-) TimerEvent: {}
+[9.063544] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.152554] (-) TimerEvent: {}
+[9.167708] (message) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/message/srv/motorsend__type_support_c.cpp.o\x1b[0m\n'}
+[9.252746] (-) TimerEvent: {}
+[9.340116] (message) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_cpp.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_SplDcps.cpp.o\x1b[0m\n'}
+[9.353006] (-) TimerEvent: {}
+[9.454284] (-) TimerEvent: {}
+[9.555546] (-) TimerEvent: {}
+[9.656733] (-) TimerEvent: {}
+[9.757909] (-) TimerEvent: {}
+[9.859105] (-) TimerEvent: {}
+[9.960354] (-) TimerEvent: {}
+[10.061507] (-) TimerEvent: {}
+[10.162745] (-) TimerEvent: {}
+[10.263982] (-) TimerEvent: {}
+[10.365112] (-) TimerEvent: {}
+[10.465915] (-) TimerEvent: {}
+[10.567164] (-) TimerEvent: {}
+[10.668307] (-) TimerEvent: {}
+[10.769509] (-) TimerEvent: {}
+[10.771991] (message) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.869701] (-) TimerEvent: {}
+[10.970905] (-) TimerEvent: {}
+[11.072057] (-) TimerEvent: {}
+[11.173233] (-) TimerEvent: {}
+[11.178166] (message) StdoutLine: {'line': b'[ 57%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[11.273417] (-) TimerEvent: {}
+[11.374305] (-) TimerEvent: {}
+[11.475110] (-) TimerEvent: {}
+[11.576090] (-) TimerEvent: {}
+[11.676915] (-) TimerEvent: {}
+[11.777825] (-) TimerEvent: {}
+[11.878698] (-) TimerEvent: {}
+[11.979598] (-) TimerEvent: {}
+[12.080508] (-) TimerEvent: {}
+[12.181342] (-) TimerEvent: {}
+[12.267549] (message) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_opensplice_cpp.so\x1b[0m\n'}
+[12.281576] (-) TimerEvent: {}
+[12.382383] (-) TimerEvent: {}
+[12.483294] (-) TimerEvent: {}
+[12.584106] (-) TimerEvent: {}
+[12.685120] (-) TimerEvent: {}
+[12.786018] (-) TimerEvent: {}
+[12.886814] (-) TimerEvent: {}
+[12.987744] (-) TimerEvent: {}
+[13.088658] (-) TimerEvent: {}
+[13.189519] (-) TimerEvent: {}
+[13.199753] (message) StdoutLine: {'line': b'[ 63%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[13.274453] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message__rosidl_typesupport_opensplice_c\x1b[0m\n'}
+[13.289667] (-) TimerEvent: {}
+[13.390412] (-) TimerEvent: {}
+[13.465627] (message) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps.cpp.o\x1b[0m\n'}
+[13.466885] (message) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_.cpp.o\x1b[0m\n'}
+[13.467781] (message) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_c/message/srv/dds_opensplice_c/motorsend__type_support_c.cpp.o\x1b[0m\n'}
+[13.468817] (message) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_Dcps_impl.cpp.o\x1b[0m\n'}
+[13.490620] (-) TimerEvent: {}
+[13.591517] (-) TimerEvent: {}
+[13.692589] (-) TimerEvent: {}
+[13.793711] (-) TimerEvent: {}
+[13.894849] (-) TimerEvent: {}
+[13.909397] (message) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/message__rosidl_typesupport_opensplice_c.dir/rosidl_typesupport_opensplice_cpp/message/srv/dds_opensplice/Motorsend_SplDcps.cpp.o\x1b[0m\n'}
+[13.995077] (-) TimerEvent: {}
+[14.096238] (-) TimerEvent: {}
+[14.197483] (-) TimerEvent: {}
+[14.298611] (-) TimerEvent: {}
+[14.399743] (-) TimerEvent: {}
+[14.500889] (-) TimerEvent: {}
+[14.602040] (-) TimerEvent: {}
+[14.703120] (-) TimerEvent: {}
+[14.804256] (-) TimerEvent: {}
+[14.905536] (-) TimerEvent: {}
+[15.006472] (-) TimerEvent: {}
+[15.107346] (-) TimerEvent: {}
+[15.208182] (-) TimerEvent: {}
+[15.309057] (-) TimerEvent: {}
+[15.409861] (-) TimerEvent: {}
+[15.510826] (-) TimerEvent: {}
+[15.611702] (-) TimerEvent: {}
+[15.712519] (-) TimerEvent: {}
+[15.813353] (-) TimerEvent: {}
+[15.914112] (-) TimerEvent: {}
+[16.014844] (-) TimerEvent: {}
+[16.115632] (-) TimerEvent: {}
+[16.216422] (-) TimerEvent: {}
+[16.317227] (-) TimerEvent: {}
+[16.418015] (-) TimerEvent: {}
+[16.518762] (-) TimerEvent: {}
+[16.619546] (-) TimerEvent: {}
+[16.720400] (-) TimerEvent: {}
+[16.821125] (-) TimerEvent: {}
+[16.921849] (-) TimerEvent: {}
+[17.022662] (-) TimerEvent: {}
+[17.123519] (-) TimerEvent: {}
+[17.224375] (-) TimerEvent: {}
+[17.325119] (-) TimerEvent: {}
+[17.350282] (message) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmessage__rosidl_typesupport_opensplice_c.so\x1b[0m\n'}
+[17.425302] (-) TimerEvent: {}
+[17.526111] (-) TimerEvent: {}
+[17.627036] (-) TimerEvent: {}
+[17.727832] (-) TimerEvent: {}
+[17.828777] (-) TimerEvent: {}
+[17.929533] (-) TimerEvent: {}
+[18.030410] (-) TimerEvent: {}
+[18.131259] (-) TimerEvent: {}
+[18.232052] (-) TimerEvent: {}
+[18.332779] (-) TimerEvent: {}
+[18.433608] (-) TimerEvent: {}
+[18.438983] (message) StdoutLine: {'line': b'[ 81%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[18.517985] (message) StdoutLine: {'line': b'[ 81%] Built target message\n'}
+[18.533780] (-) TimerEvent: {}
+[18.600182] (message) StdoutLine: {'line': b'[ 83%] Built target message__py\n'}
+[18.634065] (-) TimerEvent: {}
+[18.709282] (message) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message/libmessage__python.so\x1b[0m\n'}
+[18.734243] (-) TimerEvent: {}
+[18.835088] (-) TimerEvent: {}
+[18.902163] (message) StdoutLine: {'line': b'[ 87%] Built target message__python\n'}
+[18.935274] (-) TimerEvent: {}
+[18.949788] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.950688] (message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target message__rosidl_typesupport_opensplice_c__pyext\x1b[0m\n'}
+[19.022524] (message) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.035462] (-) TimerEvent: {}
+[19.041493] (message) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/message__rosidl_typesupport_opensplice_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_opensplice_c.c.o\x1b[0m\n'}
+[19.046211] (message) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/message/_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.135649] (-) TimerEvent: {}
+[19.236492] (-) TimerEvent: {}
+[19.330175] (message) StdoutLine: {'line': b'[ 95%] Built target message__rosidl_typesupport_c__pyext\n'}
+[19.336614] (-) TimerEvent: {}
+[19.437394] (-) TimerEvent: {}
+[19.538138] (-) TimerEvent: {}
+[19.638889] (-) TimerEvent: {}
+[19.739763] (-) TimerEvent: {}
+[19.823996] (message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.947445] (-) TimerEvent: {}
+[19.948216] (message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[20.047732] (-) TimerEvent: {}
+[20.148684] (-) TimerEvent: {}
+[20.249519] (-) TimerEvent: {}
+[20.253276] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.306656] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[20.349711] (-) TimerEvent: {}
+[20.352261] (message) CommandEnded: {'returncode': 0}
+[20.449988] (-) TimerEvent: {}
+[20.551353] (-) TimerEvent: {}
+[20.562913] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[20.604269] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[20.651591] (-) TimerEvent: {}
+[20.752537] (-) TimerEvent: {}
+[20.817421] (message) StdoutLine: {'line': b'[  4%] Built target message__dds_opensplice_idl\n'}
+[20.818422] (message) StdoutLine: {'line': b'[  4%] Built target message__cpp\n'}
+[20.820897] (message) StdoutLine: {'line': b'[ 10%] Built target message__rosidl_generator_c\n'}
+[20.852726] (-) TimerEvent: {}
+[20.925852] (message) StdoutLine: {'line': b'[ 16%] Built target message__rosidl_typesupport_cpp\n'}
+[20.930446] (message) StdoutLine: {'line': b'[ 22%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[20.952923] (-) TimerEvent: {}
+[20.956550] (message) StdoutLine: {'line': b'[ 28%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[20.998300] (message) StdoutLine: {'line': b'[ 44%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[21.027292] (message) StdoutLine: {'line': b'[ 51%] Built target message__rosidl_typesupport_introspection_c\n'}
+[21.040426] (message) StdoutLine: {'line': b'[ 57%] Built target message__rosidl_typesupport_c\n'}
+[21.053101] (-) TimerEvent: {}
+[21.103997] (message) StdoutLine: {'line': b'[ 63%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[21.153285] (-) TimerEvent: {}
+[21.162533] (message) StdoutLine: {'line': b'[ 81%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[21.241921] (message) StdoutLine: {'line': b'[ 81%] Built target message\n'}
+[21.253451] (-) TimerEvent: {}
+[21.323483] (message) StdoutLine: {'line': b'[ 83%] Built target message__py\n'}
+[21.353638] (-) TimerEvent: {}
+[21.432904] (message) StdoutLine: {'line': b'[ 87%] Built target message__python\n'}
+[21.453818] (-) TimerEvent: {}
+[21.554973] (-) TimerEvent: {}
+[21.556859] (message) StdoutLine: {'line': b'[ 95%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[21.557800] (message) StdoutLine: {'line': b'[ 95%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.558807] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_c__pyext\n'}
+[21.632835] (message) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[21.655163] (-) TimerEvent: {}
+[21.667404] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.668647] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[21.669627] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.670255] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.670737] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp\n'}
+[21.671346] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp\n'}
+[21.671814] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp\n'}
+[21.672400] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.672857] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.673470] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c\n'}
+[21.673955] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h\n'}
+[21.674489] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h\n'}
+[21.674970] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h\n'}
+[21.675506] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h\n'}
+[21.675968] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.676485] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.677226] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh\n'}
+[21.677728] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[21.678274] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so" to ""\n'}
+[21.678729] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[21.679246] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so" to ""\n'}
+[21.679851] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[21.680410] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so" to ""\n'}
+[21.680917] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.681441] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.681883] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h\n'}
+[21.682407] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c\n'}
+[21.682885] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.683636] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.684214] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[21.684669] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.685161] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.685645] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.686214] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.686886] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp\n'}
+[21.687466] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[21.687920] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.688427] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.689026] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.689732] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h\n'}
+[21.690253] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.690780] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.691331] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[21.691810] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.692333] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.692807] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.693336] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.693845] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps\n'}
+[21.694400] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.694883] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.695401] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.695877] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.696405] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.696879] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.697647] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h\n'}
+[21.698550] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c\n'}
+[21.699315] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.699919] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[21.700443] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so\n'}
+[21.701048] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so" to ""\n'}
+[21.701558] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice\n'}
+[21.702074] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl\n'}
+[21.702576] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[21.703078] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[21.703558] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice\n'}
+[21.704055] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h\n'}
+[21.704540] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h\n'}
+[21.705065] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h\n'}
+[21.705576] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h\n'}
+[21.706094] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h\n'}
+[21.706595] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[21.707113] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[21.707680] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[21.708371] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so\n'}
+[21.708906] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so" to ""\n'}
+[21.709496] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh\n'}
+[21.710037] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py\n'}
+[21.755297] (-) TimerEvent: {}
+[21.855637] (message) StdoutLine: {'line': b"Compiling '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py'...\n"}
+[21.856635] (-) TimerEvent: {}
+[21.876554] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv\n'}
+[21.877552] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c\n'}
+[21.878270] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py\n'}
+[21.878787] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py\n'}
+[21.879355] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[21.880018] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[21.881073] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[21.882885] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[21.884019] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[21.885748] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so" to ""\n'}
+[21.886513] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so\n'}
+[21.888088] (message) StdoutLine: {'line': b'-- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so" to ""\n'}
+[21.888724] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl\n'}
+[21.889420] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv\n'}
+[21.889889] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg\n'}
+[21.890541] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg\n'}
+[21.891140] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[21.891741] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[21.892302] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[21.892888] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh\n'}
+[21.893446] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash\n'}
+[21.894018] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh\n'}
+[21.894600] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh\n'}
+[21.895130] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message\n'}
+[21.895633] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[21.896273] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.896789] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.897365] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.897881] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.898448] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake\n'}
+[21.898965] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[21.899511] (message) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml\n'}
+[21.905660] (message) CommandEnded: {'returncode': 0}
+[21.957045] (-) TimerEvent: {}
+[22.061788] (-) TimerEvent: {}
+[22.162769] (-) TimerEvent: {}
+[22.258557] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[22.318193] (-) TimerEvent: {}
+[22.318699] (motor) JobStarted: {'identifier': 'motor'}
+[22.354604] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[22.357427] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[22.358537] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[22.418481] (-) TimerEvent: {}
+[22.454250] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[22.518687] (-) TimerEvent: {}
+[22.561585] (motor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[22.618905] (-) TimerEvent: {}
+[22.719669] (-) TimerEvent: {}
+[22.820475] (-) TimerEvent: {}
+[22.921246] (-) TimerEvent: {}
+[23.021961] (-) TimerEvent: {}
+[23.122699] (-) TimerEvent: {}
+[23.223439] (-) TimerEvent: {}
+[23.324114] (-) TimerEvent: {}
+[23.424813] (-) TimerEvent: {}
+[23.482327] (motor) StdoutLine: {'line': b'-- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[23.525017] (-) TimerEvent: {}
+[23.529087] (motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[23.625223] (-) TimerEvent: {}
+[23.650536] (motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[23.655602] (motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.725382] (-) TimerEvent: {}
+[23.747426] (motor) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[23.767556] (motor) StdoutLine: {'line': b'-- Found message: 0.0.0 (/home/orthrus1-1/orthrus1-1/install/message/share/message/cmake)\n'}
+[23.825541] (-) TimerEvent: {}
+[23.880913] (motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[23.925750] (-) TimerEvent: {}
+[24.026470] (-) TimerEvent: {}
+[24.127094] (-) TimerEvent: {}
+[24.227685] (-) TimerEvent: {}
+[24.328451] (-) TimerEvent: {}
+[24.429061] (-) TimerEvent: {}
+[24.529761] (-) TimerEvent: {}
+[24.630527] (-) TimerEvent: {}
+[24.708540] (motor) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[24.713610] (motor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[24.714322] (motor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/orthrus1-1/orthrus1-1/src/motor/include/unitree_motor_ctrl\n'}
+[24.718577] (motor) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[24.721300] (motor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[24.726263] (motor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[24.727674] (motor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[24.730636] (-) TimerEvent: {}
+[24.738467] (motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.785467] (motor) StdoutLine: {'line': b'-- Generating done\n'}
+[24.790747] (motor) StdoutLine: {'line': b'-- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/motor\n'}
+[24.830835] (-) TimerEvent: {}
+[24.939778] (motor) StdoutLine: {'line': b'[100%] Built target check\n'}
+[24.940611] (-) TimerEvent: {}
+[24.980694] (motor) CommandEnded: {'returncode': 0}
+[25.040864] (-) TimerEvent: {}
+[25.061484] (motor) JobProgress: {'identifier': 'motor', 'progress': 'install'}
+[25.062861] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[25.141115] (-) TimerEvent: {}
+[25.241985] (-) TimerEvent: {}
+[25.276586] (motor) StdoutLine: {'line': b'[100%] Built target check\n'}
+[25.342130] (-) TimerEvent: {}
+[25.346822] (motor) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[25.380146] (motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.381205] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include\n'}
+[25.381774] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl\n'}
+[25.382496] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_ctrl.h\n'}
+[25.383021] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_msg.h\n'}
+[25.383592] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/LSerial.h\n'}
+[25.384184] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/motor\n'}
+[25.384733] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib\n'}
+[25.385391] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib/libUnitree_motor_SDK_ARM64.so\n'}
+[25.386043] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib/motor/check\n'}
+[25.386669] (motor) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/package_run_dependencies/motor\n'}
+[25.387217] (motor) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/parent_prefix_path/motor\n'}
+[25.387798] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/ament_prefix_path.sh\n'}
+[25.388384] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/path.sh\n'}
+[25.388972] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.bash\n'}
+[25.389504] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.sh\n'}
+[25.390053] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.zsh\n'}
+[25.390624] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/packages/motor\n'}
+[25.391204] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig.cmake\n'}
+[25.391722] (motor) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig-version.cmake\n'}
+[25.392295] (motor) StdoutLine: {'line': b'-- Installing: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.xml\n'}
+[25.396700] (motor) CommandEnded: {'returncode': 0}
+[25.442663] (-) TimerEvent: {}
+[25.543984] (-) TimerEvent: {}
+[25.572037] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[25.576094] (-) EventReactorShutdown: {}

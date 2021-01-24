@@ -1,0 +1,10 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+-- Configuring incomplete, errors occurred!
+See also "/home/orthrus1-1/orthrus1-1/build/message/CMakeFiles/CMakeOutput.log".
+Makefile:968: recipe for target 'cmake_check_build_system' failed

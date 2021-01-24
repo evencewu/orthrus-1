@@ -1,0 +1,29 @@
+[0.074s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.165s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.254s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.300s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.421s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.426s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.518s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.576s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.876s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.881s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.882s] -- Configured cppcheck include dirs: /home/orthrus1-1/orthrus1-1/src/motor/include/unitree_motor_ctrl;$<BUILD_INTERFACE:/home/orthrus1-1/orthrus1-1/src/motor/include>
+[1.886s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.889s] -- Added test 'lint_cmake' to check CMake code style
+[1.894s] -- Added test 'uncrustify' to check C / C++ code style
+[1.895s] -- Added test 'xmllint' to check XML markup files
+[1.903s] -- Configuring done
+[1.940s] -- Generating done
+[1.945s] -- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/motor
+[2.081s] [ 50%] [32m[1mLinking CXX executable check[0m
+[2.155s] /usr/bin/ld: cannot find -lUnitree_motor_SDK_ARM64
+[2.155s] collect2: error: ld returned 1 exit status
+[2.160s] CMakeFiles/check.dir/build.make:134: recipe for target 'check' failed
+[2.161s] make[2]: *** [check] Error 1
+[2.161s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+[2.162s] make[1]: *** [CMakeFiles/check.dir/all] Error 2
+[2.162s] Makefile:140: recipe for target 'all' failed
+[2.163s] make: *** [all] Error 2
+[2.167s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

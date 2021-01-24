@@ -1,0 +1,32 @@
+[0.062s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.154s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.233s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.280s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.403s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.499s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.556s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.858s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.863s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.865s] -- Configured cppcheck include dirs: 
+[1.868s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.871s] -- Added test 'lint_cmake' to check CMake code style
+[1.876s] -- Added test 'uncrustify' to check C / C++ code style
+[1.877s] -- Added test 'xmllint' to check XML markup files
+[1.885s] -- Configuring done
+[1.920s] -- Generating done
+[1.925s] -- Build files have been written to: /home/orthrus1-1/orthrus1-1/build/motor
+[2.008s] [35m[1mScanning dependencies of target check[0m
+[2.095s] [ 50%] [32mBuilding CXX object CMakeFiles/check.dir/src/check.cpp.o[0m
+[2.358s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/check.cpp:9:10:[m[K [01;31m[Kfatal error: [m[KLSerial.h: No such file or directory
+[2.358s]  #include [01;31m[K"LSerial.h"[m[K    //串口通信函数
+[2.359s]           [01;31m[K^~~~~~~~~~~[m[K
+[2.359s] compilation terminated.
+[2.368s] CMakeFiles/check.dir/build.make:62: recipe for target 'CMakeFiles/check.dir/src/check.cpp.o' failed
+[2.369s] make[2]: *** [CMakeFiles/check.dir/src/check.cpp.o] Error 1
+[2.370s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+[2.370s] make[1]: *** [CMakeFiles/check.dir/all] Error 2
+[2.371s] Makefile:140: recipe for target 'all' failed
+[2.372s] make: *** [all] Error 2
+[2.376s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

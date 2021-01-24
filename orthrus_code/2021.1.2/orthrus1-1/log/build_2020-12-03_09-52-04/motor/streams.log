@@ -1,0 +1,11 @@
+[0.068s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.286s] [ 50%] [32m[1mLinking CXX executable check[0m
+[0.363s] /usr/bin/ld: cannot find -lUnitree_motor_SDK_ARM64
+[0.364s] collect2: error: ld returned 1 exit status
+[0.369s] make[2]: *** [check] Error 1
+[0.370s] CMakeFiles/check.dir/build.make:134: recipe for target 'check' failed
+[0.371s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+[0.371s] make[1]: *** [CMakeFiles/check.dir/all] Error 2
+[0.372s] Makefile:140: recipe for target 'all' failed
+[0.373s] make: *** [all] Error 2
+[0.377s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

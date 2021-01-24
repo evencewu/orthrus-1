@@ -1,0 +1,29 @@
+-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findmessage.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "message", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "message" with any
+  of the following names:
+
+    messageConfig.cmake
+    message-config.cmake
+
+  Add the installation prefix of "message" to CMAKE_PREFIX_PATH or set
+  "message_DIR" to a directory containing one of the above files.  If
+  "message" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeOutput.log".
+See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeError.log".
+make: *** [cmake_check_build_system] Error 1
+Makefile:252: recipe for target 'cmake_check_build_system' failed

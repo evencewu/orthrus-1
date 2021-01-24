@@ -80,6 +80,7 @@ int8_t LTC2943_write(uint8_t i2c_address, uint8_t adc_command, uint8_t code)
   int32_t ack;
 
   ack = i2c_write_byte_data(i2c_address, adc_command, code);
+
   return(ack);
 }
 
@@ -179,6 +180,3 @@ int8_t LTC2943_register_set_clear_bits(uint8_t i2c_address, uint8_t register_add
   ack |= LTC2943_write(i2c_address, register_address, register_data);
   return(ack);
 }
-
-
-

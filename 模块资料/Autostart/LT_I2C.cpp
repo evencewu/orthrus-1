@@ -145,12 +145,12 @@ int8_t i2c_read_byte_data(uint8_t address, uint8_t command, uint8_t *value)
 int8_t i2c_write_byte_data(uint8_t address, uint8_t command, uint8_t value)
 {
   int8_t ret = 0;
-
   if (i2c_start()!=0)                                //I2C START
     return(1);                                  //Stop and return 0 if START fail
   ret |= i2c_write((address<<1)|I2C_WRITE_BIT);        // Write 7 bit address with W bit
-  ret|= i2c_write(command);                 // Set register to be read to command
+  ret|= i2c_write(command);  // Set register to be read to command
   ret|= i2c_write(value);
+
   i2c_stop();                        // I2C STOP
 
   if (ret!=0)                         //If there was a NAK return 1

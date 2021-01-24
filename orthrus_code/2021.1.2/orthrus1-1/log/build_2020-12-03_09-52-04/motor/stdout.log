@@ -1,0 +1,4 @@
+[ 50%] [32m[1mLinking CXX executable check[0m
+CMakeFiles/check.dir/build.make:134: recipe for target 'check' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/check.dir/all' failed
+Makefile:140: recipe for target 'all' failed

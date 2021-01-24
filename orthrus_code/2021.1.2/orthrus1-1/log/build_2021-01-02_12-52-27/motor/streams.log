@@ -1,0 +1,31 @@
+[0.059s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.153s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.381s] -- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.431s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.574s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.581s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.696s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[1.783s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.784s]   By not providing "Findmessage.cmake" in CMAKE_MODULE_PATH this project has
+[1.785s]   asked CMake to find a package configuration file provided by "message", but
+[1.785s]   CMake did not find one.
+[1.786s] 
+[1.786s]   Could not find a package configuration file provided by "message" with any
+[1.787s]   of the following names:
+[1.788s] 
+[1.788s]     messageConfig.cmake
+[1.789s]     message-config.cmake
+[1.790s] 
+[1.791s]   Add the installation prefix of "message" to CMAKE_PREFIX_PATH or set
+[1.792s]   "message_DIR" to a directory containing one of the above files.  If
+[1.792s]   "message" provides a separate development package or SDK, be sure it has
+[1.793s]   been installed.
+[1.794s] 
+[1.794s] 
+[1.795s] -- Configuring incomplete, errors occurred!
+[1.796s] See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeOutput.log".
+[1.797s] See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeError.log".
+[1.798s] make: *** [cmake_check_build_system] Error 1
+[1.798s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[1.804s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

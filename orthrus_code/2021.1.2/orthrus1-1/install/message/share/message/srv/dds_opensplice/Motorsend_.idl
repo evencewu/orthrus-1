@@ -1,0 +1,151 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from message:srv/Motorsend.idl
+// generated code does not contain a copyright notice
+
+#ifndef __message__srv__motorsend__idl__
+#define __message__srv__motorsend__idl__
+
+
+module message {
+
+module srv {
+
+module dds_ {
+
+
+struct Motorsend_Request_ {
+double mode_0_;
+double t_0_;
+double w_0_;
+double pos_0_;
+double k_p_0_;
+double k_w_0_;
+double mode_1_;
+double t_1_;
+double w_1_;
+double pos_1_;
+double k_p_1_;
+double k_w_1_;
+double mode_2_;
+double t_2_;
+double w_2_;
+double pos_2_;
+double k_p_2_;
+double k_w_2_;
+
+};
+
+#pragma keylist Motorsend_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module message
+
+
+module message {
+
+module srv {
+
+module dds_ {
+
+
+struct Motorsend_Response_ {
+long long temp_0_;
+double t_0_;
+double w_0_;
+double lw_0_;
+long long acc_0_;
+double pos_0_;
+double gyro_0_x_;
+double gyro_0_y_;
+double gyro_0_z_;
+double acc_0_x_;
+double acc_0_y_;
+double acc_0_z_;
+long long temp_1_;
+double t_1_;
+double w_1_;
+double lw_1_;
+long long acc_1_;
+double pos_1_;
+double gyro_1_x_;
+double gyro_1_y_;
+double gyro_1_z_;
+double acc_1_x_;
+double acc_1_y_;
+double acc_1_z_;
+long long temp_2_;
+double t_2_;
+double w_2_;
+double lw_2_;
+long long acc_2_;
+double pos_2_;
+double gyro_2_x_;
+double gyro_2_y_;
+double gyro_2_z_;
+double acc_2_x_;
+double acc_2_y_;
+double acc_2_z_;
+
+};
+
+#pragma keylist Motorsend_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module message
+
+
+module message {
+
+module srv {
+
+module dds_ {
+
+struct Sample_Motorsend_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+message::srv::dds_::Motorsend_Request_ request_;
+
+};
+
+#pragma keylist Sample_Motorsend_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module message {
+
+
+module message {
+
+module srv {
+
+module dds_ {
+
+struct Sample_Motorsend_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+message::srv::dds_::Motorsend_Response_ response_;
+
+};
+
+#pragma keylist Sample_Motorsend_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module message {
+
+
+#endif  // __message__srv__motorsend__idl__

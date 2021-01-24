@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001749] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.002519] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.003804] (message) JobStarted: {'identifier': 'message'}
+[0.043332] (motor) JobStarted: {'identifier': 'motor'}
+[0.074632] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.077562] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.081936] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.098332] (-) TimerEvent: {}
+[0.102410] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[0.105295] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[0.106396] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.43 55806 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '20'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.43 55806 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.196151] (message) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.198427] (-) TimerEvent: {}
+[0.204550] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.298680] (-) TimerEvent: {}
+[0.309513] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.310511] (message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.319478] (motor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.398900] (-) TimerEvent: {}
+[0.499675] (-) TimerEvent: {}
+[0.600502] (-) TimerEvent: {}
+[0.701348] (-) TimerEvent: {}
+[0.802251] (-) TimerEvent: {}
+[0.903126] (-) TimerEvent: {}
+[1.003900] (-) TimerEvent: {}
+[1.104667] (-) TimerEvent: {}
+[1.205470] (-) TimerEvent: {}
+[1.273357] (motor) StdoutLine: {'line': b'-- Found rclcpp: 0.7.15 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.281127] (message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[1.305624] (-) TimerEvent: {}
+[1.320519] (motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.405835] (-) TimerEvent: {}
+[1.444683] (motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.449861] (motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.506004] (-) TimerEvent: {}
+[1.543568] (motor) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[1.596035] (message) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.606162] (-) TimerEvent: {}
+[1.616912] (motor) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.617652] (motor) StderrLine: {'line': b'  By not providing "Findmessage.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.618230] (motor) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "message", but\n'}
+[1.618707] (motor) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.619232] (motor) StderrLine: {'line': b'\n'}
+[1.619701] (motor) StderrLine: {'line': b'  Could not find a package configuration file provided by "message" with any\n'}
+[1.620257] (motor) StderrLine: {'line': b'  of the following names:\n'}
+[1.621123] (motor) StderrLine: {'line': b'\n'}
+[1.621655] (motor) StderrLine: {'line': b'    messageConfig.cmake\n'}
+[1.622325] (motor) StderrLine: {'line': b'    message-config.cmake\n'}
+[1.622993] (motor) StderrLine: {'line': b'\n'}
+[1.623569] (motor) StderrLine: {'line': b'  Add the installation prefix of "message" to CMAKE_PREFIX_PATH or set\n'}
+[1.624151] (motor) StderrLine: {'line': b'  "message_DIR" to a directory containing one of the above files.  If\n'}
+[1.624653] (motor) StderrLine: {'line': b'  "message" provides a separate development package or SDK, be sure it has\n'}
+[1.625260] (motor) StderrLine: {'line': b'  been installed.\n'}
+[1.625804] (motor) StderrLine: {'line': b'\n'}
+[1.626371] (motor) StderrLine: {'line': b'\n'}
+[1.626934] (motor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.627470] (motor) StdoutLine: {'line': b'See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeOutput.log".\n'}
+[1.628040] (motor) StdoutLine: {'line': b'See also "/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/CMakeError.log".\n'}
+[1.629146] (motor) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[1.629843] (motor) StdoutLine: {'line': b"Makefile:252: recipe for target 'cmake_check_build_system' failed\n"}
+[1.634863] (motor) CommandEnded: {'returncode': 2}
+[1.706409] (-) TimerEvent: {}
+[1.802238] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[1.806496] (-) TimerEvent: {}
+[1.877010] (message) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[1.906715] (-) TimerEvent: {}
+[2.007512] (-) TimerEvent: {}
+[2.103920] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.107721] (-) TimerEvent: {}
+[2.208542] (-) TimerEvent: {}
+[2.309384] (-) TimerEvent: {}
+[2.410208] (-) TimerEvent: {}
+[2.489205] (message) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):\n'}
+[2.490031] (message) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed dependency 'builtin_interfaces' has\n"}
+[2.490528] (message) StderrLine: {'line': b'  not been found before using find_package()\n'}
+[2.491047] (message) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.491496] (message) StderrLine: {'line': b'  CMakeLists.txt:26 (rosidl_generate_interfaces)\n'}
+[2.491993] (message) StderrLine: {'line': b'\n'}
+[2.492439] (message) StderrLine: {'line': b'\n'}
+[2.494456] (message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.495117] (message) StdoutLine: {'line': b'See also "/home/orthrus1-1/orthrus1-1/build/message/CMakeFiles/CMakeOutput.log".\n'}
+[2.507093] (message) StdoutLine: {'line': b"Makefile:968: recipe for target 'cmake_check_build_system' failed\n"}
+[2.508018] (message) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[2.510335] (-) TimerEvent: {}
+[2.513260] (message) JobEnded: {'identifier': 'message', 'rc': 'SIGINT'}
+[2.525657] (-) EventReactorShutdown: {}

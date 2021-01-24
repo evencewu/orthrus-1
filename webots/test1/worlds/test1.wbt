@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.9654030145386553 0.24176653567399845 0.0977034377484767 5.4320013667900735
-  position 0.0177427793390672 1.5286510043350743 1.3522356252037016
+  orientation 0.9999627720369398 0.008188992063908175 -0.002719365583451809 5.278783809337391
+  position 0.3994915128362535 1.7128503974975666 0.9740195072766151
 }
 TexturedBackground {
 }
@@ -18,7 +18,19 @@ DEF robot Robot {
       translation 0.125 0 0.05
       rotation 0 0 1 0
       children [
-        DEF servo_a_2 Transform {
+        DEF servo_b_1 Transform {
+          translation 0.075 0 -0.025
+          rotation 1 0 0 1.57
+          children [
+            Shape {
+              appearance BrushedSteel {
+              }
+              geometry Cylinder {
+                height 0.05
+                radius 0.05
+              }
+            }
+          ]
         }
         DEF servo_shape Transform {
           rotation 0 0 1 1.5708
