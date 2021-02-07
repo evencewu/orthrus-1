@@ -105,10 +105,10 @@ int8_t menu_1_automatic_mode(int8_t mAh_or_Coulombs, int8_t celcius_or_kelvin ,u
   power = current * voltage;
   //voltage-V,current-A,charge-mAh,power-W
   // picture loop
-  Serial.println(1);
   Serial.println(temperature);
   Serial.println(current);
   Serial.println(voltage);
+  Serial.println(charge);
   }
   while (Serial.available() == false && !(ack));                                 //! if Serial is not available and an NACK has not been recieved, keep polling the registers.
 

@@ -1,0 +1,348 @@
+[0.037s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.192s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.244s] [ 50%] Built target check
+[0.289s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.754s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:35:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd1[m[K’ does not name a type
+[3.755s]  [01;31m[Kfd1[m[K = open_set((char*)"/dev/ttyUSB0");
+[3.756s] 
+[3.757s]  [01;31m[K^~~[m[K
+[3.757s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:36:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd2[m[K’ does not name a type
+[3.758s]  [01;31m[Kfd2[m[K = open_set((char*)"/dev/ttyUSB1");
+[3.759s] 
+[3.760s]  [01;31m[K^~~[m[K
+[3.761s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:37:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd3[m[K’ does not name a type
+[3.761s]  [01;31m[Kfd3[m[K = open_set((char*)"/dev/ttyUSB2");
+[3.762s] 
+[3.763s]  [01;31m[K^~~[m[K
+[3.764s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd4[m[K’ does not name a type
+[3.764s]  [01;31m[Kfd4[m[K = open_set((char*)"/dev/ttyUSB3");
+[3.765s] 
+[3.766s]  [01;31m[K^~~[m[K
+[3.767s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&)[m[K’:
+[3.767s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_s[m[K’ was not declared in this scope
+[3.768s]       [01;31m[Kmotor_s[m[K.id =0;
+[3.769s] 
+[3.770s]       [01;31m[K^~~~~~~[m[K
+[3.770s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmotor_RB_s3[m[K’
+[3.771s]       [01;36m[Kmotor_s[m[K.id =0;
+[3.772s] 
+[3.775s]       [01;36m[K^~~~~~~[m[K
+[3.780s]       [32m[Kmotor_RB_s3[m[K
+[3.781s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_s1[m[K’ was not declared in this scope
+[3.782s]        [01;31m[Kmotor_s1[m[K.id = 0;
+[3.782s] 
+[3.783s]        [01;31m[K^~~~~~~~[m[K
+[3.783s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmotor_RB_s1[m[K’
+[3.784s]        [01;36m[Kmotor_s1[m[K.id = 0;
+[3.784s] 
+[3.785s]        [01;36m[K^~~~~~~~[m[K
+[3.785s]        [32m[Kmotor_RB_s1[m[K
+[3.786s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd[m[K’ was not declared in this scope
+[3.786s]              sta = send_recv([01;31m[Kfd[m[K, &motor_s, &motor_r);
+[3.787s] 
+[3.787s]                              [01;31m[K^~[m[K
+[3.788s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:29:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfd4[m[K’
+[3.788s]              sta = send_recv([01;36m[Kfd[m[K, &motor_s, &motor_r);
+[3.789s] 
+[3.789s]                              [01;36m[K^~[m[K
+[3.790s]                              [32m[Kfd4[m[K
+[3.791s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.791s]  void setup_data(int short &[01;35m[Kmode_LF_1[m[K, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,
+[3.792s] 
+[3.792s]                             [01;35m[K^~~~~~~~~[m[K
+[3.793s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.793s]  void setup_data(int short &mode_LF_1, float &[01;35m[KT_LF_1[m[K, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,
+[3.794s] 
+[3.794s]                                               [01;35m[K^~~~~~[m[K
+[3.795s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.795s]  void setup_data(int short &mode_LF_1, float &T_LF_1, float &[01;35m[KW_LF_1[m[K, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,
+[3.796s] 
+[3.796s]                                                              [01;35m[K^~~~~~[m[K
+[3.797s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.797s]  void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &[01;35m[KPos_LF_1[m[K, float &K_P_LF_1, float &K_W_LF_1,
+[3.798s] 
+[3.798s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.799s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.799s]  void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &[01;35m[KK_P_LF_1[m[K, float &K_W_LF_1,
+[3.800s] 
+[3.800s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.801s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.801s]  void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &[01;35m[KK_W_LF_1[m[K,
+[3.802s] 
+[3.802s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.803s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.803s]                  int short &[01;35m[Kmode_LF_2[m[K, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,
+[3.804s] 
+[3.804s]                             [01;35m[K^~~~~~~~~[m[K
+[3.805s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.805s]                  int short &mode_LF_2, float &[01;35m[KT_LF_2[m[K, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,
+[3.806s] 
+[3.806s]                                               [01;35m[K^~~~~~[m[K
+[3.807s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.807s]                  int short &mode_LF_2, float &T_LF_2, float &[01;35m[KW_LF_2[m[K, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,
+[3.808s] 
+[3.808s]                                                              [01;35m[K^~~~~~[m[K
+[3.809s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.809s]                  int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &[01;35m[KPos_LF_2[m[K, float &K_P_LF_2, float &K_W_LF_2,
+[3.810s] 
+[3.810s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.811s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.812s]                  int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &[01;35m[KK_P_LF_2[m[K, float &K_W_LF_2,
+[3.812s] 
+[3.813s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.814s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.814s]                  int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &[01;35m[KK_W_LF_2[m[K,
+[3.815s] 
+[3.816s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.816s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.817s]                  int short &[01;35m[Kmode_LF_3[m[K, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,
+[3.818s] 
+[3.818s]                             [01;35m[K^~~~~~~~~[m[K
+[3.819s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.819s]                  int short &mode_LF_3, float &[01;35m[KT_LF_3[m[K, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,
+[3.820s] 
+[3.820s]                                               [01;35m[K^~~~~~[m[K
+[3.821s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.822s]                  int short &mode_LF_3, float &T_LF_3, float &[01;35m[KW_LF_3[m[K, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,
+[3.822s] 
+[3.823s]                                                              [01;35m[K^~~~~~[m[K
+[3.823s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.824s]                  int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &[01;35m[KPos_LF_3[m[K, float &K_P_LF_3, float &K_W_LF_3,
+[3.824s] 
+[3.825s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.825s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.826s]                  int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &[01;35m[KK_P_LF_3[m[K, float &K_W_LF_3,
+[3.826s] 
+[3.827s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.827s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.828s]                  int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &[01;35m[KK_W_LF_3[m[K,
+[3.828s] 
+[3.829s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.829s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.830s]                  int short &[01;35m[Kmode_RF_1[m[K, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,
+[3.831s] 
+[3.831s]                             [01;35m[K^~~~~~~~~[m[K
+[3.832s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.832s]                  int short &mode_RF_1, float &[01;35m[KT_RF_1[m[K, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,
+[3.833s] 
+[3.834s]                                               [01;35m[K^~~~~~[m[K
+[3.834s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.835s]                  int short &mode_RF_1, float &T_RF_1, float &[01;35m[KW_RF_1[m[K, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,
+[3.835s] 
+[3.836s]                                                              [01;35m[K^~~~~~[m[K
+[3.837s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.837s]                  int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &[01;35m[KPos_RF_1[m[K, float &K_P_RF_1, float &K_W_RF_1,
+[3.838s] 
+[3.838s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.839s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.839s]                  int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &[01;35m[KK_P_RF_1[m[K, float &K_W_RF_1,
+[3.840s] 
+[3.840s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.841s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RF_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.841s]                  int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &[01;35m[KK_W_RF_1[m[K,
+[3.842s] 
+[3.842s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.843s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.843s]                  int short &[01;35m[Kmode_RF_2[m[K, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,
+[3.844s] 
+[3.844s]                             [01;35m[K^~~~~~~~~[m[K
+[3.845s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.846s]                  int short &mode_RF_2, float &[01;35m[KT_RF_2[m[K, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,
+[3.846s] 
+[3.847s]                                               [01;35m[K^~~~~~[m[K
+[3.847s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.848s]                  int short &mode_RF_2, float &T_RF_2, float &[01;35m[KW_RF_2[m[K, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,
+[3.848s] 
+[3.849s]                                                              [01;35m[K^~~~~~[m[K
+[3.849s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.850s]                  int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &[01;35m[KPos_RF_2[m[K, float &K_P_RF_2, float &K_W_RF_2,
+[3.850s] 
+[3.851s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.851s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.852s]                  int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &[01;35m[KK_P_RF_2[m[K, float &K_W_RF_2,
+[3.852s] 
+[3.853s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.853s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RF_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.854s]                  int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &[01;35m[KK_W_RF_2[m[K,
+[3.854s] 
+[3.855s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.855s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.856s]                  int short &[01;35m[Kmode_RF_3[m[K, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,
+[3.856s] 
+[3.857s]                             [01;35m[K^~~~~~~~~[m[K
+[3.857s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.858s]                  int short &mode_RF_3, float &[01;35m[KT_RF_3[m[K, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,
+[3.858s] 
+[3.859s]                                               [01;35m[K^~~~~~[m[K
+[3.859s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.860s]                  int short &mode_RF_3, float &T_RF_3, float &[01;35m[KW_RF_3[m[K, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,
+[3.860s] 
+[3.861s]                                                              [01;35m[K^~~~~~[m[K
+[3.861s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.862s]                  int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &[01;35m[KPos_RF_3[m[K, float &K_P_RF_3, float &K_W_RF_3,
+[3.862s] 
+[3.863s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.863s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.864s]                  int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &[01;35m[KK_P_RF_3[m[K, float &K_W_RF_3,
+[3.864s] 
+[3.865s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.865s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RF_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.866s]                  int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &[01;35m[KK_W_RF_3[m[K,
+[3.866s] 
+[3.867s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.867s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.868s]                  int short &[01;35m[Kmode_LB_1[m[K, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,
+[3.868s] 
+[3.869s]                             [01;35m[K^~~~~~~~~[m[K
+[3.869s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.870s]                  int short &mode_LB_1, float &[01;35m[KT_LB_1[m[K, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,
+[3.870s] 
+[3.871s]                                               [01;35m[K^~~~~~[m[K
+[3.871s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.872s]                  int short &mode_LB_1, float &T_LB_1, float &[01;35m[KW_LB_1[m[K, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,
+[3.872s] 
+[3.873s]                                                              [01;35m[K^~~~~~[m[K
+[3.873s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.874s]                  int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &[01;35m[KPos_LB_1[m[K, float &K_P_LB_1, float &K_W_LB_1,
+[3.874s] 
+[3.875s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.875s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.876s]                  int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &[01;35m[KK_P_LB_1[m[K, float &K_W_LB_1,
+[3.876s] 
+[3.877s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.877s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.878s]                  int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &[01;35m[KK_W_LB_1[m[K,
+[3.878s] 
+[3.879s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.879s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.880s]                  int short &[01;35m[Kmode_LB_2[m[K, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,
+[3.880s] 
+[3.881s]                             [01;35m[K^~~~~~~~~[m[K
+[3.881s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.882s]                  int short &mode_LB_2, float &[01;35m[KT_LB_2[m[K, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,
+[3.882s] 
+[3.883s]                                               [01;35m[K^~~~~~[m[K
+[3.883s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.884s]                  int short &mode_LB_2, float &T_LB_2, float &[01;35m[KW_LB_2[m[K, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,
+[3.885s] 
+[3.885s]                                                              [01;35m[K^~~~~~[m[K
+[3.886s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.886s]                  int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &[01;35m[KPos_LB_2[m[K, float &K_P_LB_2, float &K_W_LB_2,
+[3.887s] 
+[3.887s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.888s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.888s]                  int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &[01;35m[KK_P_LB_2[m[K, float &K_W_LB_2,
+[3.889s] 
+[3.889s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.890s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.890s]                  int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &[01;35m[KK_W_LB_2[m[K,
+[3.891s] 
+[3.891s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.892s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.892s]                  int short &[01;35m[Kmode_LB_3[m[K, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,
+[3.893s] 
+[3.893s]                             [01;35m[K^~~~~~~~~[m[K
+[3.894s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.894s]                  int short &mode_LB_3, float &[01;35m[KT_LB_3[m[K, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,
+[3.895s] 
+[3.895s]                                               [01;35m[K^~~~~~[m[K
+[3.896s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.896s]                  int short &mode_LB_3, float &T_LB_3, float &[01;35m[KW_LB_3[m[K, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,
+[3.897s] 
+[3.897s]                                                              [01;35m[K^~~~~~[m[K
+[3.898s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.898s]                  int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &[01;35m[KPos_LB_3[m[K, float &K_P_LB_3, float &K_W_LB_3,
+[3.899s] 
+[3.899s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.900s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.900s]                  int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &[01;35m[KK_P_LB_3[m[K, float &K_W_LB_3,
+[3.901s] 
+[3.901s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.902s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_LB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.902s]                  int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &[01;35m[KK_W_LB_3[m[K,
+[3.903s] 
+[3.903s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.904s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.904s]                  int short &[01;35m[Kmode_RB_1[m[K, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,
+[3.905s] 
+[3.905s]                             [01;35m[K^~~~~~~~~[m[K
+[3.906s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.906s]                  int short &mode_RB_1, float &[01;35m[KT_RB_1[m[K, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,
+[3.907s] 
+[3.907s]                                               [01;35m[K^~~~~~[m[K
+[3.908s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.908s]                  int short &mode_RB_1, float &T_RB_1, float &[01;35m[KW_RB_1[m[K, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,
+[3.909s] 
+[3.909s]                                                              [01;35m[K^~~~~~[m[K
+[3.910s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.910s]                  int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &[01;35m[KPos_RB_1[m[K, float &K_P_RB_1, float &K_W_RB_1,
+[3.911s] 
+[3.911s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.912s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.912s]                  int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &[01;35m[KK_P_RB_1[m[K, float &K_W_RB_1,
+[3.913s] 
+[3.913s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.914s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RB_1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.914s]                  int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &[01;35m[KK_W_RB_1[m[K,
+[3.915s] 
+[3.915s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.916s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.916s]                  int short &[01;35m[Kmode_RB_2[m[K, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,
+[3.917s] 
+[3.917s]                             [01;35m[K^~~~~~~~~[m[K
+[3.918s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.918s]                  int short &mode_RB_2, float &[01;35m[KT_RB_2[m[K, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,
+[3.919s] 
+[3.919s]                                               [01;35m[K^~~~~~[m[K
+[3.920s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.921s]                  int short &mode_RB_2, float &T_RB_2, float &[01;35m[KW_RB_2[m[K, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,
+[3.921s] 
+[3.922s]                                                              [01;35m[K^~~~~~[m[K
+[3.923s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.923s]                  int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &[01;35m[KPos_RB_2[m[K, float &K_P_RB_2, float &K_W_RB_2,
+[3.924s] 
+[3.924s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.925s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.925s]                  int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &[01;35m[KK_P_RB_2[m[K, float &K_W_RB_2,
+[3.926s] 
+[3.926s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.927s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RB_2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.927s]                  int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &[01;35m[KK_W_RB_2[m[K,
+[3.928s] 
+[3.928s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.929s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmode_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.929s]                  int short &[01;35m[Kmode_RB_3[m[K, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)
+[3.930s] 
+[3.930s]                             [01;35m[K^~~~~~~~~[m[K
+[3.931s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.931s]                  int short &mode_RB_3, float &[01;35m[KT_RB_3[m[K, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)
+[3.932s] 
+[3.932s]                                               [01;35m[K^~~~~~[m[K
+[3.933s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KW_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.934s]                  int short &mode_RB_3, float &T_RB_3, float &[01;35m[KW_RB_3[m[K, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)
+[3.935s] 
+[3.935s]                                                              [01;35m[K^~~~~~[m[K
+[3.936s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPos_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.936s]                  int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &[01;35m[KPos_RB_3[m[K, float &K_P_RB_3, float &K_W_RB_3)
+[3.937s] 
+[3.937s]                                                                             [01;35m[K^~~~~~~~[m[K
+[3.938s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_P_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.938s]                  int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &[01;35m[KK_P_RB_3[m[K, float &K_W_RB_3)
+[3.939s] 
+[3.939s]                                                                                              [01;35m[K^~~~~~~~[m[K
+[3.940s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KK_W_RB_3[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.940s]                  int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &[01;35m[KK_W_RB_3[m[K)
+[3.941s] 
+[3.941s]                                                                                                               [01;35m[K^~~~~~~~[m[K
+[3.942s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.942s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:132:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.943s]      void topic_callback(const message::msg::Motorcarryout::SharedPtr [01;35m[Kmsg[m[K) const
+[3.943s] 
+[3.944s]                                                                       [01;35m[K^~~[m[K
+[6.270s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.271s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.272s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.272s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.273s] Makefile:140: recipe for target 'all' failed
+[6.273s] make: *** [all] Error 2
+[6.278s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

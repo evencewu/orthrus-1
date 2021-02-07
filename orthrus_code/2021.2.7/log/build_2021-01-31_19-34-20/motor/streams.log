@@ -1,0 +1,91 @@
+[0.032s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.192s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.244s] [ 50%] Built target check
+[0.290s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[0.565s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:61:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.566s]        //* auto message = std_msgs::msg::String();
+[0.566s] 
+[0.567s]          
+[0.567s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:62:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.568s]        //* message.data = "Hello, world! " + std::to_string(count_++);
+[0.568s] 
+[0.569s]          
+[0.569s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:63:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.570s]        //* RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+[0.570s] 
+[0.571s]          
+[0.571s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:64:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[0.571s]        //* publisher_->publish(message);
+[0.572s] 
+[0.572s]          
+[3.776s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.777s]      rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Motor_carryout>::SharedPtr subscription_;};
+[3.778s] 
+[3.778s]                           [01;31m[K^~~~~~~~[m[K
+[3.783s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.783s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout[01;31m[K>[m[K::SharedPtr subscription_;};
+[3.784s] 
+[3.785s]                                                        [01;31m[K^[m[K
+[3.785s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.786s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout>::[01;31m[KSharedPtr[m[K subscription_;};
+[3.786s] 
+[3.787s]                                                           [01;31m[K^~~~~~~~~[m[K
+[3.791s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[3.792s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout>::SharedPtr [01;31m[Ksubscription_[m[K;};
+[3.793s] 
+[3.793s]                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.794s]                                                                     [32m[Krcl_subscription_t[m[K
+[3.794s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In constructor ‘[01m[Kmotor_carryout::motor_carryout()[m[K’:
+[3.795s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+[3.796s]        [01;31m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+[3.796s] 
+[3.797s]        [01;31m[K^~~~~~~~~~~~~[m[K
+[3.801s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+[3.802s]        [01;36m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+[3.802s] 
+[3.803s]        [01;36m[K^~~~~~~~~~~~~[m[K
+[3.804s]        [32m[Krcl_subscription_t[m[K
+[3.804s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+[3.805s]        "motor_carryout", 2, std::bind(&motor_carryout::topic_callback, this, [01;31m[K_1[m[K));
+[3.805s] 
+[3.806s]                                                                              [01;31m[K^~[m[K
+[3.806s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+[3.807s] In file included from [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:12:0[m[K:
+[3.807s] [01m[K/usr/include/c++/7/functional:275:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+[3.808s]      extern const _Placeholder<1> [01;36m[K_1[m[K;
+[3.808s]                                   [01;36m[K^~[m[K
+[3.815s] In file included from [01m[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0[m[K,
+[3.816s]                  from [01m[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23[m[K,
+[3.817s]                  from [01m[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20[m[K,
+[3.817s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.818s]                  from [01m[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.818s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:33[m[K,
+[3.819s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+[3.819s]                  from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+[3.820s]                  from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.820s]                  from [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:15[m[K:
+[3.821s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.821s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:36:63:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((const std::__shared_ptr_access<message::msg::Motorcarryout_<std::allocator<void> >, (__gnu_cxx::_Lock_policy)2, false, false>*)(& msg))->std::__shared_ptr_access<message::msg::Motorcarryout_<std::allocator<void> >, (__gnu_cxx::_Lock_policy)2, false, false>::operator->()->message::msg::Motorcarryout_<std::allocator<void> >::mode[m[K’, which is of non-class type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::_mode_type {aka int}[m[K’
+[3.822s]        RCLCPP_INFO(this->get_logger(), "mode: '%s'", msg->mode.[01;31m[Kc[m[K_str());
+[3.823s] 
+[3.823s]                                                                [01;31m[K^[m[K
+[3.824s] [01m[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KRCUTILS_LOG_COND_NAMED[m[K’
+[3.824s]        rcutils_log(&__rcutils_logging_location, severity, name, [01;36m[K__VA_ARGS__[m[K); \
+[3.825s]                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[3.825s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCUTILS_LOG_INFO_NAMED[m[K’
+[3.826s]      [01;36m[KRCUTILS_LOG_INFO_NAMED[m[K( \
+[3.826s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.827s] [01m[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K’
+[3.827s]          [01;36m[KRCLCPP_ALL_BUT_FIRST_ARGS[m[K(__VA_ARGS__,"")); \
+[3.828s]          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.829s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:36:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_INFO[m[K’
+[3.829s]        [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "mode: '%s'", msg->mode.c_str());
+[3.830s] 
+[3.830s]        [01;36m[K^~~~~~~~~~~[m[K
+[4.405s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[4.406s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[4.407s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[4.407s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[4.408s] Makefile:140: recipe for target 'all' failed
+[4.408s] make: *** [all] Error 2
+[4.412s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

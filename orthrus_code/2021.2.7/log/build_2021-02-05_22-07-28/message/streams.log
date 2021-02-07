@@ -1,0 +1,169 @@
+[0.058s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[0.280s] [  2%] Built target message__dds_opensplice_idl
+[0.281s] [  2%] Built target message__cpp
+[0.288s] [  8%] Built target message__rosidl_generator_c
+[0.383s] [ 14%] Built target message__rosidl_typesupport_cpp
+[0.392s] [ 20%] Built target message__rosidl_typesupport_introspection_cpp
+[0.432s] [ 26%] Built target message__rosidl_typesupport_fastrtps_cpp
+[0.492s] [ 32%] Built target message__rosidl_typesupport_c
+[0.508s] [ 46%] Built target message__rosidl_typesupport_introspection_c
+[0.509s] [ 58%] Built target message__rosidl_typesupport_opensplice_cpp
+[0.564s] [ 64%] Built target message__rosidl_typesupport_fastrtps_c
+[0.701s] [ 85%] Built target message__rosidl_typesupport_opensplice_c
+[0.781s] [ 85%] Built target message
+[0.863s] [ 86%] Built target message__py
+[0.977s] [ 91%] Built target message__python
+[1.100s] [100%] Built target message__rosidl_typesupport_opensplice_c__pyext
+[1.101s] [100%] Built target message__rosidl_typesupport_c__pyext
+[1.102s] [100%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[1.149s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[1.494s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4
+[1.701s] [  2%] Built target message__cpp
+[1.701s] [  2%] Built target message__dds_opensplice_idl
+[1.718s] [  8%] Built target message__rosidl_generator_c
+[1.804s] [ 14%] Built target message__rosidl_typesupport_introspection_cpp
+[1.805s] [ 20%] Built target message__rosidl_typesupport_cpp
+[1.848s] [ 26%] Built target message__rosidl_typesupport_fastrtps_cpp
+[1.908s] [ 32%] Built target message__rosidl_typesupport_c
+[1.925s] [ 38%] Built target message__rosidl_typesupport_introspection_c
+[1.943s] [ 58%] Built target message__rosidl_typesupport_opensplice_cpp
+[1.987s] [ 64%] Built target message__rosidl_typesupport_fastrtps_c
+[2.143s] [ 85%] Built target message__rosidl_typesupport_opensplice_c
+[2.224s] [ 85%] Built target message
+[2.306s] [ 86%] Built target message__py
+[2.419s] [ 91%] Built target message__python
+[2.542s] [ 97%] Built target message__rosidl_typesupport_c__pyext
+[2.543s] [ 97%] Built target message__rosidl_typesupport_fastrtps_c__pyext
+[2.546s] [100%] Built target message__rosidl_typesupport_opensplice_c__pyext
+[2.622s] [36mInstall the project...[0m
+[2.657s] -- Install configuration: ""
+[2.658s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message
+[2.659s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.660s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.661s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp
+[2.661s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp
+[2.662s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp
+[2.662s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.663s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp
+[2.663s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp
+[2.664s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__traits.hpp
+[2.664s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.665s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.666s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c
+[2.666s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h
+[2.667s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h
+[2.668s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h
+[2.668s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h
+[2.669s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.670s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.c
+[2.671s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.h
+[2.671s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.h
+[2.672s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.h
+[2.672s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h
+[2.673s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.h
+[2.674s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh
+[2.674s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so
+[2.675s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so
+[2.676s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so
+[2.676s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.677s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.677s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c
+[2.679s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.679s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_c.h
+[2.680s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.681s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.c
+[2.681s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so
+[2.682s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.682s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.683s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp
+[2.683s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp
+[2.684s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.684s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.cpp
+[2.685s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_cpp.hpp
+[2.685s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so
+[2.686s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.686s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.687s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h
+[2.688s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.688s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.689s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_c.h
+[2.689s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so
+[2.690s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.690s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.691s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp
+[2.691s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps
+[2.692s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.692s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_fastrtps
+[2.693s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.693s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_cpp.hpp
+[2.694s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so
+[2.694s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.695s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.695s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h
+[2.696s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c
+[2.696s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.697s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h
+[2.697s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_c.h
+[2.698s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice_c
+[2.698s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so
+[2.699s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice
+[2.699s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice/Motorcarryout_.idl
+[2.700s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice
+[2.700s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl
+[2.701s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message
+[2.701s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv
+[2.702s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice
+[2.702s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h
+[2.703s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h
+[2.703s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h
+[2.704s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h
+[2.704s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h
+[2.705s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp
+[2.706s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg
+[2.706s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice
+[2.707s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps_impl.h
+[2.707s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps.h
+[2.708s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_SplDcps.h
+[2.708s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_.h
+[2.709s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/ccpp_Motorcarryout_.h
+[2.709s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_cpp.hpp
+[2.710s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h
+[2.710s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so
+[2.711s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh
+[2.711s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py
+[2.841s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg
+[2.842s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/__init__.py
+[2.842s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout_s.c
+[2.843s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout.py
+[2.843s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv
+[2.844s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c
+[2.844s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py
+[2.845s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py
+[2.845s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[2.846s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[2.847s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so
+[2.849s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so
+[2.849s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.idl
+[2.850s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl
+[2.851s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.msg
+[2.851s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv
+[2.852s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg
+[2.852s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg
+[2.853s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message
+[2.854s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message
+[2.854s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh
+[2.855s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh
+[2.855s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash
+[2.856s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh
+[2.857s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh
+[2.857s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message
+[2.858s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake
+[2.858s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.859s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.859s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake
+[2.860s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.861s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake
+[2.861s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake
+[2.862s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml
+[2.869s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4

@@ -1,0 +1,38 @@
+[0.032s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.193s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.245s] [ 50%] Built target check
+[0.291s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.762s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.762s]      rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Motor_carryout>::SharedPtr subscription_;};
+[3.763s] 
+[3.764s]                           [01;31m[K^~~~~~~~[m[K
+[3.768s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.768s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout[01;31m[K>[m[K::SharedPtr subscription_;};
+[3.769s] 
+[3.770s]                                                        [01;31m[K^[m[K
+[3.770s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.771s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout>::[01;31m[KSharedPtr[m[K subscription_;};
+[3.771s] 
+[3.772s]                                                           [01;31m[K^~~~~~~~~[m[K
+[3.776s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[3.777s]      rclcpp::Subscription<std_msgs::msg::Motor_carryout>::SharedPtr [01;31m[Ksubscription_[m[K;};
+[3.778s] 
+[3.778s]                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.779s]                                                                     [32m[Krcl_subscription_t[m[K
+[3.780s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In constructor ‘[01m[Kmotor_carryout::motor_carryout()[m[K’:
+[3.780s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+[3.781s]        [01;31m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+[3.781s] 
+[3.782s]        [01;31m[K^~~~~~~~~~~~~[m[K
+[3.785s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+[3.786s]        [01;36m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+[3.787s] 
+[3.787s]        [01;36m[K^~~~~~~~~~~~~[m[K
+[3.788s]        [32m[Krcl_subscription_t[m[K
+[6.163s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.163s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.164s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.165s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.165s] make: *** [all] Error 2
+[6.166s] Makefile:140: recipe for target 'all' failed
+[6.170s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

@@ -1,0 +1,47 @@
+[0.032s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.190s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.241s] [ 50%] Built target check
+[0.286s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.912s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.913s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:69:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.913s]      void topic_callback(const message::msg::Motorcarryout::SharedPtr [01;35m[Kmsg_[m[K) const
+[3.914s] 
+[3.915s]                                                                       [01;35m[K^~~~[m[K
+[8.510s] [100%] [32m[1mLinking CXX executable motor_carryout[0m
+[9.079s] [100%] Built target motor_carryout
+[9.121s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '0': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[9.217s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor --target install -- -j4 -l4
+[9.433s] [100%] Built target motor_carryout
+[9.433s] [100%] Built target check
+[9.505s] [36mInstall the project...[0m
+[9.539s] -- Install configuration: ""
+[9.540s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include
+[9.541s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl
+[9.541s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_ctrl.h
+[9.542s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/motor_msg.h
+[9.542s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/unitree_motor_ctrl/LSerial.h
+[9.543s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/motor
+[9.543s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics
+[9.544s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/leg_NN.cpp
+[9.544s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/leg_NN.h
+[9.545s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/retroduction.h
+[9.545s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/predict_foot.h
+[9.546s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/predict_foot.cpp
+[9.546s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/include/kinetics/retroduction.cpp
+[9.547s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib
+[9.548s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib/libUnitree_motor_SDK_ARM64.so
+[9.548s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/lib/motor/check
+[9.549s] -- Installing: /home/orthrus1-1/orthrus1-1/install/motor/lib/motor/motor_carryout
+[9.550s] -- Set runtime path of "/home/orthrus1-1/orthrus1-1/install/motor/lib/motor/motor_carryout" to ""
+[9.550s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[9.551s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[9.551s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/ament_prefix_path.sh
+[9.552s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/environment/path.sh
+[9.552s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.bash
+[9.553s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.sh
+[9.553s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/local_setup.zsh
+[9.554s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/ament_index/resource_index/packages/motor
+[9.555s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig.cmake
+[9.555s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/cmake/motorConfig-version.cmake
+[9.556s] -- Up-to-date: /home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.xml
+[9.567s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '0': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor --target install -- -j4 -l4

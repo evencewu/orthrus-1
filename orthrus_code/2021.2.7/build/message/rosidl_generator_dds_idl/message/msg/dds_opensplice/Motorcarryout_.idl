@@ -1,0 +1,31 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from message:msg/Motorcarryout.idl
+// generated code does not contain a copyright notice
+
+#ifndef __message__msg__motorcarryout__idl__
+#define __message__msg__motorcarryout__idl__
+
+
+module message {
+
+module msg {
+
+module dds_ {
+
+
+struct Motorcarryout_ {
+long mode_;
+string name_;
+
+};
+
+#pragma keylist Motorcarryout_
+
+};  // module dds_
+
+};  // module msg
+
+};  // module message
+
+
+#endif  // __message__msg__motorcarryout__idl__
