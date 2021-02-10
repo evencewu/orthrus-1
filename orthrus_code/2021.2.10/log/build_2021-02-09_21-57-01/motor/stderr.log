@@ -1,0 +1,33 @@
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:37:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd1[m[K’ does not name a type
+ [01;31m[Kfd1[m[K = open_set((char*)"/dev/ttyUSB0");
+
+ [01;31m[K^~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd2[m[K’ does not name a type
+ [01;31m[Kfd2[m[K = open_set((char*)"/dev/ttyUSB1");
+
+ [01;31m[K^~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd3[m[K’ does not name a type
+ [01;31m[Kfd3[m[K = open_set((char*)"/dev/ttyUSB2");
+
+ [01;31m[K^~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:40:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd4[m[K’ does not name a type
+ [01;31m[Kfd4[m[K = open_set((char*)"/dev/ttyUSB3");
+
+ [01;31m[K^~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid setup_data(short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&)::motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:262:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    void topic_callback(const message::msg::Motorcarryout::SharedPtr [01;35m[Kmsg[m[K) const
+
+                                                                     [01;35m[K^~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&)[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:301:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+ [01;31m[K{[m[K
+
+ [01;31m[K^[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:314:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.003844] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.004122] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('message', '/home/orthrus1-1/orthrus1-1/install/message')])}
+[0.004338] (message) JobStarted: {'identifier': 'message'}
+[0.049595] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.053093] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.057921] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 53606 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/motor/lib:/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/orthrus1-1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLCON_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '11'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/motor:/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 53606 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/motor:/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[0.095777] (-) TimerEvent: {}
+[0.196739] (-) TimerEvent: {}
+[0.283057] (message) StdoutLine: {'line': b'[  2%] Built target message__dds_opensplice_idl\n'}
+[0.284258] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[0.289288] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[0.297013] (-) TimerEvent: {}
+[0.390970] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[0.397199] (-) TimerEvent: {}
+[0.408081] (message) StdoutLine: {'line': b'[ 20%] Built target message__rosidl_typesupport_cpp\n'}
+[0.450654] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[0.495359] (message) StdoutLine: {'line': b'[ 32%] Built target message__rosidl_typesupport_c\n'}
+[0.497366] (-) TimerEvent: {}
+[0.509549] (message) StdoutLine: {'line': b'[ 52%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[0.532526] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_introspection_c\n'}
+[0.583929] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[0.597543] (-) TimerEvent: {}
+[0.698307] (-) TimerEvent: {}
+[0.709980] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[0.792036] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[0.798514] (-) TimerEvent: {}
+[0.875854] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[0.898699] (-) TimerEvent: {}
+[0.991155] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[0.998935] (-) TimerEvent: {}
+[1.099932] (-) TimerEvent: {}
+[1.111731] (message) StdoutLine: {'line': b'[ 97%] Built target message__rosidl_typesupport_c__pyext\n'}
+[1.112636] (message) StdoutLine: {'line': b'[ 97%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.113560] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[1.160273] (message) CommandEnded: {'returncode': 0}
+[1.200268] (-) TimerEvent: {}
+[1.301217] (-) TimerEvent: {}
+[1.401935] (-) TimerEvent: {}
+[1.477568] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[1.502259] (-) TimerEvent: {}
+[1.518518] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 53606 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/motor/lib:/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/orthrus1-1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLCON_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '11'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/motor:/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 53606 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/motor:/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[1.602487] (-) TimerEvent: {}
+[1.703425] (-) TimerEvent: {}
+[1.737903] (message) StdoutLine: {'line': b'[  2%] Built target message__dds_opensplice_idl\n'}
+[1.738772] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[1.745027] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[1.803618] (-) TimerEvent: {}
+[1.840208] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_cpp\n'}
+[1.850182] (message) StdoutLine: {'line': b'[ 20%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[1.879694] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[1.903854] (-) TimerEvent: {}
+[1.955307] (message) StdoutLine: {'line': b'[ 46%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[1.966035] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_c\n'}
+[1.966862] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_introspection_c\n'}
+[2.003980] (-) TimerEvent: {}
+[2.016139] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[2.104159] (-) TimerEvent: {}
+[2.153601] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[2.204342] (-) TimerEvent: {}
+[2.235225] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[2.304524] (-) TimerEvent: {}
+[2.318946] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[2.404707] (-) TimerEvent: {}
+[2.435958] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[2.504979] (-) TimerEvent: {}
+[2.559563] (message) StdoutLine: {'line': b'[ 94%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.560753] (message) StdoutLine: {'line': b'[ 97%] Built target message__rosidl_typesupport_c__pyext\n'}
+[2.563979] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[2.605161] (-) TimerEvent: {}
+[2.641902] (message) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.677390] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.678429] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[2.679294] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.680140] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.680963] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp\n'}
+[2.681547] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp\n'}
+[2.682073] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp\n'}
+[2.682596] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.683079] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp\n'}
+[2.683575] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp\n'}
+[2.684049] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__traits.hpp\n'}
+[2.684490] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.685018] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.685515] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c\n'}
+[2.686241] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h\n'}
+[2.686832] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h\n'}
+[2.687369] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h\n'}
+[2.687847] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h\n'}
+[2.688340] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.688838] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.c\n'}
+[2.689547] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.h\n'}
+[2.690173] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.h\n'}
+[2.690775] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.h\n'}
+[2.691535] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.692023] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.h\n'}
+[2.692568] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh\n'}
+[2.693162] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[2.693895] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[2.694502] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[2.695100] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.695546] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.696317] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h\n'}
+[2.696994] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c\n'}
+[2.697458] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.698045] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_c.h\n'}
+[2.698608] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.699241] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.c\n'}
+[2.700001] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[2.700731] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.701456] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.702064] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.702570] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp\n'}
+[2.703076] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.703579] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.cpp\n'}
+[2.704211] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.704709] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[2.705238] (-) TimerEvent: {}
+[2.705678] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.706283] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.706783] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h\n'}
+[2.707340] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.707884] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.708456] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_c.h\n'}
+[2.709006] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[2.709488] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.709985] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.710459] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.710987] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps\n'}
+[2.711481] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.712020] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_fastrtps\n'}
+[2.712521] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.713057] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.713541] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.714084] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.714550] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.715055] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h\n'}
+[2.715571] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c\n'}
+[2.716100] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.716574] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[2.717069] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_c.h\n'}
+[2.717535] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice_c\n'}
+[2.718039] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so\n'}
+[2.718519] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice\n'}
+[2.719056] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice/Motorcarryout_.idl\n'}
+[2.719530] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice\n'}
+[2.720048] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl\n'}
+[2.720510] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.720982] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.721435] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice\n'}
+[2.721901] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h\n'}
+[2.722358] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h\n'}
+[2.722823] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h\n'}
+[2.723307] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h\n'}
+[2.723762] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h\n'}
+[2.724300] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.724841] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.725353] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice\n'}
+[2.725851] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps_impl.h\n'}
+[2.726333] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps.h\n'}
+[2.726834] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_SplDcps.h\n'}
+[2.727319] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_.h\n'}
+[2.727776] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/ccpp_Motorcarryout_.h\n'}
+[2.728269] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.728719] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[2.729216] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so\n'}
+[2.729660] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh\n'}
+[2.730170] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py\n'}
+[2.805408] (-) TimerEvent: {}
+[2.864733] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg\n'}
+[2.865915] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/__init__.py\n'}
+[2.866443] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout_s.c\n'}
+[2.867025] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout.py\n'}
+[2.867494] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv\n'}
+[2.867984] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c\n'}
+[2.868432] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py\n'}
+[2.869034] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py\n'}
+[2.869491] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.869984] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.870978] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.872548] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so\n'}
+[2.873306] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.idl\n'}
+[2.873937] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl\n'}
+[2.874553] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.msg\n'}
+[2.875106] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv\n'}
+[2.875708] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg\n'}
+[2.876302] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg\n'}
+[2.876938] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[2.877513] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[2.878081] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[2.878685] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh\n'}
+[2.879232] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash\n'}
+[2.879785] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh\n'}
+[2.880382] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh\n'}
+[2.880971] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message\n'}
+[2.881529] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[2.882116] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.882612] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.883229] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.883756] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.884397] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake\n'}
+[2.884958] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[2.885494] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml\n'}
+[2.889709] (message) CommandEnded: {'returncode': 0}
+[2.907653] (-) TimerEvent: {}
+[3.009957] (-) TimerEvent: {}
+[3.110954] (-) TimerEvent: {}
+[3.212207] (-) TimerEvent: {}
+[3.312923] (-) TimerEvent: {}
+[3.397984] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[3.408087] (motor) JobStarted: {'identifier': 'motor'}
+[3.415671] (-) TimerEvent: {}
+[3.432947] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[3.435596] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[3.436745] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 53606 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/message/lib:/home/orthrus1-1/orthrus1-1/install/motor/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/orthrus1-1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('COLCON_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '11'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/motor:/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.37 53606 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/home/orthrus1-1/orthrus1-1/install/motor:/opt/ros/dashing')]), 'shell': False}
+[3.515837] (-) TimerEvent: {}
+[3.606678] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_carryout\x1b[0m\n'}
+[3.615946] (-) TimerEvent: {}
+[3.660046] (motor) StdoutLine: {'line': b'[ 50%] Built target check\n'}
+[3.705391] (motor) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o\x1b[0m\n'}
+[3.716121] (-) TimerEvent: {}
+[3.816899] (-) TimerEvent: {}
+[3.917708] (-) TimerEvent: {}
+[3.977103] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:61:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[3.977962] (motor) StderrLine: {'line': b'       //* auto message = std_msgs::msg::String();\n'}
+[3.978472] (motor) StderrLine: {'line': b'\n'}
+[3.978976] (motor) StderrLine: {'line': b'         \n'}
+[3.979443] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:62:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[3.979923] (motor) StderrLine: {'line': b'       //* message.data = "Hello, world! " + std::to_string(count_++);\n'}
+[3.980403] (motor) StderrLine: {'line': b'\n'}
+[3.980892] (motor) StderrLine: {'line': b'         \n'}
+[3.981349] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:63:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[3.981815] (motor) StderrLine: {'line': b'       //* RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\'", message.data.c_str());\n'}
+[3.982318] (motor) StderrLine: {'line': b'\n'}
+[3.982761] (motor) StderrLine: {'line': b'         \n'}
+[3.983240] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:64:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"/*" within comment [\x1b[01;35m\x1b[K-Wcomment\x1b[m\x1b[K]\n'}
+[3.983683] (motor) StderrLine: {'line': b'       //* publisher_->publish(message);\n'}
+[3.984170] (motor) StderrLine: {'line': b'\n'}
+[3.984605] (motor) StderrLine: {'line': b'         \n'}
+[4.017946] (-) TimerEvent: {}
+[4.118697] (-) TimerEvent: {}
+[4.219534] (-) TimerEvent: {}
+[4.320371] (-) TimerEvent: {}
+[4.421208] (-) TimerEvent: {}
+[4.521955] (-) TimerEvent: {}
+[4.622707] (-) TimerEvent: {}
+[4.723540] (-) TimerEvent: {}
+[4.824391] (-) TimerEvent: {}
+[4.925269] (-) TimerEvent: {}
+[5.026129] (-) TimerEvent: {}
+[5.126928] (-) TimerEvent: {}
+[5.227669] (-) TimerEvent: {}
+[5.328486] (-) TimerEvent: {}
+[5.429275] (-) TimerEvent: {}
+[5.530108] (-) TimerEvent: {}
+[5.630917] (-) TimerEvent: {}
+[5.731667] (-) TimerEvent: {}
+[5.832503] (-) TimerEvent: {}
+[5.933412] (-) TimerEvent: {}
+[6.034745] (-) TimerEvent: {}
+[6.135666] (-) TimerEvent: {}
+[6.236588] (-) TimerEvent: {}
+[6.337493] (-) TimerEvent: {}
+[6.438410] (-) TimerEvent: {}
+[6.539329] (-) TimerEvent: {}
+[6.640209] (-) TimerEvent: {}
+[6.740956] (-) TimerEvent: {}
+[6.841730] (-) TimerEvent: {}
+[6.942570] (-) TimerEvent: {}
+[7.043490] (-) TimerEvent: {}
+[7.144408] (-) TimerEvent: {}
+[7.191960] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:23:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.192716] (motor) StderrLine: {'line': b'     MinimalSubscriber(\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.193428] (motor) StderrLine: {'line': b'\n'}
+[7.194067] (motor) StderrLine: {'line': b'                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.198316] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:34:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.199067] (motor) StderrLine: {'line': b'     void topic_callback(const \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String::SharedPtr msg) const\n'}
+[7.199667] (motor) StderrLine: {'line': b'\n'}
+[7.200338] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.200892] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:34:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.201479] (motor) StderrLine: {'line': b'     void topic_callback(const std_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::SharedPtr msg) const\n'}
+[7.202136] (motor) StderrLine: {'line': b'\n'}
+[7.202660] (motor) StderrLine: {'line': b'                                            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.203245] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:34:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.203888] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:34:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.204497] (motor) StderrLine: {'line': b'     void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::SharedPtr msg) const\n'}
+[7.205388] (motor) StderrLine: {'line': b'\n'}
+[7.206044] (motor) StderrLine: {'line': b'                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.206559] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:34:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.207112] (motor) StderrLine: {'line': b'     void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::SharedPtr msg) const\n'}
+[7.207598] (motor) StderrLine: {'line': b'\n'}
+[7.208142] (motor) StderrLine: {'line': b'                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.208675] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.209242] (motor) StderrLine: {'line': b'     rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Motor_carryout>::SharedPtr subscription_;};\n'}
+[7.209732] (motor) StderrLine: {'line': b'\n'}
+[7.210270] (motor) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.210765] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.211343] (motor) StderrLine: {'line': b'     rclcpp::Subscription<std_msgs::msg::Motor_carryout\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;};\n'}
+[7.211882] (motor) StderrLine: {'line': b'\n'}
+[7.212487] (motor) StderrLine: {'line': b'                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.213699] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.214309] (motor) StderrLine: {'line': b'     rclcpp::Subscription<std_msgs::msg::Motor_carryout>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;};\n'}
+[7.214872] (motor) StderrLine: {'line': b'\n'}
+[7.215440] (motor) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.215981] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.216496] (motor) StderrLine: {'line': b'     rclcpp::Subscription<std_msgs::msg::Motor_carryout>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;};\n'}
+[7.217089] (motor) StderrLine: {'line': b'\n'}
+[7.217605] (motor) StderrLine: {'line': b'                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.218234] (motor) StderrLine: {'line': b'                                                                    \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[7.218716] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint moter_carryout::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.219261] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:24:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[7.219752] (motor) StderrLine: {'line': b'     : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("motor_carryout")\n'}
+[7.220291] (motor) StderrLine: {'line': b'\n'}
+[7.220771] (motor) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.221325] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.222330] (motor) StderrLine: {'line': b'       \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Motor_carryout>(\n'}
+[7.222937] (motor) StderrLine: {'line': b'\n'}
+[7.223532] (motor) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.224117] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.224614] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Motor_carryout>(\n'}
+[7.225235] (motor) StderrLine: {'line': b'\n'}
+[7.225783] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.226372] (motor) StderrLine: {'line': b'       \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[7.226930] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.228080] (motor) StderrLine: {'line': b'       subscription_ = this->create_subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Motor_carryout>(\n'}
+[7.229274] (motor) StderrLine: {'line': b'\n'}
+[7.229959] (motor) StderrLine: {'line': b'                                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.230558] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.231199] (motor) StderrLine: {'line': b'       subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<std_msgs::msg::Motor_carryout>\x1b[m\x1b[K(\n'}
+[7.232672] (motor) StderrLine: {'line': b'\n'}
+[7.233325] (motor) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.233873] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_carryout\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.234418] (motor) StderrLine: {'line': b'       "motor_carryout", 2, std::bind(&\x1b[01;31m\x1b[Kmotor_carryout\x1b[m\x1b[K::topic_callback, this, _1));\n'}
+[7.234975] (motor) StderrLine: {'line': b'\n'}
+[7.235490] (motor) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.236013] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.236561] (motor) StderrLine: {'line': b'       "motor_carryout", 2, std::bind(&motor_carryout::topic_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[7.237101] (motor) StderrLine: {'line': b'\n'}
+[7.237574] (motor) StderrLine: {'line': b'                                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.238099] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative:\n'}
+[7.238610] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:12:0\x1b[m\x1b[K:\n'}
+[7.239146] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/functional:275:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.239614] (motor) StderrLine: {'line': b'     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[7.240206] (motor) StderrLine: {'line': b'                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.240693] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:28:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[7.241242] (motor) StderrLine: {'line': b'     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[7.241733] (motor) StderrLine: {'line': b'\n'}
+[7.242262] (motor) StderrLine: {'line': b'     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.242715] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.243232] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:81:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_carryout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.243700] (motor) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[Kmotor_carryout\x1b[m\x1b[K>());\n'}
+[7.244233] (motor) StderrLine: {'line': b'\n'}
+[7.244682] (-) TimerEvent: {}
+[7.245184] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.245766] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:81:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kmoter_carryout\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.246327] (motor) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<\x1b[01;36m\x1b[Kmotor_carryout\x1b[m\x1b[K>());\n'}
+[7.246852] (motor) StderrLine: {'line': b'\n'}
+[7.247370] (motor) StderrLine: {'line': b'                                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.247914] (motor) StderrLine: {'line': b'                                 \x1b[32m\x1b[Kmoter_carryout\x1b[m\x1b[K\n'}
+[7.248427] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:81:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.248975] (motor) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<motor_carryout>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[7.249467] (motor) StderrLine: {'line': b'\n'}
+[7.250006] (motor) StderrLine: {'line': b'                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.250509] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:81:0\x1b[m\x1b[K,\n'}
+[7.251047] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:10\x1b[m\x1b[K:\n'}
+[7.251558] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:703:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\n'}
+[7.252124] (motor) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[7.252607] (motor) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.253157] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/shared_ptr.h:703:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.253649] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:81:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.254169] (motor) StderrLine: {'line': b'   rclcpp::spin(std::make_shared<motor_carryout>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[7.254649] (motor) StderrLine: {'line': b'\n'}
+[7.255166] (motor) StderrLine: {'line': b'                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.344960] (-) TimerEvent: {}
+[7.445884] (-) TimerEvent: {}
+[7.546713] (-) TimerEvent: {}
+[7.647598] (-) TimerEvent: {}
+[7.748522] (-) TimerEvent: {}
+[7.757221] (motor) StdoutLine: {'line': b"CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed\n"}
+[7.758193] (motor) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1\n'}
+[7.758933] (motor) StdoutLine: {'line': b"CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed\n"}
+[7.759472] (motor) StderrLine: {'line': b'make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2\n'}
+[7.760035] (motor) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[7.760561] (motor) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[7.764273] (motor) CommandEnded: {'returncode': 2}
+[7.848759] (-) TimerEvent: {}
+[7.885123] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[7.897936] (-) EventReactorShutdown: {}

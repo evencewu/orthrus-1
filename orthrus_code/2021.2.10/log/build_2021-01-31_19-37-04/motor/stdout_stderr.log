@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target motor_carryout[0m
+[ 50%] Built target check
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:61:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+       //* auto message = std_msgs::msg::String();
+
+         
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:62:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+       //* message.data = "Hello, world! " + std::to_string(count_++);
+
+         
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:63:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+       //* RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+
+         
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:64:8:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+       //* publisher_->publish(message);
+
+         
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Motor_carryout>::SharedPtr subscription_;};
+
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     rclcpp::Subscription<std_msgs::msg::Motor_carryout[01;31m[K>[m[K::SharedPtr subscription_;};
+
+                                                       [01;31m[K^[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+     rclcpp::Subscription<std_msgs::msg::Motor_carryout>::[01;31m[KSharedPtr[m[K subscription_;};
+
+                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:68:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+     rclcpp::Subscription<std_msgs::msg::Motor_carryout>::SharedPtr [01;31m[Ksubscription_[m[K;};
+
+                                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+                                                                    [32m[Krcl_subscription_t[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In constructor ‘[01m[Kmotor_carryout::motor_carryout()[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope
+       [01;31m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+
+       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:26:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krcl_subscription_t[m[K’
+       [01;36m[Ksubscription_[m[K = this->create_subscription<message::msg::Motorcarryout>(
+
+       [01;36m[K^~~~~~~~~~~~~[m[K
+       [32m[Krcl_subscription_t[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope
+       "motor_carryout", 2, std::bind(&motor_carryout::topic_callback, this, [01;31m[K_1[m[K));
+
+                                                                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:27:77:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:12:0[m[K:
+[01m[K/usr/include/c++/7/functional:275:34:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::placeholders::_1[m[K’
+     extern const _Placeholder<1> [01;36m[K_1[m[K;
+                                  [01;36m[K^~[m[K
+CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

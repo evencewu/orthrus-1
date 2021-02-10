@@ -1,0 +1,314 @@
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:52:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >[m[K’ after ‘[01m[Kclass[m[K’
+ void setup_data(class message::msg::Motorcarryout::[01;31m[KSharedPtr[m[K &msg_)
+
+                                                    [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp:7:0[m[K,
+                 from [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:18[m[K:
+[01m[K/home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp:96:70:[m[K [01;36m[Knote: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >[m[K’ has a previous declaration here
+     std::shared_ptr<message::msg::Motorcarryout_<ContainerAllocator>>[01;36m[K;[m[K
+                                                                      [01;36m[K^[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(int&)[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:101:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.mode =  msg_[01;31m[K->[m[K mode_LF_1;
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.T    =  msg_[01;31m[K->[m[K    T_LF_1;  //单位：Nm, T<255.9
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:103:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.W    =  msg_[01;31m[K->[m[K    W_LF_1;  //单位：rad/s, W<511.9
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:104:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.Pos  =  msg_[01;31m[K->[m[K  Pos_LF_1;  //单位：rad, Pos<131071.9
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:105:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.K_P  =  msg_[01;31m[K->[m[K  K_P_LF_1;  //K_P<31.9
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:106:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s1.K_W  =  msg_[01;31m[K->[m[K  K_W_LF_1;  //K_W<63.9
+
+                             [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:112:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.mode = msg_[01;31m[K->[m[K mode_LF_2;
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:113:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.T    = msg_[01;31m[K->[m[K    T_LF_2;           
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.W    = msg_[01;31m[K->[m[K    W_LF_2;              
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:115:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.Pos  = msg_[01;31m[K->[m[K  Pos_LF_2;         
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:116:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.K_P  = msg_[01;31m[K->[m[K  K_P_LF_2;      
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    motor_LF_s2.K_W  = msg_[01;31m[K->[m[K  K_W_LF_2;      
+
+                           [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:123:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.mode = msg_[01;31m[K->[m[K mode_LF_3;
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:124:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.T    = msg_[01;31m[K->[m[K    T_LF_3;             
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:125:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.W    = msg_[01;31m[K->[m[K    W_LF_3;               
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:126:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.Pos  = msg_[01;31m[K->[m[K  Pos_LF_3;       
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.K_P  = msg_[01;31m[K->[m[K  K_P_LF_3;         
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LF_s3.K_W  = msg_[01;31m[K->[m[K  K_W_LF_3;      
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:135:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.mode = msg_[01;31m[K->[m[K mode_RF_1;
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:136:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.T    = msg_[01;31m[K->[m[K    T_RF_1;           
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:137:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.W    = msg_[01;31m[K->[m[K    W_RF_1;             
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.Pos  = msg_[01;31m[K->[m[K  Pos_RF_1;       
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.K_P  = msg_[01;31m[K->[m[K  K_P_RF_1;       
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s1.K_W  = msg_[01;31m[K->[m[K  K_W_RF_1;      
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:146:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.mode = msg_[01;31m[K->[m[K mode_RF_2;
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:147:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.T    = msg_[01;31m[K->[m[K    T_RF_2;            
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:148:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.W    = msg_[01;31m[K->[m[K    W_RF_2;             
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:149:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.Pos  = msg_[01;31m[K->[m[K  Pos_RF_2;         
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.K_P  = msg_[01;31m[K->[m[K  K_P_RF_2;        
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s2.K_W  = msg_[01;31m[K->[m[K  K_W_RF_2;     
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:157:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.mode = msg_[01;31m[K->[m[K mode_RF_3;
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:158:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.T    = msg_[01;31m[K->[m[K    T_RF_3;             
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:159:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.W    = msg_[01;31m[K->[m[K    W_RF_3;                
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:160:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.Pos  = msg_[01;31m[K->[m[K  Pos_RF_3;         
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.K_P  = msg_[01;31m[K->[m[K  K_P_RF_3;        
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:31:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+        motor_RF_s3.K_W  = msg_[01;31m[K->[m[K  K_W_RF_3;      
+
+                               [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:169:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.mode = msg_[01;31m[K->[m[K mode_LB_1;
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:170:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.T    = msg_[01;31m[K->[m[K    T_LB_1;            
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:171:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.W    = msg_[01;31m[K->[m[K    W_LB_1;               
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.Pos  = msg_[01;31m[K->[m[K  Pos_LB_1;         
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.K_P  = msg_[01;31m[K->[m[K  K_P_LB_1;         
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s1.K_W  = msg_[01;31m[K->[m[K  K_W_LB_1;        
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:180:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.mode = msg_[01;31m[K->[m[K mode_LB_2;
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:181:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.T    = msg_[01;31m[K->[m[K    T_LB_2;             
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:182:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.W    = msg_[01;31m[K->[m[K    W_LB_2;              
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:183:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.Pos  = msg_[01;31m[K->[m[K  Pos_LB_2;     
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.K_P  = msg_[01;31m[K->[m[K  K_P_LB_2;       
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s2.K_W  = msg_[01;31m[K->[m[K  K_W_LB_2;       
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:191:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.mode = msg_[01;31m[K->[m[K mode_LB_3;
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:192:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.T    = msg_[01;31m[K->[m[K    T_LB_3;             //单位：Nm, T<255.9
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:193:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.W    = msg_[01;31m[K->[m[K    W_LB_3;                //单位：rad/s, W<511.9
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:194:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.Pos  = msg_[01;31m[K->[m[K  Pos_LB_3;         //单位：rad, Pos<131071.9
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.K_P  = msg_[01;31m[K->[m[K  K_P_LB_3;         //K_P<31.9
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+     motor_LB_s3.K_W  = msg_[01;31m[K->[m[K  K_W_LB_3;        //K_W<63.9
+
+                            [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:202:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.mode = msg_[01;31m[K->[m[K mode_RB_1;
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:203:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.T    = msg_[01;31m[K->[m[K    T_RB_1;            
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:204:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.W    = msg_[01;31m[K->[m[K    W_RB_1;               
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:205:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.Pos  = msg_[01;31m[K->[m[K  Pos_RB_1;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.K_P  = msg_[01;31m[K->[m[K  K_P_RB_1;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s1.K_W  = msg_[01;31m[K->[m[K  K_W_RB_1; 
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:213:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.mode = msg_[01;31m[K->[m[K mode_RB_2;
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:214:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.T    = msg_[01;31m[K->[m[K    T_RB_2;            
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:215:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.W    = msg_[01;31m[K->[m[K    W_RB_2;               
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:216:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.Pos  = msg_[01;31m[K->[m[K  Pos_RB_2;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.K_P  = msg_[01;31m[K->[m[K  K_P_RB_2;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s2.K_W  = msg_[01;31m[K->[m[K  K_W_RB_2; 
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:224:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.mode = msg_[01;31m[K->[m[K mode_RB_3;
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:225:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.T    = msg_[01;31m[K->[m[K    T_RB_3;            
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:226:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.W    = msg_[01;31m[K->[m[K    W_RB_3;               
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:227:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.Pos  = msg_[01;31m[K->[m[K  Pos_RB_3;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.K_P  = msg_[01;31m[K->[m[K  K_P_RB_3;         
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         motor_RB_s3.K_W  = msg_[01;31m[K->[m[K  K_W_RB_3; 
+
+                                [01;31m[K^~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:249:18:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst SharedPtr* {aka const std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+       setup_data([01;31m[K&msg[m[K);
+
+                  [01;31m[K^~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:6:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid setup_data(int&)[m[K’
+ void [01;36m[Ksetup_data[m[K(class message::msg::Motorcarryout::SharedPtr &msg_)
+
+      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:249:18:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(int)(& msg)[m[K’ to ‘[01m[Kint&[m[K’
+       setup_data([01;31m[K&msg[m[K);
+
+                  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,314 @@
+[0.035s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.193s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.245s] [ 50%] Built target check
+[0.290s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.762s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:53:[m[K [01;31m[Kerror: [m[Kusing typedef-name ‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >[m[K’ after ‘[01m[Kstruct[m[K’
+[3.767s]  void setup_data(struct message::msg::Motorcarryout::[01;31m[KSharedPtr[m[K *msg_)
+[3.769s] 
+[3.770s]                                                      [01;31m[K^~~~~~~~~[m[K
+[3.771s] In file included from [01m[K/home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp:7:0[m[K,
+[3.771s]                  from [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:18[m[K:
+[3.772s] [01m[K/home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp:96:70:[m[K [01;36m[Knote: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >[m[K’ has a previous declaration here
+[3.772s]      std::shared_ptr<message::msg::Motorcarryout_<ContainerAllocator>>[01;36m[K;[m[K
+[3.773s]                                                                       [01;36m[K^[m[K
+[3.773s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(int*)[m[K’:
+[3.774s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:101:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.775s]      motor_LF_s1.mode =  msg_-> [01;31m[Kmode_LF_1[m[K;
+[3.775s] 
+[3.776s]                                 [01;31m[K^~~~~~~~~[m[K
+[3.776s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.777s]      motor_LF_s1.T    =  msg_->    [01;31m[KT_LF_1[m[K;  //单位：Nm, T<255.9
+[3.777s] 
+[3.778s]                                    [01;31m[K^~~~~~[m[K
+[3.778s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:103:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.779s]      motor_LF_s1.W    =  msg_->    [01;31m[KW_LF_1[m[K;  //单位：rad/s, W<511.9
+[3.780s] 
+[3.780s]                                    [01;31m[K^~~~~~[m[K
+[3.781s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:104:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.782s]      motor_LF_s1.Pos  =  msg_->  [01;31m[KPos_LF_1[m[K;  //单位：rad, Pos<131071.9
+[3.783s] 
+[3.784s]                                  [01;31m[K^~~~~~~~[m[K
+[3.785s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:105:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.785s]      motor_LF_s1.K_P  =  msg_->  [01;31m[KK_P_LF_1[m[K;  //K_P<31.9
+[3.786s] 
+[3.787s]                                  [01;31m[K^~~~~~~~[m[K
+[3.787s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:106:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.788s]      motor_LF_s1.K_W  =  msg_->  [01;31m[KK_W_LF_1[m[K;  //K_W<63.9
+[3.788s] 
+[3.789s]                                  [01;31m[K^~~~~~~~[m[K
+[3.789s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:112:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.790s]     motor_LF_s2.mode = msg_-> [01;31m[Kmode_LF_2[m[K;
+[3.790s] 
+[3.791s]                               [01;31m[K^~~~~~~~~[m[K
+[3.791s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:113:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.792s]     motor_LF_s2.T    = msg_->    [01;31m[KT_LF_2[m[K;           
+[3.792s] 
+[3.793s]                                  [01;31m[K^~~~~~[m[K
+[3.794s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.794s]     motor_LF_s2.W    = msg_->    [01;31m[KW_LF_2[m[K;              
+[3.795s] 
+[3.795s]                                  [01;31m[K^~~~~~[m[K
+[3.796s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:115:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.796s]     motor_LF_s2.Pos  = msg_->  [01;31m[KPos_LF_2[m[K;         
+[3.797s] 
+[3.797s]                                [01;31m[K^~~~~~~~[m[K
+[3.798s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:116:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.798s]     motor_LF_s2.K_P  = msg_->  [01;31m[KK_P_LF_2[m[K;      
+[3.799s] 
+[3.799s]                                [01;31m[K^~~~~~~~[m[K
+[3.800s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.800s]     motor_LF_s2.K_W  = msg_->  [01;31m[KK_W_LF_2[m[K;      
+[3.801s] 
+[3.801s]                                [01;31m[K^~~~~~~~[m[K
+[3.802s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:123:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.802s]      motor_LF_s3.mode = msg_-> [01;31m[Kmode_LF_3[m[K;
+[3.803s] 
+[3.804s]                                [01;31m[K^~~~~~~~~[m[K
+[3.804s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:124:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.805s]      motor_LF_s3.T    = msg_->    [01;31m[KT_LF_3[m[K;             
+[3.805s] 
+[3.806s]                                   [01;31m[K^~~~~~[m[K
+[3.806s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:125:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.807s]      motor_LF_s3.W    = msg_->    [01;31m[KW_LF_3[m[K;               
+[3.807s] 
+[3.808s]                                   [01;31m[K^~~~~~[m[K
+[3.809s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:126:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.809s]      motor_LF_s3.Pos  = msg_->  [01;31m[KPos_LF_3[m[K;       
+[3.810s] 
+[3.810s]                                 [01;31m[K^~~~~~~~[m[K
+[3.811s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.811s]      motor_LF_s3.K_P  = msg_->  [01;31m[KK_P_LF_3[m[K;         
+[3.812s] 
+[3.812s]                                 [01;31m[K^~~~~~~~[m[K
+[3.813s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.813s]      motor_LF_s3.K_W  = msg_->  [01;31m[KK_W_LF_3[m[K;      
+[3.814s] 
+[3.814s]                                 [01;31m[K^~~~~~~~[m[K
+[3.815s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:135:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.815s]         motor_RF_s1.mode = msg_-> [01;31m[Kmode_RF_1[m[K;
+[3.816s] 
+[3.817s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.817s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:136:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.818s]         motor_RF_s1.T    = msg_->    [01;31m[KT_RF_1[m[K;           
+[3.818s] 
+[3.819s]                                      [01;31m[K^~~~~~[m[K
+[3.819s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:137:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.820s]         motor_RF_s1.W    = msg_->    [01;31m[KW_RF_1[m[K;             
+[3.820s] 
+[3.821s]                                      [01;31m[K^~~~~~[m[K
+[3.821s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.822s]         motor_RF_s1.Pos  = msg_->  [01;31m[KPos_RF_1[m[K;       
+[3.822s] 
+[3.823s]                                    [01;31m[K^~~~~~~~[m[K
+[3.823s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.824s]         motor_RF_s1.K_P  = msg_->  [01;31m[KK_P_RF_1[m[K;       
+[3.824s] 
+[3.825s]                                    [01;31m[K^~~~~~~~[m[K
+[3.826s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.826s]         motor_RF_s1.K_W  = msg_->  [01;31m[KK_W_RF_1[m[K;      
+[3.827s] 
+[3.827s]                                    [01;31m[K^~~~~~~~[m[K
+[3.828s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:146:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.829s]         motor_RF_s2.mode = msg_-> [01;31m[Kmode_RF_2[m[K;
+[3.830s] 
+[3.830s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.831s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:147:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.831s]         motor_RF_s2.T    = msg_->    [01;31m[KT_RF_2[m[K;            
+[3.832s] 
+[3.832s]                                      [01;31m[K^~~~~~[m[K
+[3.833s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:148:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.833s]         motor_RF_s2.W    = msg_->    [01;31m[KW_RF_2[m[K;             
+[3.834s] 
+[3.834s]                                      [01;31m[K^~~~~~[m[K
+[3.835s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:149:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.835s]         motor_RF_s2.Pos  = msg_->  [01;31m[KPos_RF_2[m[K;         
+[3.836s] 
+[3.836s]                                    [01;31m[K^~~~~~~~[m[K
+[3.837s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.837s]         motor_RF_s2.K_P  = msg_->  [01;31m[KK_P_RF_2[m[K;        
+[3.838s] 
+[3.838s]                                    [01;31m[K^~~~~~~~[m[K
+[3.839s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.839s]         motor_RF_s2.K_W  = msg_->  [01;31m[KK_W_RF_2[m[K;     
+[3.840s] 
+[3.840s]                                    [01;31m[K^~~~~~~~[m[K
+[3.841s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:157:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.841s]         motor_RF_s3.mode = msg_-> [01;31m[Kmode_RF_3[m[K;
+[3.842s] 
+[3.842s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.843s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:158:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.843s]         motor_RF_s3.T    = msg_->    [01;31m[KT_RF_3[m[K;             
+[3.844s] 
+[3.844s]                                      [01;31m[K^~~~~~[m[K
+[3.845s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:159:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.845s]         motor_RF_s3.W    = msg_->    [01;31m[KW_RF_3[m[K;                
+[3.846s] 
+[3.847s]                                      [01;31m[K^~~~~~[m[K
+[3.847s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:160:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.848s]         motor_RF_s3.Pos  = msg_->  [01;31m[KPos_RF_3[m[K;         
+[3.848s] 
+[3.849s]                                    [01;31m[K^~~~~~~~[m[K
+[3.849s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.850s]         motor_RF_s3.K_P  = msg_->  [01;31m[KK_P_RF_3[m[K;        
+[3.850s] 
+[3.851s]                                    [01;31m[K^~~~~~~~[m[K
+[3.851s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.852s]         motor_RF_s3.K_W  = msg_->  [01;31m[KK_W_RF_3[m[K;      
+[3.852s] 
+[3.853s]                                    [01;31m[K^~~~~~~~[m[K
+[3.853s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:169:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.854s]      motor_LB_s1.mode = msg_-> [01;31m[Kmode_LB_1[m[K;
+[3.854s] 
+[3.855s]                                [01;31m[K^~~~~~~~~[m[K
+[3.855s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:170:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.856s]      motor_LB_s1.T    = msg_->    [01;31m[KT_LB_1[m[K;            
+[3.856s] 
+[3.856s]                                   [01;31m[K^~~~~~[m[K
+[3.857s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:171:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.857s]      motor_LB_s1.W    = msg_->    [01;31m[KW_LB_1[m[K;               
+[3.858s] 
+[3.858s]                                   [01;31m[K^~~~~~[m[K
+[3.859s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.859s]      motor_LB_s1.Pos  = msg_->  [01;31m[KPos_LB_1[m[K;         
+[3.860s] 
+[3.860s]                                 [01;31m[K^~~~~~~~[m[K
+[3.861s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.862s]      motor_LB_s1.K_P  = msg_->  [01;31m[KK_P_LB_1[m[K;         
+[3.862s] 
+[3.862s]                                 [01;31m[K^~~~~~~~[m[K
+[3.863s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.864s]      motor_LB_s1.K_W  = msg_->  [01;31m[KK_W_LB_1[m[K;        
+[3.864s] 
+[3.865s]                                 [01;31m[K^~~~~~~~[m[K
+[3.865s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:180:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.866s]      motor_LB_s2.mode = msg_-> [01;31m[Kmode_LB_2[m[K;
+[3.866s] 
+[3.867s]                                [01;31m[K^~~~~~~~~[m[K
+[3.867s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:181:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.868s]      motor_LB_s2.T    = msg_->    [01;31m[KT_LB_2[m[K;             
+[3.868s] 
+[3.869s]                                   [01;31m[K^~~~~~[m[K
+[3.869s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:182:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.870s]      motor_LB_s2.W    = msg_->    [01;31m[KW_LB_2[m[K;              
+[3.870s] 
+[3.871s]                                   [01;31m[K^~~~~~[m[K
+[3.871s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:183:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.872s]      motor_LB_s2.Pos  = msg_->  [01;31m[KPos_LB_2[m[K;     
+[3.873s] 
+[3.873s]                                 [01;31m[K^~~~~~~~[m[K
+[3.874s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.874s]      motor_LB_s2.K_P  = msg_->  [01;31m[KK_P_LB_2[m[K;       
+[3.875s] 
+[3.875s]                                 [01;31m[K^~~~~~~~[m[K
+[3.876s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.876s]      motor_LB_s2.K_W  = msg_->  [01;31m[KK_W_LB_2[m[K;       
+[3.877s] 
+[3.877s]                                 [01;31m[K^~~~~~~~[m[K
+[3.878s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:191:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.878s]      motor_LB_s3.mode = msg_-> [01;31m[Kmode_LB_3[m[K;
+[3.879s] 
+[3.879s]                                [01;31m[K^~~~~~~~~[m[K
+[3.880s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:192:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.880s]      motor_LB_s3.T    = msg_->    [01;31m[KT_LB_3[m[K;             //单位：Nm, T<255.9
+[3.881s] 
+[3.881s]                                   [01;31m[K^~~~~~[m[K
+[3.882s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:193:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.882s]      motor_LB_s3.W    = msg_->    [01;31m[KW_LB_3[m[K;                //单位：rad/s, W<511.9
+[3.883s] 
+[3.883s]                                   [01;31m[K^~~~~~[m[K
+[3.884s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:194:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.884s]      motor_LB_s3.Pos  = msg_->  [01;31m[KPos_LB_3[m[K;         //单位：rad, Pos<131071.9
+[3.885s] 
+[3.885s]                                 [01;31m[K^~~~~~~~[m[K
+[3.886s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.886s]      motor_LB_s3.K_P  = msg_->  [01;31m[KK_P_LB_3[m[K;         //K_P<31.9
+[3.887s] 
+[3.887s]                                 [01;31m[K^~~~~~~~[m[K
+[3.888s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.888s]      motor_LB_s3.K_W  = msg_->  [01;31m[KK_W_LB_3[m[K;        //K_W<63.9
+[3.889s] 
+[3.889s]                                 [01;31m[K^~~~~~~~[m[K
+[3.890s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:202:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.890s]          motor_RB_s1.mode = msg_-> [01;31m[Kmode_RB_1[m[K;
+[3.891s] 
+[3.891s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.892s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:203:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.892s]          motor_RB_s1.T    = msg_->    [01;31m[KT_RB_1[m[K;            
+[3.893s] 
+[3.894s]                                       [01;31m[K^~~~~~[m[K
+[3.894s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:204:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.895s]          motor_RB_s1.W    = msg_->    [01;31m[KW_RB_1[m[K;               
+[3.895s] 
+[3.896s]                                       [01;31m[K^~~~~~[m[K
+[3.896s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:205:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.897s]          motor_RB_s1.Pos  = msg_->  [01;31m[KPos_RB_1[m[K;         
+[3.897s] 
+[3.898s]                                     [01;31m[K^~~~~~~~[m[K
+[3.898s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.899s]          motor_RB_s1.K_P  = msg_->  [01;31m[KK_P_RB_1[m[K;         
+[3.899s] 
+[3.900s]                                     [01;31m[K^~~~~~~~[m[K
+[3.900s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.901s]          motor_RB_s1.K_W  = msg_->  [01;31m[KK_W_RB_1[m[K; 
+[3.901s] 
+[3.902s]                                     [01;31m[K^~~~~~~~[m[K
+[3.902s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:213:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.903s]          motor_RB_s2.mode = msg_-> [01;31m[Kmode_RB_2[m[K;
+[3.903s] 
+[3.904s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.904s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:214:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.905s]          motor_RB_s2.T    = msg_->    [01;31m[KT_RB_2[m[K;            
+[3.905s] 
+[3.906s]                                       [01;31m[K^~~~~~[m[K
+[3.906s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:215:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.907s]          motor_RB_s2.W    = msg_->    [01;31m[KW_RB_2[m[K;               
+[3.908s] 
+[3.908s]                                       [01;31m[K^~~~~~[m[K
+[3.909s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:216:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.909s]          motor_RB_s2.Pos  = msg_->  [01;31m[KPos_RB_2[m[K;         
+[3.910s] 
+[3.910s]                                     [01;31m[K^~~~~~~~[m[K
+[3.911s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.912s]          motor_RB_s2.K_P  = msg_->  [01;31m[KK_P_RB_2[m[K;         
+[3.912s] 
+[3.913s]                                     [01;31m[K^~~~~~~~[m[K
+[3.913s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.914s]          motor_RB_s2.K_W  = msg_->  [01;31m[KK_W_RB_2[m[K; 
+[3.914s] 
+[3.915s]                                     [01;31m[K^~~~~~~~[m[K
+[3.915s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:224:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.916s]          motor_RB_s3.mode = msg_-> [01;31m[Kmode_RB_3[m[K;
+[3.917s] 
+[3.917s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.918s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:225:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.918s]          motor_RB_s3.T    = msg_->    [01;31m[KT_RB_3[m[K;            
+[3.919s] 
+[3.919s]                                       [01;31m[K^~~~~~[m[K
+[3.920s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:226:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.920s]          motor_RB_s3.W    = msg_->    [01;31m[KW_RB_3[m[K;               
+[3.921s] 
+[3.921s]                                       [01;31m[K^~~~~~[m[K
+[3.922s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:227:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.922s]          motor_RB_s3.Pos  = msg_->  [01;31m[KPos_RB_3[m[K;         
+[3.923s] 
+[3.923s]                                     [01;31m[K^~~~~~~~[m[K
+[3.924s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.924s]          motor_RB_s3.K_P  = msg_->  [01;31m[KK_P_RB_3[m[K;         
+[3.925s] 
+[3.925s]                                     [01;31m[K^~~~~~~~[m[K
+[3.926s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[3.926s]          motor_RB_s3.K_W  = msg_->  [01;31m[KK_W_RB_3[m[K; 
+[3.927s] 
+[3.927s]                                     [01;31m[K^~~~~~~~[m[K
+[3.928s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.928s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:249:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr* {aka const std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ to ‘[01m[Kint*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kvoid setup_data(int*)[m[K’
+[3.929s]        setup_data(&msg[01;31m[K)[m[K;
+[3.930s] 
+[3.931s]                       [01;31m[K^[m[K
+[6.262s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.263s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.263s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.264s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.265s] Makefile:140: recipe for target 'all' failed
+[6.265s] make: *** [all] Error 2
+[6.269s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

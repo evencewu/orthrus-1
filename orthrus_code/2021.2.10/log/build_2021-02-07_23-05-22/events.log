@@ -1,0 +1,626 @@
+[0.000000] (-) TimerEvent: {}
+[0.003267] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.003455] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('message', '/home/orthrus1-1/orthrus1-1/install/message')])}
+[0.003600] (message) JobStarted: {'identifier': 'message'}
+[0.049631] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.053003] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.057970] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.098567] (-) TimerEvent: {}
+[0.199528] (-) TimerEvent: {}
+[0.278025] (message) StdoutLine: {'line': b'[  2%] Built target message__dds_opensplice_idl\n'}
+[0.279729] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[0.286876] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[0.299714] (-) TimerEvent: {}
+[0.388949] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[0.399896] (-) TimerEvent: {}
+[0.416913] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[0.417806] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_cpp\n'}
+[0.498346] (message) StdoutLine: {'line': b'[ 46%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[0.500094] (-) TimerEvent: {}
+[0.505755] (message) StdoutLine: {'line': b'[ 52%] Built target message__rosidl_typesupport_c\n'}
+[0.538208] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_introspection_c\n'}
+[0.553995] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[0.600240] (-) TimerEvent: {}
+[0.693569] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[0.700406] (-) TimerEvent: {}
+[0.774083] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[0.800608] (-) TimerEvent: {}
+[0.856751] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[0.900785] (-) TimerEvent: {}
+[0.970390] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[1.000976] (-) TimerEvent: {}
+[1.093620] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.094559] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[1.095248] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_c__pyext\n'}
+[1.101174] (-) TimerEvent: {}
+[1.140147] (message) CommandEnded: {'returncode': 0}
+[1.201416] (-) TimerEvent: {}
+[1.302777] (-) TimerEvent: {}
+[1.403529] (-) TimerEvent: {}
+[1.437224] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[1.481322] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.503805] (-) TimerEvent: {}
+[1.604716] (-) TimerEvent: {}
+[1.689114] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[1.690089] (message) StdoutLine: {'line': b'[  2%] Built target message__dds_opensplice_idl\n'}
+[1.703478] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[1.704847] (-) TimerEvent: {}
+[1.792393] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[1.805023] (message) StdoutLine: {'line': b'[ 20%] Built target message__rosidl_typesupport_cpp\n'}
+[1.805846] (-) TimerEvent: {}
+[1.845459] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[1.893713] (message) StdoutLine: {'line': b'[ 38%] Built target message__rosidl_typesupport_c\n'}
+[1.894877] (message) StdoutLine: {'line': b'[ 52%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[1.906126] (-) TimerEvent: {}
+[1.908695] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_introspection_c\n'}
+[1.985675] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[2.006226] (-) TimerEvent: {}
+[2.090790] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[2.106408] (-) TimerEvent: {}
+[2.170279] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[2.206590] (-) TimerEvent: {}
+[2.252627] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[2.306768] (-) TimerEvent: {}
+[2.366217] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[2.407018] (-) TimerEvent: {}
+[2.488655] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.489570] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[2.490296] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_c__pyext\n'}
+[2.507205] (-) TimerEvent: {}
+[2.565077] (message) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.599882] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.600753] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[2.601551] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.602531] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.603334] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp\n'}
+[2.603952] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp\n'}
+[2.604474] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp\n'}
+[2.605000] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.605508] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp\n'}
+[2.606018] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp\n'}
+[2.606543] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__traits.hpp\n'}
+[2.606981] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.607516] (-) TimerEvent: {}
+[2.607919] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.608822] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c\n'}
+[2.609484] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h\n'}
+[2.610072] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h\n'}
+[2.610547] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h\n'}
+[2.611055] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h\n'}
+[2.611609] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.612344] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.c\n'}
+[2.612791] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.h\n'}
+[2.613461] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.h\n'}
+[2.614123] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.h\n'}
+[2.614591] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.615175] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.h\n'}
+[2.615921] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh\n'}
+[2.616654] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[2.617138] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[2.617650] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[2.618113] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.618805] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.619435] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h\n'}
+[2.619887] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c\n'}
+[2.620438] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.620951] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_c.h\n'}
+[2.621596] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.622281] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.c\n'}
+[2.623019] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[2.623699] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.624375] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.624828] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.625379] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp\n'}
+[2.625819] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.626495] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.cpp\n'}
+[2.626978] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.627561] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[2.628083] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.628579] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.629101] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h\n'}
+[2.629625] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.630175] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.630742] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_c.h\n'}
+[2.631312] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[2.631785] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.632289] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.632752] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.633264] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps\n'}
+[2.633763] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.634309] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_fastrtps\n'}
+[2.634805] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.635341] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.635829] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.636398] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.636863] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.637367] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h\n'}
+[2.637885] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c\n'}
+[2.638427] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.638904] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[2.639418] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_c.h\n'}
+[2.639895] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice_c\n'}
+[2.640416] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so\n'}
+[2.640882] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice\n'}
+[2.641428] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice/Motorcarryout_.idl\n'}
+[2.641893] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice\n'}
+[2.642419] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl\n'}
+[2.642877] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.643370] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.643819] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice\n'}
+[2.644285] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h\n'}
+[2.644733] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h\n'}
+[2.645234] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h\n'}
+[2.645705] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h\n'}
+[2.646229] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h\n'}
+[2.646709] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.647207] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.647667] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice\n'}
+[2.648142] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps_impl.h\n'}
+[2.648596] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps.h\n'}
+[2.649153] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_SplDcps.h\n'}
+[2.649788] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_.h\n'}
+[2.650329] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/ccpp_Motorcarryout_.h\n'}
+[2.650793] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.651300] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[2.651754] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so\n'}
+[2.652231] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh\n'}
+[2.652684] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py\n'}
+[2.707669] (-) TimerEvent: {}
+[2.783347] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg\n'}
+[2.784434] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/__init__.py\n'}
+[2.785819] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout_s.c\n'}
+[2.786957] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout.py\n'}
+[2.787708] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv\n'}
+[2.788504] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c\n'}
+[2.789005] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py\n'}
+[2.789574] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py\n'}
+[2.790053] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.790652] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.791175] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.791921] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so\n'}
+[2.792738] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.idl\n'}
+[2.793408] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl\n'}
+[2.794017] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.msg\n'}
+[2.794620] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv\n'}
+[2.795215] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg\n'}
+[2.795817] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg\n'}
+[2.796453] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[2.797010] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[2.797711] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[2.798277] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh\n'}
+[2.798759] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash\n'}
+[2.799299] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh\n'}
+[2.799749] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh\n'}
+[2.800268] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message\n'}
+[2.800826] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[2.801393] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.801916] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.802492] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.802993] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.803564] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake\n'}
+[2.804195] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[2.804724] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml\n'}
+[2.807819] (-) TimerEvent: {}
+[2.810895] (message) CommandEnded: {'returncode': 0}
+[2.908135] (-) TimerEvent: {}
+[3.009121] (-) TimerEvent: {}
+[3.109820] (-) TimerEvent: {}
+[3.210694] (-) TimerEvent: {}
+[3.249404] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[3.307742] (motor) JobStarted: {'identifier': 'motor'}
+[3.310825] (-) TimerEvent: {}
+[3.330400] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[3.333220] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[3.338283] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[3.411077] (-) TimerEvent: {}
+[3.499512] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_carryout\x1b[0m\n'}
+[3.511195] (-) TimerEvent: {}
+[3.551916] (motor) StdoutLine: {'line': b'[ 50%] Built target check\n'}
+[3.596512] (motor) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o\x1b[0m\n'}
+[3.611379] (-) TimerEvent: {}
+[3.712178] (-) TimerEvent: {}
+[3.812966] (-) TimerEvent: {}
+[3.913818] (-) TimerEvent: {}
+[4.014664] (-) TimerEvent: {}
+[4.115562] (-) TimerEvent: {}
+[4.216469] (-) TimerEvent: {}
+[4.317385] (-) TimerEvent: {}
+[4.418191] (-) TimerEvent: {}
+[4.519102] (-) TimerEvent: {}
+[4.619932] (-) TimerEvent: {}
+[4.720832] (-) TimerEvent: {}
+[4.821630] (-) TimerEvent: {}
+[4.922465] (-) TimerEvent: {}
+[5.023249] (-) TimerEvent: {}
+[5.123996] (-) TimerEvent: {}
+[5.224870] (-) TimerEvent: {}
+[5.325758] (-) TimerEvent: {}
+[5.426596] (-) TimerEvent: {}
+[5.527551] (-) TimerEvent: {}
+[5.628468] (-) TimerEvent: {}
+[5.729393] (-) TimerEvent: {}
+[5.830252] (-) TimerEvent: {}
+[5.931203] (-) TimerEvent: {}
+[6.032117] (-) TimerEvent: {}
+[6.132950] (-) TimerEvent: {}
+[6.233798] (-) TimerEvent: {}
+[6.334631] (-) TimerEvent: {}
+[6.435482] (-) TimerEvent: {}
+[6.536368] (-) TimerEvent: {}
+[6.637220] (-) TimerEvent: {}
+[6.738166] (-) TimerEvent: {}
+[6.838998] (-) TimerEvent: {}
+[6.939893] (-) TimerEvent: {}
+[7.040794] (-) TimerEvent: {}
+[7.061782] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:35:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfd1\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.062772] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[Kfd1\x1b[m\x1b[K = open_set((char*)"/dev/ttyUSB0");\n'}
+[7.063479] (motor) StderrLine: {'line': b'\n'}
+[7.064496] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.065192] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:36:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfd2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.065810] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[Kfd2\x1b[m\x1b[K = open_set((char*)"/dev/ttyUSB1");\n'}
+[7.066757] (motor) StderrLine: {'line': b'\n'}
+[7.067520] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.068196] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:37:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfd3\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.068848] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[Kfd3\x1b[m\x1b[K = open_set((char*)"/dev/ttyUSB2");\n'}
+[7.069706] (motor) StderrLine: {'line': b'\n'}
+[7.070635] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.071340] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfd4\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.071967] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[Kfd4\x1b[m\x1b[K = open_set((char*)"/dev/ttyUSB3");\n'}
+[7.072624] (motor) StderrLine: {'line': b'\n'}
+[7.073221] (motor) StderrLine: {'line': b' \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.074349] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid setup_data(short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&, short int&, float&, float&, float&, float&, float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.074983] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_s\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.075656] (motor) StderrLine: {'line': b'      \x1b[01;31m\x1b[Kmotor_s\x1b[m\x1b[K.id =0;\n'}
+[7.076271] (motor) StderrLine: {'line': b'\n'}
+[7.076837] (motor) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.077905] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kmotor_RB_s3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.078671] (motor) StderrLine: {'line': b'      \x1b[01;36m\x1b[Kmotor_s\x1b[m\x1b[K.id =0;\n'}
+[7.079348] (motor) StderrLine: {'line': b'\n'}
+[7.080244] (motor) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.084495] (motor) StderrLine: {'line': b'      \x1b[32m\x1b[Kmotor_RB_s3\x1b[m\x1b[K\n'}
+[7.088777] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_s1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.089418] (motor) StderrLine: {'line': b'       \x1b[01;31m\x1b[Kmotor_s1\x1b[m\x1b[K.id = 0;\n'}
+[7.089905] (motor) StderrLine: {'line': b'\n'}
+[7.090424] (motor) StderrLine: {'line': b'       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.090949] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kmotor_RB_s1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.091547] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[Kmotor_s1\x1b[m\x1b[K.id = 0;\n'}
+[7.092091] (motor) StderrLine: {'line': b'\n'}
+[7.092607] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.093119] (motor) StderrLine: {'line': b'       \x1b[32m\x1b[Kmotor_RB_s1\x1b[m\x1b[K\n'}
+[7.093608] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfd\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.094128] (motor) StderrLine: {'line': b'             sta = send_recv(\x1b[01;31m\x1b[Kfd\x1b[m\x1b[K, &motor_s, &motor_r);\n'}
+[7.094630] (motor) StderrLine: {'line': b'\n'}
+[7.095155] (motor) StderrLine: {'line': b'                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.095648] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kfd4\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.096192] (motor) StderrLine: {'line': b'             sta = send_recv(\x1b[01;36m\x1b[Kfd\x1b[m\x1b[K, &motor_s, &motor_r);\n'}
+[7.096709] (motor) StderrLine: {'line': b'\n'}
+[7.097245] (motor) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.097757] (motor) StderrLine: {'line': b'                             \x1b[32m\x1b[Kfd4\x1b[m\x1b[K\n'}
+[7.098308] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.098829] (motor) StderrLine: {'line': b' void setup_data(int short &\x1b[01;35m\x1b[Kmode_LF_1\x1b[m\x1b[K, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,\n'}
+[7.099370] (motor) StderrLine: {'line': b'\n'}
+[7.099853] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.100409] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.100910] (motor) StderrLine: {'line': b' void setup_data(int short &mode_LF_1, float &\x1b[01;35m\x1b[KT_LF_1\x1b[m\x1b[K, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,\n'}
+[7.101487] (motor) StderrLine: {'line': b'\n'}
+[7.101960] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.102484] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.102993] (motor) StderrLine: {'line': b' void setup_data(int short &mode_LF_1, float &T_LF_1, float &\x1b[01;35m\x1b[KW_LF_1\x1b[m\x1b[K, float &Pos_LF_1, float &K_P_LF_1, float &K_W_LF_1,\n'}
+[7.103512] (motor) StderrLine: {'line': b'\n'}
+[7.103988] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.104503] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.105016] (motor) StderrLine: {'line': b' void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &\x1b[01;35m\x1b[KPos_LF_1\x1b[m\x1b[K, float &K_P_LF_1, float &K_W_LF_1,\n'}
+[7.105565] (motor) StderrLine: {'line': b'\n'}
+[7.106076] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.106586] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.107093] (motor) StderrLine: {'line': b' void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &\x1b[01;35m\x1b[KK_P_LF_1\x1b[m\x1b[K, float &K_W_LF_1,\n'}
+[7.107577] (motor) StderrLine: {'line': b'\n'}
+[7.108073] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.108574] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:78:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.109073] (motor) StderrLine: {'line': b' void setup_data(int short &mode_LF_1, float &T_LF_1, float &W_LF_1, float &Pos_LF_1, float &K_P_LF_1, float &\x1b[01;35m\x1b[KK_W_LF_1\x1b[m\x1b[K,\n'}
+[7.109563] (motor) StderrLine: {'line': b'\n'}
+[7.110025] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.110544] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.111018] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_LF_2\x1b[m\x1b[K, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,\n'}
+[7.111537] (motor) StderrLine: {'line': b'\n'}
+[7.112011] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.112528] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.113002] (motor) StderrLine: {'line': b'                 int short &mode_LF_2, float &\x1b[01;35m\x1b[KT_LF_2\x1b[m\x1b[K, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,\n'}
+[7.113534] (motor) StderrLine: {'line': b'\n'}
+[7.113990] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.114504] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.114974] (motor) StderrLine: {'line': b'                 int short &mode_LF_2, float &T_LF_2, float &\x1b[01;35m\x1b[KW_LF_2\x1b[m\x1b[K, float &Pos_LF_2, float &K_P_LF_2, float &K_W_LF_2,\n'}
+[7.115509] (motor) StderrLine: {'line': b'\n'}
+[7.115969] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.116504] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.117014] (motor) StderrLine: {'line': b'                 int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &\x1b[01;35m\x1b[KPos_LF_2\x1b[m\x1b[K, float &K_P_LF_2, float &K_W_LF_2,\n'}
+[7.117540] (motor) StderrLine: {'line': b'\n'}
+[7.117992] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.118600] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.119288] (motor) StderrLine: {'line': b'                 int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &\x1b[01;35m\x1b[KK_P_LF_2\x1b[m\x1b[K, float &K_W_LF_2,\n'}
+[7.119933] (motor) StderrLine: {'line': b'\n'}
+[7.120640] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.121323] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:79:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.122066] (motor) StderrLine: {'line': b'                 int short &mode_LF_2, float &T_LF_2, float &W_LF_2, float &Pos_LF_2, float &K_P_LF_2, float &\x1b[01;35m\x1b[KK_W_LF_2\x1b[m\x1b[K,\n'}
+[7.122739] (motor) StderrLine: {'line': b'\n'}
+[7.123385] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.124001] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.124693] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_LF_3\x1b[m\x1b[K, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,\n'}
+[7.125375] (motor) StderrLine: {'line': b'\n'}
+[7.125988] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.126660] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.127244] (motor) StderrLine: {'line': b'                 int short &mode_LF_3, float &\x1b[01;35m\x1b[KT_LF_3\x1b[m\x1b[K, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,\n'}
+[7.127742] (motor) StderrLine: {'line': b'\n'}
+[7.128270] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.128775] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.129348] (motor) StderrLine: {'line': b'                 int short &mode_LF_3, float &T_LF_3, float &\x1b[01;35m\x1b[KW_LF_3\x1b[m\x1b[K, float &Pos_LF_3, float &K_P_LF_3, float &K_W_LF_3,\n'}
+[7.129842] (motor) StderrLine: {'line': b'\n'}
+[7.130376] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.130854] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.131456] (motor) StderrLine: {'line': b'                 int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &\x1b[01;35m\x1b[KPos_LF_3\x1b[m\x1b[K, float &K_P_LF_3, float &K_W_LF_3,\n'}
+[7.131969] (motor) StderrLine: {'line': b'\n'}
+[7.132556] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.133083] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.133587] (motor) StderrLine: {'line': b'                 int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &\x1b[01;35m\x1b[KK_P_LF_3\x1b[m\x1b[K, float &K_W_LF_3,\n'}
+[7.134104] (motor) StderrLine: {'line': b'\n'}
+[7.134601] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.135140] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:80:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.135683] (motor) StderrLine: {'line': b'                 int short &mode_LF_3, float &T_LF_3, float &W_LF_3, float &Pos_LF_3, float &K_P_LF_3, float &\x1b[01;35m\x1b[KK_W_LF_3\x1b[m\x1b[K,\n'}
+[7.136218] (motor) StderrLine: {'line': b'\n'}
+[7.136700] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.137233] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.137742] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RF_1\x1b[m\x1b[K, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,\n'}
+[7.138302] (motor) StderrLine: {'line': b'\n'}
+[7.138795] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.139339] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.139828] (motor) StderrLine: {'line': b'                 int short &mode_RF_1, float &\x1b[01;35m\x1b[KT_RF_1\x1b[m\x1b[K, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,\n'}
+[7.140350] (motor) StderrLine: {'line': b'\n'}
+[7.140822] (-) TimerEvent: {}
+[7.141335] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.141953] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.142515] (motor) StderrLine: {'line': b'                 int short &mode_RF_1, float &T_RF_1, float &\x1b[01;35m\x1b[KW_RF_1\x1b[m\x1b[K, float &Pos_RF_1, float &K_P_RF_1, float &K_W_RF_1,\n'}
+[7.143011] (motor) StderrLine: {'line': b'\n'}
+[7.143617] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.144262] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.144898] (motor) StderrLine: {'line': b'                 int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &\x1b[01;35m\x1b[KPos_RF_1\x1b[m\x1b[K, float &K_P_RF_1, float &K_W_RF_1,\n'}
+[7.145514] (motor) StderrLine: {'line': b'\n'}
+[7.146025] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.146566] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.147093] (motor) StderrLine: {'line': b'                 int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &\x1b[01;35m\x1b[KK_P_RF_1\x1b[m\x1b[K, float &K_W_RF_1,\n'}
+[7.147620] (motor) StderrLine: {'line': b'\n'}
+[7.148155] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.148679] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:82:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.149215] (motor) StderrLine: {'line': b'                 int short &mode_RF_1, float &T_RF_1, float &W_RF_1, float &Pos_RF_1, float &K_P_RF_1, float &\x1b[01;35m\x1b[KK_W_RF_1\x1b[m\x1b[K,\n'}
+[7.149723] (motor) StderrLine: {'line': b'\n'}
+[7.150248] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.150739] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.151279] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RF_2\x1b[m\x1b[K, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,\n'}
+[7.151771] (motor) StderrLine: {'line': b'\n'}
+[7.152293] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.152778] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.153303] (motor) StderrLine: {'line': b'                 int short &mode_RF_2, float &\x1b[01;35m\x1b[KT_RF_2\x1b[m\x1b[K, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,\n'}
+[7.153802] (motor) StderrLine: {'line': b'\n'}
+[7.154326] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.154808] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.155359] (motor) StderrLine: {'line': b'                 int short &mode_RF_2, float &T_RF_2, float &\x1b[01;35m\x1b[KW_RF_2\x1b[m\x1b[K, float &Pos_RF_2, float &K_P_RF_2, float &K_W_RF_2,\n'}
+[7.155855] (motor) StderrLine: {'line': b'\n'}
+[7.156414] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.156884] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.157425] (motor) StderrLine: {'line': b'                 int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &\x1b[01;35m\x1b[KPos_RF_2\x1b[m\x1b[K, float &K_P_RF_2, float &K_W_RF_2,\n'}
+[7.157890] (motor) StderrLine: {'line': b'\n'}
+[7.158423] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.158886] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.159403] (motor) StderrLine: {'line': b'                 int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &\x1b[01;35m\x1b[KK_P_RF_2\x1b[m\x1b[K, float &K_W_RF_2,\n'}
+[7.159875] (motor) StderrLine: {'line': b'\n'}
+[7.160394] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.160860] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:83:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.161388] (motor) StderrLine: {'line': b'                 int short &mode_RF_2, float &T_RF_2, float &W_RF_2, float &Pos_RF_2, float &K_P_RF_2, float &\x1b[01;35m\x1b[KK_W_RF_2\x1b[m\x1b[K,\n'}
+[7.161858] (motor) StderrLine: {'line': b'\n'}
+[7.162372] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.162866] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.163405] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RF_3\x1b[m\x1b[K, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,\n'}
+[7.163925] (motor) StderrLine: {'line': b'\n'}
+[7.164464] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.164991] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.165547] (motor) StderrLine: {'line': b'                 int short &mode_RF_3, float &\x1b[01;35m\x1b[KT_RF_3\x1b[m\x1b[K, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,\n'}
+[7.166025] (motor) StderrLine: {'line': b'\n'}
+[7.166571] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.167064] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.167563] (motor) StderrLine: {'line': b'                 int short &mode_RF_3, float &T_RF_3, float &\x1b[01;35m\x1b[KW_RF_3\x1b[m\x1b[K, float &Pos_RF_3, float &K_P_RF_3, float &K_W_RF_3,\n'}
+[7.168094] (motor) StderrLine: {'line': b'\n'}
+[7.168589] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.169092] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.169581] (motor) StderrLine: {'line': b'                 int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &\x1b[01;35m\x1b[KPos_RF_3\x1b[m\x1b[K, float &K_P_RF_3, float &K_W_RF_3,\n'}
+[7.170064] (motor) StderrLine: {'line': b'\n'}
+[7.170537] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.170985] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.171499] (motor) StderrLine: {'line': b'                 int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &\x1b[01;35m\x1b[KK_P_RF_3\x1b[m\x1b[K, float &K_W_RF_3,\n'}
+[7.171967] (motor) StderrLine: {'line': b'\n'}
+[7.172462] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.172924] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:84:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.173480] (motor) StderrLine: {'line': b'                 int short &mode_RF_3, float &T_RF_3, float &W_RF_3, float &Pos_RF_3, float &K_P_RF_3, float &\x1b[01;35m\x1b[KK_W_RF_3\x1b[m\x1b[K,\n'}
+[7.173966] (motor) StderrLine: {'line': b'\n'}
+[7.174487] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.174948] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.175460] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_LB_1\x1b[m\x1b[K, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,\n'}
+[7.175918] (motor) StderrLine: {'line': b'\n'}
+[7.176428] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.176923] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.177452] (motor) StderrLine: {'line': b'                 int short &mode_LB_1, float &\x1b[01;35m\x1b[KT_LB_1\x1b[m\x1b[K, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,\n'}
+[7.177917] (motor) StderrLine: {'line': b'\n'}
+[7.178419] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.178875] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.179405] (motor) StderrLine: {'line': b'                 int short &mode_LB_1, float &T_LB_1, float &\x1b[01;35m\x1b[KW_LB_1\x1b[m\x1b[K, float &Pos_LB_1, float &K_P_LB_1, float &K_W_LB_1,\n'}
+[7.179893] (motor) StderrLine: {'line': b'\n'}
+[7.180394] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.180849] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.181377] (motor) StderrLine: {'line': b'                 int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &\x1b[01;35m\x1b[KPos_LB_1\x1b[m\x1b[K, float &K_P_LB_1, float &K_W_LB_1,\n'}
+[7.181867] (motor) StderrLine: {'line': b'\n'}
+[7.182399] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.182880] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.183427] (motor) StderrLine: {'line': b'                 int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &\x1b[01;35m\x1b[KK_P_LB_1\x1b[m\x1b[K, float &K_W_LB_1,\n'}
+[7.183918] (motor) StderrLine: {'line': b'\n'}
+[7.184506] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.185020] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:86:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.185559] (motor) StderrLine: {'line': b'                 int short &mode_LB_1, float &T_LB_1, float &W_LB_1, float &Pos_LB_1, float &K_P_LB_1, float &\x1b[01;35m\x1b[KK_W_LB_1\x1b[m\x1b[K,\n'}
+[7.186079] (motor) StderrLine: {'line': b'\n'}
+[7.186618] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.187146] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.187647] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_LB_2\x1b[m\x1b[K, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,\n'}
+[7.188152] (motor) StderrLine: {'line': b'\n'}
+[7.188638] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.189157] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.189697] (motor) StderrLine: {'line': b'                 int short &mode_LB_2, float &\x1b[01;35m\x1b[KT_LB_2\x1b[m\x1b[K, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,\n'}
+[7.190234] (motor) StderrLine: {'line': b'\n'}
+[7.190718] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.191225] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.191778] (motor) StderrLine: {'line': b'                 int short &mode_LB_2, float &T_LB_2, float &\x1b[01;35m\x1b[KW_LB_2\x1b[m\x1b[K, float &Pos_LB_2, float &K_P_LB_2, float &K_W_LB_2,\n'}
+[7.192315] (motor) StderrLine: {'line': b'\n'}
+[7.192814] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.193343] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.193839] (motor) StderrLine: {'line': b'                 int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &\x1b[01;35m\x1b[KPos_LB_2\x1b[m\x1b[K, float &K_P_LB_2, float &K_W_LB_2,\n'}
+[7.194358] (motor) StderrLine: {'line': b'\n'}
+[7.194831] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.195369] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.195857] (motor) StderrLine: {'line': b'                 int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &\x1b[01;35m\x1b[KK_P_LB_2\x1b[m\x1b[K, float &K_W_LB_2,\n'}
+[7.196390] (motor) StderrLine: {'line': b'\n'}
+[7.196849] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.197401] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:87:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.197901] (motor) StderrLine: {'line': b'                 int short &mode_LB_2, float &T_LB_2, float &W_LB_2, float &Pos_LB_2, float &K_P_LB_2, float &\x1b[01;35m\x1b[KK_W_LB_2\x1b[m\x1b[K,\n'}
+[7.198469] (motor) StderrLine: {'line': b'\n'}
+[7.198955] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.199478] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.199948] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_LB_3\x1b[m\x1b[K, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,\n'}
+[7.200455] (motor) StderrLine: {'line': b'\n'}
+[7.200908] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.201420] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.201884] (motor) StderrLine: {'line': b'                 int short &mode_LB_3, float &\x1b[01;35m\x1b[KT_LB_3\x1b[m\x1b[K, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,\n'}
+[7.202406] (motor) StderrLine: {'line': b'\n'}
+[7.202857] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.203425] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.203965] (motor) StderrLine: {'line': b'                 int short &mode_LB_3, float &T_LB_3, float &\x1b[01;35m\x1b[KW_LB_3\x1b[m\x1b[K, float &Pos_LB_3, float &K_P_LB_3, float &K_W_LB_3,\n'}
+[7.204480] (motor) StderrLine: {'line': b'\n'}
+[7.204929] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.205474] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.205977] (motor) StderrLine: {'line': b'                 int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &\x1b[01;35m\x1b[KPos_LB_3\x1b[m\x1b[K, float &K_P_LB_3, float &K_W_LB_3,\n'}
+[7.206517] (motor) StderrLine: {'line': b'\n'}
+[7.206981] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.207507] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.207978] (motor) StderrLine: {'line': b'                 int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &\x1b[01;35m\x1b[KK_P_LB_3\x1b[m\x1b[K, float &K_W_LB_3,\n'}
+[7.208486] (motor) StderrLine: {'line': b'\n'}
+[7.208946] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.209469] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:88:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.209947] (motor) StderrLine: {'line': b'                 int short &mode_LB_3, float &T_LB_3, float &W_LB_3, float &Pos_LB_3, float &K_P_LB_3, float &\x1b[01;35m\x1b[KK_W_LB_3\x1b[m\x1b[K,\n'}
+[7.210457] (motor) StderrLine: {'line': b'\n'}
+[7.210921] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.211426] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.211910] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RB_1\x1b[m\x1b[K, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,\n'}
+[7.212433] (motor) StderrLine: {'line': b'\n'}
+[7.212895] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.213419] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.213901] (motor) StderrLine: {'line': b'                 int short &mode_RB_1, float &\x1b[01;35m\x1b[KT_RB_1\x1b[m\x1b[K, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,\n'}
+[7.214461] (motor) StderrLine: {'line': b'\n'}
+[7.214963] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.215491] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.215993] (motor) StderrLine: {'line': b'                 int short &mode_RB_1, float &T_RB_1, float &\x1b[01;35m\x1b[KW_RB_1\x1b[m\x1b[K, float &Pos_RB_1, float &K_P_RB_1, float &K_W_RB_1,\n'}
+[7.216496] (motor) StderrLine: {'line': b'\n'}
+[7.216953] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.217472] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.217940] (motor) StderrLine: {'line': b'                 int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &\x1b[01;35m\x1b[KPos_RB_1\x1b[m\x1b[K, float &K_P_RB_1, float &K_W_RB_1,\n'}
+[7.218449] (motor) StderrLine: {'line': b'\n'}
+[7.218935] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.219467] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.219947] (motor) StderrLine: {'line': b'                 int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &\x1b[01;35m\x1b[KK_P_RB_1\x1b[m\x1b[K, float &K_W_RB_1,\n'}
+[7.220465] (motor) StderrLine: {'line': b'\n'}
+[7.220939] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.221496] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:90:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.221999] (motor) StderrLine: {'line': b'                 int short &mode_RB_1, float &T_RB_1, float &W_RB_1, float &Pos_RB_1, float &K_P_RB_1, float &\x1b[01;35m\x1b[KK_W_RB_1\x1b[m\x1b[K,\n'}
+[7.222560] (motor) StderrLine: {'line': b'\n'}
+[7.223026] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.223576] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.224114] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RB_2\x1b[m\x1b[K, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,\n'}
+[7.224626] (motor) StderrLine: {'line': b'\n'}
+[7.225164] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.225669] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.226192] (motor) StderrLine: {'line': b'                 int short &mode_RB_2, float &\x1b[01;35m\x1b[KT_RB_2\x1b[m\x1b[K, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,\n'}
+[7.226676] (motor) StderrLine: {'line': b'\n'}
+[7.227170] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.227722] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.228293] (motor) StderrLine: {'line': b'                 int short &mode_RB_2, float &T_RB_2, float &\x1b[01;35m\x1b[KW_RB_2\x1b[m\x1b[K, float &Pos_RB_2, float &K_P_RB_2, float &K_W_RB_2,\n'}
+[7.228931] (motor) StderrLine: {'line': b'\n'}
+[7.229761] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.230372] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.230863] (motor) StderrLine: {'line': b'                 int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &\x1b[01;35m\x1b[KPos_RB_2\x1b[m\x1b[K, float &K_P_RB_2, float &K_W_RB_2,\n'}
+[7.231415] (motor) StderrLine: {'line': b'\n'}
+[7.231901] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.232431] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.232904] (motor) StderrLine: {'line': b'                 int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &\x1b[01;35m\x1b[KK_P_RB_2\x1b[m\x1b[K, float &K_W_RB_2,\n'}
+[7.233436] (motor) StderrLine: {'line': b'\n'}
+[7.233914] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.234466] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:91:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.234971] (motor) StderrLine: {'line': b'                 int short &mode_RB_2, float &T_RB_2, float &W_RB_2, float &Pos_RB_2, float &K_P_RB_2, float &\x1b[01;35m\x1b[KK_W_RB_2\x1b[m\x1b[K,\n'}
+[7.235505] (motor) StderrLine: {'line': b'\n'}
+[7.235979] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.236497] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.236971] (motor) StderrLine: {'line': b'                 int short &\x1b[01;35m\x1b[Kmode_RB_3\x1b[m\x1b[K, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)\n'}
+[7.237550] (motor) StderrLine: {'line': b'\n'}
+[7.238074] (motor) StderrLine: {'line': b'                            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.238569] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KT_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.239089] (motor) StderrLine: {'line': b'                 int short &mode_RB_3, float &\x1b[01;35m\x1b[KT_RB_3\x1b[m\x1b[K, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)\n'}
+[7.239620] (motor) StderrLine: {'line': b'\n'}
+[7.240182] (motor) StderrLine: {'line': b'                                              \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.240674] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KW_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.241162] (-) TimerEvent: {}
+[7.241642] (motor) StderrLine: {'line': b'                 int short &mode_RB_3, float &T_RB_3, float &\x1b[01;35m\x1b[KW_RB_3\x1b[m\x1b[K, float &Pos_RB_3, float &K_P_RB_3, float &K_W_RB_3)\n'}
+[7.242299] (motor) StderrLine: {'line': b'\n'}
+[7.242818] (motor) StderrLine: {'line': b'                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.243348] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KPos_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.243852] (motor) StderrLine: {'line': b'                 int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &\x1b[01;35m\x1b[KPos_RB_3\x1b[m\x1b[K, float &K_P_RB_3, float &K_W_RB_3)\n'}
+[7.244418] (motor) StderrLine: {'line': b'\n'}
+[7.244896] (motor) StderrLine: {'line': b'                                                                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.245438] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:93:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.245911] (motor) StderrLine: {'line': b'                 int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &\x1b[01;35m\x1b[KK_P_RB_3\x1b[m\x1b[K, float &K_W_RB_3)\n'}
+[7.246426] (motor) StderrLine: {'line': b'\n'}
+[7.246907] (motor) StderrLine: {'line': b'                                                                                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.247427] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:92:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.247893] (motor) StderrLine: {'line': b'                 int short &mode_RB_3, float &T_RB_3, float &W_RB_3, float &Pos_RB_3, float &K_P_RB_3, float &\x1b[01;35m\x1b[KK_W_RB_3\x1b[m\x1b[K)\n'}
+[7.248426] (motor) StderrLine: {'line': b'\n'}
+[7.248904] (motor) StderrLine: {'line': b'                                                                                                              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.249428] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.249905] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:132:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[7.250459] (motor) StderrLine: {'line': b'     void topic_callback(const message::msg::Motorcarryout::SharedPtr \x1b[01;35m\x1b[Kmsg\x1b[m\x1b[K) const\n'}
+[7.250957] (motor) StderrLine: {'line': b'\n'}
+[7.251478] (motor) StderrLine: {'line': b'                                                                      \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.341432] (-) TimerEvent: {}
+[7.442279] (-) TimerEvent: {}
+[7.543174] (-) TimerEvent: {}
+[7.643999] (-) TimerEvent: {}
+[7.744927] (-) TimerEvent: {}
+[7.845884] (-) TimerEvent: {}
+[7.946782] (-) TimerEvent: {}
+[8.047672] (-) TimerEvent: {}
+[8.148553] (-) TimerEvent: {}
+[8.249430] (-) TimerEvent: {}
+[8.350212] (-) TimerEvent: {}
+[8.451138] (-) TimerEvent: {}
+[8.551956] (-) TimerEvent: {}
+[8.652857] (-) TimerEvent: {}
+[8.753759] (-) TimerEvent: {}
+[8.854673] (-) TimerEvent: {}
+[8.955536] (-) TimerEvent: {}
+[9.056452] (-) TimerEvent: {}
+[9.157305] (-) TimerEvent: {}
+[9.258188] (-) TimerEvent: {}
+[9.359001] (-) TimerEvent: {}
+[9.459930] (-) TimerEvent: {}
+[9.560831] (-) TimerEvent: {}
+[9.577534] (motor) StdoutLine: {'line': b"CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed\n"}
+[9.578341] (motor) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1\n'}
+[9.579291] (motor) StderrLine: {'line': b'make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2\n'}
+[9.579833] (motor) StdoutLine: {'line': b"CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed\n"}
+[9.580442] (motor) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[9.580968] (motor) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.584702] (motor) CommandEnded: {'returncode': 2}
+[9.661104] (-) TimerEvent: {}
+[9.723169] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[9.735870] (-) EventReactorShutdown: {}

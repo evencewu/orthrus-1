@@ -1,0 +1,619 @@
+[0.000000] (-) TimerEvent: {}
+[0.003009] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.003981] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('message', '/home/orthrus1-1/orthrus1-1/install/message')])}
+[0.004239] (message) JobStarted: {'identifier': 'message'}
+[0.048018] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.051442] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.055210] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.096022] (-) TimerEvent: {}
+[0.196967] (-) TimerEvent: {}
+[0.274669] (message) StdoutLine: {'line': b'[  1%] Built target message__dds_opensplice_idl\n'}
+[0.283359] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[0.292775] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[0.297232] (-) TimerEvent: {}
+[0.385769] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_cpp\n'}
+[0.397419] (-) TimerEvent: {}
+[0.406566] (message) StdoutLine: {'line': b'[ 20%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[0.431007] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[0.485398] (message) StdoutLine: {'line': b'[ 32%] Built target message__rosidl_typesupport_c\n'}
+[0.497608] (-) TimerEvent: {}
+[0.502103] (message) StdoutLine: {'line': b'[ 52%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[0.518856] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_introspection_c\n'}
+[0.569935] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[0.597884] (-) TimerEvent: {}
+[0.698671] (-) TimerEvent: {}
+[0.713749] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[0.793653] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[0.798873] (-) TimerEvent: {}
+[0.875706] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[0.899009] (-) TimerEvent: {}
+[0.990342] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[0.999182] (-) TimerEvent: {}
+[1.100195] (-) TimerEvent: {}
+[1.113712] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.114616] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_c__pyext\n'}
+[1.115334] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[1.159456] (message) CommandEnded: {'returncode': 0}
+[1.200472] (-) TimerEvent: {}
+[1.301451] (-) TimerEvent: {}
+[1.402171] (-) TimerEvent: {}
+[1.457008] (message) JobProgress: {'identifier': 'message', 'progress': 'install'}
+[1.497948] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.505293] (-) TimerEvent: {}
+[1.606547] (-) TimerEvent: {}
+[1.707377] (-) TimerEvent: {}
+[1.711182] (message) StdoutLine: {'line': b'[  2%] Built target message__cpp\n'}
+[1.712134] (message) StdoutLine: {'line': b'[  2%] Built target message__dds_opensplice_idl\n'}
+[1.726050] (message) StdoutLine: {'line': b'[  8%] Built target message__rosidl_generator_c\n'}
+[1.807576] (-) TimerEvent: {}
+[1.820656] (message) StdoutLine: {'line': b'[ 14%] Built target message__rosidl_typesupport_introspection_cpp\n'}
+[1.831148] (message) StdoutLine: {'line': b'[ 20%] Built target message__rosidl_typesupport_cpp\n'}
+[1.878223] (message) StdoutLine: {'line': b'[ 26%] Built target message__rosidl_typesupport_fastrtps_cpp\n'}
+[1.907775] (-) TimerEvent: {}
+[1.916983] (message) StdoutLine: {'line': b'[ 46%] Built target message__rosidl_typesupport_opensplice_cpp\n'}
+[1.944985] (message) StdoutLine: {'line': b'[ 52%] Built target message__rosidl_typesupport_introspection_c\n'}
+[1.951172] (message) StdoutLine: {'line': b'[ 58%] Built target message__rosidl_typesupport_c\n'}
+[2.008117] (message) StdoutLine: {'line': b'[ 64%] Built target message__rosidl_typesupport_fastrtps_c\n'}
+[2.008899] (-) TimerEvent: {}
+[2.108316] (message) StdoutLine: {'line': b'[ 85%] Built target message__rosidl_typesupport_opensplice_c\n'}
+[2.109096] (-) TimerEvent: {}
+[2.188592] (message) StdoutLine: {'line': b'[ 85%] Built target message\n'}
+[2.209296] (-) TimerEvent: {}
+[2.270288] (message) StdoutLine: {'line': b'[ 86%] Built target message__py\n'}
+[2.309539] (-) TimerEvent: {}
+[2.383400] (message) StdoutLine: {'line': b'[ 91%] Built target message__python\n'}
+[2.409727] (-) TimerEvent: {}
+[2.505149] (message) StdoutLine: {'line': b'[ 97%] Built target message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.506189] (message) StdoutLine: {'line': b'[ 97%] Built target message__rosidl_typesupport_c__pyext\n'}
+[2.506922] (message) StdoutLine: {'line': b'[100%] Built target message__rosidl_typesupport_opensplice_c__pyext\n'}
+[2.509901] (-) TimerEvent: {}
+[2.582989] (message) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.610087] (-) TimerEvent: {}
+[2.617912] (message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.618968] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/rosidl_interfaces/message\n'}
+[2.620066] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.620979] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.621706] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.hpp\n'}
+[2.622294] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.hpp\n'}
+[2.622877] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__traits.hpp\n'}
+[2.623380] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.623867] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.hpp\n'}
+[2.624358] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.hpp\n'}
+[2.624936] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__traits.hpp\n'}
+[2.625463] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.625949] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.626617] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.c\n'}
+[2.627318] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.h\n'}
+[2.627839] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__struct.h\n'}
+[2.628398] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend.h\n'}
+[2.629141] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__functions.h\n'}
+[2.629771] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.630284] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.c\n'}
+[2.630852] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.h\n'}
+[2.631433] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__functions.h\n'}
+[2.632128] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__struct.h\n'}
+[2.632590] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.633161] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout.h\n'}
+[2.633733] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/library_path.sh\n'}
+[2.634662] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_generator_c.so\n'}
+[2.635225] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_c.so\n'}
+[2.635760] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_cpp.so\n'}
+[2.636264] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.637014] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.637675] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_c.h\n'}
+[2.638216] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.c\n'}
+[2.638740] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.639241] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_c.h\n'}
+[2.639933] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.640546] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.c\n'}
+[2.641340] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_c.so\n'}
+[2.642069] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.642701] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.643215] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.643722] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__type_support.cpp\n'}
+[2.644219] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.644772] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__type_support.cpp\n'}
+[2.645320] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.645855] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[2.646376] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.646887] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.647395] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_c.h\n'}
+[2.647914] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.648422] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.649014] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_c.h\n'}
+[2.649545] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[2.650078] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.650547] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.651057] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.651517] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_fastrtps\n'}
+[2.652020] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.652527] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_fastrtps\n'}
+[2.653053] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.653565] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.654103] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.654618] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.655127] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.655581] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_c.h\n'}
+[2.656127] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice_c\n'}
+[2.656598] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.657109] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_c__visibility_control.h\n'}
+[2.657562] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_c.h\n'}
+[2.658070] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice_c\n'}
+[2.658541] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_c.so\n'}
+[2.659065] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice\n'}
+[2.659556] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/dds_opensplice/Motorcarryout_.idl\n'}
+[2.660096] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice\n'}
+[2.660566] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/dds_opensplice/Motorsend_.idl\n'}
+[2.661096] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message\n'}
+[2.661558] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv\n'}
+[2.662064] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice\n'}
+[2.662515] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_.h\n'}
+[2.662996] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/ccpp_Motorsend_.h\n'}
+[2.663460] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_SplDcps.h\n'}
+[2.663963] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps.h\n'}
+[2.664445] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/dds_opensplice/Motorsend_Dcps_impl.h\n'}
+[2.664960] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/srv/motorsend__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.665448] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg\n'}
+[2.665943] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice\n'}
+[2.666439] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps_impl.h\n'}
+[2.666925] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_Dcps.h\n'}
+[2.667439] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_SplDcps.h\n'}
+[2.667963] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/Motorcarryout_.h\n'}
+[2.668429] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/dds_opensplice/ccpp_Motorcarryout_.h\n'}
+[2.668917] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/motorcarryout__rosidl_typesupport_opensplice_cpp.hpp\n'}
+[2.669411] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/include/message/msg/rosidl_typesupport_opensplice_cpp__visibility_control.h\n'}
+[2.669909] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__rosidl_typesupport_opensplice_cpp.so\n'}
+[2.670381] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/pythonpath.sh\n'}
+[2.670857] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/__init__.py\n'}
+[2.710230] (-) TimerEvent: {}
+[2.801229] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg\n'}
+[2.802230] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/__init__.py\n'}
+[2.802855] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout_s.c\n'}
+[2.803352] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/msg/_motorcarryout.py\n'}
+[2.803943] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv\n'}
+[2.804398] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend_s.c\n'}
+[2.804894] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/__init__.py\n'}
+[2.805414] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/srv/_motorsend.py\n'}
+[2.805991] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.806449] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.807469] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages/message/message_s__rosidl_typesupport_opensplice_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.809104] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/lib/libmessage__python.so\n'}
+[2.809910] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.idl\n'}
+[2.810409] (-) TimerEvent: {}
+[2.811172] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.idl\n'}
+[2.811865] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/msg/Motorcarryout.msg\n'}
+[2.812480] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend.srv\n'}
+[2.813084] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Request.msg\n'}
+[2.813686] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/srv/Motorsend_Response.msg\n'}
+[2.814296] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/package_run_dependencies/message\n'}
+[2.814886] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/parent_prefix_path/message\n'}
+[2.815543] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/ament_prefix_path.sh\n'}
+[2.816071] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/environment/path.sh\n'}
+[2.816586] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.bash\n'}
+[2.817186] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.sh\n'}
+[2.817692] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/local_setup.zsh\n'}
+[2.818283] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/ament_index/resource_index/packages/message\n'}
+[2.818870] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake-extras.cmake\n'}
+[2.819397] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.819907] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.820451] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.821015] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.821548] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig.cmake\n'}
+[2.822117] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/cmake/messageConfig-version.cmake\n'}
+[2.822620] (message) StdoutLine: {'line': b'-- Up-to-date: /home/orthrus1-1/orthrus1-1/install/message/share/message/package.xml\n'}
+[2.826600] (message) CommandEnded: {'returncode': 0}
+[2.911682] (-) TimerEvent: {}
+[3.012647] (-) TimerEvent: {}
+[3.113595] (-) TimerEvent: {}
+[3.218070] (-) TimerEvent: {}
+[3.267003] (message) JobEnded: {'identifier': 'message', 'rc': 0}
+[3.324862] (-) TimerEvent: {}
+[3.325607] (motor) JobStarted: {'identifier': 'motor'}
+[3.347755] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[3.350695] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[3.352055] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/orthrus1-1/orthrus1-1/install/message/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/motor'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing')]), 'shell': False}
+[3.425110] (-) TimerEvent: {}
+[3.520151] (motor) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motor_carryout\x1b[0m\n'}
+[3.525254] (-) TimerEvent: {}
+[3.573517] (motor) StdoutLine: {'line': b'[ 50%] Built target check\n'}
+[3.618144] (motor) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o\x1b[0m\n'}
+[3.625423] (-) TimerEvent: {}
+[3.726189] (-) TimerEvent: {}
+[3.826979] (-) TimerEvent: {}
+[3.927712] (-) TimerEvent: {}
+[4.028565] (-) TimerEvent: {}
+[4.129410] (-) TimerEvent: {}
+[4.230252] (-) TimerEvent: {}
+[4.331063] (-) TimerEvent: {}
+[4.431867] (-) TimerEvent: {}
+[4.532622] (-) TimerEvent: {}
+[4.633543] (-) TimerEvent: {}
+[4.734388] (-) TimerEvent: {}
+[4.835228] (-) TimerEvent: {}
+[4.935968] (-) TimerEvent: {}
+[5.036706] (-) TimerEvent: {}
+[5.137528] (-) TimerEvent: {}
+[5.238405] (-) TimerEvent: {}
+[5.339245] (-) TimerEvent: {}
+[5.440123] (-) TimerEvent: {}
+[5.540941] (-) TimerEvent: {}
+[5.641695] (-) TimerEvent: {}
+[5.742479] (-) TimerEvent: {}
+[5.843365] (-) TimerEvent: {}
+[5.944182] (-) TimerEvent: {}
+[6.044998] (-) TimerEvent: {}
+[6.145896] (-) TimerEvent: {}
+[6.246704] (-) TimerEvent: {}
+[6.347596] (-) TimerEvent: {}
+[6.448483] (-) TimerEvent: {}
+[6.549403] (-) TimerEvent: {}
+[6.650286] (-) TimerEvent: {}
+[6.751165] (-) TimerEvent: {}
+[6.851995] (-) TimerEvent: {}
+[6.952883] (-) TimerEvent: {}
+[7.053665] (-) TimerEvent: {}
+[7.111876] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid setup_data(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.115186] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:101:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_1\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.119847] (motor) StderrLine: {'line': b'     motor_LF_s1.mode =  msg_-> \x1b[01;31m\x1b[Kmode_LF_1\x1b[m\x1b[K;\n'}
+[7.121696] (motor) StderrLine: {'line': b'\n'}
+[7.122303] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.122830] (motor) StderrLine: {'line': b'                                \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.123328] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.123847] (motor) StderrLine: {'line': b'     motor_LF_s1.T    =  msg_->    \x1b[01;31m\x1b[KT_LF_1\x1b[m\x1b[K;  //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9aNm, T<255.9\n'}
+[7.124351] (motor) StderrLine: {'line': b'\n'}
+[7.124862] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.125364] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:103:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.125879] (motor) StderrLine: {'line': b'     motor_LF_s1.W    =  msg_->    \x1b[01;31m\x1b[KW_LF_1\x1b[m\x1b[K;  //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9arad/s, W<511.9\n'}
+[7.126364] (motor) StderrLine: {'line': b'\n'}
+[7.126862] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.127360] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:104:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.127896] (motor) StderrLine: {'line': b'     motor_LF_s1.Pos  =  msg_->  \x1b[01;31m\x1b[KPos_LF_1\x1b[m\x1b[K;  //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9arad, Pos<131071.9\n'}
+[7.128433] (motor) StderrLine: {'line': b'\n'}
+[7.128971] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.129476] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:105:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.130025] (motor) StderrLine: {'line': b'     motor_LF_s1.K_P  =  msg_->  \x1b[01;31m\x1b[KK_P_LF_1\x1b[m\x1b[K;  //K_P<31.9\n'}
+[7.130509] (motor) StderrLine: {'line': b'\n'}
+[7.131045] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.131571] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:106:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.132113] (motor) StderrLine: {'line': b'     motor_LF_s1.K_W  =  msg_->  \x1b[01;31m\x1b[KK_W_LF_1\x1b[m\x1b[K;  //K_W<63.9\n'}
+[7.132588] (motor) StderrLine: {'line': b'\n'}
+[7.133111] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.133600] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:112:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_2\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.134202] (motor) StderrLine: {'line': b'    motor_LF_s2.mode = msg_-> \x1b[01;31m\x1b[Kmode_LF_2\x1b[m\x1b[K;\n'}
+[7.134700] (motor) StderrLine: {'line': b'\n'}
+[7.135230] (motor) StderrLine: {'line': b'                              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.135710] (motor) StderrLine: {'line': b'                              \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.136264] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:113:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.136765] (motor) StderrLine: {'line': b'    motor_LF_s2.T    = msg_->    \x1b[01;31m\x1b[KT_LF_2\x1b[m\x1b[K;           \n'}
+[7.137359] (motor) StderrLine: {'line': b'\n'}
+[7.137874] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.138376] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.138941] (motor) StderrLine: {'line': b'    motor_LF_s2.W    = msg_->    \x1b[01;31m\x1b[KW_LF_2\x1b[m\x1b[K;              \n'}
+[7.139461] (motor) StderrLine: {'line': b'\n'}
+[7.139970] (motor) StderrLine: {'line': b'                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.140458] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:115:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.140995] (motor) StderrLine: {'line': b'    motor_LF_s2.Pos  = msg_->  \x1b[01;31m\x1b[KPos_LF_2\x1b[m\x1b[K;         \n'}
+[7.141480] (motor) StderrLine: {'line': b'\n'}
+[7.141996] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.142470] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:116:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.143033] (motor) StderrLine: {'line': b'    motor_LF_s2.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_LF_2\x1b[m\x1b[K;      \n'}
+[7.143513] (motor) StderrLine: {'line': b'\n'}
+[7.144027] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.144516] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.145056] (motor) StderrLine: {'line': b'    motor_LF_s2.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_LF_2\x1b[m\x1b[K;      \n'}
+[7.145540] (motor) StderrLine: {'line': b'\n'}
+[7.146050] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.146526] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:123:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LF_3\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.147064] (motor) StderrLine: {'line': b'     motor_LF_s3.mode = msg_-> \x1b[01;31m\x1b[Kmode_LF_3\x1b[m\x1b[K;\n'}
+[7.147522] (motor) StderrLine: {'line': b'\n'}
+[7.148045] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.148524] (motor) StderrLine: {'line': b'                               \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.149020] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:124:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.149504] (motor) StderrLine: {'line': b'     motor_LF_s3.T    = msg_->    \x1b[01;31m\x1b[KT_LF_3\x1b[m\x1b[K;             \n'}
+[7.149997] (motor) StderrLine: {'line': b'\n'}
+[7.150472] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.150965] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:125:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.151486] (motor) StderrLine: {'line': b'     motor_LF_s3.W    = msg_->    \x1b[01;31m\x1b[KW_LF_3\x1b[m\x1b[K;               \n'}
+[7.152023] (motor) StderrLine: {'line': b'\n'}
+[7.152499] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.153051] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:126:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.153600] (motor) StderrLine: {'line': b'     motor_LF_s3.Pos  = msg_->  \x1b[01;31m\x1b[KPos_LF_3\x1b[m\x1b[K;       \n'}
+[7.154127] (-) TimerEvent: {}
+[7.154600] (motor) StderrLine: {'line': b'\n'}
+[7.155241] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.155737] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.156331] (motor) StderrLine: {'line': b'     motor_LF_s3.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_LF_3\x1b[m\x1b[K;         \n'}
+[7.156856] (motor) StderrLine: {'line': b'\n'}
+[7.157342] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.157830] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.158376] (motor) StderrLine: {'line': b'     motor_LF_s3.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_LF_3\x1b[m\x1b[K;      \n'}
+[7.158886] (motor) StderrLine: {'line': b'\n'}
+[7.159396] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.159920] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:135:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_1\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.160435] (motor) StderrLine: {'line': b'        motor_RF_s1.mode = msg_-> \x1b[01;31m\x1b[Kmode_RF_1\x1b[m\x1b[K;\n'}
+[7.160955] (motor) StderrLine: {'line': b'\n'}
+[7.161448] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.161953] (motor) StderrLine: {'line': b'                                  \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.162459] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:136:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.162983] (motor) StderrLine: {'line': b'        motor_RF_s1.T    = msg_->    \x1b[01;31m\x1b[KT_RF_1\x1b[m\x1b[K;           \n'}
+[7.163477] (motor) StderrLine: {'line': b'\n'}
+[7.163975] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.164467] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:137:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.165018] (motor) StderrLine: {'line': b'        motor_RF_s1.W    = msg_->    \x1b[01;31m\x1b[KW_RF_1\x1b[m\x1b[K;             \n'}
+[7.165532] (motor) StderrLine: {'line': b'\n'}
+[7.166089] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.166568] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.167089] (motor) StderrLine: {'line': b'        motor_RF_s1.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RF_1\x1b[m\x1b[K;       \n'}
+[7.167564] (motor) StderrLine: {'line': b'\n'}
+[7.168091] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.168567] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.169140] (motor) StderrLine: {'line': b'        motor_RF_s1.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RF_1\x1b[m\x1b[K;       \n'}
+[7.169625] (motor) StderrLine: {'line': b'\n'}
+[7.170167] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.170651] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.171215] (motor) StderrLine: {'line': b'        motor_RF_s1.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RF_1\x1b[m\x1b[K;      \n'}
+[7.171700] (motor) StderrLine: {'line': b'\n'}
+[7.172249] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.172717] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:146:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_2\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.173261] (motor) StderrLine: {'line': b'        motor_RF_s2.mode = msg_-> \x1b[01;31m\x1b[Kmode_RF_2\x1b[m\x1b[K;\n'}
+[7.173744] (motor) StderrLine: {'line': b'\n'}
+[7.174284] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.174758] (motor) StderrLine: {'line': b'                                  \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.175269] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:147:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.175829] (motor) StderrLine: {'line': b'        motor_RF_s2.T    = msg_->    \x1b[01;31m\x1b[KT_RF_2\x1b[m\x1b[K;            \n'}
+[7.176362] (motor) StderrLine: {'line': b'\n'}
+[7.176902] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.177463] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:148:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.178076] (motor) StderrLine: {'line': b'        motor_RF_s2.W    = msg_->    \x1b[01;31m\x1b[KW_RF_2\x1b[m\x1b[K;             \n'}
+[7.178579] (motor) StderrLine: {'line': b'\n'}
+[7.179095] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.179579] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:149:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.180132] (motor) StderrLine: {'line': b'        motor_RF_s2.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RF_2\x1b[m\x1b[K;         \n'}
+[7.180628] (motor) StderrLine: {'line': b'\n'}
+[7.181162] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.181624] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.182179] (motor) StderrLine: {'line': b'        motor_RF_s2.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RF_2\x1b[m\x1b[K;        \n'}
+[7.182643] (motor) StderrLine: {'line': b'\n'}
+[7.183154] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.183700] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.184287] (motor) StderrLine: {'line': b'        motor_RF_s2.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RF_2\x1b[m\x1b[K;     \n'}
+[7.184762] (motor) StderrLine: {'line': b'\n'}
+[7.185301] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.185781] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:157:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RF_3\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.186381] (motor) StderrLine: {'line': b'        motor_RF_s3.mode = msg_-> \x1b[01;31m\x1b[Kmode_RF_3\x1b[m\x1b[K;\n'}
+[7.186906] (motor) StderrLine: {'line': b'\n'}
+[7.187391] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.187888] (motor) StderrLine: {'line': b'                                  \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.188375] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:158:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.188942] (motor) StderrLine: {'line': b'        motor_RF_s3.T    = msg_->    \x1b[01;31m\x1b[KT_RF_3\x1b[m\x1b[K;             \n'}
+[7.189463] (motor) StderrLine: {'line': b'\n'}
+[7.189979] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.190451] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:159:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.190952] (motor) StderrLine: {'line': b'        motor_RF_s3.W    = msg_->    \x1b[01;31m\x1b[KW_RF_3\x1b[m\x1b[K;                \n'}
+[7.191419] (motor) StderrLine: {'line': b'\n'}
+[7.191894] (motor) StderrLine: {'line': b'                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.192370] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:160:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.192893] (motor) StderrLine: {'line': b'        motor_RF_s3.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RF_3\x1b[m\x1b[K;         \n'}
+[7.193399] (motor) StderrLine: {'line': b'\n'}
+[7.193897] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.194380] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.194929] (motor) StderrLine: {'line': b'        motor_RF_s3.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RF_3\x1b[m\x1b[K;        \n'}
+[7.195433] (motor) StderrLine: {'line': b'\n'}
+[7.195972] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.196516] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RF_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.197115] (motor) StderrLine: {'line': b'        motor_RF_s3.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RF_3\x1b[m\x1b[K;      \n'}
+[7.197629] (motor) StderrLine: {'line': b'\n'}
+[7.198163] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.198632] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:169:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_1\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.199171] (motor) StderrLine: {'line': b'     motor_LB_s1.mode = msg_-> \x1b[01;31m\x1b[Kmode_LB_1\x1b[m\x1b[K;\n'}
+[7.199665] (motor) StderrLine: {'line': b'\n'}
+[7.200175] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.200632] (motor) StderrLine: {'line': b'                               \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.201163] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:170:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.201654] (motor) StderrLine: {'line': b'     motor_LB_s1.T    = msg_->    \x1b[01;31m\x1b[KT_LB_1\x1b[m\x1b[K;            \n'}
+[7.202171] (motor) StderrLine: {'line': b'\n'}
+[7.202628] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.203122] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:171:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.203608] (motor) StderrLine: {'line': b'     motor_LB_s1.W    = msg_->    \x1b[01;31m\x1b[KW_LB_1\x1b[m\x1b[K;               \n'}
+[7.204128] (motor) StderrLine: {'line': b'\n'}
+[7.204597] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.205099] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.205575] (motor) StderrLine: {'line': b'     motor_LB_s1.Pos  = msg_->  \x1b[01;31m\x1b[KPos_LB_1\x1b[m\x1b[K;         \n'}
+[7.206066] (motor) StderrLine: {'line': b'\n'}
+[7.206530] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.207029] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.207508] (motor) StderrLine: {'line': b'     motor_LB_s1.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_LB_1\x1b[m\x1b[K;         \n'}
+[7.207996] (motor) StderrLine: {'line': b'\n'}
+[7.208452] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.208945] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.209472] (motor) StderrLine: {'line': b'     motor_LB_s1.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_LB_1\x1b[m\x1b[K;        \n'}
+[7.209995] (motor) StderrLine: {'line': b'\n'}
+[7.210478] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.210973] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:180:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_2\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.211489] (motor) StderrLine: {'line': b'     motor_LB_s2.mode = msg_-> \x1b[01;31m\x1b[Kmode_LB_2\x1b[m\x1b[K;\n'}
+[7.212002] (motor) StderrLine: {'line': b'\n'}
+[7.212470] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.212984] (motor) StderrLine: {'line': b'                               \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.213443] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:181:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.213958] (motor) StderrLine: {'line': b'     motor_LB_s2.T    = msg_->    \x1b[01;31m\x1b[KT_LB_2\x1b[m\x1b[K;             \n'}
+[7.214427] (motor) StderrLine: {'line': b'\n'}
+[7.214940] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.215433] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:182:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.215951] (motor) StderrLine: {'line': b'     motor_LB_s2.W    = msg_->    \x1b[01;31m\x1b[KW_LB_2\x1b[m\x1b[K;              \n'}
+[7.216420] (motor) StderrLine: {'line': b'\n'}
+[7.216925] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.217468] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:183:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.218019] (motor) StderrLine: {'line': b'     motor_LB_s2.Pos  = msg_->  \x1b[01;31m\x1b[KPos_LB_2\x1b[m\x1b[K;     \n'}
+[7.218509] (motor) StderrLine: {'line': b'\n'}
+[7.219021] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.219509] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.220029] (motor) StderrLine: {'line': b'     motor_LB_s2.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_LB_2\x1b[m\x1b[K;       \n'}
+[7.220507] (motor) StderrLine: {'line': b'\n'}
+[7.221011] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.221518] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.222104] (motor) StderrLine: {'line': b'     motor_LB_s2.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_LB_2\x1b[m\x1b[K;       \n'}
+[7.222579] (motor) StderrLine: {'line': b'\n'}
+[7.223084] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.223551] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:191:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_LB_3\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.224099] (motor) StderrLine: {'line': b'     motor_LB_s3.mode = msg_-> \x1b[01;31m\x1b[Kmode_LB_3\x1b[m\x1b[K;\n'}
+[7.224595] (motor) StderrLine: {'line': b'\n'}
+[7.225163] (motor) StderrLine: {'line': b'                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.225665] (motor) StderrLine: {'line': b'                               \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.226196] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:192:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_LB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.226685] (motor) StderrLine: {'line': b'     motor_LB_s3.T    = msg_->    \x1b[01;31m\x1b[KT_LB_3\x1b[m\x1b[K;             //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9aNm, T<255.9\n'}
+[7.227204] (motor) StderrLine: {'line': b'\n'}
+[7.227682] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.228207] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:193:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_LB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.228697] (motor) StderrLine: {'line': b'     motor_LB_s3.W    = msg_->    \x1b[01;31m\x1b[KW_LB_3\x1b[m\x1b[K;                //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9arad/s, W<511.9\n'}
+[7.229212] (motor) StderrLine: {'line': b'\n'}
+[7.229685] (motor) StderrLine: {'line': b'                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.230208] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:194:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_LB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.230755] (motor) StderrLine: {'line': b'     motor_LB_s3.Pos  = msg_->  \x1b[01;31m\x1b[KPos_LB_3\x1b[m\x1b[K;         //\xe5\x8d\x95\xe4\xbd\x8d\xef\xbc\x9arad, Pos<131071.9\n'}
+[7.231281] (motor) StderrLine: {'line': b'\n'}
+[7.231742] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.232271] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_LB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.232762] (motor) StderrLine: {'line': b'     motor_LB_s3.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_LB_3\x1b[m\x1b[K;         //K_P<31.9\n'}
+[7.233278] (motor) StderrLine: {'line': b'\n'}
+[7.233748] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.234250] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_LB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.234733] (motor) StderrLine: {'line': b'     motor_LB_s3.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_LB_3\x1b[m\x1b[K;        //K_W<63.9\n'}
+[7.235231] (motor) StderrLine: {'line': b'\n'}
+[7.235713] (motor) StderrLine: {'line': b'                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.236240] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:202:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_1\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.236722] (motor) StderrLine: {'line': b'         motor_RB_s1.mode = msg_-> \x1b[01;31m\x1b[Kmode_RB_1\x1b[m\x1b[K;\n'}
+[7.237225] (motor) StderrLine: {'line': b'\n'}
+[7.237709] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.238234] (motor) StderrLine: {'line': b'                                   \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.238726] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:203:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.239262] (motor) StderrLine: {'line': b'         motor_RB_s1.T    = msg_->    \x1b[01;31m\x1b[KT_RB_1\x1b[m\x1b[K;            \n'}
+[7.239740] (motor) StderrLine: {'line': b'\n'}
+[7.240265] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.240725] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:204:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.241261] (motor) StderrLine: {'line': b'         motor_RB_s1.W    = msg_->    \x1b[01;31m\x1b[KW_RB_1\x1b[m\x1b[K;               \n'}
+[7.241723] (motor) StderrLine: {'line': b'\n'}
+[7.242242] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.242708] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:205:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.243235] (motor) StderrLine: {'line': b'         motor_RB_s1.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RB_1\x1b[m\x1b[K;         \n'}
+[7.243730] (motor) StderrLine: {'line': b'\n'}
+[7.244246] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.244731] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.245275] (motor) StderrLine: {'line': b'         motor_RB_s1.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RB_1\x1b[m\x1b[K;         \n'}
+[7.245734] (motor) StderrLine: {'line': b'\n'}
+[7.246235] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.246710] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.247262] (motor) StderrLine: {'line': b'         motor_RB_s1.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RB_1\x1b[m\x1b[K; \n'}
+[7.247750] (motor) StderrLine: {'line': b'\n'}
+[7.248280] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.248740] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:213:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_2\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.249329] (motor) StderrLine: {'line': b'         motor_RB_s2.mode = msg_-> \x1b[01;31m\x1b[Kmode_RB_2\x1b[m\x1b[K;\n'}
+[7.249844] (motor) StderrLine: {'line': b'\n'}
+[7.250342] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.250832] (motor) StderrLine: {'line': b'                                   \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.251307] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:214:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.251839] (motor) StderrLine: {'line': b'         motor_RB_s2.T    = msg_->    \x1b[01;31m\x1b[KT_RB_2\x1b[m\x1b[K;            \n'}
+[7.252359] (motor) StderrLine: {'line': b'\n'}
+[7.252892] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.253389] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:215:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.253965] (motor) StderrLine: {'line': b'         motor_RB_s2.W    = msg_->    \x1b[01;31m\x1b[KW_RB_2\x1b[m\x1b[K;               \n'}
+[7.255373] (-) TimerEvent: {}
+[7.255924] (motor) StderrLine: {'line': b'\n'}
+[7.256517] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.257111] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:216:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.257637] (motor) StderrLine: {'line': b'         motor_RB_s2.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RB_2\x1b[m\x1b[K;         \n'}
+[7.258185] (motor) StderrLine: {'line': b'\n'}
+[7.258658] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.259173] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.259678] (motor) StderrLine: {'line': b'         motor_RB_s2.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RB_2\x1b[m\x1b[K;         \n'}
+[7.260272] (motor) StderrLine: {'line': b'\n'}
+[7.260783] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.261326] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.261865] (motor) StderrLine: {'line': b'         motor_RB_s2.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RB_2\x1b[m\x1b[K; \n'}
+[7.262391] (motor) StderrLine: {'line': b'\n'}
+[7.262899] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.263392] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:224:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode_RB_3\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[K_mode_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.263949] (motor) StderrLine: {'line': b'         motor_RB_s3.mode = msg_-> \x1b[01;31m\x1b[Kmode_RB_3\x1b[m\x1b[K;\n'}
+[7.264447] (motor) StderrLine: {'line': b'\n'}
+[7.264964] (motor) StderrLine: {'line': b'                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.265472] (motor) StderrLine: {'line': b'                                   \x1b[32m\x1b[K_mode_type\x1b[m\x1b[K\n'}
+[7.266039] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:225:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KT_RB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.266560] (motor) StderrLine: {'line': b'         motor_RB_s3.T    = msg_->    \x1b[01;31m\x1b[KT_RB_3\x1b[m\x1b[K;            \n'}
+[7.267085] (motor) StderrLine: {'line': b'\n'}
+[7.267567] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.268099] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:226:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KW_RB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.268628] (motor) StderrLine: {'line': b'         motor_RB_s3.W    = msg_->    \x1b[01;31m\x1b[KW_RB_3\x1b[m\x1b[K;               \n'}
+[7.269158] (motor) StderrLine: {'line': b'\n'}
+[7.269614] (motor) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.270162] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:227:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KPos_RB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.270687] (motor) StderrLine: {'line': b'         motor_RB_s3.Pos  = msg_->  \x1b[01;31m\x1b[KPos_RB_3\x1b[m\x1b[K;         \n'}
+[7.271208] (motor) StderrLine: {'line': b'\n'}
+[7.271665] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.272161] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_P_RB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.272622] (motor) StderrLine: {'line': b'         motor_RB_s3.K_P  = msg_->  \x1b[01;31m\x1b[KK_P_RB_3\x1b[m\x1b[K;         \n'}
+[7.273130] (motor) StderrLine: {'line': b'\n'}
+[7.273601] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.274137] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KK_W_RB_3\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.274646] (motor) StderrLine: {'line': b'         motor_RB_s3.K_W  = msg_->  \x1b[01;31m\x1b[KK_W_RB_3\x1b[m\x1b[K; \n'}
+[7.275171] (motor) StderrLine: {'line': b'\n'}
+[7.275643] (motor) StderrLine: {'line': b'                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.276153] (motor) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/client.hpp:39:0\x1b[m\x1b[K,\n'}
+[7.276640] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[7.277177] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.277647] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[7.278153] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.278623] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[7.279130] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[7.279583] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.280120] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[7.280604] (motor) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:17\x1b[m\x1b[K:\n'}
+[7.281169] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.281734] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:249:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr {aka const class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kmode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.282325] (motor) StderrLine: {'line': b'       RCLCPP_INFO(this->get_logger(), "Publishing: \'%d\'", msg.\x1b[01;31m\x1b[Km\x1b[m\x1b[Kode);\n'}
+[7.282859] (motor) StderrLine: {'line': b'\n'}
+[7.283388] (motor) StderrLine: {'line': b'                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.283927] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rcutils/logging_macros.h:72:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_COND_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.284442] (motor) StderrLine: {'line': b'       rcutils_log(&__rcutils_logging_location, severity, name, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K); \\\n'}
+[7.284955] (motor) StderrLine: {'line': b'                                                                \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.285458] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.285992] (motor) StderrLine: {'line': b'     \x1b[01;36m\x1b[KRCUTILS_LOG_INFO_NAMED\x1b[m\x1b[K( \\\n'}
+[7.286475] (motor) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.286994] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/logging.hpp:221:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.287494] (motor) StderrLine: {'line': b'         \x1b[01;36m\x1b[KRCLCPP_ALL_BUT_FIRST_ARGS\x1b[m\x1b[K(__VA_ARGS__,"")); \\\n'}
+[7.288006] (motor) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.288485] (motor) StderrLine: {'line': b'\x1b[01m\x1b[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:249:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.289017] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Publishing: \'%d\'", msg.mode);\n'}
+[7.289548] (motor) StderrLine: {'line': b'\n'}
+[7.290068] (motor) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.355591] (-) TimerEvent: {}
+[7.456490] (-) TimerEvent: {}
+[7.557380] (-) TimerEvent: {}
+[7.658297] (-) TimerEvent: {}
+[7.759257] (-) TimerEvent: {}
+[7.860150] (-) TimerEvent: {}
+[7.960957] (-) TimerEvent: {}
+[8.061786] (-) TimerEvent: {}
+[8.162592] (-) TimerEvent: {}
+[8.264326] (-) TimerEvent: {}
+[8.365156] (-) TimerEvent: {}
+[8.465961] (-) TimerEvent: {}
+[8.566700] (-) TimerEvent: {}
+[8.667509] (-) TimerEvent: {}
+[8.768312] (-) TimerEvent: {}
+[8.869115] (-) TimerEvent: {}
+[8.969981] (-) TimerEvent: {}
+[9.070724] (-) TimerEvent: {}
+[9.171558] (-) TimerEvent: {}
+[9.272406] (-) TimerEvent: {}
+[9.373208] (-) TimerEvent: {}
+[9.473982] (-) TimerEvent: {}
+[9.574760] (-) TimerEvent: {}
+[9.619920] (motor) StderrLine: {'line': b'make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1\n'}
+[9.621020] (motor) StdoutLine: {'line': b"CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed\n"}
+[9.621914] (motor) StdoutLine: {'line': b"CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed\n"}
+[9.622472] (motor) StderrLine: {'line': b'make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2\n'}
+[9.623101] (motor) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[9.623626] (motor) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.627012] (motor) CommandEnded: {'returncode': 2}
+[9.675037] (-) TimerEvent: {}
+[9.765386] (motor) JobEnded: {'identifier': 'motor', 'rc': 2}
+[9.775141] (-) TimerEvent: {}
+[9.778420] (-) EventReactorShutdown: {}

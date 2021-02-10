@@ -1,0 +1,19 @@
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:60:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K*[m[K’ token
+ void setup_data(int message::msg::Motorcarryout::SharedPtr [01;31m[K*[m[Kmsg_
+
+                                                            [01;31m[K^[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K*[m[K’ token
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:94:60:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K*[m[K’ token
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:250:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetup_data[m[K’ was not declared in this scope
+       [01;31m[Ksetup_data[m[K(&msg);
+
+       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:250:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetstate[m[K’
+       [01;36m[Ksetup_data[m[K(&msg);
+
+       [01;36m[K^~~~~~~~~~[m[K
+       [32m[Ksetstate[m[K
+make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+make: *** [all] Error 2

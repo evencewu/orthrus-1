@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.002863] (message) JobQueued: {'identifier': 'message', 'dependencies': OrderedDict()}
+[0.003840] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict([('message', '/home/orthrus1-1/orthrus1-1/install/message')])}
+[0.004079] (message) JobStarted: {'identifier': 'message'}
+[0.048516] (message) JobProgress: {'identifier': 'message', 'progress': 'cmake'}
+[0.052115] (message) JobProgress: {'identifier': 'message', 'progress': 'build'}
+[0.055922] (message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orthrus1-1/orthrus1-1/build/message', '--', '-j4', '-l4'], 'cwd': '/home/orthrus1-1/orthrus1-1/build/message', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/orthrus1-1'), ('USER', 'orthrus1-1'), ('SSH_CLIENT', '192.168.1.37 52913 22'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OSPL_URI', 'file:///opt/ros/dashing/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/orthrus1-1'), ('OLDPWD', '/home/orthrus1-1'), ('SSH_TTY', '/dev/pts/1'), ('OSPL_VERBOSITY', '2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'orthrus1-1'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '66'), ('TERM', 'xterm'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/orthrus1-1/orthrus1-1/build/message'), ('SSH_CONNECTION', '192.168.1.37 52913 192.168.1.158 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.095954] (-) TimerEvent: {}
+[0.167207] (message) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.196070] (-) TimerEvent: {}
+[0.274200] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.274990] (message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.296232] (-) TimerEvent: {}
+[0.396963] (-) TimerEvent: {}
+[0.497673] (-) TimerEvent: {}
+[0.598369] (-) TimerEvent: {}
+[0.699041] (-) TimerEvent: {}
+[0.799778] (-) TimerEvent: {}
+[0.900447] (-) TimerEvent: {}
+[1.001123] (-) TimerEvent: {}
+[1.101821] (-) TimerEvent: {}
+[1.193541] (message) StdoutLine: {'line': b'-- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)\n'}
+[1.202023] (-) TimerEvent: {}
+[1.222605] (message) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.302241] (-) TimerEvent: {}
+[1.325042] (message) StdoutLine: {'line': b'-- Found geometry_msgs: 0.7.0 (/opt/ros/dashing/share/geometry_msgs/cmake)\n'}
+[1.365401] (message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[1.402453] (-) TimerEvent: {}
+[1.503184] (-) TimerEvent: {}
+[1.604060] (-) TimerEvent: {}
+[1.704908] (-) TimerEvent: {}
+[1.805712] (-) TimerEvent: {}
+[1.818642] (message) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[1.905991] (-) TimerEvent: {}
+[2.006848] (-) TimerEvent: {}
+[2.014441] (message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.107048] (-) TimerEvent: {}
+[2.207749] (-) TimerEvent: {}
+[2.308428] (-) TimerEvent: {}
+[2.409099] (-) TimerEvent: {}
+[2.509914] (-) TimerEvent: {}
+[2.563839] (message) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.564711] (message) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name message\n'}
+[2.565203] (message) StderrLine: {'line': b'  --arguments-file\n'}
+[2.565714] (message) StderrLine: {'line': b'  /home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter__arguments__message.json\n'}
+[2.566160] (message) StderrLine: {'line': b'  --output-dir\n'}
+[2.566680] (message) StderrLine: {'line': b'  /home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message\n'}
+[2.567134] (message) StderrLine: {'line': b'  --output-file\n'}
+[2.567608] (message) StderrLine: {'line': b'  /home/orthrus1-1/orthrus1-1/build/message/rosidl_adapter/message.idls)\n'}
+[2.568042] (message) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.568547] (message) StderrLine: {'line': b'\n'}
+[2.569002] (message) StderrLine: {'line': b"  Error processing 'int32 mode_LF_1' of 'message/Motorcarryout': 'the field\n"}
+[2.569566] (message) StderrLine: {'line': b"  name 'mode_LF_1' is not valid'\n"}
+[2.570342] (message) StderrLine: {'line': b'\n'}
+[2.570850] (message) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.572664] (message) StderrLine: {'line': b'\n'}
+[2.573358] (message) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[2.573913] (message) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[2.574475] (message) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[2.575034] (message) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.575611] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.576114] (message) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.576801] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[2.577338] (message) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[2.577868] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[2.578397] (message) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[2.578925] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.579528] (message) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.580057] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 505, in parse_message_string\n'}
+[2.580632] (message) StderrLine: {'line': b'      field_name, default_value_string))\n'}
+[2.581131] (message) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 346, in __init__\n'}
+[2.581683] (message) StderrLine: {'line': b'      raise NameError("the field name \'%s\' is not valid" % name)\n'}
+[2.582147] (message) StderrLine: {'line': b'\n'}
+[2.582708] (message) StderrLine: {'line': b"  NameError: the field name 'mode_LF_1' is not valid\n"}
+[2.583674] (message) StderrLine: {'line': b'\n'}
+[2.584218] (message) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.584786] (message) StderrLine: {'line': b'  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.585293] (message) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[2.585863] (message) StderrLine: {'line': b'\n'}
+[2.586375] (message) StderrLine: {'line': b'\n'}
+[2.586891] (message) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.588200] (message) StdoutLine: {'line': b'See also "/home/orthrus1-1/orthrus1-1/build/message/CMakeFiles/CMakeOutput.log".\n'}
+[2.590148] (message) StdoutLine: {'line': b"Makefile:1400: recipe for target 'cmake_check_build_system' failed\n"}
+[2.592149] (message) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[2.596563] (message) CommandEnded: {'returncode': 2}
+[2.610110] (-) TimerEvent: {}
+[2.710954] (-) TimerEvent: {}
+[2.811677] (-) TimerEvent: {}
+[2.914742] (-) TimerEvent: {}
+[2.976911] (message) JobEnded: {'identifier': 'message', 'rc': 2}
+[2.988856] (motor) JobSkipped: {'identifier': 'motor'}
+[2.989088] (-) EventReactorShutdown: {}

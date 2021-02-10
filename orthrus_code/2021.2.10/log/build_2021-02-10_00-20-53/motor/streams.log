@@ -1,0 +1,316 @@
+[0.035s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.194s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.247s] [ 50%] Built target check
+[0.293s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.910s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.913s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.916s]          motor_LF_s1.T    =  msg ->    [01;31m[KT_lf_1[m[K;  //单位：Nm, T<255.9
+[3.917s] 
+[3.917s]                                        [01;31m[K^~~~~~[m[K
+[3.918s]                                        [32m[Kmode_lf_1[m[K
+[3.918s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:118:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.919s]          motor_LF_s1.W    =  msg ->    [01;31m[KW_lf_1[m[K;  //单位：rad/s, W<511.9
+[3.919s] 
+[3.920s]                                        [01;31m[K^~~~~~[m[K
+[3.920s]                                        [32m[Kmode_lf_1[m[K
+[3.921s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:119:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.922s]          motor_LF_s1.Pos  =  msg ->  [01;31m[KPos_lf_1[m[K;  //单位：rad, Pos<131071.9
+[3.922s] 
+[3.923s]                                      [01;31m[K^~~~~~~~[m[K
+[3.923s]                                      [32m[Kmode_lf_1[m[K
+[3.924s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:120:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.924s]          motor_LF_s1.K_P  =  msg ->  [01;31m[KK_P_lf_1[m[K;  //K_P<31.9
+[3.925s] 
+[3.925s]                                      [01;31m[K^~~~~~~~[m[K
+[3.926s]                                      [32m[Kmode_lf_1[m[K
+[3.926s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:121:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.927s]          motor_LF_s1.K_W  =  msg ->  [01;31m[KK_W_lf_1[m[K;  //K_W<63.9
+[3.927s] 
+[3.928s]                                      [01;31m[K^~~~~~~~[m[K
+[3.928s]                                      [32m[Kmode_lf_1[m[K
+[3.929s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lf_2[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.930s]         motor_LF_s2.mode = msg -> [01;31m[Kmode_lf_2[m[K;
+[3.931s] 
+[3.931s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.932s]                                   [32m[Kmode_lf_1[m[K
+[3.932s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lf_2[m[K’
+[3.933s]         motor_LF_s2.T    = msg ->    [01;31m[KT_lf_2[m[K;           
+[3.933s] 
+[3.934s]                                      [01;31m[K^~~~~~[m[K
+[3.934s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:129:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lf_2[m[K’
+[3.935s]         motor_LF_s2.W    = msg ->    [01;31m[KW_lf_2[m[K;              
+[3.935s] 
+[3.936s]                                      [01;31m[K^~~~~~[m[K
+[3.936s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:130:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lf_2[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.937s]         motor_LF_s2.Pos  = msg ->  [01;31m[KPos_lf_2[m[K;         
+[3.937s] 
+[3.938s]                                    [01;31m[K^~~~~~~~[m[K
+[3.938s]                                    [32m[Kmode_lf_1[m[K
+[3.939s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:131:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lf_2[m[K’
+[3.939s]         motor_LF_s2.K_P  = msg ->  [01;31m[KK_P_lf_2[m[K;      
+[3.940s] 
+[3.940s]                                    [01;31m[K^~~~~~~~[m[K
+[3.941s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:132:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lf_2[m[K’
+[3.941s]         motor_LF_s2.K_W  = msg ->  [01;31m[KK_W_lf_2[m[K;      
+[3.942s] 
+[3.942s]                                    [01;31m[K^~~~~~~~[m[K
+[3.943s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lf_3[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.944s]          motor_LF_s3.mode = msg -> [01;31m[Kmode_lf_3[m[K;
+[3.944s] 
+[3.945s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.945s]                                    [32m[Kmode_lf_1[m[K
+[3.946s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lf_3[m[K’
+[3.946s]          motor_LF_s3.T    = msg ->    [01;31m[KT_lf_3[m[K;             
+[3.947s] 
+[3.947s]                                       [01;31m[K^~~~~~[m[K
+[3.948s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lf_3[m[K’
+[3.948s]          motor_LF_s3.W    = msg ->    [01;31m[KW_lf_3[m[K;               
+[3.949s] 
+[3.949s]                                       [01;31m[K^~~~~~[m[K
+[3.950s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:141:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lf_3[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.950s]          motor_LF_s3.Pos  = msg ->  [01;31m[KPos_lf_3[m[K;       
+[3.951s] 
+[3.951s]                                     [01;31m[K^~~~~~~~[m[K
+[3.952s]                                     [32m[Kmode_lf_1[m[K
+[3.953s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:142:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lf_3[m[K’
+[3.953s]          motor_LF_s3.K_P  = msg ->  [01;31m[KK_P_lf_3[m[K;         
+[3.954s] 
+[3.954s]                                     [01;31m[K^~~~~~~~[m[K
+[3.955s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:143:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lf_3[m[K’
+[3.955s]          motor_LF_s3.K_W  = msg ->  [01;31m[KK_W_lf_3[m[K;      
+[3.956s] 
+[3.956s]                                     [01;31m[K^~~~~~~~[m[K
+[3.957s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_rf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.957s]             motor_RF_s1.mode = msg -> [01;31m[Kmode_rf_1[m[K;
+[3.958s] 
+[3.958s]                                       [01;31m[K^~~~~~~~~[m[K
+[3.959s]                                       [32m[Kmode_lf_1[m[K
+[3.959s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_rf_1[m[K’
+[3.960s]             motor_RF_s1.T    = msg ->    [01;31m[KT_rf_1[m[K;           
+[3.960s] 
+[3.961s]                                          [01;31m[K^~~~~~[m[K
+[3.961s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:152:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_rf_1[m[K’
+[3.962s]             motor_RF_s1.W    = msg ->    [01;31m[KW_rf_1[m[K;             
+[3.962s] 
+[3.963s]                                          [01;31m[K^~~~~~[m[K
+[3.963s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:153:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_rf_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.964s]             motor_RF_s1.Pos  = msg ->  [01;31m[KPos_rf_1[m[K;       
+[3.964s] 
+[3.965s]                                        [01;31m[K^~~~~~~~[m[K
+[3.965s]                                        [32m[Kmode_lf_1[m[K
+[3.966s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:154:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_rf_1[m[K’
+[3.966s]             motor_RF_s1.K_P  = msg ->  [01;31m[KK_P_rf_1[m[K;       
+[3.967s] 
+[3.967s]                                        [01;31m[K^~~~~~~~[m[K
+[3.968s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:155:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_rf_1[m[K’
+[3.968s]             motor_RF_s1.K_W  = msg ->  [01;31m[KK_W_rf_1[m[K;      
+[3.969s] 
+[3.969s]                                        [01;31m[K^~~~~~~~[m[K
+[3.970s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_rf_2[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.971s]             motor_RF_s2.mode = msg -> [01;31m[Kmode_rf_2[m[K;
+[3.971s] 
+[3.972s]                                       [01;31m[K^~~~~~~~~[m[K
+[3.972s]                                       [32m[Kmode_lf_1[m[K
+[3.973s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_rf_2[m[K’
+[3.973s]             motor_RF_s2.T    = msg ->    [01;31m[KT_rf_2[m[K;            
+[3.974s] 
+[3.974s]                                          [01;31m[K^~~~~~[m[K
+[3.975s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:163:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_rf_2[m[K’
+[3.975s]             motor_RF_s2.W    = msg ->    [01;31m[KW_rf_2[m[K;             
+[3.976s] 
+[3.976s]                                          [01;31m[K^~~~~~[m[K
+[3.977s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:164:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_rf_2[m[K’
+[3.977s]             motor_RF_s2.Pos  = msg ->  [01;31m[KPos_rf_2[m[K;         
+[3.978s] 
+[3.978s]                                        [01;31m[K^~~~~~~~[m[K
+[3.979s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:165:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_rf_2[m[K’
+[3.980s]             motor_RF_s2.K_P  = msg ->  [01;31m[KK_P_rf_2[m[K;        
+[3.980s] 
+[3.980s]                                        [01;31m[K^~~~~~~~[m[K
+[3.981s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:166:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_rf_2[m[K’
+[3.982s]             motor_RF_s2.K_W  = msg ->  [01;31m[KK_W_rf_2[m[K;     
+[3.982s] 
+[3.983s]                                        [01;31m[K^~~~~~~~[m[K
+[3.983s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_rf_3[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.984s]             motor_RF_s3.mode = msg -> [01;31m[Kmode_rf_3[m[K;
+[3.984s] 
+[3.985s]                                       [01;31m[K^~~~~~~~~[m[K
+[3.985s]                                       [32m[Kmode_lf_1[m[K
+[3.986s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_rf_3[m[K’
+[3.986s]             motor_RF_s3.T    = msg ->    [01;31m[KT_rf_3[m[K;             
+[3.987s] 
+[3.987s]                                          [01;31m[K^~~~~~[m[K
+[3.988s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_rf_3[m[K’
+[3.988s]             motor_RF_s3.W    = msg ->    [01;31m[KW_rf_3[m[K;                
+[3.989s] 
+[3.989s]                                          [01;31m[K^~~~~~[m[K
+[3.990s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:175:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_rf_3[m[K’
+[3.990s]             motor_RF_s3.Pos  = msg ->  [01;31m[KPos_rf_3[m[K;         
+[3.991s] 
+[3.992s]                                        [01;31m[K^~~~~~~~[m[K
+[3.992s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:176:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_rf_3[m[K’
+[3.992s]             motor_RF_s3.K_P  = msg ->  [01;31m[KK_P_rf_3[m[K;        
+[3.993s] 
+[3.993s]                                        [01;31m[K^~~~~~~~[m[K
+[3.994s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:177:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_rf_3[m[K’
+[3.994s]             motor_RF_s3.K_W  = msg ->  [01;31m[KK_W_rf_3[m[K;      
+[3.995s] 
+[3.996s]                                        [01;31m[K^~~~~~~~[m[K
+[3.996s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lb_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[3.997s]          motor_LB_s1.mode = msg -> [01;31m[Kmode_lb_1[m[K;
+[3.997s] 
+[3.997s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.998s]                                    [32m[Kmode_lf_1[m[K
+[3.998s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lb_1[m[K’
+[3.999s]          motor_LB_s1.T    = msg ->    [01;31m[KT_lb_1[m[K;            
+[4.000s] 
+[4.000s]                                       [01;31m[K^~~~~~[m[K
+[4.000s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:186:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lb_1[m[K’
+[4.001s]          motor_LB_s1.W    = msg ->    [01;31m[KW_lb_1[m[K;               
+[4.001s] 
+[4.002s]                                       [01;31m[K^~~~~~[m[K
+[4.002s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:187:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lb_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.003s]          motor_LB_s1.Pos  = msg ->  [01;31m[KPos_lb_1[m[K;         
+[4.003s] 
+[4.004s]                                     [01;31m[K^~~~~~~~[m[K
+[4.004s]                                     [32m[Kmode_lf_1[m[K
+[4.005s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:188:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lb_1[m[K’
+[4.005s]          motor_LB_s1.K_P  = msg ->  [01;31m[KK_P_lb_1[m[K;         
+[4.006s] 
+[4.006s]                                     [01;31m[K^~~~~~~~[m[K
+[4.007s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:189:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lb_1[m[K’
+[4.008s]          motor_LB_s1.K_W  = msg ->  [01;31m[KK_W_lb_1[m[K;        
+[4.008s] 
+[4.009s]                                     [01;31m[K^~~~~~~~[m[K
+[4.009s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lb_2[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.010s]          motor_LB_s2.mode = msg -> [01;31m[Kmode_lb_2[m[K;
+[4.010s] 
+[4.011s]                                    [01;31m[K^~~~~~~~~[m[K
+[4.011s]                                    [32m[Kmode_lf_1[m[K
+[4.012s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lb_2[m[K’
+[4.012s]          motor_LB_s2.T    = msg ->    [01;31m[KT_lb_2[m[K;             
+[4.013s] 
+[4.013s]                                       [01;31m[K^~~~~~[m[K
+[4.014s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:197:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lb_2[m[K’
+[4.014s]          motor_LB_s2.W    = msg ->    [01;31m[KW_lb_2[m[K;              
+[4.015s] 
+[4.015s]                                       [01;31m[K^~~~~~[m[K
+[4.016s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:198:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lb_2[m[K’
+[4.016s]          motor_LB_s2.Pos  = msg ->  [01;31m[KPos_lb_2[m[K;     
+[4.017s] 
+[4.017s]                                     [01;31m[K^~~~~~~~[m[K
+[4.018s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:199:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lb_2[m[K’
+[4.018s]          motor_LB_s2.K_P  = msg ->  [01;31m[KK_P_lb_2[m[K;       
+[4.019s] 
+[4.019s]                                     [01;31m[K^~~~~~~~[m[K
+[4.020s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:200:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lb_2[m[K’
+[4.020s]          motor_LB_s2.K_W  = msg ->  [01;31m[KK_W_lb_2[m[K;       
+[4.021s] 
+[4.021s]                                     [01;31m[K^~~~~~~~[m[K
+[4.022s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lb_3[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.022s]          motor_LB_s3.mode = msg -> [01;31m[Kmode_lb_3[m[K;
+[4.023s] 
+[4.023s]                                    [01;31m[K^~~~~~~~~[m[K
+[4.024s]                                    [32m[Kmode_lf_1[m[K
+[4.024s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lb_3[m[K’
+[4.025s]          motor_LB_s3.T    = msg ->    [01;31m[KT_lb_3[m[K;             //单位：Nm, T<255.9
+[4.025s] 
+[4.026s]                                       [01;31m[K^~~~~~[m[K
+[4.026s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:208:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lb_3[m[K’
+[4.027s]          motor_LB_s3.W    = msg ->    [01;31m[KW_lb_3[m[K;                //单位：rad/s, W<511.9
+[4.027s] 
+[4.028s]                                       [01;31m[K^~~~~~[m[K
+[4.028s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:209:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lb_3[m[K’
+[4.029s]          motor_LB_s3.Pos  = msg ->  [01;31m[KPos_lb_3[m[K;         //单位：rad, Pos<131071.9
+[4.029s] 
+[4.030s]                                     [01;31m[K^~~~~~~~[m[K
+[4.031s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:210:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lb_3[m[K’
+[4.032s]          motor_LB_s3.K_P  = msg ->  [01;31m[KK_P_lb_3[m[K;         //K_P<31.9
+[4.032s] 
+[4.033s]                                     [01;31m[K^~~~~~~~[m[K
+[4.033s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:211:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lb_3[m[K’
+[4.034s]          motor_LB_s3.K_W  = msg ->  [01;31m[KK_W_lb_3[m[K;        //K_W<63.9
+[4.034s] 
+[4.035s]                                     [01;31m[K^~~~~~~~[m[K
+[4.035s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_rb_1[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.036s]              motor_RB_s1.mode = msg -> [01;31m[Kmode_rb_1[m[K;
+[4.036s] 
+[4.037s]                                        [01;31m[K^~~~~~~~~[m[K
+[4.037s]                                        [32m[Kmode_lf_1[m[K
+[4.038s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_rb_1[m[K’
+[4.038s]              motor_RB_s1.T    = msg ->    [01;31m[KT_rb_1[m[K;            
+[4.039s] 
+[4.039s]                                           [01;31m[K^~~~~~[m[K
+[4.040s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:219:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_rb_1[m[K’
+[4.041s]              motor_RB_s1.W    = msg ->    [01;31m[KW_rb_1[m[K;               
+[4.041s] 
+[4.042s]                                           [01;31m[K^~~~~~[m[K
+[4.042s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:220:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_rb_1[m[K’
+[4.043s]              motor_RB_s1.Pos  = msg ->  [01;31m[KPos_rb_1[m[K;         
+[4.043s] 
+[4.043s]                                         [01;31m[K^~~~~~~~[m[K
+[4.044s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:221:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_rb_1[m[K’
+[4.045s]              motor_RB_s1.K_P  = msg ->  [01;31m[KK_P_rb_1[m[K;         
+[4.045s] 
+[4.046s]                                         [01;31m[K^~~~~~~~[m[K
+[4.046s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:222:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_rb_1[m[K’
+[4.047s]              motor_RB_s1.K_W  = msg ->  [01;31m[KK_W_rb_1[m[K; 
+[4.047s] 
+[4.048s]                                         [01;31m[K^~~~~~~~[m[K
+[4.048s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_rb_2[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.049s]              motor_RB_s2.mode = msg -> [01;31m[Kmode_rb_2[m[K;
+[4.049s] 
+[4.050s]                                        [01;31m[K^~~~~~~~~[m[K
+[4.050s]                                        [32m[Kmode_lf_1[m[K
+[4.051s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_rb_2[m[K’
+[4.051s]              motor_RB_s2.T    = msg ->    [01;31m[KT_rb_2[m[K;            
+[4.052s] 
+[4.052s]                                           [01;31m[K^~~~~~[m[K
+[4.053s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:230:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_rb_2[m[K’
+[4.053s]              motor_RB_s2.W    = msg ->    [01;31m[KW_rb_2[m[K;               
+[4.054s] 
+[4.054s]                                           [01;31m[K^~~~~~[m[K
+[4.055s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:231:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_rb_2[m[K’
+[4.055s]              motor_RB_s2.Pos  = msg ->  [01;31m[KPos_rb_2[m[K;         
+[4.056s] 
+[4.056s]                                         [01;31m[K^~~~~~~~[m[K
+[4.057s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:232:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_rb_2[m[K’
+[4.057s]              motor_RB_s2.K_P  = msg ->  [01;31m[KK_P_rb_2[m[K;         
+[4.058s] 
+[4.058s]                                         [01;31m[K^~~~~~~~[m[K
+[4.059s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:233:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_rb_2[m[K’
+[4.059s]              motor_RB_s2.K_W  = msg ->  [01;31m[KK_W_rb_2[m[K; 
+[4.060s] 
+[4.060s]                                         [01;31m[K^~~~~~~~[m[K
+[4.061s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:239:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kmode_lb_3[m[K’; did you mean ‘[01m[Kmode_lf_1[m[K’?
+[4.061s]              motor_RB_s3.mode = msg -> [01;31m[Kmode_lb_3[m[K;
+[4.062s] 
+[4.062s]                                        [01;31m[K^~~~~~~~~[m[K
+[4.063s]                                        [32m[Kmode_lf_1[m[K
+[4.063s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:240:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KT_lb_3[m[K’
+[4.064s]              motor_RB_s3.T    = msg ->    [01;31m[KT_lb_3[m[K;            
+[4.065s] 
+[4.065s]                                           [01;31m[K^~~~~~[m[K
+[4.066s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:241:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KW_lb_3[m[K’
+[4.066s]              motor_RB_s3.W    = msg ->    [01;31m[KW_lb_3[m[K;               
+[4.067s] 
+[4.067s]                                           [01;31m[K^~~~~~[m[K
+[4.068s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:242:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KPos_lb_3[m[K’
+[4.068s]              motor_RB_s3.Pos  = msg ->  [01;31m[KPos_lb_3[m[K;         
+[4.069s] 
+[4.069s]                                         [01;31m[K^~~~~~~~[m[K
+[4.070s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:243:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_P_lb_3[m[K’
+[4.070s]              motor_RB_s3.K_P  = msg ->  [01;31m[KK_P_lb_3[m[K;         
+[4.071s] 
+[4.071s]                                         [01;31m[K^~~~~~~~[m[K
+[4.072s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:244:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct message::msg::Motorcarryout_<std::allocator<void> > {aka struct message::msg::Motorcarryout_<std::allocator<void> >}[m[K’ has no member named ‘[01m[KK_W_lb_3[m[K’
+[4.073s]              motor_RB_s3.K_W  = msg ->  [01;31m[KK_W_lb_3[m[K; 
+[4.073s] 
+[4.074s]                                         [01;31m[K^~~~~~~~[m[K
+[6.282s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.283s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.284s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.284s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.285s] Makefile:140: recipe for target 'all' failed
+[6.285s] make: *** [all] Error 2
+[6.290s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

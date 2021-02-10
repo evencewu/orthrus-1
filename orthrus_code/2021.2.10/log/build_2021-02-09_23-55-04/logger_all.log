@@ -1,0 +1,199 @@
+[0.898s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.898s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8d63d0f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8d63d0f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8d63d438>)
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.929s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orthrus1-1/orthrus1-1'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.997s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.998s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.999s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extension 'ignore'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/message) by extension 'ros'
+[1.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/message' with type 'ros.ament_cmake' and name 'message'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ros'
+[1.020s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor' with type 'ros.ament_cmake' and name 'motor'
+[1.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.022s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_target' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_clean_cache' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_clean_first' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orthrus1-1/orthrus1-1/build/message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orthrus1-1/orthrus1-1/install/message', 'merge_install': False, 'path': '/home/orthrus1-1/orthrus1-1/src/message', 'symlink_install': False, 'test_result_base': None}
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.155s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.156s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orthrus1-1/orthrus1-1/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orthrus1-1/orthrus1-1/install/motor', 'merge_install': False, 'path': '/home/orthrus1-1/orthrus1-1/src/motor', 'symlink_install': False, 'test_result_base': None}
+[1.158s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orthrus1-1/orthrus1-1/src/message' with build type 'ament_cmake'
+[1.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orthrus1-1/orthrus1-1/src/message'
+[1.187s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.203s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message -- -j4 -l4
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orthrus1-1/orthrus1-1/build/message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4
+[4.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message)
+[4.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orthrus1-1/orthrus1-1/build/message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/message --target install -- -j4 -l4
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message' for CMake module files
+[4.127s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message' for CMake config files
+[4.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'cmake_prefix_path')
+[4.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.ps1'
+[4.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.dsv'
+[4.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.sh'
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib'
+[4.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'ld_library_path_lib')
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.ps1'
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.dsv'
+[4.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.sh'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/bin'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib/pkgconfig/message.pc'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages'
+[4.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'pythonpath')
+[4.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.ps1'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.dsv'
+[4.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.sh'
+[4.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.ps1'
+[4.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.dsv'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.sh'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.bash'
+[4.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.zsh'
+[4.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orthrus1-1/orthrus1-1/install/message/share/colcon-core/packages/message)
+[4.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(message)
+[4.514s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message' for CMake module files
+[4.518s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message' for CMake config files
+[4.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'cmake_prefix_path')
+[4.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.ps1'
+[4.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.dsv'
+[4.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/cmake_prefix_path.sh'
+[4.530s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib'
+[4.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'ld_library_path_lib')
+[4.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.ps1'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.dsv'
+[4.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/ld_library_path_lib.sh'
+[4.539s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/bin'
+[4.539s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib/pkgconfig/message.pc'
+[4.540s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages'
+[4.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('message', 'pythonpath')
+[4.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.ps1'
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.dsv'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/message/share/message/hook/pythonpath.sh'
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.ps1'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.dsv'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.sh'
+[4.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.bash'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/message/share/message/package.zsh'
+[4.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orthrus1-1/orthrus1-1/install/message/share/colcon-core/packages/message)
+[4.565s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orthrus1-1/orthrus1-1/src/motor' with build type 'ament_cmake'
+[4.565s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orthrus1-1/orthrus1-1/src/motor'
+[4.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.627s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[4.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/home/orthrus1-1/orthrus1-1/install/motor:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:/home/orthrus1-1/orthrus1-1/install/motor/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[10.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/home/orthrus1-1/orthrus1-1/install/motor:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:/home/orthrus1-1/orthrus1-1/install/motor/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[10.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[10.984s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor' for CMake module files
+[10.988s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor' for CMake config files
+[10.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'cmake_prefix_path')
+[10.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/cmake_prefix_path.ps1'
+[10.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/cmake_prefix_path.dsv'
+[10.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/cmake_prefix_path.sh'
+[11.000s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor/lib'
+[11.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'ld_library_path_lib')
+[11.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/ld_library_path_lib.ps1'
+[11.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/ld_library_path_lib.dsv'
+[11.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/hook/ld_library_path_lib.sh'
+[11.008s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor/bin'
+[11.008s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor/lib/pkgconfig/motor.pc'
+[11.009s] Level 1:colcon.colcon_core.environment:checking '/home/orthrus1-1/orthrus1-1/install/motor/lib/python3.6/site-packages'
+[11.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.ps1'
+[11.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.dsv'
+[11.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.sh'
+[11.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.bash'
+[11.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/orthrus1-1/orthrus1-1/install/motor/share/motor/package.zsh'
+[11.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orthrus1-1/orthrus1-1/install/motor/share/colcon-core/packages/motor)
+[11.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[11.058s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.083s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.084s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.084s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.160s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orthrus1-1/orthrus1-1/install/local_setup.ps1'
+[11.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orthrus1-1/orthrus1-1/install/_local_setup_util_ps1.py'
+[11.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orthrus1-1/orthrus1-1/install/setup.ps1'
+[11.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orthrus1-1/orthrus1-1/install/local_setup.sh'
+[11.198s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orthrus1-1/orthrus1-1/install/_local_setup_util_sh.py'
+[11.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orthrus1-1/orthrus1-1/install/setup.sh'
+[11.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orthrus1-1/orthrus1-1/install/local_setup.bash'
+[11.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orthrus1-1/orthrus1-1/install/setup.bash'
+[11.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orthrus1-1/orthrus1-1/install/local_setup.zsh'
+[11.235s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orthrus1-1/orthrus1-1/install/setup.zsh'

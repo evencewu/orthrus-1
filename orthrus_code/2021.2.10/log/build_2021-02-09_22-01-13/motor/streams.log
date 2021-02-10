@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.190s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.245s] [ 50%] Built target check
+[0.287s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.781s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:37:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd1[m[K’ does not name a type
+[3.782s]  [01;31m[Kfd1[m[K = open_set((char*)"/dev/ttyUSB0");
+[3.783s] 
+[3.784s]  [01;31m[K^~~[m[K
+[3.784s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:38:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd2[m[K’ does not name a type
+[3.785s]  [01;31m[Kfd2[m[K = open_set((char*)"/dev/ttyUSB1");
+[3.786s] 
+[3.786s]  [01;31m[K^~~[m[K
+[3.788s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:39:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd3[m[K’ does not name a type
+[3.788s]  [01;31m[Kfd3[m[K = open_set((char*)"/dev/ttyUSB2");
+[3.789s] 
+[3.789s]  [01;31m[K^~~[m[K
+[3.790s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:40:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd4[m[K’ does not name a type
+[3.790s]  [01;31m[Kfd4[m[K = open_set((char*)"/dev/ttyUSB3");
+[3.791s] 
+[3.791s]  [01;31m[K^~~[m[K
+[3.928s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.928s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:263:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.929s]      void topic_callback(const message::msg::Motorcarryout::SharedPtr [01;35m[Kmsg[m[K) const
+[3.930s] 
+[3.930s]                                                                       [01;35m[K^~~[m[K
+[6.289s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.290s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.291s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.292s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.292s] Makefile:140: recipe for target 'all' failed
+[6.293s] make: *** [all] Error 2
+[6.297s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

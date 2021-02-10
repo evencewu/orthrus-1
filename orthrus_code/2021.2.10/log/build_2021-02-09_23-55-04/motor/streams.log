@@ -1,0 +1,27 @@
+[0.037s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/home/orthrus1-1/orthrus1-1/install/motor:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:/home/orthrus1-1/orthrus1-1/install/motor/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.250s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[0.252s] [ 75%] Built target check
+[3.733s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid carryout_()[m[K’:
+[3.734s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:59:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd1[m[K’ was not declared in this scope
+[3.735s]    send_recv([01;31m[Kfd1[m[K, &motor_LF_s1, &motor_LF_r1);
+[3.736s] 
+[3.737s]              [01;31m[K^~~[m[K
+[3.737s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:63:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd2[m[K’ was not declared in this scope
+[3.738s]    send_recv([01;31m[Kfd2[m[K, &motor_RF_s1, &motor_RF_r1);
+[3.739s] 
+[3.740s]              [01;31m[K^~~[m[K
+[3.740s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:67:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd3[m[K’ was not declared in this scope
+[3.741s]    send_recv([01;31m[Kfd3[m[K, &motor_LB_s1, &motor_LB_r1);
+[3.742s] 
+[3.743s]              [01;31m[K^~~[m[K
+[3.743s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd4[m[K’ was not declared in this scope
+[3.744s]    send_recv([01;31m[Kfd4[m[K, &motor_RB_s1, &motor_RB_r1);
+[3.744s] 
+[3.745s]              [01;31m[K^~~[m[K
+[6.252s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.253s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.254s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.254s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.255s] Makefile:140: recipe for target 'all' failed
+[6.255s] make: *** [all] Error 2
+[6.259s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/home/orthrus1-1/orthrus1-1/install/motor:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:/home/orthrus1-1/orthrus1-1/install/motor/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/usr/lib:/opt/ros/dashing/lib /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4

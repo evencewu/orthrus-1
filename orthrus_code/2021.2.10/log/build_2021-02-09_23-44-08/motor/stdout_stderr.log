@@ -1,0 +1,303 @@
+[35m[1mScanning dependencies of target motor_carryout[0m
+[ 50%] Built target check
+[ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr**)[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:101:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.mode =  msg_-> [01;31m[Kmode_LF_1[m[K;
+
+                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.T    =  msg_->    [01;31m[KT_LF_1[m[K;  //单位：Nm, T<255.9
+
+                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:103:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.W    =  msg_->    [01;31m[KW_LF_1[m[K;  //单位：rad/s, W<511.9
+
+                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:104:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.Pos  =  msg_->  [01;31m[KPos_LF_1[m[K;  //单位：rad, Pos<131071.9
+
+                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:105:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.K_P  =  msg_->  [01;31m[KK_P_LF_1[m[K;  //K_P<31.9
+
+                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:106:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s1.K_W  =  msg_->  [01;31m[KK_W_LF_1[m[K;  //K_W<63.9
+
+                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:112:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.mode = msg_-> [01;31m[Kmode_LF_2[m[K;
+
+                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:113:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.T    = msg_->    [01;31m[KT_LF_2[m[K;           
+
+                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.W    = msg_->    [01;31m[KW_LF_2[m[K;              
+
+                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:115:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.Pos  = msg_->  [01;31m[KPos_LF_2[m[K;         
+
+                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:116:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.K_P  = msg_->  [01;31m[KK_P_LF_2[m[K;      
+
+                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+    motor_LF_s2.K_W  = msg_->  [01;31m[KK_W_LF_2[m[K;      
+
+                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:123:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.mode = msg_-> [01;31m[Kmode_LF_3[m[K;
+
+                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:124:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.T    = msg_->    [01;31m[KT_LF_3[m[K;             
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:125:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.W    = msg_->    [01;31m[KW_LF_3[m[K;               
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:126:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.Pos  = msg_->  [01;31m[KPos_LF_3[m[K;       
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.K_P  = msg_->  [01;31m[KK_P_LF_3[m[K;         
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LF_s3.K_W  = msg_->  [01;31m[KK_W_LF_3[m[K;      
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:135:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.mode = msg_-> [01;31m[Kmode_RF_1[m[K;
+
+                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:136:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.T    = msg_->    [01;31m[KT_RF_1[m[K;           
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:137:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.W    = msg_->    [01;31m[KW_RF_1[m[K;             
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.Pos  = msg_->  [01;31m[KPos_RF_1[m[K;       
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.K_P  = msg_->  [01;31m[KK_P_RF_1[m[K;       
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s1.K_W  = msg_->  [01;31m[KK_W_RF_1[m[K;      
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:146:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.mode = msg_-> [01;31m[Kmode_RF_2[m[K;
+
+                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:147:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.T    = msg_->    [01;31m[KT_RF_2[m[K;            
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:148:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.W    = msg_->    [01;31m[KW_RF_2[m[K;             
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:149:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.Pos  = msg_->  [01;31m[KPos_RF_2[m[K;         
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.K_P  = msg_->  [01;31m[KK_P_RF_2[m[K;        
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s2.K_W  = msg_->  [01;31m[KK_W_RF_2[m[K;     
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:157:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.mode = msg_-> [01;31m[Kmode_RF_3[m[K;
+
+                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:158:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.T    = msg_->    [01;31m[KT_RF_3[m[K;             
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:159:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.W    = msg_->    [01;31m[KW_RF_3[m[K;                
+
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:160:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.Pos  = msg_->  [01;31m[KPos_RF_3[m[K;         
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.K_P  = msg_->  [01;31m[KK_P_RF_3[m[K;        
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RF_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+        motor_RF_s3.K_W  = msg_->  [01;31m[KK_W_RF_3[m[K;      
+
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:169:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.mode = msg_-> [01;31m[Kmode_LB_1[m[K;
+
+                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:170:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.T    = msg_->    [01;31m[KT_LB_1[m[K;            
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:171:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.W    = msg_->    [01;31m[KW_LB_1[m[K;               
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.Pos  = msg_->  [01;31m[KPos_LB_1[m[K;         
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.K_P  = msg_->  [01;31m[KK_P_LB_1[m[K;         
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s1.K_W  = msg_->  [01;31m[KK_W_LB_1[m[K;        
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:180:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.mode = msg_-> [01;31m[Kmode_LB_2[m[K;
+
+                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:181:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.T    = msg_->    [01;31m[KT_LB_2[m[K;             
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:182:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.W    = msg_->    [01;31m[KW_LB_2[m[K;              
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:183:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.Pos  = msg_->  [01;31m[KPos_LB_2[m[K;     
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.K_P  = msg_->  [01;31m[KK_P_LB_2[m[K;       
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s2.K_W  = msg_->  [01;31m[KK_W_LB_2[m[K;       
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:191:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.mode = msg_-> [01;31m[Kmode_LB_3[m[K;
+
+                               [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:192:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.T    = msg_->    [01;31m[KT_LB_3[m[K;             //单位：Nm, T<255.9
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:193:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.W    = msg_->    [01;31m[KW_LB_3[m[K;                //单位：rad/s, W<511.9
+
+                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:194:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.Pos  = msg_->  [01;31m[KPos_LB_3[m[K;         //单位：rad, Pos<131071.9
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.K_P  = msg_->  [01;31m[KK_P_LB_3[m[K;         //K_P<31.9
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_LB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+     motor_LB_s3.K_W  = msg_->  [01;31m[KK_W_LB_3[m[K;        //K_W<63.9
+
+                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:202:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.mode = msg_-> [01;31m[Kmode_RB_1[m[K;
+
+                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:203:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.T    = msg_->    [01;31m[KT_RB_1[m[K;            
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:204:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.W    = msg_->    [01;31m[KW_RB_1[m[K;               
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:205:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.Pos  = msg_->  [01;31m[KPos_RB_1[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.K_P  = msg_->  [01;31m[KK_P_RB_1[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_1[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s1.K_W  = msg_->  [01;31m[KK_W_RB_1[m[K; 
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:213:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.mode = msg_-> [01;31m[Kmode_RB_2[m[K;
+
+                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:214:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.T    = msg_->    [01;31m[KT_RB_2[m[K;            
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:215:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.W    = msg_->    [01;31m[KW_RB_2[m[K;               
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:216:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.Pos  = msg_->  [01;31m[KPos_RB_2[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.K_P  = msg_->  [01;31m[KK_P_RB_2[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_2[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s2.K_W  = msg_->  [01;31m[KK_W_RB_2[m[K; 
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:224:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmode_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.mode = msg_-> [01;31m[Kmode_RB_3[m[K;
+
+                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:225:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KT_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.T    = msg_->    [01;31m[KT_RB_3[m[K;            
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:226:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KW_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.W    = msg_->    [01;31m[KW_RB_3[m[K;               
+
+                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:227:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KPos_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.Pos  = msg_->  [01;31m[KPos_RB_3[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_P_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.K_P  = msg_->  [01;31m[KK_P_RB_3[m[K;         
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KK_W_RB_3[m[K’ in ‘[01m[K* msg_[m[K’, which is of pointer type ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr* {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+         motor_RB_s3.K_W  = msg_->  [01;31m[KK_W_RB_3[m[K; 
+
+                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:250:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst SharedPtr* {aka const std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >*}[m[K’ to ‘[01m[Kmessage::msg::Motorcarryout_<std::allocator<void> >::SharedPtr** {aka std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >**}[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kvoid setup_data(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr**)[m[K’
+       setup_data(&msg[01;31m[K)[m[K;
+
+                      [01;31m[K^[m[K
+CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

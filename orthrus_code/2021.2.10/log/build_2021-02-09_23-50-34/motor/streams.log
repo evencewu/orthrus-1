@@ -1,0 +1,300 @@
+[0.032s] Invoking command in '/home/orthrus1-1/orthrus1-1/build/motor': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
+[0.190s] [35m[1mScanning dependencies of target motor_carryout[0m
+[0.243s] [ 50%] Built target check
+[0.290s] [ 75%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
+[3.792s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In function ‘[01m[Kvoid setup_data(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr*)[m[K’:
+[3.795s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:101:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_lf_1[m[K’
+[3.800s]      motor_LF_s1.mode =  msg_-> [01;31m[Kmode_lf_1[m[K;
+[3.802s] 
+[3.803s]                                 [01;31m[K^~~~~~~~~[m[K
+[3.804s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:102:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LF_1[m[K’
+[3.804s]      motor_LF_s1.T    =  msg_->    [01;31m[KT_LF_1[m[K;  //单位：Nm, T<255.9
+[3.805s] 
+[3.805s]                                    [01;31m[K^~~~~~[m[K
+[3.806s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:103:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LF_1[m[K’
+[3.806s]      motor_LF_s1.W    =  msg_->    [01;31m[KW_LF_1[m[K;  //单位：rad/s, W<511.9
+[3.807s] 
+[3.807s]                                    [01;31m[K^~~~~~[m[K
+[3.808s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:104:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LF_1[m[K’
+[3.808s]      motor_LF_s1.Pos  =  msg_->  [01;31m[KPos_LF_1[m[K;  //单位：rad, Pos<131071.9
+[3.809s] 
+[3.809s]                                  [01;31m[K^~~~~~~~[m[K
+[3.810s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:105:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LF_1[m[K’
+[3.811s]      motor_LF_s1.K_P  =  msg_->  [01;31m[KK_P_LF_1[m[K;  //K_P<31.9
+[3.811s] 
+[3.812s]                                  [01;31m[K^~~~~~~~[m[K
+[3.812s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:106:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LF_1[m[K’
+[3.813s]      motor_LF_s1.K_W  =  msg_->  [01;31m[KK_W_LF_1[m[K;  //K_W<63.9
+[3.813s] 
+[3.814s]                                  [01;31m[K^~~~~~~~[m[K
+[3.814s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:112:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_LF_2[m[K’
+[3.815s]     motor_LF_s2.mode = msg_-> [01;31m[Kmode_LF_2[m[K;
+[3.815s] 
+[3.816s]                               [01;31m[K^~~~~~~~~[m[K
+[3.816s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:113:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LF_2[m[K’
+[3.817s]     motor_LF_s2.T    = msg_->    [01;31m[KT_LF_2[m[K;           
+[3.818s] 
+[3.818s]                                  [01;31m[K^~~~~~[m[K
+[3.819s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:114:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LF_2[m[K’
+[3.819s]     motor_LF_s2.W    = msg_->    [01;31m[KW_LF_2[m[K;              
+[3.820s] 
+[3.820s]                                  [01;31m[K^~~~~~[m[K
+[3.821s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:115:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LF_2[m[K’
+[3.821s]     motor_LF_s2.Pos  = msg_->  [01;31m[KPos_LF_2[m[K;         
+[3.822s] 
+[3.822s]                                [01;31m[K^~~~~~~~[m[K
+[3.823s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:116:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LF_2[m[K’
+[3.823s]     motor_LF_s2.K_P  = msg_->  [01;31m[KK_P_LF_2[m[K;      
+[3.824s] 
+[3.824s]                                [01;31m[K^~~~~~~~[m[K
+[3.825s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:117:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LF_2[m[K’
+[3.825s]     motor_LF_s2.K_W  = msg_->  [01;31m[KK_W_LF_2[m[K;      
+[3.826s] 
+[3.826s]                                [01;31m[K^~~~~~~~[m[K
+[3.827s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:123:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_LF_3[m[K’
+[3.827s]      motor_LF_s3.mode = msg_-> [01;31m[Kmode_LF_3[m[K;
+[3.828s] 
+[3.828s]                                [01;31m[K^~~~~~~~~[m[K
+[3.829s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:124:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LF_3[m[K’
+[3.830s]      motor_LF_s3.T    = msg_->    [01;31m[KT_LF_3[m[K;             
+[3.831s] 
+[3.831s]                                   [01;31m[K^~~~~~[m[K
+[3.832s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:125:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LF_3[m[K’
+[3.832s]      motor_LF_s3.W    = msg_->    [01;31m[KW_LF_3[m[K;               
+[3.833s] 
+[3.833s]                                   [01;31m[K^~~~~~[m[K
+[3.834s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:126:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LF_3[m[K’
+[3.835s]      motor_LF_s3.Pos  = msg_->  [01;31m[KPos_LF_3[m[K;       
+[3.835s] 
+[3.836s]                                 [01;31m[K^~~~~~~~[m[K
+[3.836s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:127:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LF_3[m[K’
+[3.837s]      motor_LF_s3.K_P  = msg_->  [01;31m[KK_P_LF_3[m[K;         
+[3.837s] 
+[3.838s]                                 [01;31m[K^~~~~~~~[m[K
+[3.838s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:128:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LF_3[m[K’
+[3.839s]      motor_LF_s3.K_W  = msg_->  [01;31m[KK_W_LF_3[m[K;      
+[3.839s] 
+[3.840s]                                 [01;31m[K^~~~~~~~[m[K
+[3.840s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:135:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RF_1[m[K’
+[3.841s]         motor_RF_s1.mode = msg_-> [01;31m[Kmode_RF_1[m[K;
+[3.841s] 
+[3.842s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.842s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:136:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RF_1[m[K’
+[3.843s]         motor_RF_s1.T    = msg_->    [01;31m[KT_RF_1[m[K;           
+[3.843s] 
+[3.844s]                                      [01;31m[K^~~~~~[m[K
+[3.844s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:137:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RF_1[m[K’
+[3.845s]         motor_RF_s1.W    = msg_->    [01;31m[KW_RF_1[m[K;             
+[3.845s] 
+[3.846s]                                      [01;31m[K^~~~~~[m[K
+[3.846s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:138:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RF_1[m[K’
+[3.847s]         motor_RF_s1.Pos  = msg_->  [01;31m[KPos_RF_1[m[K;       
+[3.847s] 
+[3.848s]                                    [01;31m[K^~~~~~~~[m[K
+[3.848s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:139:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RF_1[m[K’
+[3.849s]         motor_RF_s1.K_P  = msg_->  [01;31m[KK_P_RF_1[m[K;       
+[3.850s] 
+[3.850s]                                    [01;31m[K^~~~~~~~[m[K
+[3.851s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:140:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RF_1[m[K’
+[3.851s]         motor_RF_s1.K_W  = msg_->  [01;31m[KK_W_RF_1[m[K;      
+[3.852s] 
+[3.852s]                                    [01;31m[K^~~~~~~~[m[K
+[3.853s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:146:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RF_2[m[K’
+[3.853s]         motor_RF_s2.mode = msg_-> [01;31m[Kmode_RF_2[m[K;
+[3.854s] 
+[3.854s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.855s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:147:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RF_2[m[K’
+[3.855s]         motor_RF_s2.T    = msg_->    [01;31m[KT_RF_2[m[K;            
+[3.856s] 
+[3.856s]                                      [01;31m[K^~~~~~[m[K
+[3.857s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:148:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RF_2[m[K’
+[3.857s]         motor_RF_s2.W    = msg_->    [01;31m[KW_RF_2[m[K;             
+[3.858s] 
+[3.859s]                                      [01;31m[K^~~~~~[m[K
+[3.859s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:149:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RF_2[m[K’
+[3.860s]         motor_RF_s2.Pos  = msg_->  [01;31m[KPos_RF_2[m[K;         
+[3.860s] 
+[3.861s]                                    [01;31m[K^~~~~~~~[m[K
+[3.861s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:150:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RF_2[m[K’
+[3.862s]         motor_RF_s2.K_P  = msg_->  [01;31m[KK_P_RF_2[m[K;        
+[3.862s] 
+[3.863s]                                    [01;31m[K^~~~~~~~[m[K
+[3.863s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:151:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RF_2[m[K’
+[3.864s]         motor_RF_s2.K_W  = msg_->  [01;31m[KK_W_RF_2[m[K;     
+[3.864s] 
+[3.865s]                                    [01;31m[K^~~~~~~~[m[K
+[3.865s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:157:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RF_3[m[K’
+[3.866s]         motor_RF_s3.mode = msg_-> [01;31m[Kmode_RF_3[m[K;
+[3.866s] 
+[3.867s]                                   [01;31m[K^~~~~~~~~[m[K
+[3.867s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:158:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RF_3[m[K’
+[3.868s]         motor_RF_s3.T    = msg_->    [01;31m[KT_RF_3[m[K;             
+[3.868s] 
+[3.869s]                                      [01;31m[K^~~~~~[m[K
+[3.869s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:159:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RF_3[m[K’
+[3.870s]         motor_RF_s3.W    = msg_->    [01;31m[KW_RF_3[m[K;                
+[3.870s] 
+[3.871s]                                      [01;31m[K^~~~~~[m[K
+[3.872s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:160:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RF_3[m[K’
+[3.872s]         motor_RF_s3.Pos  = msg_->  [01;31m[KPos_RF_3[m[K;         
+[3.873s] 
+[3.873s]                                    [01;31m[K^~~~~~~~[m[K
+[3.874s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:161:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RF_3[m[K’
+[3.875s]         motor_RF_s3.K_P  = msg_->  [01;31m[KK_P_RF_3[m[K;        
+[3.876s] 
+[3.876s]                                    [01;31m[K^~~~~~~~[m[K
+[3.877s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:162:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RF_3[m[K’
+[3.878s]         motor_RF_s3.K_W  = msg_->  [01;31m[KK_W_RF_3[m[K;      
+[3.878s] 
+[3.879s]                                    [01;31m[K^~~~~~~~[m[K
+[3.879s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:169:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_LB_1[m[K’
+[3.880s]      motor_LB_s1.mode = msg_-> [01;31m[Kmode_LB_1[m[K;
+[3.880s] 
+[3.881s]                                [01;31m[K^~~~~~~~~[m[K
+[3.881s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:170:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LB_1[m[K’
+[3.882s]      motor_LB_s1.T    = msg_->    [01;31m[KT_LB_1[m[K;            
+[3.882s] 
+[3.883s]                                   [01;31m[K^~~~~~[m[K
+[3.883s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:171:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LB_1[m[K’
+[3.884s]      motor_LB_s1.W    = msg_->    [01;31m[KW_LB_1[m[K;               
+[3.884s] 
+[3.885s]                                   [01;31m[K^~~~~~[m[K
+[3.885s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:172:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LB_1[m[K’
+[3.886s]      motor_LB_s1.Pos  = msg_->  [01;31m[KPos_LB_1[m[K;         
+[3.886s] 
+[3.887s]                                 [01;31m[K^~~~~~~~[m[K
+[3.887s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:173:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LB_1[m[K’
+[3.888s]      motor_LB_s1.K_P  = msg_->  [01;31m[KK_P_LB_1[m[K;         
+[3.888s] 
+[3.889s]                                 [01;31m[K^~~~~~~~[m[K
+[3.889s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:174:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LB_1[m[K’
+[3.890s]      motor_LB_s1.K_W  = msg_->  [01;31m[KK_W_LB_1[m[K;        
+[3.890s] 
+[3.891s]                                 [01;31m[K^~~~~~~~[m[K
+[3.891s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:180:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_LB_2[m[K’
+[3.892s]      motor_LB_s2.mode = msg_-> [01;31m[Kmode_LB_2[m[K;
+[3.892s] 
+[3.893s]                                [01;31m[K^~~~~~~~~[m[K
+[3.893s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:181:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LB_2[m[K’
+[3.894s]      motor_LB_s2.T    = msg_->    [01;31m[KT_LB_2[m[K;             
+[3.894s] 
+[3.895s]                                   [01;31m[K^~~~~~[m[K
+[3.896s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:182:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LB_2[m[K’
+[3.896s]      motor_LB_s2.W    = msg_->    [01;31m[KW_LB_2[m[K;              
+[3.897s] 
+[3.897s]                                   [01;31m[K^~~~~~[m[K
+[3.898s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:183:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LB_2[m[K’
+[3.898s]      motor_LB_s2.Pos  = msg_->  [01;31m[KPos_LB_2[m[K;     
+[3.899s] 
+[3.899s]                                 [01;31m[K^~~~~~~~[m[K
+[3.900s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:184:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LB_2[m[K’
+[3.900s]      motor_LB_s2.K_P  = msg_->  [01;31m[KK_P_LB_2[m[K;       
+[3.901s] 
+[3.901s]                                 [01;31m[K^~~~~~~~[m[K
+[3.902s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:185:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LB_2[m[K’
+[3.902s]      motor_LB_s2.K_W  = msg_->  [01;31m[KK_W_LB_2[m[K;       
+[3.903s] 
+[3.904s]                                 [01;31m[K^~~~~~~~[m[K
+[3.904s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:191:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_LB_3[m[K’
+[3.905s]      motor_LB_s3.mode = msg_-> [01;31m[Kmode_LB_3[m[K;
+[3.905s] 
+[3.906s]                                [01;31m[K^~~~~~~~~[m[K
+[3.906s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:192:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_LB_3[m[K’
+[3.907s]      motor_LB_s3.T    = msg_->    [01;31m[KT_LB_3[m[K;             //单位：Nm, T<255.9
+[3.907s] 
+[3.908s]                                   [01;31m[K^~~~~~[m[K
+[3.908s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:193:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_LB_3[m[K’
+[3.909s]      motor_LB_s3.W    = msg_->    [01;31m[KW_LB_3[m[K;                //单位：rad/s, W<511.9
+[3.909s] 
+[3.910s]                                   [01;31m[K^~~~~~[m[K
+[3.910s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:194:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_LB_3[m[K’
+[3.911s]      motor_LB_s3.Pos  = msg_->  [01;31m[KPos_LB_3[m[K;         //单位：rad, Pos<131071.9
+[3.911s] 
+[3.912s]                                 [01;31m[K^~~~~~~~[m[K
+[3.912s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:195:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_LB_3[m[K’
+[3.913s]      motor_LB_s3.K_P  = msg_->  [01;31m[KK_P_LB_3[m[K;         //K_P<31.9
+[3.913s] 
+[3.914s]                                 [01;31m[K^~~~~~~~[m[K
+[3.914s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:196:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_LB_3[m[K’
+[3.915s]      motor_LB_s3.K_W  = msg_->  [01;31m[KK_W_LB_3[m[K;        //K_W<63.9
+[3.915s] 
+[3.916s]                                 [01;31m[K^~~~~~~~[m[K
+[3.916s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:202:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RB_1[m[K’
+[3.917s]          motor_RB_s1.mode = msg_-> [01;31m[Kmode_RB_1[m[K;
+[3.917s] 
+[3.918s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.918s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:203:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RB_1[m[K’
+[3.919s]          motor_RB_s1.T    = msg_->    [01;31m[KT_RB_1[m[K;            
+[3.919s] 
+[3.920s]                                       [01;31m[K^~~~~~[m[K
+[3.920s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:204:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RB_1[m[K’
+[3.921s]          motor_RB_s1.W    = msg_->    [01;31m[KW_RB_1[m[K;               
+[3.922s] 
+[3.922s]                                       [01;31m[K^~~~~~[m[K
+[3.923s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:205:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RB_1[m[K’
+[3.923s]          motor_RB_s1.Pos  = msg_->  [01;31m[KPos_RB_1[m[K;         
+[3.924s] 
+[3.924s]                                     [01;31m[K^~~~~~~~[m[K
+[3.925s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:206:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RB_1[m[K’
+[3.925s]          motor_RB_s1.K_P  = msg_->  [01;31m[KK_P_RB_1[m[K;         
+[3.926s] 
+[3.926s]                                     [01;31m[K^~~~~~~~[m[K
+[3.927s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:207:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RB_1[m[K’
+[3.927s]          motor_RB_s1.K_W  = msg_->  [01;31m[KK_W_RB_1[m[K; 
+[3.928s] 
+[3.928s]                                     [01;31m[K^~~~~~~~[m[K
+[3.929s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:213:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RB_2[m[K’
+[3.929s]          motor_RB_s2.mode = msg_-> [01;31m[Kmode_RB_2[m[K;
+[3.930s] 
+[3.931s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.932s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:214:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RB_2[m[K’
+[3.932s]          motor_RB_s2.T    = msg_->    [01;31m[KT_RB_2[m[K;            
+[3.933s] 
+[3.933s]                                       [01;31m[K^~~~~~[m[K
+[3.934s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:215:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RB_2[m[K’
+[3.934s]          motor_RB_s2.W    = msg_->    [01;31m[KW_RB_2[m[K;               
+[3.935s] 
+[3.935s]                                       [01;31m[K^~~~~~[m[K
+[3.936s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:216:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RB_2[m[K’
+[3.937s]          motor_RB_s2.Pos  = msg_->  [01;31m[KPos_RB_2[m[K;         
+[3.937s] 
+[3.938s]                                     [01;31m[K^~~~~~~~[m[K
+[3.938s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:217:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RB_2[m[K’
+[3.939s]          motor_RB_s2.K_P  = msg_->  [01;31m[KK_P_RB_2[m[K;         
+[3.939s] 
+[3.940s]                                     [01;31m[K^~~~~~~~[m[K
+[3.940s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:218:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RB_2[m[K’
+[3.941s]          motor_RB_s2.K_W  = msg_->  [01;31m[KK_W_RB_2[m[K; 
+[3.941s] 
+[3.942s]                                     [01;31m[K^~~~~~~~[m[K
+[3.942s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:224:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kmode_RB_3[m[K’
+[3.943s]          motor_RB_s3.mode = msg_-> [01;31m[Kmode_RB_3[m[K;
+[3.943s] 
+[3.944s]                                    [01;31m[K^~~~~~~~~[m[K
+[3.944s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:225:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KT_RB_3[m[K’
+[3.945s]          motor_RB_s3.T    = msg_->    [01;31m[KT_RB_3[m[K;            
+[3.945s] 
+[3.946s]                                       [01;31m[K^~~~~~[m[K
+[3.946s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:226:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KW_RB_3[m[K’
+[3.947s]          motor_RB_s3.W    = msg_->    [01;31m[KW_RB_3[m[K;               
+[3.947s] 
+[3.948s]                                       [01;31m[K^~~~~~[m[K
+[3.948s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:227:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KPos_RB_3[m[K’
+[3.949s]          motor_RB_s3.Pos  = msg_->  [01;31m[KPos_RB_3[m[K;         
+[3.950s] 
+[3.950s]                                     [01;31m[K^~~~~~~~[m[K
+[3.951s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:228:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_P_RB_3[m[K’
+[3.951s]          motor_RB_s3.K_P  = msg_->  [01;31m[KK_P_RB_3[m[K;         
+[3.952s] 
+[3.952s]                                     [01;31m[K^~~~~~~~[m[K
+[3.953s] [01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:229:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > > {aka class std::shared_ptr<message::msg::Motorcarryout_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[KK_W_RB_3[m[K’
+[3.953s]          motor_RB_s3.K_W  = msg_->  [01;31m[KK_W_RB_3[m[K; 
+[3.954s] 
+[3.954s]                                     [01;31m[K^~~~~~~~[m[K
+[6.313s] make[2]: *** [CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o] Error 1
+[6.314s] CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
+[6.315s] make[1]: *** [CMakeFiles/motor_carryout.dir/all] Error 2
+[6.315s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
+[6.316s] Makefile:140: recipe for target 'all' failed
+[6.317s] make: *** [all] Error 2
+[6.321s] Invoked command in '/home/orthrus1-1/orthrus1-1/build/motor' returned '2': AMENT_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/orthrus1-1/orthrus1-1/install/message:/opt/ros/dashing LD_LIBRARY_PATH=/home/orthrus1-1/orthrus1-1/install/message/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/orthrus1-1/orthrus1-1/install/message/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/orthrus1-1/orthrus1-1/build/motor -- -j4 -l4
