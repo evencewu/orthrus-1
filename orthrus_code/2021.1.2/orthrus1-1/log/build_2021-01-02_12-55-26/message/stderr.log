@@ -1,8 +1,0 @@
-CMake Error at /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
-  rosidl_generate_interfaces() the passed dependency 'builtin_interfaces' has
-  not been found before using find_package()
-Call Stack (most recent call first):
-  CMakeLists.txt:26 (rosidl_generate_interfaces)
-
-
-make: *** [cmake_check_build_system] Error 1

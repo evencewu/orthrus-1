@@ -1,5 +1,0 @@
-[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:[m[K In member function ‘[01m[Kvoid motor_carryout::topic_callback(message::msg::Motorcarryout_<std::allocator<void> >::SharedPtr) const[m[K’:
-[01m[K/home/orthrus1-1/orthrus1-1/src/motor/src/motor_carryout.cpp:69:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-     void topic_callback(const message::msg::Motorcarryout::SharedPtr [01;35m[Kmsg_[m[K) const
-
-                                                                      [01;35m[K^~~~[m[K

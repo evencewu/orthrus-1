@@ -1,9 +1,0 @@
-[35m[1mScanning dependencies of target motor_carryout[0m
-[35m[1mScanning dependencies of target check[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/check.dir/src/check.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable check[0m
-[ 75%] Built target check
-CMakeFiles/motor_carryout.dir/build.make:62: recipe for target 'CMakeFiles/motor_carryout.dir/src/motor_carryout.cpp.o' failed
-CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/motor_carryout.dir/all' failed
-Makefile:140: recipe for target 'all' failed

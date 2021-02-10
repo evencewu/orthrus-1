@@ -1,9 +1,0 @@
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/install/strip.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/install.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/check.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/uninstall.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/install/local.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/test.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/list_install_components.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/edit_cache.dir
-/home/orthrus1-1/orthrus1-1/build/motor/CMakeFiles/rebuild_cache.dir

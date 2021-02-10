@@ -1,5 +1,0 @@
-/usr/bin/ld: cannot find -lUnitree_motor_SDK_ARM64
-collect2: error: ld returned 1 exit status
-make[2]: *** [check] Error 1
-make[1]: *** [CMakeFiles/check.dir/all] Error 2
-make: *** [all] Error 2

@@ -1,6 +1,0 @@
-CMake Error at CMakeLists.txt:31 (target_include_directories):
-  Cannot specify include directories for target "motor_send" which is not
-  built by this project.
-
-
-make: *** [cmake_check_build_system] Error 1

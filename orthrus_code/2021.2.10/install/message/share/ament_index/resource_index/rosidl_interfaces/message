@@ -1,8 +1,0 @@
-msg/Motorcarryout.idl
-msg/Motorcarryout.msg
-msg/Motorrecv.idl
-msg/Motorrecv.msg
-srv/Motorsend.idl
-srv/Motorsend.srv
-srv/Motorsend_Request.msg
-srv/Motorsend_Response.msg
