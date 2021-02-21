@@ -252,14 +252,11 @@ class motor_carryout : public rclcpp::Node{
       timer_ = this->create_wall_timer(500ms, std::bind(&kinetics_Publisher::timer_callback, this)); 
       // ? 然后创建了一个定时器timer_，做了一个500ms的定时，每次触发定时器后，都会运行回调函数timer_callback。
     }
-
-
   private:
     void timer_callback()
     {
       auto message = message::msg::Motorcarryout();
       message.data = 
-
       // * auto message = std_msgs::msg::String();
       // * message.data = "Hello, world! " + std::to_string(count_++);
       // * RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
