@@ -1,3 +1,0 @@
-/home/bian/485_unblock/build/CMakeFiles/rebuild_cache.dir
-/home/bian/485_unblock/build/CMakeFiles/MotorCtrlEPOLL.dir
-/home/bian/485_unblock/build/CMakeFiles/edit_cache.dir

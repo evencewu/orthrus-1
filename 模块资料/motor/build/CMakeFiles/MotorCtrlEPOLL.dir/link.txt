@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/MotorCtrlEPOLL.dir/src/check.c.o  -o ../bin/MotorCtrlEPOLL  -L/home/bian/485_unblock/lib -Wl,-rpath,/home/bian/485_unblock/lib -lUnitree_motor_SDK_Linux64_EPOLL 
