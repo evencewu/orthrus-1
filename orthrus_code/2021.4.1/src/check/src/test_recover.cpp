@@ -44,7 +44,7 @@ using namespace std;
 		}
 
         motor_s0.id = 0;
-    	motor_s0.mode = 0;
+    	motor_s0.mode = 10;
     	motor_s0.T = 0;            //单位：Nm, T<255.9
     	motor_s0.W = 0;               //单位：rad/s, W<511.9
     	motor_s0.Pos = 0;          //单位：rad, Pos<131071.9
@@ -52,15 +52,12 @@ using namespace std;
     	motor_s0.K_W = 0;        //K_W<63.9
 
         motor_s1.id = 1;
-    	motor_s1.mode = 0;
+    	motor_s1.mode = 10;
     	motor_s1.T = 0;            //单位：Nm, T<255.9
     	motor_s1.W = 0;               //单位：rad/s, W<511.9
     	motor_s1.Pos = 0;          //单位：rad, Pos<131071.9
     	motor_s1.K_P = 0;        //K_P<31.9
     	motor_s1.K_W = 0;        //K_W<63.9
-
-        modify_data(&motor_s0);
-		modify_data(&motor_s1);
 
 	    long long start;
 	    int sta0,sta1;
@@ -80,7 +77,6 @@ using namespace std;
         float sq1;
         
 		float theta_cos;
-		float theta_sin;
 
 		float cos;
 		float sin;
@@ -88,6 +84,9 @@ using namespace std;
 		float pi = 3.141592;
         for(int i=0; i > -1; i++)
         {
+		    modify_data(&motor_s0);
+		    modify_data(&motor_s1);
+
             start = getSystemTime();
             sta0 = send_recv(fd, epfd, &motor_s0, &motor_r0);
 			sta1 = send_recv(fd, epfd, &motor_s1, &motor_r1);
@@ -98,13 +97,13 @@ using namespace std;
             // printf("**************\n");
             printf("sta: %d\n", sta0);
 			printf("sta: %d\n", sta1);
-            printf("pos: %f\n", motor_r0.acc[0]);
-			printf("pos: %f\n", motor_r0.acc[1]);
-			printf("pos: %f\n", motor_r0.acc[2]);
+            printf("acc: %f\n", motor_r0.acc[0]);
+			printf("acc: %f\n", motor_r0.acc[1]);
+			printf("acc: %f\n", motor_r0.acc[2]);
 
-			printf("pos: %f\n", motor_r1.acc[0]);
-			printf("pos: %f\n", motor_r1.acc[1]);
-			printf("pos: %f\n", motor_r1.acc[2]);
+			printf("acc: %f\n", motor_r1.acc[0]);
+			printf("acc: %f\n", motor_r1.acc[1]);
+			printf("acc: %f\n", motor_r1.acc[2]);
 
             sq0 = sqrt(motor_r0.acc[0]*motor_r0.acc[0] + motor_r0.acc[1]*motor_r0.acc[1] + motor_r0.acc[2]*motor_r0.acc[2]);
             sq1 = sqrt(motor_r1.acc[0]*motor_r1.acc[0] + motor_r1.acc[1]*motor_r1.acc[1] + motor_r1.acc[2]*motor_r1.acc[2]);
@@ -125,10 +124,15 @@ using namespace std;
 		    else{
 				theta_cos = -acos(cos);
 			}
-			
+			printf("pos+: %f\n", motor_r0.Pos + theta_cos*9);
+            
+     	    motor_s0.Pos = motor_r0.Pos + theta_cos*9;          //单位：rad, Pos<131071.9
+    	    motor_s0.K_P = 0.003;        //K_P<31.9
+			motor_s1.K_W = 0.004;
+
+            printf("pos: %f\n", motor_r0.Pos);
 			printf("cos: %f\n", cos);
-            printf("theta_cos: %f\n", theta_cos);
-			printf("sin: %f\n", sin);
+            printf("theta_cos: %f\n", theta_cos*9);
             printf("**************\n");
             // usleep(100000);
         }
