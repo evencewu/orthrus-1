@@ -4,7 +4,7 @@
  #include <avr/power.h> 
 #endif
 
-#define LED_PIN    5
+#define LED_PIN    4
 #define LED_COUNT 60
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
