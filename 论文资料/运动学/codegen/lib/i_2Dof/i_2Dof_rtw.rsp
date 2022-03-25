@@ -1,9 +1,0 @@
-cos.obj
-i_2Dof.obj
-i_2Dof_initialize.obj
-i_2Dof_terminate.obj
-rtGetInf.obj
-rtGetNaN.obj
-rt_nonfinite.obj
-sin.obj
-sqrt.obj
