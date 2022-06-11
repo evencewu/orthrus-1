@@ -1,0 +1,197 @@
+
+****************************************************************
+****************************************************************
+**                                                            **
+**                                                            **
+**        CCC     OO      SSS    M    M     OO      SSS       **
+**       C       O  O    S       MM  MM    O  O    S          **
+**       C       O  O     SS     M MM M    O  O     SS        **
+**       C       O  O       S    M    M    O  O       S       **
+**        CCC     OO     SSS     M    M     OO     SSS        **
+**                                                            **
+**                                                            **
+**                   Simulations  V2022-PR1                   **
+**                 Simulation Premium Package                 **
+**           Distributed By: SOLIDWORKS Corporation           **
+**               6320 Canoga Avenue, Suite 300                **
+**               Woodland Hills, California 91367             **
+**               Telephone Number (818)673-2200               **
+**         Copyright 1988-2018 SOLIDWORKS Corporation         **
+**                                                            **
+****************************************************************
+****************************************************************
+
+Problem name: D:\GitHub\orthrus-1\1
+Date        : 06/11/2022     Time:   08:44:34
+
+
+ SYSTEM OF UNITS:
+ International System of Units, SI, is used for all input/output data.
+ Common Quantities:
+ Length:meter, Mass:kilogram, Time:second, Temperature:kelvin
+ Force:newton, Pressure also stress:pascal, Energy:joule, Power:watt
+
+ NUMBER OF PHYSICAL CORES USED TO RUN SIMULATION:  6
+
+  C O N T R O L  I N F O R M A T I O N                  
+
+   CURRENT RESTRAINT SET . . . . . . . . . . . (BC_SET)  =           1
+
+   NUMBER OF LOAD CASES  . . . . . . . . . . . (NLCASE)  =           1
+   SOLUTION MODE . . . . . . . . . . . . . . . (MODEX)   =           0
+      EQ. 0, STATIC ANALYSIS                              
+      EQ. 1, BUCKLING ANALYSIS                            
+      EQ. 2, DYNAMIC ANALYSIS                             
+      EQ. 3, DROP TEST                                    
+
+   SOLVER TYPE . . . . . . . . . . . . . . . . .(ISOL)   =           5
+      EQ. 0, DIRECT SPARSE SOLVER                         
+      EQ. 1, DIRECT SKYLINE SOLVER                        
+      EQ. 2, ITERATIVE SOLVER                             
+      EQ. 3, EXPLICIT INTEGRATION                         
+      EQ. 4, LARGE PROBLEM DIRECT SPARSE SOLVER           
+      EQ. 5, INTEL DIRECT SPARSE SOLVER                   
+      EQ. 6, INTEL NETWORK SPARSE SOLVER                  
+
+   THERMAL LOADING FLAG . . . . . . . . . . . .(ITHERM)  =           0
+      EQ. 0, NO THERMAL EFFECTS CONSIDERED                
+      EQ. 1, ADD TEMPERATURE EFFECT                       
+   GRAVITY LOADING FLAG . . . . . . . . . . . .(IGRAV)   =           0
+      EQ. 0, NO GRAVITY LOADING CONSIDERED                
+      EQ. 1, ADD GRAVITY LOADING EFFECT                   
+   CENTRIFUGAL LOADING FLAG . . . . . . . . . .(ICNTRF)  =           0
+      EQ. 0, NO CENTRIFUGAL LOADING CONSIDERED            
+      EQ. 1, ADD CENTRIFUGAL LOADING EFFECT               
+   IN-PLANE STIFFENING FLAG . . . . . . . . . .(INPLN)   =           0
+      EQ. 0, NO IN-PLANE EFFECTS CONSIDERED               
+      EQ. 1, IN-PLANE EFFECTS CONSIDERED                  
+   SOFT SPRING ADDITION FLAG . . . . . . . . . (ISOFT)   =           0
+      EQ. 0, NO SOFT SPRING OPTION                        
+      EQ. 1, SOFT SPRING ADDED                            
+
+   SAVE DECOMPOSED STIFFNESS MATRIX FLAG . . . (ISAVK)   =           0
+      EQ. 0, DO NOT SAVE DECOMPOSED K                     
+      EQ. 1, SAVE DECOMPOSED K                            
+   FORM STIFFNESS MATRIX FLAG . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, FORM STIFFNESS MATRIX                        
+      EQ. 1, USE EXISTING DECOMPOSED STIFFNESS MATRIX     
+
+   SPIN SOFTENING FLAG . . . . . . . . . . . . (ISPIN)   =           0
+      EQ. 0, NO SPIN SOFTENING EFFECTS CONSIDERED         
+      EQ. 1, SPIN SOFTENING EFFECTS CONSIDERED            
+   INERTIA RELIEF FLAG  . . . . . . . . . . . .(IFORMK)  =           0
+      EQ. 0, NO INERITA RELIEF EFFECTS CONSIDERED         
+      EQ. 1, INERITA RELIEF EFFECTS CONSIDERED            
+   RIGID CONNECTIONS FLAG  . . . . . . . . . . (IRIGID)  =           0
+      EQ. 0, HINGE CONNECTIONS BETWEEN SOLIDS & SHELLS    
+      EQ. 1, RIGID CONNECTIONS BETWEEN SOLIDS & SHELLS    
+
+
+  T O T A L  S Y S T E M  D A T A                        
+   NUMBER OF EQUATIONS . . . . . . . . . . . . . .(NEQ)  =       52833
+   MEAN HALF BANDWIDTH . . . . . . . . . . . . . .(MM )  =          81
+   NUMBER OF ELEMENTS. . . . . . . . . . . . . . .(NUME) =        9466
+   NUMBER OF NODAL POINTS. . . . . . . . . . . . .(NUMNP)=       17881
+
+   ORIGINAL NO. OF MATRIX ELEMENTS . . . . . . . .(NWK)  =     1873872
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+
+
+************************************************************************
+    D I S P L A C E M E N T     P R I N T O U T    (LOAD CASE     1)
+************************************************************************
+
+
+  STATUS OF THERMAL EFFECTS FOR THIS LOAD CASE:
+  ---------------------------------------------
+
+    - Thermal flag is off (no thermal effect)
+
+
+
+ TOTAL STRAIN ENERGY. . . . . . . . . . . =  0.331359E+02
+
+             D I S P L A C E M E N T S
+
+     NODE X-DISPL.     Y-DISPL.     Z-DISPL.     XX-ROT.      YY-ROT.      ZZ-ROT.
+
+
+ MINIMUM/MAXIMUM DISPLACEMENTS
+
+  NODE     12973         5902         2137            1            1            1
+  MIN.  -1.35406E-03 -1.75261E-03 -7.78307E-04   0.0000       0.0000       0.0000    
+
+  NODE     13619        13211         1901        17881        17881        17881
+  MAX.   1.35294E-03  5.27459E-04  7.77242E-04   0.0000       0.0000       0.0000    
+
+ MAXIMUM RESULTANT DISPLACEMENT
+
+  NODE      5902
+  MAX.   1.83849E-03
+
+
+
+
+********************************************************************************
+         R E A C T I O N   F O R C E   F O R   LOAD CASE NO.  1
+********************************************************************************
+
+    NODE CSYS    Fx         Fy         Fz         Mx         My         Mz
+
+ FOR REQUESTED                 (Global Cartesian Coord. System)
+    NODES         FX         FY         FZ         MX         MY         MZ
+ Total React. -.9644E-02 -.4913E-02 -.9155E-03 0.0000E+00 0.0000E+00 0.0000E+00
+  
+
+
+
+********************************************************************************
+ MAXIMUM NODAL VON MISES STRESS & ERROR ESTIMATE FOR LOAD CASE   1
+********************************************************************************
+
+  NODE     12748
+  MAX.     0.58524E+10
+
+
+
+   E R R O R    E S T I M A T I O N
+   (for requested elements)
+
+   Total Strain Energy (TSE)        =  0.331359E+02
+   Total Error Energy (TEE)         =  0.212446E+01
+   Ave. Percentage Error (APE)      =  0.176241E+02
+     ( APE =  sqrt (TEE/(TSE*2. + TEE)) * 100. )
+
+
+
+********************************************************************************
+   MFLOP Rate of Matrix Decomposition . . . . . . . (MF/Sec)=       0.0
+********************************************************************************
+
+
+                             S O L U T I O N    T I M E   L O G    I N    S E C O N D S
+  DEFINITIONS
+     INP_PHASE=TIME FOR INPUT PHASE
+     STF_PHASE=TIME FOR CALCULATION OF STRUCTURE STIFFNESS MATRIX
+     REN_PHASE=TIME FOR REORDERING EQUATIONS
+     SOL_PHASE=TIME FOR INTEL DIRECT SPARSE SOLUTION
+     CNT_PHASE=TIME FOR LCP CONTACT (AND/OR LRG DISP) OPERATIONS
+     REC_PHASE=TIME FOR REACTION FORCE & DISP UPDATE TO POST
+     STS_PHASE=TIME FOR STRESS CALCULATION
+     LCS_PHASE=TIME FOR LOAD CASE SOLUTIONS
+     TOT_TIME =TOTAL SOLUTION TIME
+
+          INP_PHASE STF_PHASE REN_PHASE SOL_PHASE CNT_PHASE REC_PHASE STS_PHASE LCS_PHASE  TOT_TIME 
+                  0         0         0         0         0         0         0         0         1
+                                                      (   0: 0: 1)
+
+
+
