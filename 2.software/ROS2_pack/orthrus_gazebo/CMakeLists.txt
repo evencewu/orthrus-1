@@ -27,12 +27,12 @@ install(
 )
 
 install(
-  DIRECTORY include models models
+  DIRECTORY include worlds worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
 install(
-  DIRECTORY include worlds worlds
+  DIRECTORY include robot robot
   DESTINATION share/${PROJECT_NAME}
 )
 

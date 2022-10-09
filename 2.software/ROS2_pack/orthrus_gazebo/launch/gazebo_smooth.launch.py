@@ -14,10 +14,10 @@ def generate_launch_description():
 
     model_path = os.path.join(
         get_package_share_directory('orthrus_gazebo'),
-        'models','robot_car.sdf')
+        'robot','orthrus','model.sdf')
     # GAZEBO_MODEL_PATH has to be correctly set for Gazebo to be able to find the model
     spawn_entity = Node(package='gazebo_ros', node_executable='spawn_entity.py',
-                        arguments=['-entity', 'demo', '-file',model_path],output='screen')
+                        arguments=['-entity', 'demo','-file',model_path],output='screen')
 
     return LaunchDescription([
         gazebo,
