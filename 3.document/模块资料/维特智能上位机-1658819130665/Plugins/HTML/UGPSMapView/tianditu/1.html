@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="天地图"/>
+    <title>天地图－地图API－范例－画线</title>
+    <script type="text/javascript" src="http://api.tianditu.gov.cn/api?v=4.0&tk=ae4838b74523994e7756c7afcde090ba"></script>
+    <style type="text/css">
+    body,html{width:100%;height:100%;margin:0;font-family:"Microsoft YaHei"}
+    #mapDiv{width:100%;height:100%}
+    input,b,p{margin-left:5px;font-size:14px;}
+    </style>
+
+
+
+    <script>
+
+ 
+
+            var ieVersion = getInternetExplorerVersion()
+            if(ieVersion!=-1&&ieVersion<8){
+                alert('您的电脑内置IE浏览器版本小于8,为了您能获得良好的地图效果请您将浏览器升级至IE8以上')
+            }
+
+
+            function getInternetExplorerVersion()
+            {
+                var rv = -1; // Return value assumes failure.
+                if (navigator.appName == 'Microsoft Internet Explorer') {
+                    var ua = navigator.userAgent;
+                    var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                    if (re.exec(ua) != null)
+                        rv = parseFloat(RegExp.$1);
+                }
+                return rv;
+            }
+
+
+
+    </script>
+
+
+    <script>
+
+
+
+
+
+
+        /**
+         *
+         * 维特智能地图
+         */
+        function WITMap(elementId) {
+
+
+
+
+            // 容器div
+            this.elementId = elementId;
+
+            //加载是否完成
+            this.loadComplete = false
+
+            // 天地图
+            this.tMap = null;
+
+            // 所有的线条
+            this.devices = {}
+
+            // 设备数量
+            this.devicesNum = 0
+
+            //线条颜色
+            this.colors = ['red', 'blue', 'green', 'yellow', 'cyan', 'gray', 'violet', 'black', 'orange', 'darksalmon']
+
+
+
+            // 初始化
+            this.init = function () {
+
+
+                this.loadComplete = false
+
+
+                //初始化地图对象
+                this.tMap = new T.Map(this.elementId);
+
+                //缩放级别
+                var zoom = 12
+                //设置显示地图的中心点和级别
+                this.tMap.centerAndZoom(new T.LngLat(116.40969, 39.94940), zoom);
+                //设置允许鼠标放大缩小
+                this.tMap.enableScrollWheelZoom()
+
+
+                // 地图类型切换控件
+                this.tMap.addControl(new T.Control.MapType());
+
+                //添加缩放平移控件
+                this.tMap.addControl(new T.Control.Zoom());
+
+                //添加比例尺控件
+                this.tMap.addControl(new T.Control.Scale({ position: T_ANCHOR_TOP_LEFT }));
+
+                //添加鹰眼控件
+                var miniMap = new T.Control.OverviewMap({
+                    isOpen: true,
+                    size: new T.Point(150, 150)
+                });
+                this.tMap.addControl(miniMap);
+
+                //符号绘制
+                var military = new T.Control.militarySymbols({ position: T_ANCHOR_BOTTOM_LEFT });
+                this.tMap.addControl(military);
+
+
+
+                var map = this.tMap
+
+                //创建右键菜单对象
+                var menu = new T.ContextMenu({ width: 140 });
+                //添加右键菜单
+
+                var txtMenuItem = [
+                    {
+                        text: '放大',
+                        callback: function () {
+                            map.zoomIn()
+                        }
+                    },
+                    {
+                        text: '缩小',
+                        callback: function () {
+                            map.zoomOut()
+                        }
+                    },
+                    {
+                        text: '放置到最大级',
+                        callback: function () {
+                            map.setZoom(18)
+                        }
+                    },
+                    {
+                        text: '查看全国',
+                        callback: function () {
+                            map.setZoom(4)
+                        }
+                    },
+                    {
+                        text: '获得右键点击处坐标',
+                        isDisable: false,
+                        callback: function (lnglat) {
+                            alert(lnglat.getLng() + "," + lnglat.getLat());
+                        }
+                    }
+                ];
+
+                for (var i = 0; i < txtMenuItem.length; i++) {
+
+                    //添加菜单项
+                    var item = new T.MenuItem(txtMenuItem[i].text, txtMenuItem[i].callback);
+                    //item.disable();
+                    menu.addItem(item);
+                    if (i == 1 || i == 3) {
+                        //添加分割线
+                        menu.addSeparator();
+                    }
+                }
+
+
+                //添加菜单
+                this.tMap.addContextMenu(menu);
+
+
+                // 设置地图样式
+                // this.tMap.setStyle('black')
+
+                this.loadComplete = true
+            }
+
+
+
+            // 清除所有线条
+            this.clearDevices = function () {
+
+                //没有加载完成就退出
+                if (!this.loadComplete) return
+
+
+                for (var key in this.devices) {
+                    if (Object.hasOwnProperty.call(this.devices, key)) {
+                        var device = this.devices[key];
+                        this.tMap.removeControl(device.curPosition)
+                        this.tMap.removeControl(device.line)
+                        delete this.devices[key]
+
+                    }
+                }
+            }
+
+
+
+
+            // 添加设备
+            // lineName 线条名称
+            this.addDevice = function (deviceName) {
+
+
+                //没有加载完成就退出
+                if (!this.loadComplete) return
+
+
+                //alert('添加设备'+deviceName)
+
+                //超过10个设备就不添加
+                if (this.devicesNum >= 10) { return }
+                //已经添加过的设备就不添加
+
+                try {
+                    if (Object.hasOwnProperty.call(this.devices, deviceName)) { return }
+
+                    var device = new Object();
+                    device.deviceName = deviceName
+                    //设备当前位置
+                    device.curPosition = new T.Label();
+                    device.curPosition.setTitle(deviceName)
+                    device.curPosition.setLabel(deviceName)
+                    device.curPosition.setLngLat(new T.LngLat(116.40969, 39.94940))
+                    this.tMap.addOverLay(device.curPosition);
+                    //设备的运动轨迹
+                    device.line = new T.Polyline([])
+                    device.line.setColor('gray')
+                    this.tMap.addOverLay(device.line);
+                    //加入设备集合
+                    this.devices[device.deviceName] = device
+                } catch (e) {
+                    alert(e)
+                }
+
+                this.devicesNum++
+            }
+
+
+            // 更新设备的坐标    线条名称 经度 纬度 卫星数 点描述
+            this.updateDevicePoint = function (deviceName, lnt, lat, sv, sumy) {
+
+                console.log(deviceName, lnt, lat, sv, sumy)
+                //没有加载完成就退出
+                if (!this.loadComplete) return
+
+
+
+                //如果能找到设备
+                if (this.devices[deviceName]) {
+                    //更新实时位置
+                    this.devices[deviceName].curPosition.setLngLat(new T.LngLat(lnt, lat))
+                    //添加线条位置
+                    var lineLngLats = this.devices[deviceName].line.getLngLats()
+                    lineLngLats.push(new T.LngLat(lnt, lat))
+                    this.devices[deviceName].line.setLngLats(lineLngLats)
+                } else {
+                    //如果不存在这个设备就添加设备
+                    this.addDevice(deviceName)
+                }
+            }
+
+            //初始化
+            this.init()
+
+        }
+
+
+
+
+
+        //初始化地图
+        function onLoad() {
+            var witmap = new WITMap('mapDiv');
+            window.wMap = witmap
+
+            window.callMap = function () {
+
+                //没有参数就退出
+                if (!arguments || arguments.length < 1) { return }
+                //要调用的方法
+                var method = arguments[0]
+
+                var evalStr = 'wMap.' + method + '('
+
+                //方法的参数
+                var callArguments = []
+                for (var index = 1; index < arguments.length; index++) {
+                    var element = arguments[index];
+                    evalStr += '"' + element + '",'
+                }
+                evalStr = evalStr.substring(0, evalStr.length - 1)
+                evalStr += ')'
+                //alert(evalStr)
+                //调用函数
+                eval(evalStr)
+            }
+
+
+
+
+            witmap.addDevice("COM4")
+            setInterval(addPoint, 1000);
+
+
+            function addPoint() {
+
+                var a1 = Math.random();
+                var a2 = Math.random();
+                var a3 = Math.random() * 10 + Math.random() * 10;
+
+                witmap.updateDevicePoint("COM4", 116 + a1, 39.94940 + a2, parseInt(a3), "描述信息")
+            }
+        }
+
+
+
+
+
+    </script>
+</head>
+<body onLoad="onLoad()">
+<div id="mapDiv"></div>
+<!-- <p>本示例演示如何在地图上添加线。</p>
+<div>
+    <input type="button" value="获取线的长度" onClick="alert(getDistance(points)+'米');"/>
+</div> -->
+</body>
+
+</html>
