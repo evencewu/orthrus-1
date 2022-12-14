@@ -1,0 +1,4 @@
+/home/bian/485_release/build/CMakeFiles/rebuild_cache.dir
+/home/bian/485_release/build/CMakeFiles/edit_cache.dir
+/home/bian/485_release/build/CMakeFiles/check_c.dir
+/home/bian/485_release/build/CMakeFiles/check_cpp.dir
