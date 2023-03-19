@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/check_cpp.dir/src/check.cpp.o  -o ../bin/check_cpp  -L/home/bian/485_release/lib -Wl,-rpath,/home/bian/485_release/lib -lUnitree_motor_SDK_Linux 
