@@ -47,9 +47,9 @@ volatile uint8_t data_flag;
 
 void angle_set(void);
 
-int16_t angle_x; 
-int16_t angle_y; 
-int16_t angle_z;
+float angle_x; 
+float angle_y; 
+float angle_z;
 
 uint8_t add;
 //==================
@@ -564,9 +564,9 @@ void angle_set(void)
 	add = 0x55 + 0x53 + data[1] + data[2] + data[3] + data[4] + data[5] + data[6] + data[7] + data[8];
 	if(data[9] == add)
 	{
-		angle_x = (int16_t)(((int16_t)data[2]<<8)|data[1]);// /32768*180
-		angle_y = (int16_t)(((int16_t)data[4]<<8)|data[3]);// /32768*180
-		angle_z = (int16_t)(((int16_t)data[6]<<8)|data[5]);// /32768*180
+		angle_x = (float)(((int16_t)data[2]<<8)|data[1])*180/32768;
+		angle_y = (float)(((int16_t)data[4]<<8)|data[3])*180/32768;
+		angle_z = (float)(((int16_t)data[6]<<8)|data[5])*180/32768;
 	}
 }
 

@@ -2046,257 +2046,257 @@ Image Symbol Table
     i.AL_ControlRes                          0x08000c80   Section        0  ecatslv.o(i.AL_ControlRes)
     i.APPL_AckErrorInd                       0x08000df8   Section        0  el9800appl.o(i.APPL_AckErrorInd)
     i.APPL_Application                       0x08000dfc   Section        0  el9800appl.o(i.APPL_Application)
-    i.APPL_GenerateMapping                   0x08000ee8   Section        0  el9800appl.o(i.APPL_GenerateMapping)
-    i.APPL_InputMapping                      0x08000fc8   Section        0  el9800appl.o(i.APPL_InputMapping)
-    i.APPL_OutputMapping                     0x08001018   Section        0  el9800appl.o(i.APPL_OutputMapping)
-    i.APPL_StartInputHandler                 0x08001048   Section        0  el9800appl.o(i.APPL_StartInputHandler)
-    i.APPL_StartMailboxHandler               0x0800104c   Section        0  el9800appl.o(i.APPL_StartMailboxHandler)
-    i.APPL_StartOutputHandler                0x08001050   Section        0  el9800appl.o(i.APPL_StartOutputHandler)
-    i.APPL_StopInputHandler                  0x08001054   Section        0  el9800appl.o(i.APPL_StopInputHandler)
-    i.APPL_StopMailboxHandler                0x08001058   Section        0  el9800appl.o(i.APPL_StopMailboxHandler)
-    i.APPL_StopOutputHandler                 0x0800105c   Section        0  el9800appl.o(i.APPL_StopOutputHandler)
-    i.AddObjectsToObjDictionary              0x080010bc   Section        0  coeappl.o(i.AddObjectsToObjDictionary)
-    i.AddressingEsc                          0x080010dc   Section        0  el9800hw.o(i.AddressingEsc)
-    AddressingEsc                            0x080010dd   Thumb Code    40  el9800hw.o(i.AddressingEsc)
-    i.BusFault_Handler                       0x08001108   Section        0  stm32f4xx_it.o(i.BusFault_Handler)
-    i.COE_AddObjectToDic                     0x0800110c   Section        0  coeappl.o(i.COE_AddObjectToDic)
-    i.COE_ClearObjDictionary                 0x08001168   Section        0  coeappl.o(i.COE_ClearObjDictionary)
-    i.COE_ContinueInd                        0x08001188   Section        0  ecatcoe.o(i.COE_ContinueInd)
-    i.COE_GetObjectDictionary                0x080011c8   Section        0  coeappl.o(i.COE_GetObjectDictionary)
-    i.COE_Init                               0x080011d4   Section        0  ecatcoe.o(i.COE_Init)
-    i.COE_Main                               0x080011e8   Section        0  coeappl.o(i.COE_Main)
-    i.COE_ObjDictionaryInit                  0x08001294   Section        0  coeappl.o(i.COE_ObjDictionaryInit)
-    i.COE_ObjInit                            0x080012bc   Section        0  coeappl.o(i.COE_ObjInit)
-    i.COE_RemoveDicEntry                     0x08001358   Section        0  coeappl.o(i.COE_RemoveDicEntry)
-    i.COE_ServiceInd                         0x08001390   Section        0  ecatcoe.o(i.COE_ServiceInd)
-    i.CheckIfEcatError                       0x080013b8   Section        0  ecatslv.o(i.CheckIfEcatError)
-    i.CheckSmSettings                        0x0800141c   Section        0  ecatslv.o(i.CheckSmSettings)
-    i.CheckSyncTypeValue                     0x080015a0   Section        0  objdef.o(i.CheckSyncTypeValue)
-    i.DC_CheckWatchdog                       0x0800162c   Section        0  ecatslv.o(i.DC_CheckWatchdog)
-    i.DMA_Cmd                                0x080016ac   Section        0  stm32f4xx_dma.o(i.DMA_Cmd)
-    i.DMA_Init                               0x080016c0   Section        0  stm32f4xx_dma.o(i.DMA_Init)
-    i.DebugMon_Handler                       0x08001714   Section        0  stm32f4xx_it.o(i.DebugMon_Handler)
-    i.Debug_USART_Config                     0x08001718   Section        0  usart2.o(i.Debug_USART_Config)
-    i.DisableSyncManChannel                  0x080017dc   Section        0  ecatslv.o(i.DisableSyncManChannel)
-    i.ECAT_CheckTimer                        0x0800180c   Section        0  ecatappl.o(i.ECAT_CheckTimer)
-    i.ECAT_Init                              0x08001844   Section        0  ecatslv.o(i.ECAT_Init)
-    i.ECAT_Main                              0x080018d8   Section        0  ecatslv.o(i.ECAT_Main)
-    i.EXTI0_Configuration                    0x080019f0   Section        0  exit.o(i.EXTI0_Configuration)
-    i.EXTI0_IRQHandler                       0x08001a60   Section        0  el9800hw.o(i.EXTI0_IRQHandler)
-    i.EXTI1_Configuration                    0x08001a70   Section        0  exit.o(i.EXTI1_Configuration)
-    i.EXTI1_IRQHandler                       0x08001ae4   Section        0  el9800hw.o(i.EXTI1_IRQHandler)
-    i.EXTI8_Configuration                    0x08001af4   Section        0  exit.o(i.EXTI8_Configuration)
-    i.EXTI9_5_IRQHandler                     0x08001b68   Section        0  el9800hw.o(i.EXTI9_5_IRQHandler)
-    i.EXTI_ClearITPendingBit                 0x08001b7c   Section        0  stm32f4xx_exti.o(i.EXTI_ClearITPendingBit)
-    i.EXTI_Init                              0x08001b88   Section        0  stm32f4xx_exti.o(i.EXTI_Init)
-    i.EnableSyncManChannel                   0x08001bf8   Section        0  ecatslv.o(i.EnableSyncManChannel)
-    i.GPIO_Config                            0x08001c28   Section        0  el9800hw.o(i.GPIO_Config)
-    i.GPIO_Init                              0x08001cb8   Section        0  stm32f4xx_gpio.o(i.GPIO_Init)
-    i.GPIO_PinAFConfig                       0x08001d30   Section        0  stm32f4xx_gpio.o(i.GPIO_PinAFConfig)
-    i.GPIO_ResetBits                         0x08001d50   Section        0  stm32f4xx_gpio.o(i.GPIO_ResetBits)
-    i.GPIO_SetBits                           0x08001d54   Section        0  stm32f4xx_gpio.o(i.GPIO_SetBits)
-    i.GetOutOfMbxQueue                       0x08001d58   Section        0  mailbox.o(i.GetOutOfMbxQueue)
-    i.GetSyncMan                             0x08001d80   Section        0  ecatslv.o(i.GetSyncMan)
-    i.HW_EscRead                             0x08001d9c   Section        0  el9800hw.o(i.HW_EscRead)
-    i.HW_EscReadIsr                          0x08001de0   Section        0  el9800hw.o(i.HW_EscReadIsr)
-    i.HW_EscWrite                            0x08001e1c   Section        0  el9800hw.o(i.HW_EscWrite)
-    i.HW_EscWriteIsr                         0x08001e64   Section        0  el9800hw.o(i.HW_EscWriteIsr)
-    i.HW_GetALEventRegister                  0x08001e9c   Section        0  el9800hw.o(i.HW_GetALEventRegister)
-    i.HW_GetALEventRegister_Isr              0x08001ed4   Section        0  el9800hw.o(i.HW_GetALEventRegister_Isr)
-    i.HW_Init                                0x08001f10   Section        0  el9800hw.o(i.HW_Init)
-    i.HW_Release                             0x08001f88   Section        0  el9800hw.o(i.HW_Release)
-    i.HandleBusCycleCalculation              0x08001f8c   Section        0  ecatappl.o(i.HandleBusCycleCalculation)
-    i.HardFault_Handler                      0x0800200c   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
-    i.ISR_AddressingEsc                      0x08002010   Section        0  el9800hw.o(i.ISR_AddressingEsc)
-    ISR_AddressingEsc                        0x08002011   Thumb Code    40  el9800hw.o(i.ISR_AddressingEsc)
-    i.MBX_CheckAndCopyMailbox                0x0800203c   Section        0  mailbox.o(i.MBX_CheckAndCopyMailbox)
-    i.MBX_CopyToSendMailbox                  0x08002110   Section        0  mailbox.o(i.MBX_CopyToSendMailbox)
-    i.MBX_Init                               0x080021c4   Section        0  mailbox.o(i.MBX_Init)
-    i.MBX_MailboxReadInd                     0x08002234   Section        0  mailbox.o(i.MBX_MailboxReadInd)
-    i.MBX_MailboxRepeatReq                   0x08002294   Section        0  mailbox.o(i.MBX_MailboxRepeatReq)
-    i.MBX_MailboxSendReq                     0x080022d4   Section        0  mailbox.o(i.MBX_MailboxSendReq)
-    i.MBX_MailboxWriteInd                    0x0800234c   Section        0  mailbox.o(i.MBX_MailboxWriteInd)
-    i.MBX_Main                               0x080023b4   Section        0  mailbox.o(i.MBX_Main)
-    i.MBX_StartMailboxHandler                0x08002400   Section        0  mailbox.o(i.MBX_StartMailboxHandler)
-    i.MBX_StopMailboxHandler                 0x08002470   Section        0  mailbox.o(i.MBX_StopMailboxHandler)
-    i.MailboxServiceInd                      0x08002514   Section        0  mailbox.o(i.MailboxServiceInd)
-    i.MainInit                               0x08002528   Section        0  ecatappl.o(i.MainInit)
-    i.MainLoop                               0x08002548   Section        0  ecatappl.o(i.MainLoop)
-    i.MemManage_Handler                      0x080025e0   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
-    i.NMI_Handler                            0x080025e2   Section        0  stm32f4xx_it.o(i.NMI_Handler)
-    i.NVIC_Init                              0x080025e4   Section        0  misc.o(i.NVIC_Init)
-    i.NVIC_PriorityGroupConfig               0x08002648   Section        0  misc.o(i.NVIC_PriorityGroupConfig)
-    i.OBJ_CopyNumberToString                 0x0800265c   Section        0  objdef.o(i.OBJ_CopyNumberToString)
-    i.OBJ_GetDesc                            0x0800268c   Section        0  objdef.o(i.OBJ_GetDesc)
-    i.OBJ_GetEntryDesc                       0x0800272c   Section        0  objdef.o(i.OBJ_GetEntryDesc)
-    i.OBJ_GetEntryOffset                     0x0800274a   Section        0  objdef.o(i.OBJ_GetEntryOffset)
-    i.OBJ_GetNoOfObjects                     0x08002810   Section        0  objdef.o(i.OBJ_GetNoOfObjects)
-    i.OBJ_GetObjDesc                         0x0800286c   Section        0  objdef.o(i.OBJ_GetObjDesc)
-    i.OBJ_GetObjectHandle                    0x08002870   Section        0  objdef.o(i.OBJ_GetObjectHandle)
-    i.OBJ_GetObjectLength                    0x08002888   Section        0  objdef.o(i.OBJ_GetObjectLength)
-    i.OBJ_GetObjectList                      0x08002904   Section        0  objdef.o(i.OBJ_GetObjectList)
-    i.OBJ_Read                               0x0800299c   Section        0  objdef.o(i.OBJ_Read)
-    i.OBJ_Write                              0x08002cf0   Section        0  objdef.o(i.OBJ_Write)
-    i.PDI_Isr                                0x08003068   Section        0  ecatappl.o(i.PDI_Isr)
-    i.PDO_InputMapping                       0x08003160   Section        0  ecatappl.o(i.PDO_InputMapping)
-    i.PDO_OutputMapping                      0x08003188   Section        0  ecatappl.o(i.PDO_OutputMapping)
-    i.PendSV_Handler                         0x080031b0   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
-    i.PutInMbxQueue                          0x080031b2   Section        0  mailbox.o(i.PutInMbxQueue)
-    i.RCC_AHB1PeriphClockCmd                 0x080031d8   Section        0  stm32f4xx_rcc.o(i.RCC_AHB1PeriphClockCmd)
-    i.RCC_APB1PeriphClockCmd                 0x080031f0   Section        0  stm32f4xx_rcc.o(i.RCC_APB1PeriphClockCmd)
-    i.RCC_APB1PeriphResetCmd                 0x08003208   Section        0  stm32f4xx_rcc.o(i.RCC_APB1PeriphResetCmd)
-    i.RCC_APB2PeriphClockCmd                 0x08003220   Section        0  stm32f4xx_rcc.o(i.RCC_APB2PeriphClockCmd)
-    i.RCC_APB2PeriphResetCmd                 0x08003238   Section        0  stm32f4xx_rcc.o(i.RCC_APB2PeriphResetCmd)
-    i.RCC_GetClocksFreq                      0x08003250   Section        0  stm32f4xx_rcc.o(i.RCC_GetClocksFreq)
-    i.ReadObject0x1802                       0x080032e0   Section        0  el9800appl.o(i.ReadObject0x1802)
-    i.ResetALEventMask                       0x08003330   Section        0  ecatslv.o(i.ResetALEventMask)
-    i.SDOS_SdoInd                            0x08003364   Section        0  sdoserv.o(i.SDOS_SdoInd)
-    i.SDOS_SdoInfoInd                        0x08003634   Section        0  sdoserv.o(i.SDOS_SdoInfoInd)
-    i.SDOS_SdoRes                            0x08003894   Section        0  sdoserv.o(i.SDOS_SdoRes)
-    i.SPI1_GPIO_Init                         0x08003924   Section        0  spi1.o(i.SPI1_GPIO_Init)
-    i.SPI1_Init                              0x080039c8   Section        0  spi1.o(i.SPI1_Init)
-    i.SPI_Cmd                                0x08003a20   Section        0  stm32f4xx_spi.o(i.SPI_Cmd)
-    i.SPI_I2S_DeInit                         0x08003a34   Section        0  stm32f4xx_spi.o(i.SPI_I2S_DeInit)
-    i.SPI_I2S_GetFlagStatus                  0x08003ab8   Section        0  stm32f4xx_spi.o(i.SPI_I2S_GetFlagStatus)
-    i.SPI_I2S_ReceiveData                    0x08003ac6   Section        0  stm32f4xx_spi.o(i.SPI_I2S_ReceiveData)
-    i.SPI_I2S_SendData                       0x08003aca   Section        0  stm32f4xx_spi.o(i.SPI_I2S_SendData)
-    i.SPI_Init                               0x08003ace   Section        0  stm32f4xx_spi.o(i.SPI_Init)
-    i.SVC_Handler                            0x08003b06   Section        0  stm32f4xx_it.o(i.SVC_Handler)
-    i.SYSCFG_EXTILineConfig                  0x08003b08   Section        0  stm32f4xx_syscfg.o(i.SYSCFG_EXTILineConfig)
-    i.SdoDownloadSegmentInd                  0x08003b38   Section        0  sdoserv.o(i.SdoDownloadSegmentInd)
-    SdoDownloadSegmentInd                    0x08003b39   Thumb Code   470  sdoserv.o(i.SdoDownloadSegmentInd)
-    i.SdoRes                                 0x08003d18   Section        0  sdoserv.o(i.SdoRes)
-    i.SdoUploadSegmentInd                    0x08003dd0   Section        0  sdoserv.o(i.SdoUploadSegmentInd)
-    SdoUploadSegmentInd                      0x08003dd1   Thumb Code   264  sdoserv.o(i.SdoUploadSegmentInd)
-    i.SetALEventMask                         0x08003ee0   Section        0  ecatslv.o(i.SetALEventMask)
-    i.SetALStatus                            0x08003f14   Section        0  ecatslv.o(i.SetALStatus)
-    i.SetSysClock                            0x08003f54   Section        0  system_stm32f4xx.o(i.SetSysClock)
-    SetSysClock                              0x08003f55   Thumb Code   162  system_stm32f4xx.o(i.SetSysClock)
-    i.StartInputHandler                      0x08004008   Section        0  ecatslv.o(i.StartInputHandler)
-    i.StartOutputHandler                     0x08004410   Section        0  ecatslv.o(i.StartOutputHandler)
-    i.StopInputHandler                       0x08004430   Section        0  ecatslv.o(i.StopInputHandler)
-    i.StopOutputHandler                      0x0800448c   Section        0  ecatslv.o(i.StopOutputHandler)
-    i.Sync0_Isr                              0x0800449c   Section        0  ecatappl.o(i.Sync0_Isr)
-    i.Sync1_Isr                              0x0800459c   Section        0  ecatappl.o(i.Sync1_Isr)
-    i.SysTick_Handler                        0x080045d8   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
-    i.SystemInit                             0x080045dc   Section        0  system_stm32f4xx.o(i.SystemInit)
-    i.TIM2_IRQHandler                        0x08004638   Section        0  el9800hw.o(i.TIM2_IRQHandler)
-    i.TIM_ClearFlag                          0x08004664   Section        0  stm32f4xx_tim.o(i.TIM_ClearFlag)
-    i.TIM_ClearITPendingBit                  0x0800466a   Section        0  stm32f4xx_tim.o(i.TIM_ClearITPendingBit)
-    i.TIM_Cmd                                0x08004670   Section        0  stm32f4xx_tim.o(i.TIM_Cmd)
-    i.TIM_Configuration                      0x08004684   Section        0  timer.o(i.TIM_Configuration)
-    i.TIM_DeInit                             0x080046f8   Section        0  stm32f4xx_tim.o(i.TIM_DeInit)
-    i.TIM_ITConfig                           0x08004848   Section        0  stm32f4xx_tim.o(i.TIM_ITConfig)
-    i.TIM_TimeBaseInit                       0x08004858   Section        0  stm32f4xx_tim.o(i.TIM_TimeBaseInit)
-    i.USART2_IRQHandler                      0x080048d4   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
-    i.USART_Cmd                              0x08004944   Section        0  stm32f4xx_usart.o(i.USART_Cmd)
-    i.USART_GetITStatus                      0x08004958   Section        0  stm32f4xx_usart.o(i.USART_GetITStatus)
-    i.USART_ITConfig                         0x08004996   Section        0  stm32f4xx_usart.o(i.USART_ITConfig)
-    i.USART_Init                             0x080049c8   Section        0  stm32f4xx_usart.o(i.USART_Init)
-    i.USART_ReceiveData                      0x08004a74   Section        0  stm32f4xx_usart.o(i.USART_ReceiveData)
-    i.UpdateEEPROMLoadedState                0x08004a7c   Section        0  ecatslv.o(i.UpdateEEPROMLoadedState)
-    i.UsageFault_Handler                     0x08004ab0   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
-    i.WR_CMD                                 0x08004ab4   Section        0  spi1.o(i.WR_CMD)
-    i.__NVIC_DisableIRQ                      0x08004ae8   Section        0  ecatslv.o(i.__NVIC_DisableIRQ)
-    __NVIC_DisableIRQ                        0x08004ae9   Thumb Code    34  ecatslv.o(i.__NVIC_DisableIRQ)
-    i.__NVIC_EnableIRQ                       0x08004b0a   Section        0  el9800hw.o(i.__NVIC_EnableIRQ)
-    __NVIC_EnableIRQ                         0x08004b0b   Thumb Code    26  el9800hw.o(i.__NVIC_EnableIRQ)
-    i.__NVIC_EnableIRQ                       0x08004b24   Section        0  ecatslv.o(i.__NVIC_EnableIRQ)
-    __NVIC_EnableIRQ                         0x08004b25   Thumb Code    26  ecatslv.o(i.__NVIC_EnableIRQ)
-    i.angle_set                              0x08004b40   Section        0  el9800appl.o(i.angle_set)
-    i.main                                   0x08004b98   Section        0  el9800appl.o(i.main)
-    x$fpl$fpinit                             0x08004be8   Section       10  fpinit.o(x$fpl$fpinit)
-    $v0                                      0x08004be8   Number         0  fpinit.o(x$fpl$fpinit)
-    .constdata                               0x08004bf2   Section       12  coeappl.o(.constdata)
-    .constdata                               0x08004bfe   Section       18  coeappl.o(.constdata)
-    .constdata                               0x08004c10   Section       60  coeappl.o(.constdata)
-    .constdata                               0x08004c4c   Section       15  coeappl.o(.constdata)
-    .constdata                               0x08004c5c   Section       60  coeappl.o(.constdata)
-    .constdata                               0x08004c98   Section       63  coeappl.o(.constdata)
-    .constdata                               0x08004cd8   Section       60  coeappl.o(.constdata)
-    .constdata                               0x08004d14   Section       15  coeappl.o(.constdata)
-    .constdata                               0x08004d24   Section       54  coeappl.o(.constdata)
-    .constdata                               0x08004d5a   Section       15  coeappl.o(.constdata)
-    .constdata                               0x08004d69   Section       13  coeappl.o(.constdata)
-    .constdata                               0x08004d76   Section       13  coeappl.o(.constdata)
-    .constdata                               0x08004d84   Section       60  coeappl.o(.constdata)
-    .constdata                               0x08004dc0   Section       85  coeappl.o(.constdata)
-    .constdata                               0x08004e16   Section      108  coeappl.o(.constdata)
-    .constdata                               0x08004e82   Section       95  coeappl.o(.constdata)
-    .constdata                               0x08004ee2   Section       60  coeappl.o(.constdata)
-    .constdata                               0x08004f1e   Section       62  coeappl.o(.constdata)
-    .constdata                               0x08004f5c   Section      126  coeappl.o(.constdata)
-    .constdata                               0x08004fda   Section      115  coeappl.o(.constdata)
-    .constdata                               0x0800504e   Section       18  coeappl.o(.constdata)
-    .constdata                               0x08005060   Section       73  coeappl.o(.constdata)
-    .constdata                               0x080050aa   Section       24  coeappl.o(.constdata)
-    .constdata                               0x080050c2   Section       20  coeappl.o(.constdata)
-    .constdata                               0x080050d6   Section        6  coeappl.o(.constdata)
-    .constdata                               0x080050dc   Section       12  coeappl.o(.constdata)
-    .constdata                               0x080050e8   Section        6  coeappl.o(.constdata)
-    .constdata                               0x080050ee   Section       15  coeappl.o(.constdata)
-    .constdata                               0x080050fe   Section        6  coeappl.o(.constdata)
-    .constdata                               0x08005104   Section       12  coeappl.o(.constdata)
-    .constdata                               0x08005110   Section        6  coeappl.o(.constdata)
-    .constdata                               0x08005116   Section       17  coeappl.o(.constdata)
-    .constdata                               0x08005128   Section        6  coeappl.o(.constdata)
-    .constdata                               0x0800512e   Section       17  coeappl.o(.constdata)
-    .constdata                               0x08005140   Section       30  coeappl.o(.constdata)
-    .constdata                               0x0800515e   Section       57  coeappl.o(.constdata)
-    .constdata                               0x08005198   Section       18  coeappl.o(.constdata)
-    .constdata                               0x080051aa   Section       63  coeappl.o(.constdata)
-    .constdata                               0x080051ea   Section       12  coeappl.o(.constdata)
-    .constdata                               0x080051f6   Section       18  coeappl.o(.constdata)
-    .constdata                               0x08005208   Section      198  coeappl.o(.constdata)
-    .constdata                               0x080052ce   Section      256  coeappl.o(.constdata)
-    .constdata                               0x080053ce   Section      255  coeappl.o(.constdata)
-    .constdata                               0x080054ce   Section       32  objdef.o(.constdata)
-    .constdata                               0x080054f0   Section      120  sdoserv.o(.constdata)
+    i.APPL_GenerateMapping                   0x08000ee0   Section        0  el9800appl.o(i.APPL_GenerateMapping)
+    i.APPL_InputMapping                      0x08000fc0   Section        0  el9800appl.o(i.APPL_InputMapping)
+    i.APPL_OutputMapping                     0x08001010   Section        0  el9800appl.o(i.APPL_OutputMapping)
+    i.APPL_StartInputHandler                 0x08001040   Section        0  el9800appl.o(i.APPL_StartInputHandler)
+    i.APPL_StartMailboxHandler               0x08001044   Section        0  el9800appl.o(i.APPL_StartMailboxHandler)
+    i.APPL_StartOutputHandler                0x08001048   Section        0  el9800appl.o(i.APPL_StartOutputHandler)
+    i.APPL_StopInputHandler                  0x0800104c   Section        0  el9800appl.o(i.APPL_StopInputHandler)
+    i.APPL_StopMailboxHandler                0x08001050   Section        0  el9800appl.o(i.APPL_StopMailboxHandler)
+    i.APPL_StopOutputHandler                 0x08001054   Section        0  el9800appl.o(i.APPL_StopOutputHandler)
+    i.AddObjectsToObjDictionary              0x080010b4   Section        0  coeappl.o(i.AddObjectsToObjDictionary)
+    i.AddressingEsc                          0x080010d4   Section        0  el9800hw.o(i.AddressingEsc)
+    AddressingEsc                            0x080010d5   Thumb Code    40  el9800hw.o(i.AddressingEsc)
+    i.BusFault_Handler                       0x08001100   Section        0  stm32f4xx_it.o(i.BusFault_Handler)
+    i.COE_AddObjectToDic                     0x08001104   Section        0  coeappl.o(i.COE_AddObjectToDic)
+    i.COE_ClearObjDictionary                 0x08001160   Section        0  coeappl.o(i.COE_ClearObjDictionary)
+    i.COE_ContinueInd                        0x08001180   Section        0  ecatcoe.o(i.COE_ContinueInd)
+    i.COE_GetObjectDictionary                0x080011c0   Section        0  coeappl.o(i.COE_GetObjectDictionary)
+    i.COE_Init                               0x080011cc   Section        0  ecatcoe.o(i.COE_Init)
+    i.COE_Main                               0x080011e0   Section        0  coeappl.o(i.COE_Main)
+    i.COE_ObjDictionaryInit                  0x0800128c   Section        0  coeappl.o(i.COE_ObjDictionaryInit)
+    i.COE_ObjInit                            0x080012b4   Section        0  coeappl.o(i.COE_ObjInit)
+    i.COE_RemoveDicEntry                     0x08001350   Section        0  coeappl.o(i.COE_RemoveDicEntry)
+    i.COE_ServiceInd                         0x08001388   Section        0  ecatcoe.o(i.COE_ServiceInd)
+    i.CheckIfEcatError                       0x080013b0   Section        0  ecatslv.o(i.CheckIfEcatError)
+    i.CheckSmSettings                        0x08001414   Section        0  ecatslv.o(i.CheckSmSettings)
+    i.CheckSyncTypeValue                     0x08001598   Section        0  objdef.o(i.CheckSyncTypeValue)
+    i.DC_CheckWatchdog                       0x08001624   Section        0  ecatslv.o(i.DC_CheckWatchdog)
+    i.DMA_Cmd                                0x080016a4   Section        0  stm32f4xx_dma.o(i.DMA_Cmd)
+    i.DMA_Init                               0x080016b8   Section        0  stm32f4xx_dma.o(i.DMA_Init)
+    i.DebugMon_Handler                       0x0800170c   Section        0  stm32f4xx_it.o(i.DebugMon_Handler)
+    i.Debug_USART_Config                     0x08001710   Section        0  usart2.o(i.Debug_USART_Config)
+    i.DisableSyncManChannel                  0x080017d4   Section        0  ecatslv.o(i.DisableSyncManChannel)
+    i.ECAT_CheckTimer                        0x08001804   Section        0  ecatappl.o(i.ECAT_CheckTimer)
+    i.ECAT_Init                              0x0800183c   Section        0  ecatslv.o(i.ECAT_Init)
+    i.ECAT_Main                              0x080018d0   Section        0  ecatslv.o(i.ECAT_Main)
+    i.EXTI0_Configuration                    0x080019e8   Section        0  exit.o(i.EXTI0_Configuration)
+    i.EXTI0_IRQHandler                       0x08001a58   Section        0  el9800hw.o(i.EXTI0_IRQHandler)
+    i.EXTI1_Configuration                    0x08001a68   Section        0  exit.o(i.EXTI1_Configuration)
+    i.EXTI1_IRQHandler                       0x08001adc   Section        0  el9800hw.o(i.EXTI1_IRQHandler)
+    i.EXTI8_Configuration                    0x08001aec   Section        0  exit.o(i.EXTI8_Configuration)
+    i.EXTI9_5_IRQHandler                     0x08001b60   Section        0  el9800hw.o(i.EXTI9_5_IRQHandler)
+    i.EXTI_ClearITPendingBit                 0x08001b74   Section        0  stm32f4xx_exti.o(i.EXTI_ClearITPendingBit)
+    i.EXTI_Init                              0x08001b80   Section        0  stm32f4xx_exti.o(i.EXTI_Init)
+    i.EnableSyncManChannel                   0x08001bf0   Section        0  ecatslv.o(i.EnableSyncManChannel)
+    i.GPIO_Config                            0x08001c20   Section        0  el9800hw.o(i.GPIO_Config)
+    i.GPIO_Init                              0x08001cb0   Section        0  stm32f4xx_gpio.o(i.GPIO_Init)
+    i.GPIO_PinAFConfig                       0x08001d28   Section        0  stm32f4xx_gpio.o(i.GPIO_PinAFConfig)
+    i.GPIO_ResetBits                         0x08001d48   Section        0  stm32f4xx_gpio.o(i.GPIO_ResetBits)
+    i.GPIO_SetBits                           0x08001d4c   Section        0  stm32f4xx_gpio.o(i.GPIO_SetBits)
+    i.GetOutOfMbxQueue                       0x08001d50   Section        0  mailbox.o(i.GetOutOfMbxQueue)
+    i.GetSyncMan                             0x08001d78   Section        0  ecatslv.o(i.GetSyncMan)
+    i.HW_EscRead                             0x08001d94   Section        0  el9800hw.o(i.HW_EscRead)
+    i.HW_EscReadIsr                          0x08001dd8   Section        0  el9800hw.o(i.HW_EscReadIsr)
+    i.HW_EscWrite                            0x08001e14   Section        0  el9800hw.o(i.HW_EscWrite)
+    i.HW_EscWriteIsr                         0x08001e5c   Section        0  el9800hw.o(i.HW_EscWriteIsr)
+    i.HW_GetALEventRegister                  0x08001e94   Section        0  el9800hw.o(i.HW_GetALEventRegister)
+    i.HW_GetALEventRegister_Isr              0x08001ecc   Section        0  el9800hw.o(i.HW_GetALEventRegister_Isr)
+    i.HW_Init                                0x08001f08   Section        0  el9800hw.o(i.HW_Init)
+    i.HW_Release                             0x08001f80   Section        0  el9800hw.o(i.HW_Release)
+    i.HandleBusCycleCalculation              0x08001f84   Section        0  ecatappl.o(i.HandleBusCycleCalculation)
+    i.HardFault_Handler                      0x08002004   Section        0  stm32f4xx_it.o(i.HardFault_Handler)
+    i.ISR_AddressingEsc                      0x08002008   Section        0  el9800hw.o(i.ISR_AddressingEsc)
+    ISR_AddressingEsc                        0x08002009   Thumb Code    40  el9800hw.o(i.ISR_AddressingEsc)
+    i.MBX_CheckAndCopyMailbox                0x08002034   Section        0  mailbox.o(i.MBX_CheckAndCopyMailbox)
+    i.MBX_CopyToSendMailbox                  0x08002108   Section        0  mailbox.o(i.MBX_CopyToSendMailbox)
+    i.MBX_Init                               0x080021bc   Section        0  mailbox.o(i.MBX_Init)
+    i.MBX_MailboxReadInd                     0x0800222c   Section        0  mailbox.o(i.MBX_MailboxReadInd)
+    i.MBX_MailboxRepeatReq                   0x0800228c   Section        0  mailbox.o(i.MBX_MailboxRepeatReq)
+    i.MBX_MailboxSendReq                     0x080022cc   Section        0  mailbox.o(i.MBX_MailboxSendReq)
+    i.MBX_MailboxWriteInd                    0x08002344   Section        0  mailbox.o(i.MBX_MailboxWriteInd)
+    i.MBX_Main                               0x080023ac   Section        0  mailbox.o(i.MBX_Main)
+    i.MBX_StartMailboxHandler                0x080023f8   Section        0  mailbox.o(i.MBX_StartMailboxHandler)
+    i.MBX_StopMailboxHandler                 0x08002468   Section        0  mailbox.o(i.MBX_StopMailboxHandler)
+    i.MailboxServiceInd                      0x0800250c   Section        0  mailbox.o(i.MailboxServiceInd)
+    i.MainInit                               0x08002520   Section        0  ecatappl.o(i.MainInit)
+    i.MainLoop                               0x08002540   Section        0  ecatappl.o(i.MainLoop)
+    i.MemManage_Handler                      0x080025d8   Section        0  stm32f4xx_it.o(i.MemManage_Handler)
+    i.NMI_Handler                            0x080025da   Section        0  stm32f4xx_it.o(i.NMI_Handler)
+    i.NVIC_Init                              0x080025dc   Section        0  misc.o(i.NVIC_Init)
+    i.NVIC_PriorityGroupConfig               0x08002640   Section        0  misc.o(i.NVIC_PriorityGroupConfig)
+    i.OBJ_CopyNumberToString                 0x08002654   Section        0  objdef.o(i.OBJ_CopyNumberToString)
+    i.OBJ_GetDesc                            0x08002684   Section        0  objdef.o(i.OBJ_GetDesc)
+    i.OBJ_GetEntryDesc                       0x08002724   Section        0  objdef.o(i.OBJ_GetEntryDesc)
+    i.OBJ_GetEntryOffset                     0x08002742   Section        0  objdef.o(i.OBJ_GetEntryOffset)
+    i.OBJ_GetNoOfObjects                     0x08002808   Section        0  objdef.o(i.OBJ_GetNoOfObjects)
+    i.OBJ_GetObjDesc                         0x08002864   Section        0  objdef.o(i.OBJ_GetObjDesc)
+    i.OBJ_GetObjectHandle                    0x08002868   Section        0  objdef.o(i.OBJ_GetObjectHandle)
+    i.OBJ_GetObjectLength                    0x08002880   Section        0  objdef.o(i.OBJ_GetObjectLength)
+    i.OBJ_GetObjectList                      0x080028fc   Section        0  objdef.o(i.OBJ_GetObjectList)
+    i.OBJ_Read                               0x08002994   Section        0  objdef.o(i.OBJ_Read)
+    i.OBJ_Write                              0x08002ce8   Section        0  objdef.o(i.OBJ_Write)
+    i.PDI_Isr                                0x08003060   Section        0  ecatappl.o(i.PDI_Isr)
+    i.PDO_InputMapping                       0x08003158   Section        0  ecatappl.o(i.PDO_InputMapping)
+    i.PDO_OutputMapping                      0x08003180   Section        0  ecatappl.o(i.PDO_OutputMapping)
+    i.PendSV_Handler                         0x080031a8   Section        0  stm32f4xx_it.o(i.PendSV_Handler)
+    i.PutInMbxQueue                          0x080031aa   Section        0  mailbox.o(i.PutInMbxQueue)
+    i.RCC_AHB1PeriphClockCmd                 0x080031d0   Section        0  stm32f4xx_rcc.o(i.RCC_AHB1PeriphClockCmd)
+    i.RCC_APB1PeriphClockCmd                 0x080031e8   Section        0  stm32f4xx_rcc.o(i.RCC_APB1PeriphClockCmd)
+    i.RCC_APB1PeriphResetCmd                 0x08003200   Section        0  stm32f4xx_rcc.o(i.RCC_APB1PeriphResetCmd)
+    i.RCC_APB2PeriphClockCmd                 0x08003218   Section        0  stm32f4xx_rcc.o(i.RCC_APB2PeriphClockCmd)
+    i.RCC_APB2PeriphResetCmd                 0x08003230   Section        0  stm32f4xx_rcc.o(i.RCC_APB2PeriphResetCmd)
+    i.RCC_GetClocksFreq                      0x08003248   Section        0  stm32f4xx_rcc.o(i.RCC_GetClocksFreq)
+    i.ReadObject0x1802                       0x080032d8   Section        0  el9800appl.o(i.ReadObject0x1802)
+    i.ResetALEventMask                       0x08003328   Section        0  ecatslv.o(i.ResetALEventMask)
+    i.SDOS_SdoInd                            0x0800335c   Section        0  sdoserv.o(i.SDOS_SdoInd)
+    i.SDOS_SdoInfoInd                        0x0800362c   Section        0  sdoserv.o(i.SDOS_SdoInfoInd)
+    i.SDOS_SdoRes                            0x0800388c   Section        0  sdoserv.o(i.SDOS_SdoRes)
+    i.SPI1_GPIO_Init                         0x0800391c   Section        0  spi1.o(i.SPI1_GPIO_Init)
+    i.SPI1_Init                              0x080039c0   Section        0  spi1.o(i.SPI1_Init)
+    i.SPI_Cmd                                0x08003a18   Section        0  stm32f4xx_spi.o(i.SPI_Cmd)
+    i.SPI_I2S_DeInit                         0x08003a2c   Section        0  stm32f4xx_spi.o(i.SPI_I2S_DeInit)
+    i.SPI_I2S_GetFlagStatus                  0x08003ab0   Section        0  stm32f4xx_spi.o(i.SPI_I2S_GetFlagStatus)
+    i.SPI_I2S_ReceiveData                    0x08003abe   Section        0  stm32f4xx_spi.o(i.SPI_I2S_ReceiveData)
+    i.SPI_I2S_SendData                       0x08003ac2   Section        0  stm32f4xx_spi.o(i.SPI_I2S_SendData)
+    i.SPI_Init                               0x08003ac6   Section        0  stm32f4xx_spi.o(i.SPI_Init)
+    i.SVC_Handler                            0x08003afe   Section        0  stm32f4xx_it.o(i.SVC_Handler)
+    i.SYSCFG_EXTILineConfig                  0x08003b00   Section        0  stm32f4xx_syscfg.o(i.SYSCFG_EXTILineConfig)
+    i.SdoDownloadSegmentInd                  0x08003b30   Section        0  sdoserv.o(i.SdoDownloadSegmentInd)
+    SdoDownloadSegmentInd                    0x08003b31   Thumb Code   470  sdoserv.o(i.SdoDownloadSegmentInd)
+    i.SdoRes                                 0x08003d10   Section        0  sdoserv.o(i.SdoRes)
+    i.SdoUploadSegmentInd                    0x08003dc8   Section        0  sdoserv.o(i.SdoUploadSegmentInd)
+    SdoUploadSegmentInd                      0x08003dc9   Thumb Code   264  sdoserv.o(i.SdoUploadSegmentInd)
+    i.SetALEventMask                         0x08003ed8   Section        0  ecatslv.o(i.SetALEventMask)
+    i.SetALStatus                            0x08003f0c   Section        0  ecatslv.o(i.SetALStatus)
+    i.SetSysClock                            0x08003f4c   Section        0  system_stm32f4xx.o(i.SetSysClock)
+    SetSysClock                              0x08003f4d   Thumb Code   162  system_stm32f4xx.o(i.SetSysClock)
+    i.StartInputHandler                      0x08004000   Section        0  ecatslv.o(i.StartInputHandler)
+    i.StartOutputHandler                     0x08004408   Section        0  ecatslv.o(i.StartOutputHandler)
+    i.StopInputHandler                       0x08004428   Section        0  ecatslv.o(i.StopInputHandler)
+    i.StopOutputHandler                      0x08004484   Section        0  ecatslv.o(i.StopOutputHandler)
+    i.Sync0_Isr                              0x08004494   Section        0  ecatappl.o(i.Sync0_Isr)
+    i.Sync1_Isr                              0x08004594   Section        0  ecatappl.o(i.Sync1_Isr)
+    i.SysTick_Handler                        0x080045d0   Section        0  stm32f4xx_it.o(i.SysTick_Handler)
+    i.SystemInit                             0x080045d4   Section        0  system_stm32f4xx.o(i.SystemInit)
+    i.TIM2_IRQHandler                        0x08004630   Section        0  el9800hw.o(i.TIM2_IRQHandler)
+    i.TIM_ClearFlag                          0x0800465c   Section        0  stm32f4xx_tim.o(i.TIM_ClearFlag)
+    i.TIM_ClearITPendingBit                  0x08004662   Section        0  stm32f4xx_tim.o(i.TIM_ClearITPendingBit)
+    i.TIM_Cmd                                0x08004668   Section        0  stm32f4xx_tim.o(i.TIM_Cmd)
+    i.TIM_Configuration                      0x0800467c   Section        0  timer.o(i.TIM_Configuration)
+    i.TIM_DeInit                             0x080046f0   Section        0  stm32f4xx_tim.o(i.TIM_DeInit)
+    i.TIM_ITConfig                           0x08004840   Section        0  stm32f4xx_tim.o(i.TIM_ITConfig)
+    i.TIM_TimeBaseInit                       0x08004850   Section        0  stm32f4xx_tim.o(i.TIM_TimeBaseInit)
+    i.USART2_IRQHandler                      0x080048cc   Section        0  stm32f4xx_it.o(i.USART2_IRQHandler)
+    i.USART_Cmd                              0x0800493c   Section        0  stm32f4xx_usart.o(i.USART_Cmd)
+    i.USART_GetITStatus                      0x08004950   Section        0  stm32f4xx_usart.o(i.USART_GetITStatus)
+    i.USART_ITConfig                         0x0800498e   Section        0  stm32f4xx_usart.o(i.USART_ITConfig)
+    i.USART_Init                             0x080049c0   Section        0  stm32f4xx_usart.o(i.USART_Init)
+    i.USART_ReceiveData                      0x08004a6c   Section        0  stm32f4xx_usart.o(i.USART_ReceiveData)
+    i.UpdateEEPROMLoadedState                0x08004a74   Section        0  ecatslv.o(i.UpdateEEPROMLoadedState)
+    i.UsageFault_Handler                     0x08004aa8   Section        0  stm32f4xx_it.o(i.UsageFault_Handler)
+    i.WR_CMD                                 0x08004aac   Section        0  spi1.o(i.WR_CMD)
+    i.__NVIC_DisableIRQ                      0x08004ae0   Section        0  ecatslv.o(i.__NVIC_DisableIRQ)
+    __NVIC_DisableIRQ                        0x08004ae1   Thumb Code    34  ecatslv.o(i.__NVIC_DisableIRQ)
+    i.__NVIC_EnableIRQ                       0x08004b02   Section        0  el9800hw.o(i.__NVIC_EnableIRQ)
+    __NVIC_EnableIRQ                         0x08004b03   Thumb Code    26  el9800hw.o(i.__NVIC_EnableIRQ)
+    i.__NVIC_EnableIRQ                       0x08004b1c   Section        0  ecatslv.o(i.__NVIC_EnableIRQ)
+    __NVIC_EnableIRQ                         0x08004b1d   Thumb Code    26  ecatslv.o(i.__NVIC_EnableIRQ)
+    i.angle_set                              0x08004b38   Section        0  el9800appl.o(i.angle_set)
+    i.main                                   0x08004bd4   Section        0  el9800appl.o(i.main)
+    x$fpl$fpinit                             0x08004c24   Section       10  fpinit.o(x$fpl$fpinit)
+    $v0                                      0x08004c24   Number         0  fpinit.o(x$fpl$fpinit)
+    .constdata                               0x08004c2e   Section       12  coeappl.o(.constdata)
+    .constdata                               0x08004c3a   Section       18  coeappl.o(.constdata)
+    .constdata                               0x08004c4c   Section       60  coeappl.o(.constdata)
+    .constdata                               0x08004c88   Section       15  coeappl.o(.constdata)
+    .constdata                               0x08004c98   Section       60  coeappl.o(.constdata)
+    .constdata                               0x08004cd4   Section       63  coeappl.o(.constdata)
+    .constdata                               0x08004d14   Section       60  coeappl.o(.constdata)
+    .constdata                               0x08004d50   Section       15  coeappl.o(.constdata)
+    .constdata                               0x08004d60   Section       54  coeappl.o(.constdata)
+    .constdata                               0x08004d96   Section       15  coeappl.o(.constdata)
+    .constdata                               0x08004da5   Section       13  coeappl.o(.constdata)
+    .constdata                               0x08004db2   Section       13  coeappl.o(.constdata)
+    .constdata                               0x08004dc0   Section       60  coeappl.o(.constdata)
+    .constdata                               0x08004dfc   Section       85  coeappl.o(.constdata)
+    .constdata                               0x08004e52   Section      108  coeappl.o(.constdata)
+    .constdata                               0x08004ebe   Section       95  coeappl.o(.constdata)
+    .constdata                               0x08004f1e   Section       60  coeappl.o(.constdata)
+    .constdata                               0x08004f5a   Section       62  coeappl.o(.constdata)
+    .constdata                               0x08004f98   Section      126  coeappl.o(.constdata)
+    .constdata                               0x08005016   Section      115  coeappl.o(.constdata)
+    .constdata                               0x0800508a   Section       18  coeappl.o(.constdata)
+    .constdata                               0x0800509c   Section       73  coeappl.o(.constdata)
+    .constdata                               0x080050e6   Section       24  coeappl.o(.constdata)
+    .constdata                               0x080050fe   Section       20  coeappl.o(.constdata)
+    .constdata                               0x08005112   Section        6  coeappl.o(.constdata)
+    .constdata                               0x08005118   Section       12  coeappl.o(.constdata)
+    .constdata                               0x08005124   Section        6  coeappl.o(.constdata)
+    .constdata                               0x0800512a   Section       15  coeappl.o(.constdata)
+    .constdata                               0x0800513a   Section        6  coeappl.o(.constdata)
+    .constdata                               0x08005140   Section       12  coeappl.o(.constdata)
+    .constdata                               0x0800514c   Section        6  coeappl.o(.constdata)
+    .constdata                               0x08005152   Section       17  coeappl.o(.constdata)
+    .constdata                               0x08005164   Section        6  coeappl.o(.constdata)
+    .constdata                               0x0800516a   Section       17  coeappl.o(.constdata)
+    .constdata                               0x0800517c   Section       30  coeappl.o(.constdata)
+    .constdata                               0x0800519a   Section       57  coeappl.o(.constdata)
+    .constdata                               0x080051d4   Section       18  coeappl.o(.constdata)
+    .constdata                               0x080051e6   Section       63  coeappl.o(.constdata)
+    .constdata                               0x08005226   Section       12  coeappl.o(.constdata)
+    .constdata                               0x08005232   Section       18  coeappl.o(.constdata)
+    .constdata                               0x08005244   Section      198  coeappl.o(.constdata)
+    .constdata                               0x0800530a   Section      256  coeappl.o(.constdata)
+    .constdata                               0x0800540a   Section      255  coeappl.o(.constdata)
+    .constdata                               0x0800550a   Section       32  objdef.o(.constdata)
+    .constdata                               0x0800552c   Section      120  sdoserv.o(.constdata)
     .data                                    0x20000000   Section        4  stm32f4xx_it.o(.data)
     .data                                    0x20000004   Section        2  adc1.o(.data)
     .data                                    0x20000006   Section        2  el9800hw.o(.data)
     .data                                    0x20000008   Section       40  el9800appl.o(.data)
-    .data                                    0x20000030   Section       36  el9800appl.o(.data)
-    .data                                    0x20000054   Section       40  el9800appl.o(.data)
-    .data                                    0x2000007c   Section       36  el9800appl.o(.data)
-    .data                                    0x200000a0   Section       16  el9800appl.o(.data)
-    .data                                    0x200000b0   Section        6  el9800appl.o(.data)
-    .data                                    0x200000b8   Section       16  el9800appl.o(.data)
-    .data                                    0x200000c8   Section        1  el9800appl.o(.data)
-    .data                                    0x200000c9   Section       24  coeappl.o(.data)
-    .data                                    0x200000e1   Section       26  coeappl.o(.data)
-    .data                                    0x200000fc   Section        8  coeappl.o(.data)
-    .data                                    0x20000104   Section     1004  coeappl.o(.data)
-    .data                                    0x200004f0   Section        4  coeappl.o(.data)
-    .data                                    0x200004f4   Section        2  coeappl.o(.data)
-    .data                                    0x200004f6   Section       11  coeappl.o(.data)
-    .data                                    0x20000501   Section        5  coeappl.o(.data)
-    .data                                    0x20000506   Section        5  coeappl.o(.data)
-    .data                                    0x2000050c   Section       20  coeappl.o(.data)
-    .data                                    0x20000520   Section        6  coeappl.o(.data)
-    .data                                    0x20000528   Section        8  ecatappl.o(.data)
-    .data                                    0x20000530   Section        1  ecatappl.o(.data)
-    .data                                    0x20000534   Section        4  ecatcoe.o(.data)
-    .data                                    0x20000538   Section       68  ecatslv.o(.data)
-    .data                                    0x2000057c   Section       32  mailbox.o(.data)
-    .data                                    0x2000059c   Section       12  objdef.o(.data)
-    .data                                    0x200005a8   Section       14  objdef.o(.data)
-    .data                                    0x200005b6   Section        2  objdef.o(.data)
-    .data                                    0x200005b8   Section       52  sdoserv.o(.data)
-    .data                                    0x200005ec   Section        4  sdoserv.o(.data)
-    .data                                    0x200005f0   Section       16  stm32f4xx_rcc.o(.data)
-    APBAHBPrescTable                         0x200005f0   Data          16  stm32f4xx_rcc.o(.data)
-    .bss                                     0x20000600   Section       10  el9800appl.o(.bss)
-    .bss                                     0x2000060a   Section      136  ecatappl.o(.bss)
-    .bss                                     0x20000694   Section      616  mailbox.o(.bss)
-    .bss                                     0x200008fc   Section      136  objdef.o(.bss)
-    .bss                                     0x20000984   Section       14  sdoserv.o(.bss)
-    .bss                                     0x20000994   Section       96  libspace.o(.bss)
-    HEAP                                     0x200009f8   Section      512  startup_stm32f40_41xxx.o(HEAP)
-    Heap_Mem                                 0x200009f8   Data         512  startup_stm32f40_41xxx.o(HEAP)
-    STACK                                    0x20000bf8   Section     1024  startup_stm32f40_41xxx.o(STACK)
-    Stack_Mem                                0x20000bf8   Data        1024  startup_stm32f40_41xxx.o(STACK)
-    __initial_sp                             0x20000ff8   Data           0  startup_stm32f40_41xxx.o(STACK)
+    .data                                    0x20000030   Section       44  el9800appl.o(.data)
+    .data                                    0x2000005c   Section       40  el9800appl.o(.data)
+    .data                                    0x20000084   Section       36  el9800appl.o(.data)
+    .data                                    0x200000a8   Section       16  el9800appl.o(.data)
+    .data                                    0x200000b8   Section        6  el9800appl.o(.data)
+    .data                                    0x200000c0   Section       16  el9800appl.o(.data)
+    .data                                    0x200000d0   Section        1  el9800appl.o(.data)
+    .data                                    0x200000d1   Section       24  coeappl.o(.data)
+    .data                                    0x200000e9   Section       26  coeappl.o(.data)
+    .data                                    0x20000104   Section        8  coeappl.o(.data)
+    .data                                    0x2000010c   Section     1004  coeappl.o(.data)
+    .data                                    0x200004f8   Section        4  coeappl.o(.data)
+    .data                                    0x200004fc   Section        2  coeappl.o(.data)
+    .data                                    0x200004fe   Section       11  coeappl.o(.data)
+    .data                                    0x20000509   Section        5  coeappl.o(.data)
+    .data                                    0x2000050e   Section        5  coeappl.o(.data)
+    .data                                    0x20000514   Section       20  coeappl.o(.data)
+    .data                                    0x20000528   Section        6  coeappl.o(.data)
+    .data                                    0x20000530   Section        8  ecatappl.o(.data)
+    .data                                    0x20000538   Section        1  ecatappl.o(.data)
+    .data                                    0x2000053c   Section        4  ecatcoe.o(.data)
+    .data                                    0x20000540   Section       68  ecatslv.o(.data)
+    .data                                    0x20000584   Section       32  mailbox.o(.data)
+    .data                                    0x200005a4   Section       12  objdef.o(.data)
+    .data                                    0x200005b0   Section       14  objdef.o(.data)
+    .data                                    0x200005be   Section        2  objdef.o(.data)
+    .data                                    0x200005c0   Section       52  sdoserv.o(.data)
+    .data                                    0x200005f4   Section        4  sdoserv.o(.data)
+    .data                                    0x200005f8   Section       16  stm32f4xx_rcc.o(.data)
+    APBAHBPrescTable                         0x200005f8   Data          16  stm32f4xx_rcc.o(.data)
+    .bss                                     0x20000608   Section       10  el9800appl.o(.bss)
+    .bss                                     0x20000612   Section      136  ecatappl.o(.bss)
+    .bss                                     0x2000069c   Section      616  mailbox.o(.bss)
+    .bss                                     0x20000904   Section      136  objdef.o(.bss)
+    .bss                                     0x2000098c   Section       14  sdoserv.o(.bss)
+    .bss                                     0x2000099c   Section       96  libspace.o(.bss)
+    HEAP                                     0x20000a00   Section      512  startup_stm32f40_41xxx.o(HEAP)
+    Heap_Mem                                 0x20000a00   Data         512  startup_stm32f40_41xxx.o(HEAP)
+    STACK                                    0x20000c00   Section     1024  startup_stm32f40_41xxx.o(STACK)
+    Stack_Mem                                0x20000c00   Data        1024  startup_stm32f40_41xxx.o(STACK)
+    __initial_sp                             0x20001000   Data           0  startup_stm32f40_41xxx.o(STACK)
 
     Global Symbols
 
@@ -2523,200 +2523,200 @@ Image Symbol Table
     AL_ControlInd                            0x0800092d   Thumb Code   838  ecatslv.o(i.AL_ControlInd)
     AL_ControlRes                            0x08000c81   Thumb Code   366  ecatslv.o(i.AL_ControlRes)
     APPL_AckErrorInd                         0x08000df9   Thumb Code     2  el9800appl.o(i.APPL_AckErrorInd)
-    APPL_Application                         0x08000dfd   Thumb Code   220  el9800appl.o(i.APPL_Application)
-    APPL_GenerateMapping                     0x08000ee9   Thumb Code   220  el9800appl.o(i.APPL_GenerateMapping)
-    APPL_InputMapping                        0x08000fc9   Thumb Code    74  el9800appl.o(i.APPL_InputMapping)
-    APPL_OutputMapping                       0x08001019   Thumb Code    44  el9800appl.o(i.APPL_OutputMapping)
-    APPL_StartInputHandler                   0x08001049   Thumb Code     4  el9800appl.o(i.APPL_StartInputHandler)
-    APPL_StartMailboxHandler                 0x0800104d   Thumb Code     4  el9800appl.o(i.APPL_StartMailboxHandler)
-    APPL_StartOutputHandler                  0x08001051   Thumb Code     4  el9800appl.o(i.APPL_StartOutputHandler)
-    APPL_StopInputHandler                    0x08001055   Thumb Code     4  el9800appl.o(i.APPL_StopInputHandler)
-    APPL_StopMailboxHandler                  0x08001059   Thumb Code     4  el9800appl.o(i.APPL_StopMailboxHandler)
-    APPL_StopOutputHandler                   0x0800105d   Thumb Code    82  el9800appl.o(i.APPL_StopOutputHandler)
-    AddObjectsToObjDictionary                0x080010bd   Thumb Code    32  coeappl.o(i.AddObjectsToObjDictionary)
-    BusFault_Handler                         0x08001109   Thumb Code     2  stm32f4xx_it.o(i.BusFault_Handler)
-    COE_AddObjectToDic                       0x0800110d   Thumb Code    88  coeappl.o(i.COE_AddObjectToDic)
-    COE_ClearObjDictionary                   0x08001169   Thumb Code    26  coeappl.o(i.COE_ClearObjDictionary)
-    COE_ContinueInd                          0x08001189   Thumb Code    54  ecatcoe.o(i.COE_ContinueInd)
-    COE_GetObjectDictionary                  0x080011c9   Thumb Code     6  coeappl.o(i.COE_GetObjectDictionary)
-    COE_Init                                 0x080011d5   Thumb Code    12  ecatcoe.o(i.COE_Init)
-    COE_Main                                 0x080011e9   Thumb Code   140  coeappl.o(i.COE_Main)
-    COE_ObjDictionaryInit                    0x08001295   Thumb Code    34  coeappl.o(i.COE_ObjDictionaryInit)
-    COE_ObjInit                              0x080012bd   Thumb Code   108  coeappl.o(i.COE_ObjInit)
-    COE_RemoveDicEntry                       0x08001359   Thumb Code    52  coeappl.o(i.COE_RemoveDicEntry)
-    COE_ServiceInd                           0x08001391   Thumb Code    38  ecatcoe.o(i.COE_ServiceInd)
-    CheckIfEcatError                         0x080013b9   Thumb Code    96  ecatslv.o(i.CheckIfEcatError)
-    CheckSmSettings                          0x0800141d   Thumb Code   384  ecatslv.o(i.CheckSmSettings)
-    CheckSyncTypeValue                       0x080015a1   Thumb Code   128  objdef.o(i.CheckSyncTypeValue)
-    DC_CheckWatchdog                         0x0800162d   Thumb Code   116  ecatslv.o(i.DC_CheckWatchdog)
-    DMA_Cmd                                  0x080016ad   Thumb Code    20  stm32f4xx_dma.o(i.DMA_Cmd)
-    DMA_Init                                 0x080016c1   Thumb Code    80  stm32f4xx_dma.o(i.DMA_Init)
-    DebugMon_Handler                         0x08001715   Thumb Code     2  stm32f4xx_it.o(i.DebugMon_Handler)
-    Debug_USART_Config                       0x08001719   Thumb Code   186  usart2.o(i.Debug_USART_Config)
-    DisableSyncManChannel                    0x080017dd   Thumb Code    48  ecatslv.o(i.DisableSyncManChannel)
-    ECAT_CheckTimer                          0x0800180d   Thumb Code    38  ecatappl.o(i.ECAT_CheckTimer)
-    ECAT_Init                                0x08001845   Thumb Code   144  ecatslv.o(i.ECAT_Init)
-    ECAT_Main                                0x080018d9   Thumb Code   264  ecatslv.o(i.ECAT_Main)
-    EXTI0_Configuration                      0x080019f1   Thumb Code   108  exit.o(i.EXTI0_Configuration)
-    EXTI0_IRQHandler                         0x08001a61   Thumb Code    16  el9800hw.o(i.EXTI0_IRQHandler)
-    EXTI1_Configuration                      0x08001a71   Thumb Code   110  exit.o(i.EXTI1_Configuration)
-    EXTI1_IRQHandler                         0x08001ae5   Thumb Code    16  el9800hw.o(i.EXTI1_IRQHandler)
-    EXTI8_Configuration                      0x08001af5   Thumb Code   112  exit.o(i.EXTI8_Configuration)
-    EXTI9_5_IRQHandler                       0x08001b69   Thumb Code    18  el9800hw.o(i.EXTI9_5_IRQHandler)
-    EXTI_ClearITPendingBit                   0x08001b7d   Thumb Code     6  stm32f4xx_exti.o(i.EXTI_ClearITPendingBit)
-    EXTI_Init                                0x08001b89   Thumb Code   108  stm32f4xx_exti.o(i.EXTI_Init)
-    EnableSyncManChannel                     0x08001bf9   Thumb Code    46  ecatslv.o(i.EnableSyncManChannel)
-    GPIO_Config                              0x08001c29   Thumb Code   134  el9800hw.o(i.GPIO_Config)
-    GPIO_Init                                0x08001cb9   Thumb Code   120  stm32f4xx_gpio.o(i.GPIO_Init)
-    GPIO_PinAFConfig                         0x08001d31   Thumb Code    32  stm32f4xx_gpio.o(i.GPIO_PinAFConfig)
-    GPIO_ResetBits                           0x08001d51   Thumb Code     4  stm32f4xx_gpio.o(i.GPIO_ResetBits)
-    GPIO_SetBits                             0x08001d55   Thumb Code     4  stm32f4xx_gpio.o(i.GPIO_SetBits)
-    GetOutOfMbxQueue                         0x08001d59   Thumb Code    38  mailbox.o(i.GetOutOfMbxQueue)
-    GetSyncMan                               0x08001d81   Thumb Code    22  ecatslv.o(i.GetSyncMan)
-    HW_EscRead                               0x08001d9d   Thumb Code    64  el9800hw.o(i.HW_EscRead)
-    HW_EscReadIsr                            0x08001de1   Thumb Code    54  el9800hw.o(i.HW_EscReadIsr)
-    HW_EscWrite                              0x08001e1d   Thumb Code    66  el9800hw.o(i.HW_EscWrite)
-    HW_EscWriteIsr                           0x08001e65   Thumb Code    50  el9800hw.o(i.HW_EscWriteIsr)
-    HW_GetALEventRegister                    0x08001e9d   Thumb Code    46  el9800hw.o(i.HW_GetALEventRegister)
-    HW_GetALEventRegister_Isr                0x08001ed5   Thumb Code    50  el9800hw.o(i.HW_GetALEventRegister_Isr)
-    HW_Init                                  0x08001f11   Thumb Code   120  el9800hw.o(i.HW_Init)
-    HW_Release                               0x08001f89   Thumb Code     2  el9800hw.o(i.HW_Release)
-    HandleBusCycleCalculation                0x08001f8d   Thumb Code   104  ecatappl.o(i.HandleBusCycleCalculation)
-    HardFault_Handler                        0x0800200d   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
-    MBX_CheckAndCopyMailbox                  0x0800203d   Thumb Code   202  mailbox.o(i.MBX_CheckAndCopyMailbox)
-    MBX_CopyToSendMailbox                    0x08002111   Thumb Code   162  mailbox.o(i.MBX_CopyToSendMailbox)
-    MBX_Init                                 0x080021c5   Thumb Code   104  mailbox.o(i.MBX_Init)
-    MBX_MailboxReadInd                       0x08002235   Thumb Code    86  mailbox.o(i.MBX_MailboxReadInd)
-    MBX_MailboxRepeatReq                     0x08002295   Thumb Code    58  mailbox.o(i.MBX_MailboxRepeatReq)
-    MBX_MailboxSendReq                       0x080022d5   Thumb Code   108  mailbox.o(i.MBX_MailboxSendReq)
-    MBX_MailboxWriteInd                      0x0800234d   Thumb Code    96  mailbox.o(i.MBX_MailboxWriteInd)
-    MBX_Main                                 0x080023b5   Thumb Code    66  mailbox.o(i.MBX_Main)
-    MBX_StartMailboxHandler                  0x08002401   Thumb Code   106  mailbox.o(i.MBX_StartMailboxHandler)
-    MBX_StopMailboxHandler                   0x08002471   Thumb Code   154  mailbox.o(i.MBX_StopMailboxHandler)
-    MailboxServiceInd                        0x08002515   Thumb Code    18  mailbox.o(i.MailboxServiceInd)
-    MainInit                                 0x08002529   Thumb Code    26  ecatappl.o(i.MainInit)
-    MainLoop                                 0x08002549   Thumb Code   122  ecatappl.o(i.MainLoop)
-    MemManage_Handler                        0x080025e1   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
-    NMI_Handler                              0x080025e3   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
-    NVIC_Init                                0x080025e5   Thumb Code    96  misc.o(i.NVIC_Init)
-    NVIC_PriorityGroupConfig                 0x08002649   Thumb Code    10  misc.o(i.NVIC_PriorityGroupConfig)
-    OBJ_CopyNumberToString                   0x0800265d   Thumb Code    48  objdef.o(i.OBJ_CopyNumberToString)
-    OBJ_GetDesc                              0x0800268d   Thumb Code   156  objdef.o(i.OBJ_GetDesc)
-    OBJ_GetEntryDesc                         0x0800272d   Thumb Code    30  objdef.o(i.OBJ_GetEntryDesc)
-    OBJ_GetEntryOffset                       0x0800274b   Thumb Code   198  objdef.o(i.OBJ_GetEntryOffset)
-    OBJ_GetNoOfObjects                       0x08002811   Thumb Code    92  objdef.o(i.OBJ_GetNoOfObjects)
-    OBJ_GetObjDesc                           0x0800286d   Thumb Code     4  objdef.o(i.OBJ_GetObjDesc)
-    OBJ_GetObjectHandle                      0x08002871   Thumb Code    24  objdef.o(i.OBJ_GetObjectHandle)
-    OBJ_GetObjectLength                      0x08002889   Thumb Code   124  objdef.o(i.OBJ_GetObjectLength)
-    OBJ_GetObjectList                        0x08002905   Thumb Code   148  objdef.o(i.OBJ_GetObjectList)
-    OBJ_Read                                 0x0800299d   Thumb Code   842  objdef.o(i.OBJ_Read)
-    OBJ_Write                                0x08002cf1   Thumb Code   876  objdef.o(i.OBJ_Write)
-    PDI_Isr                                  0x08003069   Thumb Code   200  ecatappl.o(i.PDI_Isr)
-    PDO_InputMapping                         0x08003161   Thumb Code    26  ecatappl.o(i.PDO_InputMapping)
-    PDO_OutputMapping                        0x08003189   Thumb Code    26  ecatappl.o(i.PDO_OutputMapping)
-    PendSV_Handler                           0x080031b1   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
-    PutInMbxQueue                            0x080031b3   Thumb Code    38  mailbox.o(i.PutInMbxQueue)
-    RCC_AHB1PeriphClockCmd                   0x080031d9   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_AHB1PeriphClockCmd)
-    RCC_APB1PeriphClockCmd                   0x080031f1   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB1PeriphClockCmd)
-    RCC_APB1PeriphResetCmd                   0x08003209   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB1PeriphResetCmd)
-    RCC_APB2PeriphClockCmd                   0x08003221   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB2PeriphClockCmd)
-    RCC_APB2PeriphResetCmd                   0x08003239   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB2PeriphResetCmd)
-    RCC_GetClocksFreq                        0x08003251   Thumb Code   132  stm32f4xx_rcc.o(i.RCC_GetClocksFreq)
-    ReadObject0x1802                         0x080032e1   Thumb Code    76  el9800appl.o(i.ReadObject0x1802)
-    ResetALEventMask                         0x08003331   Thumb Code    52  ecatslv.o(i.ResetALEventMask)
-    SDOS_SdoInd                              0x08003365   Thumb Code   708  sdoserv.o(i.SDOS_SdoInd)
-    SDOS_SdoInfoInd                          0x08003635   Thumb Code   584  sdoserv.o(i.SDOS_SdoInfoInd)
-    SDOS_SdoRes                              0x08003895   Thumb Code   136  sdoserv.o(i.SDOS_SdoRes)
-    SPI1_GPIO_Init                           0x08003925   Thumb Code   156  spi1.o(i.SPI1_GPIO_Init)
-    SPI1_Init                                0x080039c9   Thumb Code    82  spi1.o(i.SPI1_Init)
-    SPI_Cmd                                  0x08003a21   Thumb Code    20  stm32f4xx_spi.o(i.SPI_Cmd)
-    SPI_I2S_DeInit                           0x08003a35   Thumb Code   108  stm32f4xx_spi.o(i.SPI_I2S_DeInit)
-    SPI_I2S_GetFlagStatus                    0x08003ab9   Thumb Code    14  stm32f4xx_spi.o(i.SPI_I2S_GetFlagStatus)
-    SPI_I2S_ReceiveData                      0x08003ac7   Thumb Code     4  stm32f4xx_spi.o(i.SPI_I2S_ReceiveData)
-    SPI_I2S_SendData                         0x08003acb   Thumb Code     4  stm32f4xx_spi.o(i.SPI_I2S_SendData)
-    SPI_Init                                 0x08003acf   Thumb Code    56  stm32f4xx_spi.o(i.SPI_Init)
-    SVC_Handler                              0x08003b07   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
-    SYSCFG_EXTILineConfig                    0x08003b09   Thumb Code    42  stm32f4xx_syscfg.o(i.SYSCFG_EXTILineConfig)
-    SdoRes                                   0x08003d19   Thumb Code   174  sdoserv.o(i.SdoRes)
-    SetALEventMask                           0x08003ee1   Thumb Code    52  ecatslv.o(i.SetALEventMask)
-    SetALStatus                              0x08003f15   Thumb Code    60  ecatslv.o(i.SetALStatus)
-    StartInputHandler                        0x08004009   Thumb Code   984  ecatslv.o(i.StartInputHandler)
-    StartOutputHandler                       0x08004411   Thumb Code    28  ecatslv.o(i.StartOutputHandler)
-    StopInputHandler                         0x08004431   Thumb Code    78  ecatslv.o(i.StopInputHandler)
-    StopOutputHandler                        0x0800448d   Thumb Code    10  ecatslv.o(i.StopOutputHandler)
-    Sync0_Isr                                0x0800449d   Thumb Code   200  ecatappl.o(i.Sync0_Isr)
-    Sync1_Isr                                0x0800459d   Thumb Code    38  ecatappl.o(i.Sync1_Isr)
-    SysTick_Handler                          0x080045d9   Thumb Code     2  stm32f4xx_it.o(i.SysTick_Handler)
-    SystemInit                               0x080045dd   Thumb Code    74  system_stm32f4xx.o(i.SystemInit)
-    TIM2_IRQHandler                          0x08004639   Thumb Code    44  el9800hw.o(i.TIM2_IRQHandler)
-    TIM_ClearFlag                            0x08004665   Thumb Code     6  stm32f4xx_tim.o(i.TIM_ClearFlag)
-    TIM_ClearITPendingBit                    0x0800466b   Thumb Code     6  stm32f4xx_tim.o(i.TIM_ClearITPendingBit)
-    TIM_Cmd                                  0x08004671   Thumb Code    20  stm32f4xx_tim.o(i.TIM_Cmd)
-    TIM_Configuration                        0x08004685   Thumb Code   116  timer.o(i.TIM_Configuration)
-    TIM_DeInit                               0x080046f9   Thumb Code   284  stm32f4xx_tim.o(i.TIM_DeInit)
-    TIM_ITConfig                             0x08004849   Thumb Code    16  stm32f4xx_tim.o(i.TIM_ITConfig)
-    TIM_TimeBaseInit                         0x08004859   Thumb Code    96  stm32f4xx_tim.o(i.TIM_TimeBaseInit)
-    USART2_IRQHandler                        0x080048d5   Thumb Code    92  stm32f4xx_it.o(i.USART2_IRQHandler)
-    USART_Cmd                                0x08004945   Thumb Code    20  stm32f4xx_usart.o(i.USART_Cmd)
-    USART_GetITStatus                        0x08004959   Thumb Code    62  stm32f4xx_usart.o(i.USART_GetITStatus)
-    USART_ITConfig                           0x08004997   Thumb Code    48  stm32f4xx_usart.o(i.USART_ITConfig)
-    USART_Init                               0x080049c9   Thumb Code   164  stm32f4xx_usart.o(i.USART_Init)
-    USART_ReceiveData                        0x08004a75   Thumb Code     8  stm32f4xx_usart.o(i.USART_ReceiveData)
-    UpdateEEPROMLoadedState                  0x08004a7d   Thumb Code    48  ecatslv.o(i.UpdateEEPROMLoadedState)
-    UsageFault_Handler                       0x08004ab1   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
-    WR_CMD                                   0x08004ab5   Thumb Code    48  spi1.o(i.WR_CMD)
-    angle_set                                0x08004b41   Thumb Code    78  el9800appl.o(i.angle_set)
-    main                                     0x08004b99   Thumb Code    66  el9800appl.o(i.main)
-    _fp_init                                 0x08004be9   Thumb Code    10  fpinit.o(x$fpl$fpinit)
-    __fplib_config_fpu_vfp                   0x08004bf1   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    __fplib_config_pureend_doubles           0x08004bf1   Thumb Code     0  fpinit.o(x$fpl$fpinit)
-    asPDOAssignEntryDesc                     0x08004bf2   Data          12  coeappl.o(.constdata)
-    asEntryDesc0x0800                        0x08004bfe   Data          18  coeappl.o(.constdata)
-    asEntryDesc0x1601                        0x08004c10   Data          60  coeappl.o(.constdata)
-    aName0x1601                              0x08004c4c   Data          15  coeappl.o(.constdata)
-    asEntryDesc0x1802                        0x08004c5c   Data          60  coeappl.o(.constdata)
-    aName0x1802                              0x08004c98   Data          63  coeappl.o(.constdata)
-    asEntryDesc0x1A00                        0x08004cd8   Data          60  coeappl.o(.constdata)
-    aName0x1A00                              0x08004d14   Data          15  coeappl.o(.constdata)
-    asEntryDesc0x1A02                        0x08004d24   Data          54  coeappl.o(.constdata)
-    aName0x1A02                              0x08004d5a   Data          15  coeappl.o(.constdata)
-    aName0x1C12                              0x08004d69   Data          13  coeappl.o(.constdata)
-    aName0x1C13                              0x08004d76   Data          13  coeappl.o(.constdata)
-    asEntryDesc0x6000                        0x08004d84   Data          60  coeappl.o(.constdata)
-    aName0x6000                              0x08004dc0   Data          85  coeappl.o(.constdata)
-    asEntryDesc0x6020                        0x08004e16   Data         108  coeappl.o(.constdata)
-    aName0x6020                              0x08004e82   Data          95  coeappl.o(.constdata)
-    asEntryDesc0x7010                        0x08004ee2   Data          60  coeappl.o(.constdata)
-    aName0x7010                              0x08004f1e   Data          62  coeappl.o(.constdata)
-    asEntryDesc0x8020                        0x08004f5c   Data         126  coeappl.o(.constdata)
-    aName0x8020                              0x08004fda   Data         115  coeappl.o(.constdata)
-    asEntryDesc0xF000                        0x0800504e   Data          18  coeappl.o(.constdata)
-    aName0xF000                              0x08005060   Data          73  coeappl.o(.constdata)
-    asEntryDesc0xF010                        0x080050aa   Data          24  coeappl.o(.constdata)
-    aName0xF010                              0x080050c2   Data          20  coeappl.o(.constdata)
-    sEntryDesc0x1000                         0x080050d6   Data           6  coeappl.o(.constdata)
-    aName0x1000                              0x080050dc   Data          12  coeappl.o(.constdata)
-    sEntryDesc0x1001                         0x080050e8   Data           6  coeappl.o(.constdata)
-    aName0x1001                              0x080050ee   Data          15  coeappl.o(.constdata)
-    sEntryDesc0x1008                         0x080050fe   Data           6  coeappl.o(.constdata)
-    aName0x1008                              0x08005104   Data          12  coeappl.o(.constdata)
-    sEntryDesc0x1009                         0x08005110   Data           6  coeappl.o(.constdata)
-    aName0x1009                              0x08005116   Data          17  coeappl.o(.constdata)
-    sEntryDesc0x100A                         0x08005128   Data           6  coeappl.o(.constdata)
-    aName0x100A                              0x0800512e   Data          17  coeappl.o(.constdata)
-    asEntryDesc0x1018                        0x08005140   Data          30  coeappl.o(.constdata)
-    aName0x1018                              0x0800515e   Data          57  coeappl.o(.constdata)
-    asEntryDesc0x10F1                        0x08005198   Data          18  coeappl.o(.constdata)
-    aName0x10F1                              0x080051aa   Data          63  coeappl.o(.constdata)
-    asEntryDesc0x1C00                        0x080051ea   Data          12  coeappl.o(.constdata)
-    aName0x1C00                              0x080051f6   Data          18  coeappl.o(.constdata)
-    asEntryDesc0x1C3x                        0x08005208   Data         198  coeappl.o(.constdata)
-    aName0x1C32                              0x080052ce   Data         256  coeappl.o(.constdata)
-    aName0x1C33                              0x080053ce   Data         255  coeappl.o(.constdata)
-    cBitMask                                 0x080054ce   Data          32  objdef.o(.constdata)
-    cAbortCode                               0x080054f0   Data         120  sdoserv.o(.constdata)
-    Region$$Table$$Base                      0x08005568   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08005588   Number         0  anon$$obj.o(Region$$Table)
+    APPL_Application                         0x08000dfd   Thumb Code   212  el9800appl.o(i.APPL_Application)
+    APPL_GenerateMapping                     0x08000ee1   Thumb Code   220  el9800appl.o(i.APPL_GenerateMapping)
+    APPL_InputMapping                        0x08000fc1   Thumb Code    76  el9800appl.o(i.APPL_InputMapping)
+    APPL_OutputMapping                       0x08001011   Thumb Code    44  el9800appl.o(i.APPL_OutputMapping)
+    APPL_StartInputHandler                   0x08001041   Thumb Code     4  el9800appl.o(i.APPL_StartInputHandler)
+    APPL_StartMailboxHandler                 0x08001045   Thumb Code     4  el9800appl.o(i.APPL_StartMailboxHandler)
+    APPL_StartOutputHandler                  0x08001049   Thumb Code     4  el9800appl.o(i.APPL_StartOutputHandler)
+    APPL_StopInputHandler                    0x0800104d   Thumb Code     4  el9800appl.o(i.APPL_StopInputHandler)
+    APPL_StopMailboxHandler                  0x08001051   Thumb Code     4  el9800appl.o(i.APPL_StopMailboxHandler)
+    APPL_StopOutputHandler                   0x08001055   Thumb Code    82  el9800appl.o(i.APPL_StopOutputHandler)
+    AddObjectsToObjDictionary                0x080010b5   Thumb Code    32  coeappl.o(i.AddObjectsToObjDictionary)
+    BusFault_Handler                         0x08001101   Thumb Code     2  stm32f4xx_it.o(i.BusFault_Handler)
+    COE_AddObjectToDic                       0x08001105   Thumb Code    88  coeappl.o(i.COE_AddObjectToDic)
+    COE_ClearObjDictionary                   0x08001161   Thumb Code    26  coeappl.o(i.COE_ClearObjDictionary)
+    COE_ContinueInd                          0x08001181   Thumb Code    54  ecatcoe.o(i.COE_ContinueInd)
+    COE_GetObjectDictionary                  0x080011c1   Thumb Code     6  coeappl.o(i.COE_GetObjectDictionary)
+    COE_Init                                 0x080011cd   Thumb Code    12  ecatcoe.o(i.COE_Init)
+    COE_Main                                 0x080011e1   Thumb Code   140  coeappl.o(i.COE_Main)
+    COE_ObjDictionaryInit                    0x0800128d   Thumb Code    34  coeappl.o(i.COE_ObjDictionaryInit)
+    COE_ObjInit                              0x080012b5   Thumb Code   108  coeappl.o(i.COE_ObjInit)
+    COE_RemoveDicEntry                       0x08001351   Thumb Code    52  coeappl.o(i.COE_RemoveDicEntry)
+    COE_ServiceInd                           0x08001389   Thumb Code    38  ecatcoe.o(i.COE_ServiceInd)
+    CheckIfEcatError                         0x080013b1   Thumb Code    96  ecatslv.o(i.CheckIfEcatError)
+    CheckSmSettings                          0x08001415   Thumb Code   384  ecatslv.o(i.CheckSmSettings)
+    CheckSyncTypeValue                       0x08001599   Thumb Code   128  objdef.o(i.CheckSyncTypeValue)
+    DC_CheckWatchdog                         0x08001625   Thumb Code   116  ecatslv.o(i.DC_CheckWatchdog)
+    DMA_Cmd                                  0x080016a5   Thumb Code    20  stm32f4xx_dma.o(i.DMA_Cmd)
+    DMA_Init                                 0x080016b9   Thumb Code    80  stm32f4xx_dma.o(i.DMA_Init)
+    DebugMon_Handler                         0x0800170d   Thumb Code     2  stm32f4xx_it.o(i.DebugMon_Handler)
+    Debug_USART_Config                       0x08001711   Thumb Code   186  usart2.o(i.Debug_USART_Config)
+    DisableSyncManChannel                    0x080017d5   Thumb Code    48  ecatslv.o(i.DisableSyncManChannel)
+    ECAT_CheckTimer                          0x08001805   Thumb Code    38  ecatappl.o(i.ECAT_CheckTimer)
+    ECAT_Init                                0x0800183d   Thumb Code   144  ecatslv.o(i.ECAT_Init)
+    ECAT_Main                                0x080018d1   Thumb Code   264  ecatslv.o(i.ECAT_Main)
+    EXTI0_Configuration                      0x080019e9   Thumb Code   108  exit.o(i.EXTI0_Configuration)
+    EXTI0_IRQHandler                         0x08001a59   Thumb Code    16  el9800hw.o(i.EXTI0_IRQHandler)
+    EXTI1_Configuration                      0x08001a69   Thumb Code   110  exit.o(i.EXTI1_Configuration)
+    EXTI1_IRQHandler                         0x08001add   Thumb Code    16  el9800hw.o(i.EXTI1_IRQHandler)
+    EXTI8_Configuration                      0x08001aed   Thumb Code   112  exit.o(i.EXTI8_Configuration)
+    EXTI9_5_IRQHandler                       0x08001b61   Thumb Code    18  el9800hw.o(i.EXTI9_5_IRQHandler)
+    EXTI_ClearITPendingBit                   0x08001b75   Thumb Code     6  stm32f4xx_exti.o(i.EXTI_ClearITPendingBit)
+    EXTI_Init                                0x08001b81   Thumb Code   108  stm32f4xx_exti.o(i.EXTI_Init)
+    EnableSyncManChannel                     0x08001bf1   Thumb Code    46  ecatslv.o(i.EnableSyncManChannel)
+    GPIO_Config                              0x08001c21   Thumb Code   134  el9800hw.o(i.GPIO_Config)
+    GPIO_Init                                0x08001cb1   Thumb Code   120  stm32f4xx_gpio.o(i.GPIO_Init)
+    GPIO_PinAFConfig                         0x08001d29   Thumb Code    32  stm32f4xx_gpio.o(i.GPIO_PinAFConfig)
+    GPIO_ResetBits                           0x08001d49   Thumb Code     4  stm32f4xx_gpio.o(i.GPIO_ResetBits)
+    GPIO_SetBits                             0x08001d4d   Thumb Code     4  stm32f4xx_gpio.o(i.GPIO_SetBits)
+    GetOutOfMbxQueue                         0x08001d51   Thumb Code    38  mailbox.o(i.GetOutOfMbxQueue)
+    GetSyncMan                               0x08001d79   Thumb Code    22  ecatslv.o(i.GetSyncMan)
+    HW_EscRead                               0x08001d95   Thumb Code    64  el9800hw.o(i.HW_EscRead)
+    HW_EscReadIsr                            0x08001dd9   Thumb Code    54  el9800hw.o(i.HW_EscReadIsr)
+    HW_EscWrite                              0x08001e15   Thumb Code    66  el9800hw.o(i.HW_EscWrite)
+    HW_EscWriteIsr                           0x08001e5d   Thumb Code    50  el9800hw.o(i.HW_EscWriteIsr)
+    HW_GetALEventRegister                    0x08001e95   Thumb Code    46  el9800hw.o(i.HW_GetALEventRegister)
+    HW_GetALEventRegister_Isr                0x08001ecd   Thumb Code    50  el9800hw.o(i.HW_GetALEventRegister_Isr)
+    HW_Init                                  0x08001f09   Thumb Code   120  el9800hw.o(i.HW_Init)
+    HW_Release                               0x08001f81   Thumb Code     2  el9800hw.o(i.HW_Release)
+    HandleBusCycleCalculation                0x08001f85   Thumb Code   104  ecatappl.o(i.HandleBusCycleCalculation)
+    HardFault_Handler                        0x08002005   Thumb Code     2  stm32f4xx_it.o(i.HardFault_Handler)
+    MBX_CheckAndCopyMailbox                  0x08002035   Thumb Code   202  mailbox.o(i.MBX_CheckAndCopyMailbox)
+    MBX_CopyToSendMailbox                    0x08002109   Thumb Code   162  mailbox.o(i.MBX_CopyToSendMailbox)
+    MBX_Init                                 0x080021bd   Thumb Code   104  mailbox.o(i.MBX_Init)
+    MBX_MailboxReadInd                       0x0800222d   Thumb Code    86  mailbox.o(i.MBX_MailboxReadInd)
+    MBX_MailboxRepeatReq                     0x0800228d   Thumb Code    58  mailbox.o(i.MBX_MailboxRepeatReq)
+    MBX_MailboxSendReq                       0x080022cd   Thumb Code   108  mailbox.o(i.MBX_MailboxSendReq)
+    MBX_MailboxWriteInd                      0x08002345   Thumb Code    96  mailbox.o(i.MBX_MailboxWriteInd)
+    MBX_Main                                 0x080023ad   Thumb Code    66  mailbox.o(i.MBX_Main)
+    MBX_StartMailboxHandler                  0x080023f9   Thumb Code   106  mailbox.o(i.MBX_StartMailboxHandler)
+    MBX_StopMailboxHandler                   0x08002469   Thumb Code   154  mailbox.o(i.MBX_StopMailboxHandler)
+    MailboxServiceInd                        0x0800250d   Thumb Code    18  mailbox.o(i.MailboxServiceInd)
+    MainInit                                 0x08002521   Thumb Code    26  ecatappl.o(i.MainInit)
+    MainLoop                                 0x08002541   Thumb Code   122  ecatappl.o(i.MainLoop)
+    MemManage_Handler                        0x080025d9   Thumb Code     2  stm32f4xx_it.o(i.MemManage_Handler)
+    NMI_Handler                              0x080025db   Thumb Code     2  stm32f4xx_it.o(i.NMI_Handler)
+    NVIC_Init                                0x080025dd   Thumb Code    96  misc.o(i.NVIC_Init)
+    NVIC_PriorityGroupConfig                 0x08002641   Thumb Code    10  misc.o(i.NVIC_PriorityGroupConfig)
+    OBJ_CopyNumberToString                   0x08002655   Thumb Code    48  objdef.o(i.OBJ_CopyNumberToString)
+    OBJ_GetDesc                              0x08002685   Thumb Code   156  objdef.o(i.OBJ_GetDesc)
+    OBJ_GetEntryDesc                         0x08002725   Thumb Code    30  objdef.o(i.OBJ_GetEntryDesc)
+    OBJ_GetEntryOffset                       0x08002743   Thumb Code   198  objdef.o(i.OBJ_GetEntryOffset)
+    OBJ_GetNoOfObjects                       0x08002809   Thumb Code    92  objdef.o(i.OBJ_GetNoOfObjects)
+    OBJ_GetObjDesc                           0x08002865   Thumb Code     4  objdef.o(i.OBJ_GetObjDesc)
+    OBJ_GetObjectHandle                      0x08002869   Thumb Code    24  objdef.o(i.OBJ_GetObjectHandle)
+    OBJ_GetObjectLength                      0x08002881   Thumb Code   124  objdef.o(i.OBJ_GetObjectLength)
+    OBJ_GetObjectList                        0x080028fd   Thumb Code   148  objdef.o(i.OBJ_GetObjectList)
+    OBJ_Read                                 0x08002995   Thumb Code   842  objdef.o(i.OBJ_Read)
+    OBJ_Write                                0x08002ce9   Thumb Code   876  objdef.o(i.OBJ_Write)
+    PDI_Isr                                  0x08003061   Thumb Code   200  ecatappl.o(i.PDI_Isr)
+    PDO_InputMapping                         0x08003159   Thumb Code    26  ecatappl.o(i.PDO_InputMapping)
+    PDO_OutputMapping                        0x08003181   Thumb Code    26  ecatappl.o(i.PDO_OutputMapping)
+    PendSV_Handler                           0x080031a9   Thumb Code     2  stm32f4xx_it.o(i.PendSV_Handler)
+    PutInMbxQueue                            0x080031ab   Thumb Code    38  mailbox.o(i.PutInMbxQueue)
+    RCC_AHB1PeriphClockCmd                   0x080031d1   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_AHB1PeriphClockCmd)
+    RCC_APB1PeriphClockCmd                   0x080031e9   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB1PeriphClockCmd)
+    RCC_APB1PeriphResetCmd                   0x08003201   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB1PeriphResetCmd)
+    RCC_APB2PeriphClockCmd                   0x08003219   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB2PeriphClockCmd)
+    RCC_APB2PeriphResetCmd                   0x08003231   Thumb Code    18  stm32f4xx_rcc.o(i.RCC_APB2PeriphResetCmd)
+    RCC_GetClocksFreq                        0x08003249   Thumb Code   132  stm32f4xx_rcc.o(i.RCC_GetClocksFreq)
+    ReadObject0x1802                         0x080032d9   Thumb Code    76  el9800appl.o(i.ReadObject0x1802)
+    ResetALEventMask                         0x08003329   Thumb Code    52  ecatslv.o(i.ResetALEventMask)
+    SDOS_SdoInd                              0x0800335d   Thumb Code   708  sdoserv.o(i.SDOS_SdoInd)
+    SDOS_SdoInfoInd                          0x0800362d   Thumb Code   584  sdoserv.o(i.SDOS_SdoInfoInd)
+    SDOS_SdoRes                              0x0800388d   Thumb Code   136  sdoserv.o(i.SDOS_SdoRes)
+    SPI1_GPIO_Init                           0x0800391d   Thumb Code   156  spi1.o(i.SPI1_GPIO_Init)
+    SPI1_Init                                0x080039c1   Thumb Code    82  spi1.o(i.SPI1_Init)
+    SPI_Cmd                                  0x08003a19   Thumb Code    20  stm32f4xx_spi.o(i.SPI_Cmd)
+    SPI_I2S_DeInit                           0x08003a2d   Thumb Code   108  stm32f4xx_spi.o(i.SPI_I2S_DeInit)
+    SPI_I2S_GetFlagStatus                    0x08003ab1   Thumb Code    14  stm32f4xx_spi.o(i.SPI_I2S_GetFlagStatus)
+    SPI_I2S_ReceiveData                      0x08003abf   Thumb Code     4  stm32f4xx_spi.o(i.SPI_I2S_ReceiveData)
+    SPI_I2S_SendData                         0x08003ac3   Thumb Code     4  stm32f4xx_spi.o(i.SPI_I2S_SendData)
+    SPI_Init                                 0x08003ac7   Thumb Code    56  stm32f4xx_spi.o(i.SPI_Init)
+    SVC_Handler                              0x08003aff   Thumb Code     2  stm32f4xx_it.o(i.SVC_Handler)
+    SYSCFG_EXTILineConfig                    0x08003b01   Thumb Code    42  stm32f4xx_syscfg.o(i.SYSCFG_EXTILineConfig)
+    SdoRes                                   0x08003d11   Thumb Code   174  sdoserv.o(i.SdoRes)
+    SetALEventMask                           0x08003ed9   Thumb Code    52  ecatslv.o(i.SetALEventMask)
+    SetALStatus                              0x08003f0d   Thumb Code    60  ecatslv.o(i.SetALStatus)
+    StartInputHandler                        0x08004001   Thumb Code   984  ecatslv.o(i.StartInputHandler)
+    StartOutputHandler                       0x08004409   Thumb Code    28  ecatslv.o(i.StartOutputHandler)
+    StopInputHandler                         0x08004429   Thumb Code    78  ecatslv.o(i.StopInputHandler)
+    StopOutputHandler                        0x08004485   Thumb Code    10  ecatslv.o(i.StopOutputHandler)
+    Sync0_Isr                                0x08004495   Thumb Code   200  ecatappl.o(i.Sync0_Isr)
+    Sync1_Isr                                0x08004595   Thumb Code    38  ecatappl.o(i.Sync1_Isr)
+    SysTick_Handler                          0x080045d1   Thumb Code     2  stm32f4xx_it.o(i.SysTick_Handler)
+    SystemInit                               0x080045d5   Thumb Code    74  system_stm32f4xx.o(i.SystemInit)
+    TIM2_IRQHandler                          0x08004631   Thumb Code    44  el9800hw.o(i.TIM2_IRQHandler)
+    TIM_ClearFlag                            0x0800465d   Thumb Code     6  stm32f4xx_tim.o(i.TIM_ClearFlag)
+    TIM_ClearITPendingBit                    0x08004663   Thumb Code     6  stm32f4xx_tim.o(i.TIM_ClearITPendingBit)
+    TIM_Cmd                                  0x08004669   Thumb Code    20  stm32f4xx_tim.o(i.TIM_Cmd)
+    TIM_Configuration                        0x0800467d   Thumb Code   116  timer.o(i.TIM_Configuration)
+    TIM_DeInit                               0x080046f1   Thumb Code   284  stm32f4xx_tim.o(i.TIM_DeInit)
+    TIM_ITConfig                             0x08004841   Thumb Code    16  stm32f4xx_tim.o(i.TIM_ITConfig)
+    TIM_TimeBaseInit                         0x08004851   Thumb Code    96  stm32f4xx_tim.o(i.TIM_TimeBaseInit)
+    USART2_IRQHandler                        0x080048cd   Thumb Code    92  stm32f4xx_it.o(i.USART2_IRQHandler)
+    USART_Cmd                                0x0800493d   Thumb Code    20  stm32f4xx_usart.o(i.USART_Cmd)
+    USART_GetITStatus                        0x08004951   Thumb Code    62  stm32f4xx_usart.o(i.USART_GetITStatus)
+    USART_ITConfig                           0x0800498f   Thumb Code    48  stm32f4xx_usart.o(i.USART_ITConfig)
+    USART_Init                               0x080049c1   Thumb Code   164  stm32f4xx_usart.o(i.USART_Init)
+    USART_ReceiveData                        0x08004a6d   Thumb Code     8  stm32f4xx_usart.o(i.USART_ReceiveData)
+    UpdateEEPROMLoadedState                  0x08004a75   Thumb Code    48  ecatslv.o(i.UpdateEEPROMLoadedState)
+    UsageFault_Handler                       0x08004aa9   Thumb Code     2  stm32f4xx_it.o(i.UsageFault_Handler)
+    WR_CMD                                   0x08004aad   Thumb Code    48  spi1.o(i.WR_CMD)
+    angle_set                                0x08004b39   Thumb Code   140  el9800appl.o(i.angle_set)
+    main                                     0x08004bd5   Thumb Code    66  el9800appl.o(i.main)
+    _fp_init                                 0x08004c25   Thumb Code    10  fpinit.o(x$fpl$fpinit)
+    __fplib_config_fpu_vfp                   0x08004c2d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    __fplib_config_pureend_doubles           0x08004c2d   Thumb Code     0  fpinit.o(x$fpl$fpinit)
+    asPDOAssignEntryDesc                     0x08004c2e   Data          12  coeappl.o(.constdata)
+    asEntryDesc0x0800                        0x08004c3a   Data          18  coeappl.o(.constdata)
+    asEntryDesc0x1601                        0x08004c4c   Data          60  coeappl.o(.constdata)
+    aName0x1601                              0x08004c88   Data          15  coeappl.o(.constdata)
+    asEntryDesc0x1802                        0x08004c98   Data          60  coeappl.o(.constdata)
+    aName0x1802                              0x08004cd4   Data          63  coeappl.o(.constdata)
+    asEntryDesc0x1A00                        0x08004d14   Data          60  coeappl.o(.constdata)
+    aName0x1A00                              0x08004d50   Data          15  coeappl.o(.constdata)
+    asEntryDesc0x1A02                        0x08004d60   Data          54  coeappl.o(.constdata)
+    aName0x1A02                              0x08004d96   Data          15  coeappl.o(.constdata)
+    aName0x1C12                              0x08004da5   Data          13  coeappl.o(.constdata)
+    aName0x1C13                              0x08004db2   Data          13  coeappl.o(.constdata)
+    asEntryDesc0x6000                        0x08004dc0   Data          60  coeappl.o(.constdata)
+    aName0x6000                              0x08004dfc   Data          85  coeappl.o(.constdata)
+    asEntryDesc0x6020                        0x08004e52   Data         108  coeappl.o(.constdata)
+    aName0x6020                              0x08004ebe   Data          95  coeappl.o(.constdata)
+    asEntryDesc0x7010                        0x08004f1e   Data          60  coeappl.o(.constdata)
+    aName0x7010                              0x08004f5a   Data          62  coeappl.o(.constdata)
+    asEntryDesc0x8020                        0x08004f98   Data         126  coeappl.o(.constdata)
+    aName0x8020                              0x08005016   Data         115  coeappl.o(.constdata)
+    asEntryDesc0xF000                        0x0800508a   Data          18  coeappl.o(.constdata)
+    aName0xF000                              0x0800509c   Data          73  coeappl.o(.constdata)
+    asEntryDesc0xF010                        0x080050e6   Data          24  coeappl.o(.constdata)
+    aName0xF010                              0x080050fe   Data          20  coeappl.o(.constdata)
+    sEntryDesc0x1000                         0x08005112   Data           6  coeappl.o(.constdata)
+    aName0x1000                              0x08005118   Data          12  coeappl.o(.constdata)
+    sEntryDesc0x1001                         0x08005124   Data           6  coeappl.o(.constdata)
+    aName0x1001                              0x0800512a   Data          15  coeappl.o(.constdata)
+    sEntryDesc0x1008                         0x0800513a   Data           6  coeappl.o(.constdata)
+    aName0x1008                              0x08005140   Data          12  coeappl.o(.constdata)
+    sEntryDesc0x1009                         0x0800514c   Data           6  coeappl.o(.constdata)
+    aName0x1009                              0x08005152   Data          17  coeappl.o(.constdata)
+    sEntryDesc0x100A                         0x08005164   Data           6  coeappl.o(.constdata)
+    aName0x100A                              0x0800516a   Data          17  coeappl.o(.constdata)
+    asEntryDesc0x1018                        0x0800517c   Data          30  coeappl.o(.constdata)
+    aName0x1018                              0x0800519a   Data          57  coeappl.o(.constdata)
+    asEntryDesc0x10F1                        0x080051d4   Data          18  coeappl.o(.constdata)
+    aName0x10F1                              0x080051e6   Data          63  coeappl.o(.constdata)
+    asEntryDesc0x1C00                        0x08005226   Data          12  coeappl.o(.constdata)
+    aName0x1C00                              0x08005232   Data          18  coeappl.o(.constdata)
+    asEntryDesc0x1C3x                        0x08005244   Data         198  coeappl.o(.constdata)
+    aName0x1C32                              0x0800530a   Data         256  coeappl.o(.constdata)
+    aName0x1C33                              0x0800540a   Data         255  coeappl.o(.constdata)
+    cBitMask                                 0x0800550a   Data          32  objdef.o(.constdata)
+    cAbortCode                               0x0800552c   Data         120  sdoserv.o(.constdata)
+    Region$$Table$$Base                      0x080055a4   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080055c4   Number         0  anon$$obj.o(Region$$Table)
     head                                     0x20000000   Data           4  stm32f4xx_it.o(.data)
     uhADCxConvertedValue                     0x20000004   Data           2  adc1.o(.data)
     EscALEvent                               0x20000006   Data           2  el9800hw.o(.data)
@@ -2724,130 +2724,130 @@ Image Symbol Table
     data_flag                                0x20000030   Data           1  el9800appl.o(.data)
     add                                      0x20000031   Data           1  el9800appl.o(.data)
     TxPDO1802Subindex0                       0x20000032   Data           2  el9800appl.o(.data)
-    angle_x                                  0x20000034   Data           2  el9800appl.o(.data)
-    angle_y                                  0x20000036   Data           2  el9800appl.o(.data)
-    angle_z                                  0x20000038   Data           2  el9800appl.o(.data)
-    sRxPDOassign                             0x2000003a   Data           4  el9800appl.o(.data)
-    sDIInputs                                0x2000003e   Data           4  el9800appl.o(.data)
-    sDOOutputs                               0x20000042   Data           4  el9800appl.o(.data)
-    sTxPDOassign                             0x20000046   Data           6  el9800appl.o(.data)
-    sAIInputs                                0x2000004c   Data           8  el9800appl.o(.data)
-    sDITxPDOMap                              0x20000054   Data          40  el9800appl.o(.data)
-    sAITxPDOMap                              0x2000007c   Data          36  el9800appl.o(.data)
-    sAISettings                              0x200000a0   Data          16  el9800appl.o(.data)
-    sModulardeviceprofile                    0x200000b0   Data           6  el9800appl.o(.data)
-    sModulelist                              0x200000b8   Data          16  el9800appl.o(.data)
-    ucTemp                                   0x200000c8   Data           1  el9800appl.o(.data)
-    sEnum0800_Value00                        0x200000c9   Data          24  coeappl.o(.data)
-    sEnum0800_Value01                        0x200000e1   Data          26  coeappl.o(.data)
-    apEnum0800                               0x200000fc   Data           8  coeappl.o(.data)
-    ObjDicList                               0x20000104   Data           4  coeappl.o(.data)
-    ApplicationObjDic                        0x20000108   Data         560  coeappl.o(.data)
-    GenObjDic                                0x20000338   Data         440  coeappl.o(.data)
-    u32Devicetype                            0x200004f0   Data           4  coeappl.o(.data)
-    u16ErrorRegister                         0x200004f4   Data           2  coeappl.o(.data)
-    acDevicename                             0x200004f6   Data          11  coeappl.o(.data)
-    acHardwareversion                        0x20000501   Data           5  coeappl.o(.data)
-    acSoftwareversion                        0x20000506   Data           5  coeappl.o(.data)
-    sIdentity                                0x2000050c   Data          20  coeappl.o(.data)
-    sSyncmanagertype                         0x20000520   Data           6  coeappl.o(.data)
-    bInitFinished                            0x20000528   Data           1  ecatappl.o(.data)
-    bCycleTimeMeasurementStarted             0x20000529   Data           1  ecatappl.o(.data)
-    u16BusCycleCntMs                         0x2000052a   Data           2  ecatappl.o(.data)
-    StartTimerCnt                            0x2000052c   Data           4  ecatappl.o(.data)
-    bRunApplication                          0x20000530   Data           1  ecatappl.o(.data)
-    pCoeSendStored                           0x20000534   Data           4  ecatcoe.o(.data)
-    EepromLoaded                             0x20000538   Data           1  ecatslv.o(.data)
-    bEcatOutputUpdateRunning                 0x20000539   Data           1  ecatslv.o(.data)
-    bEcatInputUpdateRunning                  0x2000053a   Data           1  ecatslv.o(.data)
-    bEcatFirstOutputsReceived                0x2000053b   Data           1  ecatslv.o(.data)
-    bWdTrigger                               0x2000053c   Data           1  ecatslv.o(.data)
-    bDcSyncActive                            0x2000053d   Data           1  ecatslv.o(.data)
-    bDcRunning                               0x2000053e   Data           1  ecatslv.o(.data)
-    bSmSyncSequenceValid                     0x2000053f   Data           1  ecatslv.o(.data)
-    bEscIntEnabled                           0x20000540   Data           1  ecatslv.o(.data)
-    b3BufferMode                             0x20000541   Data           1  ecatslv.o(.data)
-    bLocalErrorFlag                          0x20000542   Data           1  ecatslv.o(.data)
-    bApplEsmPending                          0x20000543   Data           1  ecatslv.o(.data)
-    bEcatWaitForAlControlRes                 0x20000544   Data           1  ecatslv.o(.data)
-    nMaxSyncMan                              0x20000545   Data           1  ecatslv.o(.data)
-    nAlStatus                                0x20000546   Data           1  ecatslv.o(.data)
-    SMActivate                               0x20000548   Data           2  ecatslv.o(.data)
-    EsmTimeoutCounter                        0x2000054a   Data           2  ecatslv.o(.data)
-    u16SmSync0Counter                        0x2000054c   Data           2  ecatslv.o(.data)
-    u16SmSync0Value                          0x2000054e   Data           2  ecatslv.o(.data)
-    i16WaitForPllRunningTimeout              0x20000550   Data           2  ecatslv.o(.data)
-    i16WaitForPllRunningCnt                  0x20000552   Data           2  ecatslv.o(.data)
-    Sync0WdCounter                           0x20000554   Data           2  ecatslv.o(.data)
-    Sync0WdValue                             0x20000556   Data           2  ecatslv.o(.data)
-    Sync1WdCounter                           0x20000558   Data           2  ecatslv.o(.data)
-    Sync1WdValue                             0x2000055a   Data           2  ecatslv.o(.data)
-    LatchInputSync0Value                     0x2000055c   Data           2  ecatslv.o(.data)
-    LatchInputSync0Counter                   0x2000055e   Data           2  ecatslv.o(.data)
-    u16LocalErrorCode                        0x20000560   Data           2  ecatslv.o(.data)
-    nEcatStateTrans                          0x20000562   Data           2  ecatslv.o(.data)
-    nPdInputSize                             0x20000564   Data           2  ecatslv.o(.data)
-    nPdOutputSize                            0x20000566   Data           2  ecatslv.o(.data)
-    nMaxEscAddress                           0x20000568   Data           2  ecatslv.o(.data)
-    EcatWdValue                              0x2000056a   Data           2  ecatslv.o(.data)
-    nEscAddrOutputData                       0x2000056c   Data           2  ecatslv.o(.data)
-    nEscAddrInputData                        0x2000056e   Data           2  ecatslv.o(.data)
-    u16ALEventMask                           0x20000570   Data           2  ecatslv.o(.data)
-    u16dummy                                 0x20000572   Data           2  ecatslv.o(.data)
-    SyncManInfo                              0x20000574   Data           8  ecatslv.o(.data)
-    bReceiveMbxIsLocked                      0x2000057c   Data           1  mailbox.o(.data)
-    bSendMbxIsFull                           0x2000057d   Data           1  mailbox.o(.data)
-    bMbxRunning                              0x2000057e   Data           1  mailbox.o(.data)
-    bMbxRepeatToggle                         0x2000057f   Data           1  mailbox.o(.data)
-    u8MbxWriteCounter                        0x20000580   Data           1  mailbox.o(.data)
-    u8MbxReadCounter                         0x20000581   Data           1  mailbox.o(.data)
-    u8MailboxSendReqStored                   0x20000582   Data           1  mailbox.o(.data)
-    bNoMbxMemoryAvailable                    0x20000583   Data           1  mailbox.o(.data)
-    u16SendMbxSize                           0x20000584   Data           2  mailbox.o(.data)
-    u16ReceiveMbxSize                        0x20000586   Data           2  mailbox.o(.data)
-    u16EscAddrReceiveMbx                     0x20000588   Data           2  mailbox.o(.data)
-    u16EscAddrSendMbx                        0x2000058a   Data           2  mailbox.o(.data)
-    psWriteMbx                               0x2000058c   Data           4  mailbox.o(.data)
-    psReadMbx                                0x20000590   Data           4  mailbox.o(.data)
-    psRepeatMbx                              0x20000594   Data           4  mailbox.o(.data)
-    psStoreMbx                               0x20000598   Data           4  mailbox.o(.data)
-    sErrorSettings                           0x2000059c   Data          12  objdef.o(.data)
-    bSyncSetByUser                           0x200005a8   Data           1  objdef.o(.data)
-    aSubindexDesc                            0x200005a9   Data          13  objdef.o(.data)
-    sCycleDiag                               0x200005b6   Data           2  objdef.o(.data)
-    bSdoInWork                               0x200005b8   Data           1  sdoserv.o(.data)
-    u8PendingSdo                             0x200005b9   Data           1  sdoserv.o(.data)
-    bStoreCompleteAccess                     0x200005ba   Data           1  sdoserv.o(.data)
-    u8StoreSubindex                          0x200005bb   Data           1  sdoserv.o(.data)
-    nSdoSegService                           0x200005bc   Data           1  sdoserv.o(.data)
-    bSdoSegFollows                           0x200005bd   Data           1  sdoserv.o(.data)
-    bSdoSegAccess                            0x200005be   Data           1  sdoserv.o(.data)
-    nSdoSegSubindex                          0x200005bf   Data           1  sdoserv.o(.data)
-    bSdoSegLastToggle                        0x200005c0   Data           1  sdoserv.o(.data)
-    u16StoreIndex                            0x200005c2   Data           2  sdoserv.o(.data)
-    nSdoInfoFragmentsLeft                    0x200005c4   Data           2  sdoserv.o(.data)
-    nSdoInfoIndex                            0x200005c6   Data           2  sdoserv.o(.data)
-    nSdoSegIndex                             0x200005c8   Data           2  sdoserv.o(.data)
-    u32StoreDataSize                         0x200005cc   Data           4  sdoserv.o(.data)
-    pStoreData                               0x200005d0   Data           4  sdoserv.o(.data)
-    pSdoPendFunc                             0x200005d4   Data           4  sdoserv.o(.data)
-    pSdoSegData                              0x200005d8   Data           4  sdoserv.o(.data)
-    pSdoResStored                            0x200005dc   Data           4  sdoserv.o(.data)
-    nSdoSegBytesToHandle                     0x200005e0   Data           4  sdoserv.o(.data)
-    nSdoSegCompleteSize                      0x200005e4   Data           4  sdoserv.o(.data)
-    pSdoSegObjEntry                          0x200005e8   Data           4  sdoserv.o(.data)
-    pSdoInfoObjEntry                         0x200005ec   Data           4  sdoserv.o(.data)
-    data                                     0x20000600   Data          10  el9800appl.o(.bss)
-    aPdOutputData                            0x2000060a   Data          68  ecatappl.o(.bss)
-    aPdInputData                             0x2000064e   Data          68  ecatappl.o(.bss)
-    asMbx                                    0x20000694   Data         512  mailbox.o(.bss)
-    sMbxSendQueue                            0x20000894   Data          52  mailbox.o(.bss)
-    sMbxReceiveQueue                         0x200008c8   Data          52  mailbox.o(.bss)
-    sSyncManOutPar                           0x200008fc   Data          68  objdef.o(.bss)
-    sSyncManInPar                            0x20000940   Data          68  objdef.o(.bss)
-    aSdoInfoHeader                           0x20000984   Data          14  sdoserv.o(.bss)
-    __libspace_start                         0x20000994   Data          96  libspace.o(.bss)
-    __temporary_stack_top$libspace           0x200009f4   Data           0  libspace.o(.bss)
+    sRxPDOassign                             0x20000034   Data           4  el9800appl.o(.data)
+    sDIInputs                                0x20000038   Data           4  el9800appl.o(.data)
+    sDOOutputs                               0x2000003c   Data           4  el9800appl.o(.data)
+    angle_x                                  0x20000040   Data           4  el9800appl.o(.data)
+    angle_y                                  0x20000044   Data           4  el9800appl.o(.data)
+    angle_z                                  0x20000048   Data           4  el9800appl.o(.data)
+    sTxPDOassign                             0x2000004c   Data           6  el9800appl.o(.data)
+    sAIInputs                                0x20000054   Data           8  el9800appl.o(.data)
+    sDITxPDOMap                              0x2000005c   Data          40  el9800appl.o(.data)
+    sAITxPDOMap                              0x20000084   Data          36  el9800appl.o(.data)
+    sAISettings                              0x200000a8   Data          16  el9800appl.o(.data)
+    sModulardeviceprofile                    0x200000b8   Data           6  el9800appl.o(.data)
+    sModulelist                              0x200000c0   Data          16  el9800appl.o(.data)
+    ucTemp                                   0x200000d0   Data           1  el9800appl.o(.data)
+    sEnum0800_Value00                        0x200000d1   Data          24  coeappl.o(.data)
+    sEnum0800_Value01                        0x200000e9   Data          26  coeappl.o(.data)
+    apEnum0800                               0x20000104   Data           8  coeappl.o(.data)
+    ObjDicList                               0x2000010c   Data           4  coeappl.o(.data)
+    ApplicationObjDic                        0x20000110   Data         560  coeappl.o(.data)
+    GenObjDic                                0x20000340   Data         440  coeappl.o(.data)
+    u32Devicetype                            0x200004f8   Data           4  coeappl.o(.data)
+    u16ErrorRegister                         0x200004fc   Data           2  coeappl.o(.data)
+    acDevicename                             0x200004fe   Data          11  coeappl.o(.data)
+    acHardwareversion                        0x20000509   Data           5  coeappl.o(.data)
+    acSoftwareversion                        0x2000050e   Data           5  coeappl.o(.data)
+    sIdentity                                0x20000514   Data          20  coeappl.o(.data)
+    sSyncmanagertype                         0x20000528   Data           6  coeappl.o(.data)
+    bInitFinished                            0x20000530   Data           1  ecatappl.o(.data)
+    bCycleTimeMeasurementStarted             0x20000531   Data           1  ecatappl.o(.data)
+    u16BusCycleCntMs                         0x20000532   Data           2  ecatappl.o(.data)
+    StartTimerCnt                            0x20000534   Data           4  ecatappl.o(.data)
+    bRunApplication                          0x20000538   Data           1  ecatappl.o(.data)
+    pCoeSendStored                           0x2000053c   Data           4  ecatcoe.o(.data)
+    EepromLoaded                             0x20000540   Data           1  ecatslv.o(.data)
+    bEcatOutputUpdateRunning                 0x20000541   Data           1  ecatslv.o(.data)
+    bEcatInputUpdateRunning                  0x20000542   Data           1  ecatslv.o(.data)
+    bEcatFirstOutputsReceived                0x20000543   Data           1  ecatslv.o(.data)
+    bWdTrigger                               0x20000544   Data           1  ecatslv.o(.data)
+    bDcSyncActive                            0x20000545   Data           1  ecatslv.o(.data)
+    bDcRunning                               0x20000546   Data           1  ecatslv.o(.data)
+    bSmSyncSequenceValid                     0x20000547   Data           1  ecatslv.o(.data)
+    bEscIntEnabled                           0x20000548   Data           1  ecatslv.o(.data)
+    b3BufferMode                             0x20000549   Data           1  ecatslv.o(.data)
+    bLocalErrorFlag                          0x2000054a   Data           1  ecatslv.o(.data)
+    bApplEsmPending                          0x2000054b   Data           1  ecatslv.o(.data)
+    bEcatWaitForAlControlRes                 0x2000054c   Data           1  ecatslv.o(.data)
+    nMaxSyncMan                              0x2000054d   Data           1  ecatslv.o(.data)
+    nAlStatus                                0x2000054e   Data           1  ecatslv.o(.data)
+    SMActivate                               0x20000550   Data           2  ecatslv.o(.data)
+    EsmTimeoutCounter                        0x20000552   Data           2  ecatslv.o(.data)
+    u16SmSync0Counter                        0x20000554   Data           2  ecatslv.o(.data)
+    u16SmSync0Value                          0x20000556   Data           2  ecatslv.o(.data)
+    i16WaitForPllRunningTimeout              0x20000558   Data           2  ecatslv.o(.data)
+    i16WaitForPllRunningCnt                  0x2000055a   Data           2  ecatslv.o(.data)
+    Sync0WdCounter                           0x2000055c   Data           2  ecatslv.o(.data)
+    Sync0WdValue                             0x2000055e   Data           2  ecatslv.o(.data)
+    Sync1WdCounter                           0x20000560   Data           2  ecatslv.o(.data)
+    Sync1WdValue                             0x20000562   Data           2  ecatslv.o(.data)
+    LatchInputSync0Value                     0x20000564   Data           2  ecatslv.o(.data)
+    LatchInputSync0Counter                   0x20000566   Data           2  ecatslv.o(.data)
+    u16LocalErrorCode                        0x20000568   Data           2  ecatslv.o(.data)
+    nEcatStateTrans                          0x2000056a   Data           2  ecatslv.o(.data)
+    nPdInputSize                             0x2000056c   Data           2  ecatslv.o(.data)
+    nPdOutputSize                            0x2000056e   Data           2  ecatslv.o(.data)
+    nMaxEscAddress                           0x20000570   Data           2  ecatslv.o(.data)
+    EcatWdValue                              0x20000572   Data           2  ecatslv.o(.data)
+    nEscAddrOutputData                       0x20000574   Data           2  ecatslv.o(.data)
+    nEscAddrInputData                        0x20000576   Data           2  ecatslv.o(.data)
+    u16ALEventMask                           0x20000578   Data           2  ecatslv.o(.data)
+    u16dummy                                 0x2000057a   Data           2  ecatslv.o(.data)
+    SyncManInfo                              0x2000057c   Data           8  ecatslv.o(.data)
+    bReceiveMbxIsLocked                      0x20000584   Data           1  mailbox.o(.data)
+    bSendMbxIsFull                           0x20000585   Data           1  mailbox.o(.data)
+    bMbxRunning                              0x20000586   Data           1  mailbox.o(.data)
+    bMbxRepeatToggle                         0x20000587   Data           1  mailbox.o(.data)
+    u8MbxWriteCounter                        0x20000588   Data           1  mailbox.o(.data)
+    u8MbxReadCounter                         0x20000589   Data           1  mailbox.o(.data)
+    u8MailboxSendReqStored                   0x2000058a   Data           1  mailbox.o(.data)
+    bNoMbxMemoryAvailable                    0x2000058b   Data           1  mailbox.o(.data)
+    u16SendMbxSize                           0x2000058c   Data           2  mailbox.o(.data)
+    u16ReceiveMbxSize                        0x2000058e   Data           2  mailbox.o(.data)
+    u16EscAddrReceiveMbx                     0x20000590   Data           2  mailbox.o(.data)
+    u16EscAddrSendMbx                        0x20000592   Data           2  mailbox.o(.data)
+    psWriteMbx                               0x20000594   Data           4  mailbox.o(.data)
+    psReadMbx                                0x20000598   Data           4  mailbox.o(.data)
+    psRepeatMbx                              0x2000059c   Data           4  mailbox.o(.data)
+    psStoreMbx                               0x200005a0   Data           4  mailbox.o(.data)
+    sErrorSettings                           0x200005a4   Data          12  objdef.o(.data)
+    bSyncSetByUser                           0x200005b0   Data           1  objdef.o(.data)
+    aSubindexDesc                            0x200005b1   Data          13  objdef.o(.data)
+    sCycleDiag                               0x200005be   Data           2  objdef.o(.data)
+    bSdoInWork                               0x200005c0   Data           1  sdoserv.o(.data)
+    u8PendingSdo                             0x200005c1   Data           1  sdoserv.o(.data)
+    bStoreCompleteAccess                     0x200005c2   Data           1  sdoserv.o(.data)
+    u8StoreSubindex                          0x200005c3   Data           1  sdoserv.o(.data)
+    nSdoSegService                           0x200005c4   Data           1  sdoserv.o(.data)
+    bSdoSegFollows                           0x200005c5   Data           1  sdoserv.o(.data)
+    bSdoSegAccess                            0x200005c6   Data           1  sdoserv.o(.data)
+    nSdoSegSubindex                          0x200005c7   Data           1  sdoserv.o(.data)
+    bSdoSegLastToggle                        0x200005c8   Data           1  sdoserv.o(.data)
+    u16StoreIndex                            0x200005ca   Data           2  sdoserv.o(.data)
+    nSdoInfoFragmentsLeft                    0x200005cc   Data           2  sdoserv.o(.data)
+    nSdoInfoIndex                            0x200005ce   Data           2  sdoserv.o(.data)
+    nSdoSegIndex                             0x200005d0   Data           2  sdoserv.o(.data)
+    u32StoreDataSize                         0x200005d4   Data           4  sdoserv.o(.data)
+    pStoreData                               0x200005d8   Data           4  sdoserv.o(.data)
+    pSdoPendFunc                             0x200005dc   Data           4  sdoserv.o(.data)
+    pSdoSegData                              0x200005e0   Data           4  sdoserv.o(.data)
+    pSdoResStored                            0x200005e4   Data           4  sdoserv.o(.data)
+    nSdoSegBytesToHandle                     0x200005e8   Data           4  sdoserv.o(.data)
+    nSdoSegCompleteSize                      0x200005ec   Data           4  sdoserv.o(.data)
+    pSdoSegObjEntry                          0x200005f0   Data           4  sdoserv.o(.data)
+    pSdoInfoObjEntry                         0x200005f4   Data           4  sdoserv.o(.data)
+    data                                     0x20000608   Data          10  el9800appl.o(.bss)
+    aPdOutputData                            0x20000612   Data          68  ecatappl.o(.bss)
+    aPdInputData                             0x20000656   Data          68  ecatappl.o(.bss)
+    asMbx                                    0x2000069c   Data         512  mailbox.o(.bss)
+    sMbxSendQueue                            0x2000089c   Data          52  mailbox.o(.bss)
+    sMbxReceiveQueue                         0x200008d0   Data          52  mailbox.o(.bss)
+    sSyncManOutPar                           0x20000904   Data          68  objdef.o(.bss)
+    sSyncManInPar                            0x20000948   Data          68  objdef.o(.bss)
+    aSdoInfoHeader                           0x2000098c   Data          14  sdoserv.o(.bss)
+    __libspace_start                         0x2000099c   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x200009fc   Data           0  libspace.o(.bss)
 
 
 
@@ -2857,386 +2857,386 @@ Memory Map of the image
 
   Image Entry point : 0x08000189
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005b88, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x000057ec])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00005bcc, Max: 0x00100000, ABSOLUTE, COMPRESSED[0x0000582c])
 
-    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x00005588, Max: 0x00100000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x08000000, Load base: 0x08000000, Size: 0x000055c4, Max: 0x00100000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000188   Data   RO          150    RESET               startup_stm32f40_41xxx.o
-    0x08000188   0x08000188   0x00000008   Code   RO         6656  * !!!main             c_w.l(__main.o)
-    0x08000190   0x08000190   0x00000034   Code   RO         6865    !!!scatter          c_w.l(__scatter.o)
-    0x080001c4   0x080001c4   0x0000005a   Code   RO         6863    !!dczerorl2         c_w.l(__dczerorl2.o)
+    0x08000188   0x08000188   0x00000008   Code   RO         6653  * !!!main             c_w.l(__main.o)
+    0x08000190   0x08000190   0x00000034   Code   RO         6862    !!!scatter          c_w.l(__scatter.o)
+    0x080001c4   0x080001c4   0x0000005a   Code   RO         6860    !!dczerorl2         c_w.l(__dczerorl2.o)
     0x0800021e   0x0800021e   0x00000002   PAD
-    0x08000220   0x08000220   0x0000001c   Code   RO         6867    !!handler_zi        c_w.l(__scatter_zi.o)
-    0x0800023c   0x0800023c   0x00000002   Code   RO         6800    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
-    0x0800023e   0x0800023e   0x00000004   Code   RO         6692    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
-    0x08000242   0x08000242   0x00000000   Code   RO         6695    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
-    0x08000242   0x08000242   0x00000008   Code   RO         6696    .ARM.Collect$$libinit$$00000005  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6698    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6700    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6702    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6705    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6707    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6709    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6711    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6713    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6715    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6717    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6719    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6721    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6723    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6725    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6729    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6731    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6733    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000000   Code   RO         6735    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
-    0x0800024a   0x0800024a   0x00000002   Code   RO         6736    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
-    0x0800024c   0x0800024c   0x00000002   Code   RO         6860    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6814    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6816    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6818    .ARM.Collect$$libshutdown$$00000006  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6821    .ARM.Collect$$libshutdown$$00000009  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6824    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6826    .ARM.Collect$$libshutdown$$0000000E  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000000   Code   RO         6829    .ARM.Collect$$libshutdown$$00000011  c_w.l(libshutdown2.o)
-    0x0800024e   0x0800024e   0x00000002   Code   RO         6830    .ARM.Collect$$libshutdown$$00000012  c_w.l(libshutdown2.o)
-    0x08000250   0x08000250   0x00000000   Code   RO         6660    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
-    0x08000250   0x08000250   0x00000000   Code   RO         6743    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
-    0x08000250   0x08000250   0x00000006   Code   RO         6755    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
-    0x08000256   0x08000256   0x00000000   Code   RO         6745    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
-    0x08000256   0x08000256   0x00000004   Code   RO         6746    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
-    0x0800025a   0x0800025a   0x00000000   Code   RO         6748    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
-    0x0800025a   0x0800025a   0x00000008   Code   RO         6749    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
-    0x08000262   0x08000262   0x00000002   Code   RO         6803    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
-    0x08000264   0x08000264   0x00000000   Code   RO         6834    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
-    0x08000264   0x08000264   0x00000004   Code   RO         6835    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
-    0x08000268   0x08000268   0x00000006   Code   RO         6836    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
+    0x08000220   0x08000220   0x0000001c   Code   RO         6864    !!handler_zi        c_w.l(__scatter_zi.o)
+    0x0800023c   0x0800023c   0x00000002   Code   RO         6797    .ARM.Collect$$libinit$$00000000  c_w.l(libinit.o)
+    0x0800023e   0x0800023e   0x00000004   Code   RO         6689    .ARM.Collect$$libinit$$00000001  c_w.l(libinit2.o)
+    0x08000242   0x08000242   0x00000000   Code   RO         6692    .ARM.Collect$$libinit$$00000004  c_w.l(libinit2.o)
+    0x08000242   0x08000242   0x00000008   Code   RO         6693    .ARM.Collect$$libinit$$00000005  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6695    .ARM.Collect$$libinit$$0000000A  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6697    .ARM.Collect$$libinit$$0000000C  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6699    .ARM.Collect$$libinit$$0000000E  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6702    .ARM.Collect$$libinit$$00000011  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6704    .ARM.Collect$$libinit$$00000013  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6706    .ARM.Collect$$libinit$$00000015  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6708    .ARM.Collect$$libinit$$00000017  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6710    .ARM.Collect$$libinit$$00000019  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6712    .ARM.Collect$$libinit$$0000001B  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6714    .ARM.Collect$$libinit$$0000001D  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6716    .ARM.Collect$$libinit$$0000001F  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6718    .ARM.Collect$$libinit$$00000021  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6720    .ARM.Collect$$libinit$$00000023  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6722    .ARM.Collect$$libinit$$00000025  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6726    .ARM.Collect$$libinit$$0000002C  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6728    .ARM.Collect$$libinit$$0000002E  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6730    .ARM.Collect$$libinit$$00000030  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000000   Code   RO         6732    .ARM.Collect$$libinit$$00000032  c_w.l(libinit2.o)
+    0x0800024a   0x0800024a   0x00000002   Code   RO         6733    .ARM.Collect$$libinit$$00000033  c_w.l(libinit2.o)
+    0x0800024c   0x0800024c   0x00000002   Code   RO         6857    .ARM.Collect$$libshutdown$$00000000  c_w.l(libshutdown.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6811    .ARM.Collect$$libshutdown$$00000002  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6813    .ARM.Collect$$libshutdown$$00000004  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6815    .ARM.Collect$$libshutdown$$00000006  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6818    .ARM.Collect$$libshutdown$$00000009  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6821    .ARM.Collect$$libshutdown$$0000000C  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6823    .ARM.Collect$$libshutdown$$0000000E  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000000   Code   RO         6826    .ARM.Collect$$libshutdown$$00000011  c_w.l(libshutdown2.o)
+    0x0800024e   0x0800024e   0x00000002   Code   RO         6827    .ARM.Collect$$libshutdown$$00000012  c_w.l(libshutdown2.o)
+    0x08000250   0x08000250   0x00000000   Code   RO         6657    .ARM.Collect$$rtentry$$00000000  c_w.l(__rtentry.o)
+    0x08000250   0x08000250   0x00000000   Code   RO         6740    .ARM.Collect$$rtentry$$00000002  c_w.l(__rtentry2.o)
+    0x08000250   0x08000250   0x00000006   Code   RO         6752    .ARM.Collect$$rtentry$$00000004  c_w.l(__rtentry4.o)
+    0x08000256   0x08000256   0x00000000   Code   RO         6742    .ARM.Collect$$rtentry$$00000009  c_w.l(__rtentry2.o)
+    0x08000256   0x08000256   0x00000004   Code   RO         6743    .ARM.Collect$$rtentry$$0000000A  c_w.l(__rtentry2.o)
+    0x0800025a   0x0800025a   0x00000000   Code   RO         6745    .ARM.Collect$$rtentry$$0000000C  c_w.l(__rtentry2.o)
+    0x0800025a   0x0800025a   0x00000008   Code   RO         6746    .ARM.Collect$$rtentry$$0000000D  c_w.l(__rtentry2.o)
+    0x08000262   0x08000262   0x00000002   Code   RO         6800    .ARM.Collect$$rtexit$$00000000  c_w.l(rtexit.o)
+    0x08000264   0x08000264   0x00000000   Code   RO         6831    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
+    0x08000264   0x08000264   0x00000004   Code   RO         6832    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
+    0x08000268   0x08000268   0x00000006   Code   RO         6833    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
     0x0800026e   0x0800026e   0x00000002   PAD
-    0x08000270   0x08000270   0x00000000   Code   RO         6759    .emb_text           c_w.l(maybetermalloc1.o)
+    0x08000270   0x08000270   0x00000000   Code   RO         6756    .emb_text           c_w.l(maybetermalloc1.o)
     0x08000270   0x08000270   0x00000040   Code   RO          151    .text               startup_stm32f40_41xxx.o
-    0x080002b0   0x080002b0   0x0000005e   Code   RO         6590    .text               c_w.l(h1_alloc.o)
-    0x0800030e   0x0800030e   0x0000004e   Code   RO         6592    .text               c_w.l(h1_free.o)
-    0x0800035c   0x0800035c   0x0000003e   Code   RO         6648    .text               c_w.l(strlen.o)
-    0x0800039a   0x0800039a   0x0000008a   Code   RO         6650    .text               c_w.l(rt_memcpy_v6.o)
-    0x08000424   0x08000424   0x00000044   Code   RO         6652    .text               c_w.l(rt_memclr.o)
-    0x08000468   0x08000468   0x00000006   Code   RO         6654    .text               c_w.l(heapauxi.o)
+    0x080002b0   0x080002b0   0x0000005e   Code   RO         6587    .text               c_w.l(h1_alloc.o)
+    0x0800030e   0x0800030e   0x0000004e   Code   RO         6589    .text               c_w.l(h1_free.o)
+    0x0800035c   0x0800035c   0x0000003e   Code   RO         6645    .text               c_w.l(strlen.o)
+    0x0800039a   0x0800039a   0x0000008a   Code   RO         6647    .text               c_w.l(rt_memcpy_v6.o)
+    0x08000424   0x08000424   0x00000044   Code   RO         6649    .text               c_w.l(rt_memclr.o)
+    0x08000468   0x08000468   0x00000006   Code   RO         6651    .text               c_w.l(heapauxi.o)
     0x0800046e   0x0800046e   0x00000002   PAD
-    0x08000470   0x08000470   0x00000008   Code   RO         6664    .text               c_w.l(rt_heap_descriptor_intlibspace.o)
-    0x08000478   0x08000478   0x00000004   Code   RO         6666    .text               c_w.l(hguard.o)
-    0x0800047c   0x0800047c   0x0000008a   Code   RO         6668    .text               c_w.l(init_alloc.o)
-    0x08000506   0x08000506   0x0000000e   Code   RO         6672    .text               c_w.l(h1_init.o)
-    0x08000514   0x08000514   0x00000064   Code   RO         6686    .text               c_w.l(rt_memcpy_w.o)
-    0x08000578   0x08000578   0x0000004e   Code   RO         6688    .text               c_w.l(rt_memclr_w.o)
+    0x08000470   0x08000470   0x00000008   Code   RO         6661    .text               c_w.l(rt_heap_descriptor_intlibspace.o)
+    0x08000478   0x08000478   0x00000004   Code   RO         6663    .text               c_w.l(hguard.o)
+    0x0800047c   0x0800047c   0x0000008a   Code   RO         6665    .text               c_w.l(init_alloc.o)
+    0x08000506   0x08000506   0x0000000e   Code   RO         6669    .text               c_w.l(h1_init.o)
+    0x08000514   0x08000514   0x00000064   Code   RO         6683    .text               c_w.l(rt_memcpy_w.o)
+    0x08000578   0x08000578   0x0000004e   Code   RO         6685    .text               c_w.l(rt_memclr_w.o)
     0x080005c6   0x080005c6   0x00000002   PAD
-    0x080005c8   0x080005c8   0x00000008   Code   RO         6739    .text               c_w.l(libspace.o)
-    0x080005d0   0x080005d0   0x00000034   Code   RO         6761    .text               c_w.l(h1_extend.o)
-    0x08000604   0x08000604   0x0000000e   Code   RO         6765    .text               c_w.l(defsig_rtmem_outer.o)
-    0x08000612   0x08000612   0x00000002   Code   RO         6776    .text               c_w.l(use_no_semi.o)
-    0x08000614   0x08000614   0x00000000   Code   RO         6778    .text               c_w.l(indicate_semi.o)
-    0x08000614   0x08000614   0x0000004a   Code   RO         6779    .text               c_w.l(sys_stackheap_outer.o)
-    0x0800065e   0x0800065e   0x00000012   Code   RO         6785    .text               c_w.l(exit.o)
-    0x08000670   0x08000670   0x0000000a   Code   RO         6787    .text               c_w.l(defsig_exit.o)
+    0x080005c8   0x080005c8   0x00000008   Code   RO         6736    .text               c_w.l(libspace.o)
+    0x080005d0   0x080005d0   0x00000034   Code   RO         6758    .text               c_w.l(h1_extend.o)
+    0x08000604   0x08000604   0x0000000e   Code   RO         6762    .text               c_w.l(defsig_rtmem_outer.o)
+    0x08000612   0x08000612   0x00000002   Code   RO         6773    .text               c_w.l(use_no_semi.o)
+    0x08000614   0x08000614   0x00000000   Code   RO         6775    .text               c_w.l(indicate_semi.o)
+    0x08000614   0x08000614   0x0000004a   Code   RO         6776    .text               c_w.l(sys_stackheap_outer.o)
+    0x0800065e   0x0800065e   0x00000012   Code   RO         6782    .text               c_w.l(exit.o)
+    0x08000670   0x08000670   0x0000000a   Code   RO         6784    .text               c_w.l(defsig_exit.o)
     0x0800067a   0x0800067a   0x00000002   PAD
-    0x0800067c   0x0800067c   0x00000050   Code   RO         6789    .text               c_w.l(defsig_rtmem_inner.o)
-    0x080006cc   0x080006cc   0x0000000c   Code   RO         6801    .text               c_w.l(sys_exit.o)
-    0x080006d8   0x080006d8   0x00000032   Code   RO         6811    .text               c_w.l(defsig_general.o)
-    0x0800070a   0x0800070a   0x0000000e   Code   RO         6831    .text               c_w.l(sys_wrch.o)
-    0x08000718   0x08000718   0x00000014   Code   RO         1675    i.ADC_Cmd           stm32f4xx_adc.o
-    0x0800072c   0x0800072c   0x0000002c   Code   RO         1676    i.ADC_CommonInit    stm32f4xx_adc.o
+    0x0800067c   0x0800067c   0x00000050   Code   RO         6786    .text               c_w.l(defsig_rtmem_inner.o)
+    0x080006cc   0x080006cc   0x0000000c   Code   RO         6798    .text               c_w.l(sys_exit.o)
+    0x080006d8   0x080006d8   0x00000032   Code   RO         6808    .text               c_w.l(defsig_general.o)
+    0x0800070a   0x0800070a   0x0000000e   Code   RO         6828    .text               c_w.l(sys_wrch.o)
+    0x08000718   0x08000718   0x00000014   Code   RO         1672    i.ADC_Cmd           stm32f4xx_adc.o
+    0x0800072c   0x0800072c   0x0000002c   Code   RO         1673    i.ADC_CommonInit    stm32f4xx_adc.o
     0x08000758   0x08000758   0x000000e0   Code   RO          391    i.ADC_Configuration  adc1.o
-    0x08000838   0x08000838   0x00000014   Code   RO         1679    i.ADC_DMACmd        stm32f4xx_adc.o
-    0x0800084c   0x0800084c   0x00000014   Code   RO         1680    i.ADC_DMARequestAfterLastTransferCmd  stm32f4xx_adc.o
-    0x08000860   0x08000860   0x0000004c   Code   RO         1695    i.ADC_Init          stm32f4xx_adc.o
-    0x080008ac   0x080008ac   0x00000074   Code   RO         1700    i.ADC_RegularChannelConfig  stm32f4xx_adc.o
-    0x08000920   0x08000920   0x0000000a   Code   RO         1702    i.ADC_SoftwareStartConv  stm32f4xx_adc.o
+    0x08000838   0x08000838   0x00000014   Code   RO         1676    i.ADC_DMACmd        stm32f4xx_adc.o
+    0x0800084c   0x0800084c   0x00000014   Code   RO         1677    i.ADC_DMARequestAfterLastTransferCmd  stm32f4xx_adc.o
+    0x08000860   0x08000860   0x0000004c   Code   RO         1692    i.ADC_Init          stm32f4xx_adc.o
+    0x080008ac   0x080008ac   0x00000074   Code   RO         1697    i.ADC_RegularChannelConfig  stm32f4xx_adc.o
+    0x08000920   0x08000920   0x0000000a   Code   RO         1699    i.ADC_SoftwareStartConv  stm32f4xx_adc.o
     0x0800092a   0x0800092a   0x00000002   PAD
-    0x0800092c   0x0800092c   0x00000354   Code   RO         1081    i.AL_ControlInd     ecatslv.o
-    0x08000c80   0x08000c80   0x00000178   Code   RO         1082    i.AL_ControlRes     ecatslv.o
-    0x08000df8   0x08000df8   0x00000002   Code   RO          616    i.APPL_AckErrorInd  el9800appl.o
+    0x0800092c   0x0800092c   0x00000354   Code   RO         1078    i.AL_ControlInd     ecatslv.o
+    0x08000c80   0x08000c80   0x00000178   Code   RO         1079    i.AL_ControlRes     ecatslv.o
+    0x08000df8   0x08000df8   0x00000002   Code   RO          613    i.APPL_AckErrorInd  el9800appl.o
     0x08000dfa   0x08000dfa   0x00000002   PAD
-    0x08000dfc   0x08000dfc   0x000000ec   Code   RO          617    i.APPL_Application  el9800appl.o
-    0x08000ee8   0x08000ee8   0x000000e0   Code   RO          618    i.APPL_GenerateMapping  el9800appl.o
-    0x08000fc8   0x08000fc8   0x00000050   Code   RO          619    i.APPL_InputMapping  el9800appl.o
-    0x08001018   0x08001018   0x00000030   Code   RO          620    i.APPL_OutputMapping  el9800appl.o
-    0x08001048   0x08001048   0x00000004   Code   RO          621    i.APPL_StartInputHandler  el9800appl.o
-    0x0800104c   0x0800104c   0x00000004   Code   RO          622    i.APPL_StartMailboxHandler  el9800appl.o
-    0x08001050   0x08001050   0x00000004   Code   RO          623    i.APPL_StartOutputHandler  el9800appl.o
-    0x08001054   0x08001054   0x00000004   Code   RO          624    i.APPL_StopInputHandler  el9800appl.o
-    0x08001058   0x08001058   0x00000004   Code   RO          625    i.APPL_StopMailboxHandler  el9800appl.o
-    0x0800105c   0x0800105c   0x00000060   Code   RO          626    i.APPL_StopOutputHandler  el9800appl.o
-    0x080010bc   0x080010bc   0x00000020   Code   RO          765    i.AddObjectsToObjDictionary  coeappl.o
-    0x080010dc   0x080010dc   0x0000002c   Code   RO          418    i.AddressingEsc     el9800hw.o
-    0x08001108   0x08001108   0x00000002   Code   RO          158    i.BusFault_Handler  stm32f4xx_it.o
-    0x0800110a   0x0800110a   0x00000002   PAD
-    0x0800110c   0x0800110c   0x0000005c   Code   RO          766    i.COE_AddObjectToDic  coeappl.o
-    0x08001168   0x08001168   0x00000020   Code   RO          767    i.COE_ClearObjDictionary  coeappl.o
-    0x08001188   0x08001188   0x00000040   Code   RO         1016    i.COE_ContinueInd   ecatcoe.o
-    0x080011c8   0x080011c8   0x0000000c   Code   RO          768    i.COE_GetObjectDictionary  coeappl.o
-    0x080011d4   0x080011d4   0x00000014   Code   RO         1017    i.COE_Init          ecatcoe.o
-    0x080011e8   0x080011e8   0x000000ac   Code   RO          769    i.COE_Main          coeappl.o
-    0x08001294   0x08001294   0x00000028   Code   RO          770    i.COE_ObjDictionaryInit  coeappl.o
-    0x080012bc   0x080012bc   0x0000009c   Code   RO          771    i.COE_ObjInit       coeappl.o
-    0x08001358   0x08001358   0x00000038   Code   RO          772    i.COE_RemoveDicEntry  coeappl.o
-    0x08001390   0x08001390   0x00000026   Code   RO         1018    i.COE_ServiceInd    ecatcoe.o
-    0x080013b6   0x080013b6   0x00000002   PAD
-    0x080013b8   0x080013b8   0x00000064   Code   RO         1084    i.CheckIfEcatError  ecatslv.o
-    0x0800141c   0x0800141c   0x00000184   Code   RO         1085    i.CheckSmSettings   ecatslv.o
-    0x080015a0   0x080015a0   0x0000008c   Code   RO         1377    i.CheckSyncTypeValue  objdef.o
-    0x0800162c   0x0800162c   0x00000080   Code   RO         1086    i.DC_CheckWatchdog  ecatslv.o
-    0x080016ac   0x080016ac   0x00000014   Code   RO         2693    i.DMA_Cmd           stm32f4xx_dma.o
-    0x080016c0   0x080016c0   0x00000054   Code   RO         2705    i.DMA_Init          stm32f4xx_dma.o
-    0x08001714   0x08001714   0x00000002   Code   RO          159    i.DebugMon_Handler  stm32f4xx_it.o
-    0x08001716   0x08001716   0x00000002   PAD
-    0x08001718   0x08001718   0x000000c4   Code   RO          554    i.Debug_USART_Config  usart2.o
-    0x080017dc   0x080017dc   0x00000030   Code   RO         1087    i.DisableSyncManChannel  ecatslv.o
-    0x0800180c   0x0800180c   0x00000038   Code   RO          900    i.ECAT_CheckTimer   ecatappl.o
-    0x08001844   0x08001844   0x00000094   Code   RO         1088    i.ECAT_Init         ecatslv.o
-    0x080018d8   0x080018d8   0x00000118   Code   RO         1089    i.ECAT_Main         ecatslv.o
-    0x080019f0   0x080019f0   0x00000070   Code   RO          355    i.EXTI0_Configuration  exit.o
-    0x08001a60   0x08001a60   0x00000010   Code   RO          419    i.EXTI0_IRQHandler  el9800hw.o
-    0x08001a70   0x08001a70   0x00000074   Code   RO          356    i.EXTI1_Configuration  exit.o
-    0x08001ae4   0x08001ae4   0x00000010   Code   RO          420    i.EXTI1_IRQHandler  el9800hw.o
-    0x08001af4   0x08001af4   0x00000074   Code   RO          357    i.EXTI8_Configuration  exit.o
-    0x08001b68   0x08001b68   0x00000012   Code   RO          421    i.EXTI9_5_IRQHandler  el9800hw.o
-    0x08001b7a   0x08001b7a   0x00000002   PAD
-    0x08001b7c   0x08001b7c   0x0000000c   Code   RO         2983    i.EXTI_ClearITPendingBit  stm32f4xx_exti.o
-    0x08001b88   0x08001b88   0x00000070   Code   RO         2988    i.EXTI_Init         stm32f4xx_exti.o
-    0x08001bf8   0x08001bf8   0x0000002e   Code   RO         1091    i.EnableSyncManChannel  ecatslv.o
-    0x08001c26   0x08001c26   0x00000002   PAD
-    0x08001c28   0x08001c28   0x00000090   Code   RO          422    i.GPIO_Config       el9800hw.o
-    0x08001cb8   0x08001cb8   0x00000078   Code   RO         3505    i.GPIO_Init         stm32f4xx_gpio.o
-    0x08001d30   0x08001d30   0x00000020   Code   RO         3506    i.GPIO_PinAFConfig  stm32f4xx_gpio.o
-    0x08001d50   0x08001d50   0x00000004   Code   RO         3512    i.GPIO_ResetBits    stm32f4xx_gpio.o
-    0x08001d54   0x08001d54   0x00000004   Code   RO         3513    i.GPIO_SetBits      stm32f4xx_gpio.o
-    0x08001d58   0x08001d58   0x00000026   Code   RO         1271    i.GetOutOfMbxQueue  mailbox.o
-    0x08001d7e   0x08001d7e   0x00000002   PAD
-    0x08001d80   0x08001d80   0x0000001c   Code   RO         1092    i.GetSyncMan        ecatslv.o
-    0x08001d9c   0x08001d9c   0x00000044   Code   RO          423    i.HW_EscRead        el9800hw.o
-    0x08001de0   0x08001de0   0x0000003c   Code   RO          424    i.HW_EscReadIsr     el9800hw.o
-    0x08001e1c   0x08001e1c   0x00000048   Code   RO          425    i.HW_EscWrite       el9800hw.o
-    0x08001e64   0x08001e64   0x00000038   Code   RO          426    i.HW_EscWriteIsr    el9800hw.o
-    0x08001e9c   0x08001e9c   0x00000038   Code   RO          427    i.HW_GetALEventRegister  el9800hw.o
-    0x08001ed4   0x08001ed4   0x0000003c   Code   RO          428    i.HW_GetALEventRegister_Isr  el9800hw.o
-    0x08001f10   0x08001f10   0x00000078   Code   RO          429    i.HW_Init           el9800hw.o
-    0x08001f88   0x08001f88   0x00000002   Code   RO          430    i.HW_Release        el9800hw.o
-    0x08001f8a   0x08001f8a   0x00000002   PAD
-    0x08001f8c   0x08001f8c   0x00000080   Code   RO          901    i.HandleBusCycleCalculation  ecatappl.o
-    0x0800200c   0x0800200c   0x00000002   Code   RO          160    i.HardFault_Handler  stm32f4xx_it.o
-    0x0800200e   0x0800200e   0x00000002   PAD
-    0x08002010   0x08002010   0x0000002c   Code   RO          431    i.ISR_AddressingEsc  el9800hw.o
-    0x0800203c   0x0800203c   0x000000d4   Code   RO         1272    i.MBX_CheckAndCopyMailbox  mailbox.o
-    0x08002110   0x08002110   0x000000b4   Code   RO         1273    i.MBX_CopyToSendMailbox  mailbox.o
-    0x080021c4   0x080021c4   0x00000070   Code   RO         1274    i.MBX_Init          mailbox.o
-    0x08002234   0x08002234   0x00000060   Code   RO         1275    i.MBX_MailboxReadInd  mailbox.o
-    0x08002294   0x08002294   0x00000040   Code   RO         1276    i.MBX_MailboxRepeatReq  mailbox.o
-    0x080022d4   0x080022d4   0x00000078   Code   RO         1277    i.MBX_MailboxSendReq  mailbox.o
-    0x0800234c   0x0800234c   0x00000068   Code   RO         1278    i.MBX_MailboxWriteInd  mailbox.o
-    0x080023b4   0x080023b4   0x0000004c   Code   RO         1279    i.MBX_Main          mailbox.o
-    0x08002400   0x08002400   0x00000070   Code   RO         1280    i.MBX_StartMailboxHandler  mailbox.o
-    0x08002470   0x08002470   0x000000a4   Code   RO         1281    i.MBX_StopMailboxHandler  mailbox.o
-    0x08002514   0x08002514   0x00000012   Code   RO         1282    i.MailboxServiceInd  mailbox.o
-    0x08002526   0x08002526   0x00000002   PAD
-    0x08002528   0x08002528   0x00000020   Code   RO          902    i.MainInit          ecatappl.o
-    0x08002548   0x08002548   0x00000098   Code   RO          903    i.MainLoop          ecatappl.o
-    0x080025e0   0x080025e0   0x00000002   Code   RO          161    i.MemManage_Handler  stm32f4xx_it.o
-    0x080025e2   0x080025e2   0x00000002   Code   RO          162    i.NMI_Handler       stm32f4xx_it.o
-    0x080025e4   0x080025e4   0x00000064   Code   RO         1543    i.NVIC_Init         misc.o
-    0x08002648   0x08002648   0x00000014   Code   RO         1544    i.NVIC_PriorityGroupConfig  misc.o
-    0x0800265c   0x0800265c   0x00000030   Code   RO         1378    i.OBJ_CopyNumberToString  objdef.o
-    0x0800268c   0x0800268c   0x000000a0   Code   RO         1379    i.OBJ_GetDesc       objdef.o
-    0x0800272c   0x0800272c   0x0000001e   Code   RO         1380    i.OBJ_GetEntryDesc  objdef.o
-    0x0800274a   0x0800274a   0x000000c6   Code   RO         1381    i.OBJ_GetEntryOffset  objdef.o
-    0x08002810   0x08002810   0x0000005c   Code   RO         1382    i.OBJ_GetNoOfObjects  objdef.o
-    0x0800286c   0x0800286c   0x00000004   Code   RO         1383    i.OBJ_GetObjDesc    objdef.o
-    0x08002870   0x08002870   0x00000018   Code   RO         1384    i.OBJ_GetObjectHandle  objdef.o
-    0x08002888   0x08002888   0x0000007c   Code   RO         1385    i.OBJ_GetObjectLength  objdef.o
-    0x08002904   0x08002904   0x00000098   Code   RO         1386    i.OBJ_GetObjectList  objdef.o
-    0x0800299c   0x0800299c   0x00000354   Code   RO         1387    i.OBJ_Read          objdef.o
-    0x08002cf0   0x08002cf0   0x00000378   Code   RO         1388    i.OBJ_Write         objdef.o
-    0x08003068   0x08003068   0x000000f8   Code   RO          904    i.PDI_Isr           ecatappl.o
-    0x08003160   0x08003160   0x00000028   Code   RO          905    i.PDO_InputMapping  ecatappl.o
-    0x08003188   0x08003188   0x00000028   Code   RO          906    i.PDO_OutputMapping  ecatappl.o
-    0x080031b0   0x080031b0   0x00000002   Code   RO          163    i.PendSV_Handler    stm32f4xx_it.o
-    0x080031b2   0x080031b2   0x00000026   Code   RO         1283    i.PutInMbxQueue     mailbox.o
-    0x080031d8   0x080031d8   0x00000018   Code   RO         4380    i.RCC_AHB1PeriphClockCmd  stm32f4xx_rcc.o
-    0x080031f0   0x080031f0   0x00000018   Code   RO         4389    i.RCC_APB1PeriphClockCmd  stm32f4xx_rcc.o
-    0x08003208   0x08003208   0x00000018   Code   RO         4391    i.RCC_APB1PeriphResetCmd  stm32f4xx_rcc.o
-    0x08003220   0x08003220   0x00000018   Code   RO         4392    i.RCC_APB2PeriphClockCmd  stm32f4xx_rcc.o
-    0x08003238   0x08003238   0x00000018   Code   RO         4394    i.RCC_APB2PeriphResetCmd  stm32f4xx_rcc.o
-    0x08003250   0x08003250   0x00000090   Code   RO         4401    i.RCC_GetClocksFreq  stm32f4xx_rcc.o
-    0x080032e0   0x080032e0   0x00000050   Code   RO          627    i.ReadObject0x1802  el9800appl.o
-    0x08003330   0x08003330   0x00000034   Code   RO         1093    i.ResetALEventMask  ecatslv.o
-    0x08003364   0x08003364   0x000002d0   Code   RO         1477    i.SDOS_SdoInd       sdoserv.o
-    0x08003634   0x08003634   0x00000260   Code   RO         1478    i.SDOS_SdoInfoInd   sdoserv.o
-    0x08003894   0x08003894   0x00000090   Code   RO         1479    i.SDOS_SdoRes       sdoserv.o
-    0x08003924   0x08003924   0x000000a4   Code   RO          306    i.SPI1_GPIO_Init    spi1.o
-    0x080039c8   0x080039c8   0x00000058   Code   RO          307    i.SPI1_Init         spi1.o
-    0x08003a20   0x08003a20   0x00000014   Code   RO         5547    i.SPI_Cmd           stm32f4xx_spi.o
-    0x08003a34   0x08003a34   0x00000084   Code   RO         5554    i.SPI_I2S_DeInit    stm32f4xx_spi.o
-    0x08003ab8   0x08003ab8   0x0000000e   Code   RO         5555    i.SPI_I2S_GetFlagStatus  stm32f4xx_spi.o
-    0x08003ac6   0x08003ac6   0x00000004   Code   RO         5558    i.SPI_I2S_ReceiveData  stm32f4xx_spi.o
-    0x08003aca   0x08003aca   0x00000004   Code   RO         5559    i.SPI_I2S_SendData  stm32f4xx_spi.o
-    0x08003ace   0x08003ace   0x00000038   Code   RO         5560    i.SPI_Init          stm32f4xx_spi.o
-    0x08003b06   0x08003b06   0x00000002   Code   RO          164    i.SVC_Handler       stm32f4xx_it.o
-    0x08003b08   0x08003b08   0x00000030   Code   RO         5715    i.SYSCFG_EXTILineConfig  stm32f4xx_syscfg.o
-    0x08003b38   0x08003b38   0x000001e0   Code   RO         1480    i.SdoDownloadSegmentInd  sdoserv.o
-    0x08003d18   0x08003d18   0x000000b8   Code   RO         1481    i.SdoRes            sdoserv.o
-    0x08003dd0   0x08003dd0   0x00000110   Code   RO         1482    i.SdoUploadSegmentInd  sdoserv.o
-    0x08003ee0   0x08003ee0   0x00000034   Code   RO         1094    i.SetALEventMask    ecatslv.o
-    0x08003f14   0x08003f14   0x00000040   Code   RO         1095    i.SetALStatus       ecatslv.o
-    0x08003f54   0x08003f54   0x000000b4   Code   RO            4    i.SetSysClock       system_stm32f4xx.o
-    0x08004008   0x08004008   0x00000408   Code   RO         1096    i.StartInputHandler  ecatslv.o
-    0x08004410   0x08004410   0x00000020   Code   RO         1097    i.StartOutputHandler  ecatslv.o
-    0x08004430   0x08004430   0x0000005c   Code   RO         1098    i.StopInputHandler  ecatslv.o
-    0x0800448c   0x0800448c   0x00000010   Code   RO         1099    i.StopOutputHandler  ecatslv.o
-    0x0800449c   0x0800449c   0x00000100   Code   RO          907    i.Sync0_Isr         ecatappl.o
-    0x0800459c   0x0800459c   0x0000003c   Code   RO          908    i.Sync1_Isr         ecatappl.o
-    0x080045d8   0x080045d8   0x00000002   Code   RO          165    i.SysTick_Handler   stm32f4xx_it.o
-    0x080045da   0x080045da   0x00000002   PAD
-    0x080045dc   0x080045dc   0x0000005c   Code   RO            6    i.SystemInit        system_stm32f4xx.o
-    0x08004638   0x08004638   0x0000002c   Code   RO          432    i.TIM2_IRQHandler   el9800hw.o
-    0x08004664   0x08004664   0x00000006   Code   RO         5780    i.TIM_ClearFlag     stm32f4xx_tim.o
-    0x0800466a   0x0800466a   0x00000006   Code   RO         5781    i.TIM_ClearITPendingBit  stm32f4xx_tim.o
-    0x08004670   0x08004670   0x00000014   Code   RO         5786    i.TIM_Cmd           stm32f4xx_tim.o
-    0x08004684   0x08004684   0x00000074   Code   RO          273    i.TIM_Configuration  timer.o
-    0x080046f8   0x080046f8   0x00000150   Code   RO         5791    i.TIM_DeInit        stm32f4xx_tim.o
-    0x08004848   0x08004848   0x00000010   Code   RO         5811    i.TIM_ITConfig      stm32f4xx_tim.o
-    0x08004858   0x08004858   0x0000007c   Code   RO         5858    i.TIM_TimeBaseInit  stm32f4xx_tim.o
-    0x080048d4   0x080048d4   0x00000070   Code   RO          166    i.USART2_IRQHandler  stm32f4xx_it.o
-    0x08004944   0x08004944   0x00000014   Code   RO         6330    i.USART_Cmd         stm32f4xx_usart.o
-    0x08004958   0x08004958   0x0000003e   Code   RO         6334    i.USART_GetITStatus  stm32f4xx_usart.o
-    0x08004996   0x08004996   0x00000030   Code   RO         6336    i.USART_ITConfig    stm32f4xx_usart.o
-    0x080049c6   0x080049c6   0x00000002   PAD
-    0x080049c8   0x080049c8   0x000000ac   Code   RO         6337    i.USART_Init        stm32f4xx_usart.o
-    0x08004a74   0x08004a74   0x00000008   Code   RO         6344    i.USART_ReceiveData  stm32f4xx_usart.o
-    0x08004a7c   0x08004a7c   0x00000034   Code   RO         1100    i.UpdateEEPROMLoadedState  ecatslv.o
-    0x08004ab0   0x08004ab0   0x00000002   Code   RO          167    i.UsageFault_Handler  stm32f4xx_it.o
-    0x08004ab2   0x08004ab2   0x00000002   PAD
-    0x08004ab4   0x08004ab4   0x00000034   Code   RO          308    i.WR_CMD            spi1.o
-    0x08004ae8   0x08004ae8   0x00000022   Code   RO         1101    i.__NVIC_DisableIRQ  ecatslv.o
-    0x08004b0a   0x08004b0a   0x0000001a   Code   RO          433    i.__NVIC_EnableIRQ  el9800hw.o
-    0x08004b24   0x08004b24   0x0000001a   Code   RO         1102    i.__NVIC_EnableIRQ  ecatslv.o
-    0x08004b3e   0x08004b3e   0x00000002   PAD
-    0x08004b40   0x08004b40   0x00000058   Code   RO          628    i.angle_set         el9800appl.o
-    0x08004b98   0x08004b98   0x00000050   Code   RO          629    i.main              el9800appl.o
-    0x08004be8   0x08004be8   0x0000000a   Code   RO         6774    x$fpl$fpinit        fz_wm.l(fpinit.o)
-    0x08004bf2   0x08004bf2   0x0000000c   Data   RO          773    .constdata          coeappl.o
-    0x08004bfe   0x08004bfe   0x00000012   Data   RO          774    .constdata          coeappl.o
-    0x08004c10   0x08004c10   0x0000003c   Data   RO          775    .constdata          coeappl.o
-    0x08004c4c   0x08004c4c   0x0000000f   Data   RO          776    .constdata          coeappl.o
-    0x08004c5b   0x08004c5b   0x00000001   PAD
-    0x08004c5c   0x08004c5c   0x0000003c   Data   RO          777    .constdata          coeappl.o
-    0x08004c98   0x08004c98   0x0000003f   Data   RO          778    .constdata          coeappl.o
-    0x08004cd7   0x08004cd7   0x00000001   PAD
-    0x08004cd8   0x08004cd8   0x0000003c   Data   RO          779    .constdata          coeappl.o
-    0x08004d14   0x08004d14   0x0000000f   Data   RO          780    .constdata          coeappl.o
-    0x08004d23   0x08004d23   0x00000001   PAD
-    0x08004d24   0x08004d24   0x00000036   Data   RO          781    .constdata          coeappl.o
-    0x08004d5a   0x08004d5a   0x0000000f   Data   RO          782    .constdata          coeappl.o
-    0x08004d69   0x08004d69   0x0000000d   Data   RO          783    .constdata          coeappl.o
-    0x08004d76   0x08004d76   0x0000000d   Data   RO          784    .constdata          coeappl.o
-    0x08004d83   0x08004d83   0x00000001   PAD
-    0x08004d84   0x08004d84   0x0000003c   Data   RO          785    .constdata          coeappl.o
-    0x08004dc0   0x08004dc0   0x00000055   Data   RO          786    .constdata          coeappl.o
-    0x08004e15   0x08004e15   0x00000001   PAD
-    0x08004e16   0x08004e16   0x0000006c   Data   RO          787    .constdata          coeappl.o
-    0x08004e82   0x08004e82   0x0000005f   Data   RO          788    .constdata          coeappl.o
-    0x08004ee1   0x08004ee1   0x00000001   PAD
-    0x08004ee2   0x08004ee2   0x0000003c   Data   RO          789    .constdata          coeappl.o
-    0x08004f1e   0x08004f1e   0x0000003e   Data   RO          790    .constdata          coeappl.o
-    0x08004f5c   0x08004f5c   0x0000007e   Data   RO          791    .constdata          coeappl.o
-    0x08004fda   0x08004fda   0x00000073   Data   RO          792    .constdata          coeappl.o
-    0x0800504d   0x0800504d   0x00000001   PAD
-    0x0800504e   0x0800504e   0x00000012   Data   RO          793    .constdata          coeappl.o
-    0x08005060   0x08005060   0x00000049   Data   RO          794    .constdata          coeappl.o
-    0x080050a9   0x080050a9   0x00000001   PAD
-    0x080050aa   0x080050aa   0x00000018   Data   RO          795    .constdata          coeappl.o
-    0x080050c2   0x080050c2   0x00000014   Data   RO          796    .constdata          coeappl.o
-    0x080050d6   0x080050d6   0x00000006   Data   RO          797    .constdata          coeappl.o
-    0x080050dc   0x080050dc   0x0000000c   Data   RO          798    .constdata          coeappl.o
-    0x080050e8   0x080050e8   0x00000006   Data   RO          799    .constdata          coeappl.o
-    0x080050ee   0x080050ee   0x0000000f   Data   RO          800    .constdata          coeappl.o
-    0x080050fd   0x080050fd   0x00000001   PAD
-    0x080050fe   0x080050fe   0x00000006   Data   RO          801    .constdata          coeappl.o
-    0x08005104   0x08005104   0x0000000c   Data   RO          802    .constdata          coeappl.o
-    0x08005110   0x08005110   0x00000006   Data   RO          803    .constdata          coeappl.o
-    0x08005116   0x08005116   0x00000011   Data   RO          804    .constdata          coeappl.o
-    0x08005127   0x08005127   0x00000001   PAD
-    0x08005128   0x08005128   0x00000006   Data   RO          805    .constdata          coeappl.o
-    0x0800512e   0x0800512e   0x00000011   Data   RO          806    .constdata          coeappl.o
-    0x0800513f   0x0800513f   0x00000001   PAD
-    0x08005140   0x08005140   0x0000001e   Data   RO          807    .constdata          coeappl.o
-    0x0800515e   0x0800515e   0x00000039   Data   RO          808    .constdata          coeappl.o
-    0x08005197   0x08005197   0x00000001   PAD
-    0x08005198   0x08005198   0x00000012   Data   RO          809    .constdata          coeappl.o
-    0x080051aa   0x080051aa   0x0000003f   Data   RO          810    .constdata          coeappl.o
-    0x080051e9   0x080051e9   0x00000001   PAD
-    0x080051ea   0x080051ea   0x0000000c   Data   RO          811    .constdata          coeappl.o
-    0x080051f6   0x080051f6   0x00000012   Data   RO          812    .constdata          coeappl.o
-    0x08005208   0x08005208   0x000000c6   Data   RO          813    .constdata          coeappl.o
-    0x080052ce   0x080052ce   0x00000100   Data   RO          814    .constdata          coeappl.o
-    0x080053ce   0x080053ce   0x000000ff   Data   RO          815    .constdata          coeappl.o
-    0x080054cd   0x080054cd   0x00000001   PAD
-    0x080054ce   0x080054ce   0x00000020   Data   RO         1390    .constdata          objdef.o
-    0x080054ee   0x080054ee   0x00000002   PAD
-    0x080054f0   0x080054f0   0x00000078   Data   RO         1484    .constdata          sdoserv.o
-    0x08005568   0x08005568   0x00000020   Data   RO         6861    Region$$Table       anon$$obj.o
+    0x08000dfc   0x08000dfc   0x000000e4   Code   RO          614    i.APPL_Application  el9800appl.o
+    0x08000ee0   0x08000ee0   0x000000e0   Code   RO          615    i.APPL_GenerateMapping  el9800appl.o
+    0x08000fc0   0x08000fc0   0x00000050   Code   RO          616    i.APPL_InputMapping  el9800appl.o
+    0x08001010   0x08001010   0x00000030   Code   RO          617    i.APPL_OutputMapping  el9800appl.o
+    0x08001040   0x08001040   0x00000004   Code   RO          618    i.APPL_StartInputHandler  el9800appl.o
+    0x08001044   0x08001044   0x00000004   Code   RO          619    i.APPL_StartMailboxHandler  el9800appl.o
+    0x08001048   0x08001048   0x00000004   Code   RO          620    i.APPL_StartOutputHandler  el9800appl.o
+    0x0800104c   0x0800104c   0x00000004   Code   RO          621    i.APPL_StopInputHandler  el9800appl.o
+    0x08001050   0x08001050   0x00000004   Code   RO          622    i.APPL_StopMailboxHandler  el9800appl.o
+    0x08001054   0x08001054   0x00000060   Code   RO          623    i.APPL_StopOutputHandler  el9800appl.o
+    0x080010b4   0x080010b4   0x00000020   Code   RO          762    i.AddObjectsToObjDictionary  coeappl.o
+    0x080010d4   0x080010d4   0x0000002c   Code   RO          418    i.AddressingEsc     el9800hw.o
+    0x08001100   0x08001100   0x00000002   Code   RO          158    i.BusFault_Handler  stm32f4xx_it.o
+    0x08001102   0x08001102   0x00000002   PAD
+    0x08001104   0x08001104   0x0000005c   Code   RO          763    i.COE_AddObjectToDic  coeappl.o
+    0x08001160   0x08001160   0x00000020   Code   RO          764    i.COE_ClearObjDictionary  coeappl.o
+    0x08001180   0x08001180   0x00000040   Code   RO         1013    i.COE_ContinueInd   ecatcoe.o
+    0x080011c0   0x080011c0   0x0000000c   Code   RO          765    i.COE_GetObjectDictionary  coeappl.o
+    0x080011cc   0x080011cc   0x00000014   Code   RO         1014    i.COE_Init          ecatcoe.o
+    0x080011e0   0x080011e0   0x000000ac   Code   RO          766    i.COE_Main          coeappl.o
+    0x0800128c   0x0800128c   0x00000028   Code   RO          767    i.COE_ObjDictionaryInit  coeappl.o
+    0x080012b4   0x080012b4   0x0000009c   Code   RO          768    i.COE_ObjInit       coeappl.o
+    0x08001350   0x08001350   0x00000038   Code   RO          769    i.COE_RemoveDicEntry  coeappl.o
+    0x08001388   0x08001388   0x00000026   Code   RO         1015    i.COE_ServiceInd    ecatcoe.o
+    0x080013ae   0x080013ae   0x00000002   PAD
+    0x080013b0   0x080013b0   0x00000064   Code   RO         1081    i.CheckIfEcatError  ecatslv.o
+    0x08001414   0x08001414   0x00000184   Code   RO         1082    i.CheckSmSettings   ecatslv.o
+    0x08001598   0x08001598   0x0000008c   Code   RO         1374    i.CheckSyncTypeValue  objdef.o
+    0x08001624   0x08001624   0x00000080   Code   RO         1083    i.DC_CheckWatchdog  ecatslv.o
+    0x080016a4   0x080016a4   0x00000014   Code   RO         2690    i.DMA_Cmd           stm32f4xx_dma.o
+    0x080016b8   0x080016b8   0x00000054   Code   RO         2702    i.DMA_Init          stm32f4xx_dma.o
+    0x0800170c   0x0800170c   0x00000002   Code   RO          159    i.DebugMon_Handler  stm32f4xx_it.o
+    0x0800170e   0x0800170e   0x00000002   PAD
+    0x08001710   0x08001710   0x000000c4   Code   RO          554    i.Debug_USART_Config  usart2.o
+    0x080017d4   0x080017d4   0x00000030   Code   RO         1084    i.DisableSyncManChannel  ecatslv.o
+    0x08001804   0x08001804   0x00000038   Code   RO          897    i.ECAT_CheckTimer   ecatappl.o
+    0x0800183c   0x0800183c   0x00000094   Code   RO         1085    i.ECAT_Init         ecatslv.o
+    0x080018d0   0x080018d0   0x00000118   Code   RO         1086    i.ECAT_Main         ecatslv.o
+    0x080019e8   0x080019e8   0x00000070   Code   RO          355    i.EXTI0_Configuration  exit.o
+    0x08001a58   0x08001a58   0x00000010   Code   RO          419    i.EXTI0_IRQHandler  el9800hw.o
+    0x08001a68   0x08001a68   0x00000074   Code   RO          356    i.EXTI1_Configuration  exit.o
+    0x08001adc   0x08001adc   0x00000010   Code   RO          420    i.EXTI1_IRQHandler  el9800hw.o
+    0x08001aec   0x08001aec   0x00000074   Code   RO          357    i.EXTI8_Configuration  exit.o
+    0x08001b60   0x08001b60   0x00000012   Code   RO          421    i.EXTI9_5_IRQHandler  el9800hw.o
+    0x08001b72   0x08001b72   0x00000002   PAD
+    0x08001b74   0x08001b74   0x0000000c   Code   RO         2980    i.EXTI_ClearITPendingBit  stm32f4xx_exti.o
+    0x08001b80   0x08001b80   0x00000070   Code   RO         2985    i.EXTI_Init         stm32f4xx_exti.o
+    0x08001bf0   0x08001bf0   0x0000002e   Code   RO         1088    i.EnableSyncManChannel  ecatslv.o
+    0x08001c1e   0x08001c1e   0x00000002   PAD
+    0x08001c20   0x08001c20   0x00000090   Code   RO          422    i.GPIO_Config       el9800hw.o
+    0x08001cb0   0x08001cb0   0x00000078   Code   RO         3502    i.GPIO_Init         stm32f4xx_gpio.o
+    0x08001d28   0x08001d28   0x00000020   Code   RO         3503    i.GPIO_PinAFConfig  stm32f4xx_gpio.o
+    0x08001d48   0x08001d48   0x00000004   Code   RO         3509    i.GPIO_ResetBits    stm32f4xx_gpio.o
+    0x08001d4c   0x08001d4c   0x00000004   Code   RO         3510    i.GPIO_SetBits      stm32f4xx_gpio.o
+    0x08001d50   0x08001d50   0x00000026   Code   RO         1268    i.GetOutOfMbxQueue  mailbox.o
+    0x08001d76   0x08001d76   0x00000002   PAD
+    0x08001d78   0x08001d78   0x0000001c   Code   RO         1089    i.GetSyncMan        ecatslv.o
+    0x08001d94   0x08001d94   0x00000044   Code   RO          423    i.HW_EscRead        el9800hw.o
+    0x08001dd8   0x08001dd8   0x0000003c   Code   RO          424    i.HW_EscReadIsr     el9800hw.o
+    0x08001e14   0x08001e14   0x00000048   Code   RO          425    i.HW_EscWrite       el9800hw.o
+    0x08001e5c   0x08001e5c   0x00000038   Code   RO          426    i.HW_EscWriteIsr    el9800hw.o
+    0x08001e94   0x08001e94   0x00000038   Code   RO          427    i.HW_GetALEventRegister  el9800hw.o
+    0x08001ecc   0x08001ecc   0x0000003c   Code   RO          428    i.HW_GetALEventRegister_Isr  el9800hw.o
+    0x08001f08   0x08001f08   0x00000078   Code   RO          429    i.HW_Init           el9800hw.o
+    0x08001f80   0x08001f80   0x00000002   Code   RO          430    i.HW_Release        el9800hw.o
+    0x08001f82   0x08001f82   0x00000002   PAD
+    0x08001f84   0x08001f84   0x00000080   Code   RO          898    i.HandleBusCycleCalculation  ecatappl.o
+    0x08002004   0x08002004   0x00000002   Code   RO          160    i.HardFault_Handler  stm32f4xx_it.o
+    0x08002006   0x08002006   0x00000002   PAD
+    0x08002008   0x08002008   0x0000002c   Code   RO          431    i.ISR_AddressingEsc  el9800hw.o
+    0x08002034   0x08002034   0x000000d4   Code   RO         1269    i.MBX_CheckAndCopyMailbox  mailbox.o
+    0x08002108   0x08002108   0x000000b4   Code   RO         1270    i.MBX_CopyToSendMailbox  mailbox.o
+    0x080021bc   0x080021bc   0x00000070   Code   RO         1271    i.MBX_Init          mailbox.o
+    0x0800222c   0x0800222c   0x00000060   Code   RO         1272    i.MBX_MailboxReadInd  mailbox.o
+    0x0800228c   0x0800228c   0x00000040   Code   RO         1273    i.MBX_MailboxRepeatReq  mailbox.o
+    0x080022cc   0x080022cc   0x00000078   Code   RO         1274    i.MBX_MailboxSendReq  mailbox.o
+    0x08002344   0x08002344   0x00000068   Code   RO         1275    i.MBX_MailboxWriteInd  mailbox.o
+    0x080023ac   0x080023ac   0x0000004c   Code   RO         1276    i.MBX_Main          mailbox.o
+    0x080023f8   0x080023f8   0x00000070   Code   RO         1277    i.MBX_StartMailboxHandler  mailbox.o
+    0x08002468   0x08002468   0x000000a4   Code   RO         1278    i.MBX_StopMailboxHandler  mailbox.o
+    0x0800250c   0x0800250c   0x00000012   Code   RO         1279    i.MailboxServiceInd  mailbox.o
+    0x0800251e   0x0800251e   0x00000002   PAD
+    0x08002520   0x08002520   0x00000020   Code   RO          899    i.MainInit          ecatappl.o
+    0x08002540   0x08002540   0x00000098   Code   RO          900    i.MainLoop          ecatappl.o
+    0x080025d8   0x080025d8   0x00000002   Code   RO          161    i.MemManage_Handler  stm32f4xx_it.o
+    0x080025da   0x080025da   0x00000002   Code   RO          162    i.NMI_Handler       stm32f4xx_it.o
+    0x080025dc   0x080025dc   0x00000064   Code   RO         1540    i.NVIC_Init         misc.o
+    0x08002640   0x08002640   0x00000014   Code   RO         1541    i.NVIC_PriorityGroupConfig  misc.o
+    0x08002654   0x08002654   0x00000030   Code   RO         1375    i.OBJ_CopyNumberToString  objdef.o
+    0x08002684   0x08002684   0x000000a0   Code   RO         1376    i.OBJ_GetDesc       objdef.o
+    0x08002724   0x08002724   0x0000001e   Code   RO         1377    i.OBJ_GetEntryDesc  objdef.o
+    0x08002742   0x08002742   0x000000c6   Code   RO         1378    i.OBJ_GetEntryOffset  objdef.o
+    0x08002808   0x08002808   0x0000005c   Code   RO         1379    i.OBJ_GetNoOfObjects  objdef.o
+    0x08002864   0x08002864   0x00000004   Code   RO         1380    i.OBJ_GetObjDesc    objdef.o
+    0x08002868   0x08002868   0x00000018   Code   RO         1381    i.OBJ_GetObjectHandle  objdef.o
+    0x08002880   0x08002880   0x0000007c   Code   RO         1382    i.OBJ_GetObjectLength  objdef.o
+    0x080028fc   0x080028fc   0x00000098   Code   RO         1383    i.OBJ_GetObjectList  objdef.o
+    0x08002994   0x08002994   0x00000354   Code   RO         1384    i.OBJ_Read          objdef.o
+    0x08002ce8   0x08002ce8   0x00000378   Code   RO         1385    i.OBJ_Write         objdef.o
+    0x08003060   0x08003060   0x000000f8   Code   RO          901    i.PDI_Isr           ecatappl.o
+    0x08003158   0x08003158   0x00000028   Code   RO          902    i.PDO_InputMapping  ecatappl.o
+    0x08003180   0x08003180   0x00000028   Code   RO          903    i.PDO_OutputMapping  ecatappl.o
+    0x080031a8   0x080031a8   0x00000002   Code   RO          163    i.PendSV_Handler    stm32f4xx_it.o
+    0x080031aa   0x080031aa   0x00000026   Code   RO         1280    i.PutInMbxQueue     mailbox.o
+    0x080031d0   0x080031d0   0x00000018   Code   RO         4377    i.RCC_AHB1PeriphClockCmd  stm32f4xx_rcc.o
+    0x080031e8   0x080031e8   0x00000018   Code   RO         4386    i.RCC_APB1PeriphClockCmd  stm32f4xx_rcc.o
+    0x08003200   0x08003200   0x00000018   Code   RO         4388    i.RCC_APB1PeriphResetCmd  stm32f4xx_rcc.o
+    0x08003218   0x08003218   0x00000018   Code   RO         4389    i.RCC_APB2PeriphClockCmd  stm32f4xx_rcc.o
+    0x08003230   0x08003230   0x00000018   Code   RO         4391    i.RCC_APB2PeriphResetCmd  stm32f4xx_rcc.o
+    0x08003248   0x08003248   0x00000090   Code   RO         4398    i.RCC_GetClocksFreq  stm32f4xx_rcc.o
+    0x080032d8   0x080032d8   0x00000050   Code   RO          624    i.ReadObject0x1802  el9800appl.o
+    0x08003328   0x08003328   0x00000034   Code   RO         1090    i.ResetALEventMask  ecatslv.o
+    0x0800335c   0x0800335c   0x000002d0   Code   RO         1474    i.SDOS_SdoInd       sdoserv.o
+    0x0800362c   0x0800362c   0x00000260   Code   RO         1475    i.SDOS_SdoInfoInd   sdoserv.o
+    0x0800388c   0x0800388c   0x00000090   Code   RO         1476    i.SDOS_SdoRes       sdoserv.o
+    0x0800391c   0x0800391c   0x000000a4   Code   RO          306    i.SPI1_GPIO_Init    spi1.o
+    0x080039c0   0x080039c0   0x00000058   Code   RO          307    i.SPI1_Init         spi1.o
+    0x08003a18   0x08003a18   0x00000014   Code   RO         5544    i.SPI_Cmd           stm32f4xx_spi.o
+    0x08003a2c   0x08003a2c   0x00000084   Code   RO         5551    i.SPI_I2S_DeInit    stm32f4xx_spi.o
+    0x08003ab0   0x08003ab0   0x0000000e   Code   RO         5552    i.SPI_I2S_GetFlagStatus  stm32f4xx_spi.o
+    0x08003abe   0x08003abe   0x00000004   Code   RO         5555    i.SPI_I2S_ReceiveData  stm32f4xx_spi.o
+    0x08003ac2   0x08003ac2   0x00000004   Code   RO         5556    i.SPI_I2S_SendData  stm32f4xx_spi.o
+    0x08003ac6   0x08003ac6   0x00000038   Code   RO         5557    i.SPI_Init          stm32f4xx_spi.o
+    0x08003afe   0x08003afe   0x00000002   Code   RO          164    i.SVC_Handler       stm32f4xx_it.o
+    0x08003b00   0x08003b00   0x00000030   Code   RO         5712    i.SYSCFG_EXTILineConfig  stm32f4xx_syscfg.o
+    0x08003b30   0x08003b30   0x000001e0   Code   RO         1477    i.SdoDownloadSegmentInd  sdoserv.o
+    0x08003d10   0x08003d10   0x000000b8   Code   RO         1478    i.SdoRes            sdoserv.o
+    0x08003dc8   0x08003dc8   0x00000110   Code   RO         1479    i.SdoUploadSegmentInd  sdoserv.o
+    0x08003ed8   0x08003ed8   0x00000034   Code   RO         1091    i.SetALEventMask    ecatslv.o
+    0x08003f0c   0x08003f0c   0x00000040   Code   RO         1092    i.SetALStatus       ecatslv.o
+    0x08003f4c   0x08003f4c   0x000000b4   Code   RO            4    i.SetSysClock       system_stm32f4xx.o
+    0x08004000   0x08004000   0x00000408   Code   RO         1093    i.StartInputHandler  ecatslv.o
+    0x08004408   0x08004408   0x00000020   Code   RO         1094    i.StartOutputHandler  ecatslv.o
+    0x08004428   0x08004428   0x0000005c   Code   RO         1095    i.StopInputHandler  ecatslv.o
+    0x08004484   0x08004484   0x00000010   Code   RO         1096    i.StopOutputHandler  ecatslv.o
+    0x08004494   0x08004494   0x00000100   Code   RO          904    i.Sync0_Isr         ecatappl.o
+    0x08004594   0x08004594   0x0000003c   Code   RO          905    i.Sync1_Isr         ecatappl.o
+    0x080045d0   0x080045d0   0x00000002   Code   RO          165    i.SysTick_Handler   stm32f4xx_it.o
+    0x080045d2   0x080045d2   0x00000002   PAD
+    0x080045d4   0x080045d4   0x0000005c   Code   RO            6    i.SystemInit        system_stm32f4xx.o
+    0x08004630   0x08004630   0x0000002c   Code   RO          432    i.TIM2_IRQHandler   el9800hw.o
+    0x0800465c   0x0800465c   0x00000006   Code   RO         5777    i.TIM_ClearFlag     stm32f4xx_tim.o
+    0x08004662   0x08004662   0x00000006   Code   RO         5778    i.TIM_ClearITPendingBit  stm32f4xx_tim.o
+    0x08004668   0x08004668   0x00000014   Code   RO         5783    i.TIM_Cmd           stm32f4xx_tim.o
+    0x0800467c   0x0800467c   0x00000074   Code   RO          273    i.TIM_Configuration  timer.o
+    0x080046f0   0x080046f0   0x00000150   Code   RO         5788    i.TIM_DeInit        stm32f4xx_tim.o
+    0x08004840   0x08004840   0x00000010   Code   RO         5808    i.TIM_ITConfig      stm32f4xx_tim.o
+    0x08004850   0x08004850   0x0000007c   Code   RO         5855    i.TIM_TimeBaseInit  stm32f4xx_tim.o
+    0x080048cc   0x080048cc   0x00000070   Code   RO          166    i.USART2_IRQHandler  stm32f4xx_it.o
+    0x0800493c   0x0800493c   0x00000014   Code   RO         6327    i.USART_Cmd         stm32f4xx_usart.o
+    0x08004950   0x08004950   0x0000003e   Code   RO         6331    i.USART_GetITStatus  stm32f4xx_usart.o
+    0x0800498e   0x0800498e   0x00000030   Code   RO         6333    i.USART_ITConfig    stm32f4xx_usart.o
+    0x080049be   0x080049be   0x00000002   PAD
+    0x080049c0   0x080049c0   0x000000ac   Code   RO         6334    i.USART_Init        stm32f4xx_usart.o
+    0x08004a6c   0x08004a6c   0x00000008   Code   RO         6341    i.USART_ReceiveData  stm32f4xx_usart.o
+    0x08004a74   0x08004a74   0x00000034   Code   RO         1097    i.UpdateEEPROMLoadedState  ecatslv.o
+    0x08004aa8   0x08004aa8   0x00000002   Code   RO          167    i.UsageFault_Handler  stm32f4xx_it.o
+    0x08004aaa   0x08004aaa   0x00000002   PAD
+    0x08004aac   0x08004aac   0x00000034   Code   RO          308    i.WR_CMD            spi1.o
+    0x08004ae0   0x08004ae0   0x00000022   Code   RO         1098    i.__NVIC_DisableIRQ  ecatslv.o
+    0x08004b02   0x08004b02   0x0000001a   Code   RO          433    i.__NVIC_EnableIRQ  el9800hw.o
+    0x08004b1c   0x08004b1c   0x0000001a   Code   RO         1099    i.__NVIC_EnableIRQ  ecatslv.o
+    0x08004b36   0x08004b36   0x00000002   PAD
+    0x08004b38   0x08004b38   0x0000009c   Code   RO          625    i.angle_set         el9800appl.o
+    0x08004bd4   0x08004bd4   0x00000050   Code   RO          626    i.main              el9800appl.o
+    0x08004c24   0x08004c24   0x0000000a   Code   RO         6771    x$fpl$fpinit        fz_wm.l(fpinit.o)
+    0x08004c2e   0x08004c2e   0x0000000c   Data   RO          770    .constdata          coeappl.o
+    0x08004c3a   0x08004c3a   0x00000012   Data   RO          771    .constdata          coeappl.o
+    0x08004c4c   0x08004c4c   0x0000003c   Data   RO          772    .constdata          coeappl.o
+    0x08004c88   0x08004c88   0x0000000f   Data   RO          773    .constdata          coeappl.o
+    0x08004c97   0x08004c97   0x00000001   PAD
+    0x08004c98   0x08004c98   0x0000003c   Data   RO          774    .constdata          coeappl.o
+    0x08004cd4   0x08004cd4   0x0000003f   Data   RO          775    .constdata          coeappl.o
+    0x08004d13   0x08004d13   0x00000001   PAD
+    0x08004d14   0x08004d14   0x0000003c   Data   RO          776    .constdata          coeappl.o
+    0x08004d50   0x08004d50   0x0000000f   Data   RO          777    .constdata          coeappl.o
+    0x08004d5f   0x08004d5f   0x00000001   PAD
+    0x08004d60   0x08004d60   0x00000036   Data   RO          778    .constdata          coeappl.o
+    0x08004d96   0x08004d96   0x0000000f   Data   RO          779    .constdata          coeappl.o
+    0x08004da5   0x08004da5   0x0000000d   Data   RO          780    .constdata          coeappl.o
+    0x08004db2   0x08004db2   0x0000000d   Data   RO          781    .constdata          coeappl.o
+    0x08004dbf   0x08004dbf   0x00000001   PAD
+    0x08004dc0   0x08004dc0   0x0000003c   Data   RO          782    .constdata          coeappl.o
+    0x08004dfc   0x08004dfc   0x00000055   Data   RO          783    .constdata          coeappl.o
+    0x08004e51   0x08004e51   0x00000001   PAD
+    0x08004e52   0x08004e52   0x0000006c   Data   RO          784    .constdata          coeappl.o
+    0x08004ebe   0x08004ebe   0x0000005f   Data   RO          785    .constdata          coeappl.o
+    0x08004f1d   0x08004f1d   0x00000001   PAD
+    0x08004f1e   0x08004f1e   0x0000003c   Data   RO          786    .constdata          coeappl.o
+    0x08004f5a   0x08004f5a   0x0000003e   Data   RO          787    .constdata          coeappl.o
+    0x08004f98   0x08004f98   0x0000007e   Data   RO          788    .constdata          coeappl.o
+    0x08005016   0x08005016   0x00000073   Data   RO          789    .constdata          coeappl.o
+    0x08005089   0x08005089   0x00000001   PAD
+    0x0800508a   0x0800508a   0x00000012   Data   RO          790    .constdata          coeappl.o
+    0x0800509c   0x0800509c   0x00000049   Data   RO          791    .constdata          coeappl.o
+    0x080050e5   0x080050e5   0x00000001   PAD
+    0x080050e6   0x080050e6   0x00000018   Data   RO          792    .constdata          coeappl.o
+    0x080050fe   0x080050fe   0x00000014   Data   RO          793    .constdata          coeappl.o
+    0x08005112   0x08005112   0x00000006   Data   RO          794    .constdata          coeappl.o
+    0x08005118   0x08005118   0x0000000c   Data   RO          795    .constdata          coeappl.o
+    0x08005124   0x08005124   0x00000006   Data   RO          796    .constdata          coeappl.o
+    0x0800512a   0x0800512a   0x0000000f   Data   RO          797    .constdata          coeappl.o
+    0x08005139   0x08005139   0x00000001   PAD
+    0x0800513a   0x0800513a   0x00000006   Data   RO          798    .constdata          coeappl.o
+    0x08005140   0x08005140   0x0000000c   Data   RO          799    .constdata          coeappl.o
+    0x0800514c   0x0800514c   0x00000006   Data   RO          800    .constdata          coeappl.o
+    0x08005152   0x08005152   0x00000011   Data   RO          801    .constdata          coeappl.o
+    0x08005163   0x08005163   0x00000001   PAD
+    0x08005164   0x08005164   0x00000006   Data   RO          802    .constdata          coeappl.o
+    0x0800516a   0x0800516a   0x00000011   Data   RO          803    .constdata          coeappl.o
+    0x0800517b   0x0800517b   0x00000001   PAD
+    0x0800517c   0x0800517c   0x0000001e   Data   RO          804    .constdata          coeappl.o
+    0x0800519a   0x0800519a   0x00000039   Data   RO          805    .constdata          coeappl.o
+    0x080051d3   0x080051d3   0x00000001   PAD
+    0x080051d4   0x080051d4   0x00000012   Data   RO          806    .constdata          coeappl.o
+    0x080051e6   0x080051e6   0x0000003f   Data   RO          807    .constdata          coeappl.o
+    0x08005225   0x08005225   0x00000001   PAD
+    0x08005226   0x08005226   0x0000000c   Data   RO          808    .constdata          coeappl.o
+    0x08005232   0x08005232   0x00000012   Data   RO          809    .constdata          coeappl.o
+    0x08005244   0x08005244   0x000000c6   Data   RO          810    .constdata          coeappl.o
+    0x0800530a   0x0800530a   0x00000100   Data   RO          811    .constdata          coeappl.o
+    0x0800540a   0x0800540a   0x000000ff   Data   RO          812    .constdata          coeappl.o
+    0x08005509   0x08005509   0x00000001   PAD
+    0x0800550a   0x0800550a   0x00000020   Data   RO         1387    .constdata          objdef.o
+    0x0800552a   0x0800552a   0x00000002   PAD
+    0x0800552c   0x0800552c   0x00000078   Data   RO         1481    .constdata          sdoserv.o
+    0x080055a4   0x080055a4   0x00000020   Data   RO         6858    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08005588, Size: 0x00000ff8, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x00000264])
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x080055c4, Size: 0x00001000, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x00000268])
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000   COMPRESSED   0x00000004   Data   RW          168    .data               stm32f4xx_it.o
     0x20000004   COMPRESSED   0x00000002   Data   RW          392    .data               adc1.o
     0x20000006   COMPRESSED   0x00000002   Data   RW          434    .data               el9800hw.o
-    0x20000008   COMPRESSED   0x00000028   Data   RW          631    .data               el9800appl.o
-    0x20000030   COMPRESSED   0x00000024   Data   RW          632    .data               el9800appl.o
-    0x20000054   COMPRESSED   0x00000028   Data   RW          633    .data               el9800appl.o
-    0x2000007c   COMPRESSED   0x00000024   Data   RW          634    .data               el9800appl.o
-    0x200000a0   COMPRESSED   0x00000010   Data   RW          635    .data               el9800appl.o
-    0x200000b0   COMPRESSED   0x00000006   Data   RW          636    .data               el9800appl.o
-    0x200000b6   COMPRESSED   0x00000002   PAD
-    0x200000b8   COMPRESSED   0x00000010   Data   RW          637    .data               el9800appl.o
-    0x200000c8   COMPRESSED   0x00000001   Data   RW          639    .data               el9800appl.o
-    0x200000c9   COMPRESSED   0x00000018   Data   RW          816    .data               coeappl.o
-    0x200000e1   COMPRESSED   0x0000001a   Data   RW          817    .data               coeappl.o
-    0x200000fb   COMPRESSED   0x00000001   PAD
-    0x200000fc   COMPRESSED   0x00000008   Data   RW          818    .data               coeappl.o
-    0x20000104   COMPRESSED   0x000003ec   Data   RW          819    .data               coeappl.o
-    0x200004f0   COMPRESSED   0x00000004   Data   RW          820    .data               coeappl.o
-    0x200004f4   COMPRESSED   0x00000002   Data   RW          821    .data               coeappl.o
-    0x200004f6   COMPRESSED   0x0000000b   Data   RW          822    .data               coeappl.o
-    0x20000501   COMPRESSED   0x00000005   Data   RW          823    .data               coeappl.o
-    0x20000506   COMPRESSED   0x00000005   Data   RW          824    .data               coeappl.o
-    0x2000050b   COMPRESSED   0x00000001   PAD
-    0x2000050c   COMPRESSED   0x00000014   Data   RW          825    .data               coeappl.o
-    0x20000520   COMPRESSED   0x00000006   Data   RW          826    .data               coeappl.o
-    0x20000526   COMPRESSED   0x00000002   PAD
-    0x20000528   COMPRESSED   0x00000008   Data   RW          910    .data               ecatappl.o
-    0x20000530   COMPRESSED   0x00000001   Data   RW          914    .data               ecatappl.o
-    0x20000531   COMPRESSED   0x00000003   PAD
-    0x20000534   COMPRESSED   0x00000004   Data   RW         1019    .data               ecatcoe.o
-    0x20000538   COMPRESSED   0x00000044   Data   RW         1103    .data               ecatslv.o
-    0x2000057c   COMPRESSED   0x00000020   Data   RW         1285    .data               mailbox.o
-    0x2000059c   COMPRESSED   0x0000000c   Data   RW         1391    .data               objdef.o
-    0x200005a8   COMPRESSED   0x0000000e   Data   RW         1392    .data               objdef.o
-    0x200005b6   COMPRESSED   0x00000002   Data   RW         1393    .data               objdef.o
-    0x200005b8   COMPRESSED   0x00000034   Data   RW         1485    .data               sdoserv.o
-    0x200005ec   COMPRESSED   0x00000004   Data   RW         1486    .data               sdoserv.o
-    0x200005f0   COMPRESSED   0x00000010   Data   RW         4433    .data               stm32f4xx_rcc.o
-    0x20000600        -       0x0000000a   Zero   RW          630    .bss                el9800appl.o
-    0x2000060a        -       0x00000088   Zero   RW          909    .bss                ecatappl.o
-    0x20000692   COMPRESSED   0x00000002   PAD
-    0x20000694        -       0x00000268   Zero   RW         1284    .bss                mailbox.o
-    0x200008fc        -       0x00000088   Zero   RW         1389    .bss                objdef.o
-    0x20000984        -       0x0000000e   Zero   RW         1483    .bss                sdoserv.o
-    0x20000992   COMPRESSED   0x00000002   PAD
-    0x20000994        -       0x00000060   Zero   RW         6740    .bss                c_w.l(libspace.o)
-    0x200009f4   COMPRESSED   0x00000004   PAD
-    0x200009f8        -       0x00000200   Zero   RW          149    HEAP                startup_stm32f40_41xxx.o
-    0x20000bf8        -       0x00000400   Zero   RW          148    STACK               startup_stm32f40_41xxx.o
+    0x20000008   COMPRESSED   0x00000028   Data   RW          628    .data               el9800appl.o
+    0x20000030   COMPRESSED   0x0000002c   Data   RW          629    .data               el9800appl.o
+    0x2000005c   COMPRESSED   0x00000028   Data   RW          630    .data               el9800appl.o
+    0x20000084   COMPRESSED   0x00000024   Data   RW          631    .data               el9800appl.o
+    0x200000a8   COMPRESSED   0x00000010   Data   RW          632    .data               el9800appl.o
+    0x200000b8   COMPRESSED   0x00000006   Data   RW          633    .data               el9800appl.o
+    0x200000be   COMPRESSED   0x00000002   PAD
+    0x200000c0   COMPRESSED   0x00000010   Data   RW          634    .data               el9800appl.o
+    0x200000d0   COMPRESSED   0x00000001   Data   RW          636    .data               el9800appl.o
+    0x200000d1   COMPRESSED   0x00000018   Data   RW          813    .data               coeappl.o
+    0x200000e9   COMPRESSED   0x0000001a   Data   RW          814    .data               coeappl.o
+    0x20000103   COMPRESSED   0x00000001   PAD
+    0x20000104   COMPRESSED   0x00000008   Data   RW          815    .data               coeappl.o
+    0x2000010c   COMPRESSED   0x000003ec   Data   RW          816    .data               coeappl.o
+    0x200004f8   COMPRESSED   0x00000004   Data   RW          817    .data               coeappl.o
+    0x200004fc   COMPRESSED   0x00000002   Data   RW          818    .data               coeappl.o
+    0x200004fe   COMPRESSED   0x0000000b   Data   RW          819    .data               coeappl.o
+    0x20000509   COMPRESSED   0x00000005   Data   RW          820    .data               coeappl.o
+    0x2000050e   COMPRESSED   0x00000005   Data   RW          821    .data               coeappl.o
+    0x20000513   COMPRESSED   0x00000001   PAD
+    0x20000514   COMPRESSED   0x00000014   Data   RW          822    .data               coeappl.o
+    0x20000528   COMPRESSED   0x00000006   Data   RW          823    .data               coeappl.o
+    0x2000052e   COMPRESSED   0x00000002   PAD
+    0x20000530   COMPRESSED   0x00000008   Data   RW          907    .data               ecatappl.o
+    0x20000538   COMPRESSED   0x00000001   Data   RW          911    .data               ecatappl.o
+    0x20000539   COMPRESSED   0x00000003   PAD
+    0x2000053c   COMPRESSED   0x00000004   Data   RW         1016    .data               ecatcoe.o
+    0x20000540   COMPRESSED   0x00000044   Data   RW         1100    .data               ecatslv.o
+    0x20000584   COMPRESSED   0x00000020   Data   RW         1282    .data               mailbox.o
+    0x200005a4   COMPRESSED   0x0000000c   Data   RW         1388    .data               objdef.o
+    0x200005b0   COMPRESSED   0x0000000e   Data   RW         1389    .data               objdef.o
+    0x200005be   COMPRESSED   0x00000002   Data   RW         1390    .data               objdef.o
+    0x200005c0   COMPRESSED   0x00000034   Data   RW         1482    .data               sdoserv.o
+    0x200005f4   COMPRESSED   0x00000004   Data   RW         1483    .data               sdoserv.o
+    0x200005f8   COMPRESSED   0x00000010   Data   RW         4430    .data               stm32f4xx_rcc.o
+    0x20000608        -       0x0000000a   Zero   RW          627    .bss                el9800appl.o
+    0x20000612        -       0x00000088   Zero   RW          906    .bss                ecatappl.o
+    0x2000069a   COMPRESSED   0x00000002   PAD
+    0x2000069c        -       0x00000268   Zero   RW         1281    .bss                mailbox.o
+    0x20000904        -       0x00000088   Zero   RW         1386    .bss                objdef.o
+    0x2000098c        -       0x0000000e   Zero   RW         1480    .bss                sdoserv.o
+    0x2000099a   COMPRESSED   0x00000002   PAD
+    0x2000099c        -       0x00000060   Zero   RW         6737    .bss                c_w.l(libspace.o)
+    0x200009fc   COMPRESSED   0x00000004   PAD
+    0x20000a00        -       0x00000200   Zero   RW          149    HEAP                startup_stm32f40_41xxx.o
+    0x20000c00        -       0x00000400   Zero   RW          148    STACK               startup_stm32f40_41xxx.o
 
 
 ==============================================================================
@@ -3246,36 +3246,36 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       224         16          0          2          0       1035   adc1.o
-       592        106       2254       1115          0      14201   coeappl.o
-      1012        232          0          9        136       8163   ecatappl.o
-       122         28          0          4          0       5512   ecatcoe.o
-      3846        158          0         68          0      19857   ecatslv.o
-       954         72          0        191         10      29929   el9800appl.o
-       846         60          0          2          0      42370   el9800hw.o
-       344         14          0          0          0       2090   exit.o
-      1334         98          0         32        616      13011   mailbox.o
-       120         14          0          0          0      19047   misc.o
-      2712        116         32         28        136      19941   objdef.o
-      2408         72        120         56         14      24283   sdoserv.o
-       304         18          0          0          0       1834   spi1.o
-        64         26        392          0       1536        968   startup_stm32f40_41xxx.o
-       306         20          0          0          0      20323   stm32f4xx_adc.o
-       104          4          0          0          0      15389   stm32f4xx_dma.o
-       124         10          0          0          0       4449   stm32f4xx_exti.o
-       160          0          0          0          0      10535   stm32f4xx_gpio.o
-       130         20          0          4          0       5037   stm32f4xx_it.o
-       264         42          0         16          0      22101   stm32f4xx_rcc.o
-       230         24          0          0          0      13187   stm32f4xx_spi.o
-        48          6          0          0          0        756   stm32f4xx_syscfg.o
-       508         80          0          0          0      26116   stm32f4xx_tim.o
-       310          8          0          0          0      11122   stm32f4xx_usart.o
-       272         36          0          0          0     307461   system_stm32f4xx.o
-       116          0          0          0          0        676   timer.o
-       196         10          0          0          0       1177   usart2.o
+       224         16          0          2          0       1063   adc1.o
+       592        106       2254       1115          0      14381   coeappl.o
+      1012        232          0          9        136       8339   ecatappl.o
+       122         28          0          4          0       5692   ecatcoe.o
+      3846        158          0         68          0      20189   ecatslv.o
+      1014         76          0        199         10      30269   el9800appl.o
+       846         60          0          2          0      42634   el9800hw.o
+       344         14          0          0          0       2138   exit.o
+      1334         98          0         32        616      13255   mailbox.o
+       120         14          0          0          0      19123   misc.o
+      2712        116         32         28        136      20161   objdef.o
+      2408         72        120         56         14      24427   sdoserv.o
+       304         18          0          0          0       1878   spi1.o
+        64         26        392          0       1536        984   startup_stm32f40_41xxx.o
+       306         20          0          0          0      20447   stm32f4xx_adc.o
+       104          4          0          0          0      15449   stm32f4xx_dma.o
+       124         10          0          0          0       4513   stm32f4xx_exti.o
+       160          0          0          0          0      10623   stm32f4xx_gpio.o
+       130         20          0          4          0       5201   stm32f4xx_it.o
+       264         42          0         16          0      22237   stm32f4xx_rcc.o
+       230         24          0          0          0      13307   stm32f4xx_spi.o
+        48          6          0          0          0        772   stm32f4xx_syscfg.o
+       508         80          0          0          0      26244   stm32f4xx_tim.o
+       310          8          0          0          0      11222   stm32f4xx_usart.o
+       272         36          0          0          0     307645   system_stm32f4xx.o
+       116          0          0          0          0        692   timer.o
+       196         10          0          0          0       1209   usart2.o
 
     ----------------------------------------------------------------------
-     17680       1290       2846       1536       2452     640570   Object Totals
+     17740       1294       2846       1544       2452     644094   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         30          0         16          9          4          0   (incl. Padding)
 
@@ -3344,15 +3344,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     19050       1368       2846       1536       2552     626022   Grand Totals
-     19050       1368       2846        612       2552     626022   ELF Image Totals (compressed)
-     19050       1368       2846        612          0          0   ROM Totals
+     19110       1372       2846       1544       2552     629646   Grand Totals
+     19110       1372       2846        616       2552     629646   ELF Image Totals (compressed)
+     19110       1372       2846        616          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                21896 (  21.38kB)
-    Total RW  Size (RW Data + ZI Data)              4088 (   3.99kB)
-    Total ROM Size (Code + RO Data + RW Data)      22508 (  21.98kB)
+    Total RO  Size (Code + RO Data)                21956 (  21.44kB)
+    Total RW  Size (RW Data + ZI Data)              4096 (   4.00kB)
+    Total ROM Size (Code + RO Data + RW Data)      22572 (  22.04kB)
 
 ==============================================================================
 
