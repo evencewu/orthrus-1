@@ -8,6 +8,8 @@
 "stm32f40_41xxx\adc1.o"
 "stm32f40_41xxx\el9800hw.o"
 "stm32f40_41xxx\usart2.o"
+"stm32f40_41xxx\bsp_i2c_ee.o"
+"stm32f40_41xxx\bsp_i2c_gpio.o"
 "stm32f40_41xxx\foeappl.o"
 "stm32f40_41xxx\el9800appl.o"
 "stm32f40_41xxx\coeappl.o"

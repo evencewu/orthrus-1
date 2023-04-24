@@ -40,6 +40,9 @@ stm32f40_41xxx\el9800appl.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm3
 stm32f40_41xxx\el9800appl.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 stm32f40_41xxx\el9800appl.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 stm32f40_41xxx\el9800appl.o: D:\software_git\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+stm32f40_41xxx\el9800appl.o: ..\User\bsp_i2c_ee.h
+stm32f40_41xxx\el9800appl.o: ..\User\bsp_i2c_gpio.h
+stm32f40_41xxx\el9800appl.o: D:\software_git\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 stm32f40_41xxx\el9800appl.o: ..\Ethercat\Inc\applInterface.h
 stm32f40_41xxx\el9800appl.o: ..\Ethercat\Inc\esc.h
 stm32f40_41xxx\el9800appl.o: ..\Ethercat\Inc\ecatslv.h

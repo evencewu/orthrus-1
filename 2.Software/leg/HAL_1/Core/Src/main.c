@@ -61,15 +61,18 @@ void SystemClock_Config(void);
   * @brief  The application entry point.
   * @retval int
   */
+
+uint8_t I2c_Buf_Write[5] = {1,2,3,4,5};
+uint8_t I2c_Buf_Read[2] = {0,0};
+	
+int flag = 0;
+
 int main(void)
 {
 
   HAL_Init();
 
-  SystemClock_Config();
-	
-	uint8_t I2c_Buf_Write[5] = {1,2,3,4,5};
-	uint8_t I2c_Buf_Read[2] = {0,0};
+  SystemClock_Config(); 
 
   MX_GPIO_Init();
   MX_I2C1_Init();
@@ -77,7 +80,14 @@ int main(void)
   while (1)
   {
 		//I2C_EE_ByteWrite(I2c_Buf_Write, 0x00, 1);
-		I2C_EE_BufferRead(I2c_Buf_Read, 0x0E, 2);
+		I2C_EE_BufferRead(I2c_Buf_Read, 0x0C, 2);
+		
+		if(flag == 0){
+			flag++;
+		}else if(flag == 1){
+			flag--;
+		}
+		
   }
 	
 }
@@ -147,7 +157,7 @@ void Error_Handler(void)
 }
 
 #ifdef  USE_FULL_ASSERT
-/**
+/**                                                                                
   * @brief  Reports the name of the source file and the source line number
   *         where the assert_param error has occurred.
   * @param  file: pointer to the source file name

@@ -1,1 +1,0 @@
-export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/orthrus/orthrus_code/install/orthrus_gazebo/share/orthrus_gazebo/models

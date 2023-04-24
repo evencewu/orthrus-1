@@ -52,6 +52,16 @@ float angle_y;
 float angle_z;
 
 uint8_t add;
+
+#include "bsp_i2c_ee.h"
+#include "bsp_i2c_gpio.h"
+
+uint8_t IIC_flag = 1;
+uint8_t IIC_buff1 = 0x00;
+uint8_t IIC_buff2 = 0x00;
+
+//unsigned short raw = 0;
+float raw = 0;
 //==================
 
 #if EL9800_APPLICATION
@@ -528,17 +538,24 @@ void main(void)
 {
     /* initialize the Hardware and the EtherCAT Slave Controller */
     HW_Init();
-
     MainInit();
 		
-	  //
+	  //USER CODE
 		data_flag = 0;
 		Debug_USART_Config();
+		
+		i2c_CfgGpio();
+	
+		IIC_flag = i2c_CheckDevice(0x36);
 
     bRunApplication = TRUE;
     do
     {
-        MainLoop();
+			IIC_buff1 = AS5600_ReadOneByte(0x0C);
+			IIC_buff2 = AS5600_ReadOneByte(0x0D);
+			
+			raw = ((((uint16_t)IIC_buff1<<8)|(uint16_t)IIC_buff2) - 32768);
+      MainLoop();
 			//
 				if(data_flag)
 				{
